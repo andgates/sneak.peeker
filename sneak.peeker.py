@@ -137,6 +137,7 @@ def init(args):
 
 def add(args):
   assert_directory(args.directory)
+  all_results = []
   for test in args.tests:
     # TODO: Handle UNIX file expressions, wildcards, etc
     test_infile = os.path.abspath(test)
@@ -222,6 +223,7 @@ def add(args):
         #print "Overlapped: %s" % overlap
         #print "Overlap: %s \n\n" % overlapcount
         results.append((overlapcount, overlap, q))
+        all_results.append((overlapcount, overlap, q))
 
       # Sort the results
       sresults = sorted(results, key=operator.itemgetter(0), reverse=True)
@@ -240,9 +242,32 @@ def add(args):
         test_outfile_object.write("Overlapped: %s \n" % r[1])
         test_outfile_object.write("Overlap: %s \n\n" % r[0])
 
-        # End messy code added by andgates
+
+      test_outfile_object.close()
 
     pass
+
+    test_outfile = args.directory + "/" + "all_results" + ".out"
+    test_outfile_object = open(test_outfile, "w")
+
+    all_sresults = sorted(all_results, key=operator.itemgetter(0), reverse=True)
+
+    # Write to file
+    for r in all_sresults:
+      test_outfile_object.write("Question:\n")
+      for line in r[2]:
+          q_string += line + " "
+          test_outfile_object.write(line)
+          test_outfile_object.write("\n")
+
+      test_outfile_object.write("Overlapped: %s \n" % r[1])
+      test_outfile_object.write("Overlap: %s \n\n" % r[0])
+
+
+    test_outfile_object.close()
+
+    # End messy code added by andgates
+
   pass
 
 def commit(args):
