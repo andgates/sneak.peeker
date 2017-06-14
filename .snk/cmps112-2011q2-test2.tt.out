@@ -1,0 +1,215 @@
+Question:
+ 1. Some fragmentary examples of polymorphism are given in each entry
+    in the following table.  Identify the general category by writing
+    universal or ad hoc beside each.  Further identify them with one
+    of the terms conversion;  generic;  inclusion;  or overloading.
+    [2pt]
+
+    +-------------------------------+-------------------------------+
+    |let rec len = function         |template <typename item_t>     |
+    |  | [] -> 0                    |class stack { };               |
+    |  | _::cdr -> 1 + len cdr      |stack<int> si;                 |
+    +-------------------------------+-------------------------------+
+    |class foo {                    |double sqrt (double);          |
+    |   foo () {}                   |n = sqrt (6);                  |
+    |   foo (int a) {}              |                               |
+    +-------------------------------+-------------------------------+
+
+Overlapped: set(['function', 'polymorphism', 'given', 'ad', 'inclusion', 'int', 'double', 'universal', '6', 'conversion', 'overloading', 'one', '1', '0', 'cdr', 'rec', 'following', 'table', 'foo', 'stack', 'hoc']) 
+Overlap: 21 
+
+Question:
+ 6. Ocaml:  Define a function merge whose arguments are a binary
+    predicate returning a relative ordering and two lists that are
+    assumed sorted.  Return a merged with combining the two lists into
+    a single sorted list.  [3pt]
+    # merge (<=) [1;5;7;9] [2;4;6;88];;
+    - : int list = [1; 2; 4; 5; 6; 7; 9; 88]
+    # merge (>) [9;5;3;1] [100;13];;
+    - : int list = [100; 13; 9; 5; 3; 1]
+
+Overlapped: set(['function', 'predicate', '88', 'int', 'list', 'two', '1', '3', '2', '5', 'arguments', '7', '6', '9', '13', '4']) 
+Overlap: 16 
+
+Question:
+ 5. Ocaml:  Define a function contains which accepts a predicate and a
+    list and returns true if the predicate is true for some element in
+    the list.  [2pt]
+    # contains ((=)3) [1;2;3;4];;
+    - : bool = true
+    # contains ((<)9) [1;2;3;4];;
+    - : bool = false
+
+Overlapped: set(['function', 'predicate', 'false', 'contains', 'list', 'returns', 'element', '1', '3', '2', '5', '4', '9', 'bool', 'true']) 
+Overlap: 15 
+
+Question:
+ 4. Smalltalk:  Assuming a class Complex has instance fields real and
+    imag, and methods of the same name that may be used to enquire of
+    another object, define two methods:
+
+     (a) real:imag:  will replace the real and imaginary fields of the
+         receiver.  [1pt]
+
+     (b) The binary message + will return a new object with the sum of
+         the reciever and its argument.  (Add the real fields, add the
+         imaginary fields.)  Assume a class method real:imag:.  [2pt]
+
+Overlapped: set(['used', 'return', 'methods', 'name', 'sum', 'object', 'two', 'argument', 'b', '4', 'new', 'message', 'class', 'define']) 
+Overlap: 14 
+
+Question:
+ 8. Ocaml:  Define a function unzip which takes a list of tuples and
+    returns a tuple of lists, the first list containing the first item
+    in each tuple, and the second list, the second item.  [3pt]
+    # let l1, l2 = unzip [(1, 'a'); (2, 'b'); (3, 'c')];;
+    val l1 : int list = [1; 2; 3]
+    val l2 : char list = ['a'; 'b'; 'c']
+
+Overlapped: set(['function', 'val', '3', 'int', 'list', 'returns', '1', 'second', '2', 'let', '8', 'first']) 
+Overlap: 12 
+
+Question:
+ 2. Scheme:  Define a function that will return the largest number in
+    a list of numbers.  Return 'undef if the list is empty.  The
+    function max will return the largest of its arguments.  You must
+    either use an inner tail-recursive function, or correctly use
+    apply.  [2pt]
+    (define (maxlist list)
+
+Overlapped: set(['function', 'use', 'return', 'max', 'list', 'number', '2', 'inner', 'apply', 'define', 'arguments']) 
+Overlap: 11 
+
+Question:
+ 7. Ocaml:  Define a function zip which takes two lists and returns a
+    list of tuples, pairing each corresponding element.  If the lists
+    are of different lengths, ignore excess elements in the longer
+    list.  [2pt]
+    # zip [1;2;3] ['a';'b';'c';'d'];;
+    - : (int * char) list = [(1, 'a'); (2, 'b'); (3, 'c')]
+
+Overlapped: set(['function', 'elements', '3', 'int', 'list', 'two', 'element', '1', 'returns', '2', '7']) 
+Overlap: 11 
+
+Question:
+ 8. What is the value of
+       (cdr (car (cons '(1 2 3) '(4 5 6))))
+    (A) ((1 2 3) 4 5 6)
+    (B) (1 2 3)
+    (C) (2 3)
+    (D) (cons '(1 2 3) '(4 5 6))
+
+Overlapped: set(['cons', 'car', 'value', '1', '3', '2', '5', '4', 'cdr', '6', '8']) 
+Overlap: 11 
+
+Question:
+ 5. A function which accepts a unit value, a function, and a list, and
+    which produces a single value in an eager language using $ O ( 1 )
+    $ stack space is:
+    (A) filter
+    (B) fold_left
+    (C) fold_right
+    (D) map
+
+Overlapped: set(['function', 'map', 'language', 'space', 'list', 'value', '1', '5', 'using', 'stack']) 
+Overlap: 10 
+
+Question:
+ 9. The Ocaml function List.tl functions like cdr in Scheme.  Its type
+    is:
+    (A) 'a list -> 'a
+    (B) 'a list -> 'a list -> 'a list
+    (C) 'a list -> 'a list
+    (D) 'a list -> int
+
+Overlapped: set(['function', 'functions', 'like', 'int', 'list', 'cdr', '9', 'type']) 
+Overlap: 8 
+
+Question:
+ 3. Scheme:  Define a function to reverse a list.  Your solution must
+    be tail-recursive.  Hint:  You will need an internal helper
+    function.  [3pt]
+    (define (rev list)
+
+Overlapped: set(['function', 'reverse', 'helper', 'list', 'solution', '3', 'define']) 
+Overlap: 7 
+
+Question:
+ 3. In Smalltalk, an expression to which the value message may be sent
+    in order to retrieve the value 9 is:
+    (A) (4 + 5)
+    (B) <4 + 5>
+    (C) [4 + 5]
+    (D) {4 + 5}
+
+Overlapped: set(['value', '3', '5', '4', '9', 'message', 'order']) 
+Overlap: 7 
+
+Question:
+ 4. In a language with garbage collection, where the function free is
+    unavailable, which of the following is impossible?
+    (A) dangling pointers
+    (B) memory leak
+    (C) null pointer exception
+    (D) segmentation fault
+
+Overlapped: set(['function', 'language', '4', 'following', 'impossible', 'null', 'pointer']) 
+Overlap: 7 
+
+Question:
+ 7. How would the first element (the element with the smallest
+    subscript) of a Smalltalk array be set?
+    (A) (set! a 1 6).
+    (B) a at:1 put:6.
+    (C) a put:6 at:1.
+    (D) a[1] := 6.
+
+Overlapped: set(['set', 'element', '1', '7', '6', 'array', 'first']) 
+Overlap: 7 
+
+Question:
+ 6. What is the type of the Ocaml expression
+       map ((+)3)
+    (A) ('a -> 'b) -> 'a list -> 'b list
+    (B) int list -> (int -> int) list
+    (C) int list -> int list
+    (D) int list
+
+Overlapped: set(['map', 'int', 'list', '3', '6', 'type']) 
+Overlap: 6 
+
+Question:
+10. The style of programming in Smalltalk is:
+    (A) functional
+    (B) imperative
+    (C) logic
+    (D) object-oriented
+
+Overlapped: set(['10', 'style', 'programming', 'functional']) 
+Overlap: 4 
+
+Question:
+ 1. Lazy evaluation of functions is the default in which language?
+    (A) Fortran
+    (B) Haskell
+    (C) Ocaml
+    (D) Scheme
+
+Overlapped: set(['1', 'functions', 'language']) 
+Overlap: 3 
+
+Question:
+ 2. In Smalltalk, $ sqrt 2 $ can be computed with the following
+    expression:
+    (A) (sqrt 2)
+    (B) 2 sqrt
+    (C) sqrt (2)
+    (D) sqrt 2.0;;
+
+Overlapped: set(['following', '2']) 
+Overlap: 2 
+
+Question:
+Overlapped: set([]) 
+Overlap: 0 
+

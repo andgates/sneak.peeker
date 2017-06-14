@@ -1,0 +1,254 @@
+Question:
+5. Define the function fold_left:  the first argument is a function to
+   use to fold the list, the second argument is a unit value used to
+   fold the first element, the third argument is a list.  Use tail
+   recursion:  the function must use $ O ( 1 ) $ stack.
+
+    (a) Scheme.  [2pt]
+        > (define (length list) (fold_left (lambda (n _) (+ n 1)) 0
+        list))
+        > (define (sum list) (fold_left + 0 list))
+        > (length '(1 2 3 4 5))
+        5
+        > (sum '(1 2 3 4 5))
+        15
+
+    (b) Ocaml.  [2pt]
+        # fold_left;;
+        - : ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a = <fun>
+        # let length list = fold_left (fun n _ -> n + 1) 0 list;;
+        val length : 'a list -> int = <fun>
+        # let sum list = fold_left (+) 0 list;;
+        val sum : int list -> int = <fun>
+        # length [1;2;3;4;5];;
+        - : int = 5
+        # sum [1;2;3;4;5];;
+        - : int = 15
+
+Overlapped: set(['int', 'argument', 'fold', 'second', 'element', 'use', 'val', 'recursion', 'sum', '3', '1', '0', 'tail', '2', '5', '4', 'define', 'function', 'used', 'let', 'stack', 'b', '15', 'list', 'value', 'n', 'length', 'fun', 'first', 'lambda']) 
+Overlap: 30 
+
+Question:
+2. Define the function filter whose first argument is a predicate and
+   whose second argument is a list.  It returns a list consisting of
+   all elements of the argument list which satisfy the predicate.  Do
+   not use a higher-order function.
+
+    (a) Scheme.  [2pt]
+        > (filter (lambda (x) (> x 0)) '(1 -1 2 -3 5 -99 8))
+        (1 2 5 8)
+        > (filter even '(1 2 3 4 5 6 7 8 9))
+        (2 4 6 8)
+
+    (b) Ocaml.  [2pt]
+        # filter;;
+        - : ('a -> bool) -> 'a list -> 'a list = <fun>
+        # filter (fun x -> x > 0) [1;-1;2;-3;5;-99;8];;
+        - : int list = [1; 2; 5; 8]
+        # filter even [1;2;3;4;5;6;7;8;9];;
+        - : int list = [2; 4; 6; 8]
+
+Overlapped: set(['int', 'argument', 'second', 'even', 'use', 'returns', '1', '0', '3', '2', 'bool', '4', '7', '6', '9', '5', 'function', 'predicate', 'elements', '8', 'b', 'list', 'fun', 'x', 'first', 'lambda']) 
+Overlap: 26 
+
+Question:
+6. Define the function reverse which produces a list in reverse order
+   to that of its argument.  The function must use $ O ( 1 ) $ stack.
+   You may use a tail-recursive function, or make it very simple by a
+   call to fold_left.
+   Bonus points:  These two ``reverse'' questions are worth 3 points
+   each, not 2 points, if you correctly define them in terms of fold_
+   left instead of writing a recursive function.
+
+    (a) Scheme.  [2pt]  (3 points if you use fold_left correctly.)
+        > (reverse '(1 2 3 4 5))
+        (5 4 3 2 1)
+        > (reverse '())
+        ()
+
+    (b) Ocaml.  [2pt]  (3 points if you use fold_left correctly.)
+        # reverse;;
+        - : 'a list -> 'a list = <fun>
+        # reverse [1;2;3;4;5];;
+        - : int list = [5; 4; 3; 2; 1]
+        # reverse [];;
+        - : 'a list = []
+
+Overlapped: set(['function', 'use', 'b', 'reverse', 'int', 'points', 'list', 'argument', 'two', '1', 'left', '3', '2', '5', '4', '6', 'fun', 'stack', 'order', 'worth', 'define']) 
+Overlap: 21 
+
+Question:
+3. Define the function length, which returns the length of a list.
+   Use tail-recursion:  the function must use $ O ( 1 ) $ stack.  Do
+   not use a higher-order function.
+
+    (a) Scheme.  [1pt]
+        > (length '(1 2 3 4 5))
+        5
+
+    (b) Ocaml.  [1pt]
+        # length;;
+        - : 'a list -> int = <fun>
+        # length [1;2;3;4;5];;
+        - : int = 5
+
+Overlapped: set(['function', 'use', 'b', 'int', 'list', '3', '1', 'returns', '2', '5', '4', 'fun', 'length', 'stack']) 
+Overlap: 14 
+
+Question:
+7. C or C++.  Code the function in C or C++ to reverse a list.  Do not
+   allocate or free any memory.  Do not cause memory leak or use
+   uninitialized memory.  Assume the nodes are properly initialized as
+   a valid linked list.  Use $ O ( 1 ) $ stack space.  [2pt]
+                             |
+   typedef struct node node; | node* reverse (node* head) {
+   struct node {             |
+      int value;             |
+      node* link;            |
+   };                        |
+
+Overlapped: set(['function', 'use', 'reverse', 'space', 'int', 'list', 'value', '1', '7', 'nodes', 'cause', 'stack']) 
+Overlap: 12 
+
+Question:
+4. Code sub' according to the specifications of the project.  Assume
+   that the number of larger magnitude is the first argument, and the
+   carry is the third argument.  Assume sub has taken care of the
+   signs so that sub' does not need to do so.  [2pt]
+   val sub' : int list -> int list -> int -> int list
+
+Overlapped: set(['sub', 'val', 'int', 'list', 'argument', 'number', '4', 'taken', 'first']) 
+Overlap: 9 
+
+Question:
+ 4. What is?
+    (car (cdr (cons '(1 2 3) '(4 5 6))))
+    (A) '(1 2 3)
+    (B) '(4 5 6)
+    (C) 1
+    (D) 4
+
+Overlapped: set(['cons', 'car', '1', '3', '2', '5', '4', 'cdr', '6']) 
+Overlap: 9 
+
+Question:
+ 1. What kind of polymorphism is exhibited by generic classes in Java
+    and template classes in C++?
+    (A) conversion
+    (B) inheritance
+    (C) overloading
+    (D) parametric
+
+Overlapped: set(['polymorphism', 'conversion', 'inheritance', 'kind', '1', 'overloading', 'parametric', 'exhibited']) 
+Overlap: 8 
+
+Question:
+ 5. In Ocaml, what is the type of [1;2;3;4]?
+    (A) (list int)
+    (B) int list
+    (C) list->int
+    (D) list<int>
+
+Overlapped: set(['int', 'list', '1', '3', '2', '5', '4', 'type']) 
+Overlap: 8 
+
+Question:
+ 9. What is 2?
+    (A) (caar '(1 2 3))
+    (B) (cadr '(1 2 3))
+    (C) (cdar '(1 2 3))
+    (D) (cddr '(1 2 3))
+
+Overlapped: set(['cadr', 'cdar', '1', '3', '2', '9', 'caar', 'cddr']) 
+Overlap: 8 
+
+Question:
+1. What are the very general possibilities that a function might
+   exhibit when called?  [2pt]
+
+    (a)
+
+    (b)
+
+    (c)
+
+    (d)
+
+Overlapped: set(['function', 'c', 'b', '1', 'might', 'called']) 
+Overlap: 6 
+
+Question:
+ 2. What is ((lambda (f x) (f x)) + 3)?
+    (A) '(+ 3)
+    (B) '(f x)
+    (C) 3
+    (D) 6
+
+Overlapped: set(['f', '3', '2', '6', 'x', 'lambda']) 
+Overlap: 6 
+
+Question:
+ 6. The type system in Scheme are:
+    (A) strong and dynamic
+    (B) strong and static
+    (C) weak and dynamic
+    (D) weak and static
+
+Overlapped: set(['weak', 'dynamic', 'static', '6', 'strong', 'type']) 
+Overlap: 6 
+
+Question:
+ 7. The type system in Ocaml are:
+    (A) strong and dynamic
+    (B) strong and static
+    (C) weak and dynamic
+    (D) weak and static
+
+Overlapped: set(['dynamic', 'weak', 'static', '7', 'strong', 'type']) 
+Overlap: 6 
+
+Question:
+11. Which feature of imperative languages* is missing from Scheme?
+    (A) conditionals
+    (B) functions
+    (C) loops
+    (D) variables
+
+Overlapped: set(['11', 'functions', 'variables', 'missing']) 
+Overlap: 4 
+
+Question:
+ 3. What is type of (+) in Ocaml?
+    (A) int * int * int
+    (B) int * int -> int
+    (C) int -> int * int
+    (D) int -> int -> int
+
+Overlapped: set(['int', '3', 'type']) 
+Overlap: 3 
+
+Question:
+10. Lisp and Scheme, in general form, are based on a form of
+    mathematics first formulated by Alonzo Church.
+    (A) \lambda-calculus
+    (B) \mu-calculus
+    (C) \pi-calculus
+    (D) \psi-calculus
+
+Overlapped: set(['10', 'first']) 
+Overlap: 2 
+
+Question:
+ 8. In C, C++, and Java, which operator is lazy?
+    (A) ++
+    (B) --
+    (C) //
+    (D) ||
+
+Overlapped: set(['8']) 
+Overlap: 1 
+
+Question:
+Overlapped: set([]) 
+Overlap: 0 
+

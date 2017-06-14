@@ -1,0 +1,348 @@
+Question:
+7. Ocaml.  Define the function zipwith that takes a function and two
+   lists and returns a new list with the elements combined.  Use
+   failwith if the lists are not of the same length.  [2pt]
+   val zipwith : ('a -> 'b -> 'c) -> 'a list -> 'b list -> 'c list
+   # zipwith (+) [1;2;3;4] [5;6;7;8];;
+   - : int list = [6; 8; 10; 12]
+   # zipwith (+) [1;2;3;4] [5;6;7;8;9];;
+   Exception: Failure "zipwith".
+   # zipwith (fun a b -> a,b) [1;2;3] ['a';'b';'c'];;
+   - : (int * char) list = [(1, 'a'); (2, 'b'); (3, 'c')]
+   # zipwith max [1;2;3;4] [4;3;2;1];;
+   - : int list = [4; 3; 3; 4]
+
+Overlapped: set(['int', 'val', 'two', '1', '3', '2', '5', '4', '7', '6', '9', '8', 'returns', 'function', 'elements', 'max', '12', 'new', '10', 'b', 'list', 'length', 'fun', 'failwith']) 
+Overlap: 24 
+
+Question:
+9. Scheme.  The Collatz conjectures states that for any positive
+   integer $n$, if it is repeatedly replaced by $ n / 2 $ when even
+   and $ 3 n + 1 $ when odd, it eventually converges on the integer
+   $1$.  Write a function that uses a tail-recursive inner function to
+   return a list of all integers starting from the argument and ending
+   with 1.  The inner function produces the list in the reverse order,
+   but the outer function reverses the list.  Some Scheme functions to
+   use:  remainder, quotient, reverse, etc.  [4pt]
+   > (collatz 4)
+   (4 2 1)
+   > (collatz 10)
+   (10 5 16 8 4 2 1)
+   > (collatz 20)
+   (20 10 5 16 8 4 2 1)
+   > (collatz 16)
+   (16 8 4 2 1)
+   > (collatz 17)
+   (17 52 26 13 40 20 10 5 16 8 4 2 1)
+
+Overlapped: set(['argument', 'odd', 'even', 'functions', 'outer', '1', '3', '2', '5', 'inner', '9', '8', '4', 'function', 'return', 'use', '20', '10', '13', 'reverse', '17', 'list', 'n', 'order']) 
+Overlap: 24 
+
+Question:
+5. Scheme.  Draw a picture of the following Scheme expression.  For
+   each cons cell, draw a small box with two arrows coming out of it.
+   Each arrow should point at either another cell or an atom.  Write
+   the Greek letter phi (\phi) to indicate a null pointer.  [2pt]
+   ((a) (b c) ((d e)))
+
+Overlapped: set(['draw', 'picture', 'phi', 'cons', 'e', 'arrow', 'point', 'c', 'two', 'cell', 'small', 'b', '5', 'letter', 'following', 'null', 'pointer']) 
+Overlap: 17 
+
+Question:
+11. Scheme.  Define the functions map and filter.  Do not use higher-
+   order functions.
+
+   (a) map [1pt]
+       > (map (lambda (n) (+ 1 n)) '(3 6 9))
+       (4 7 10)
+
+   (b) filter [2pt]
+       > (filter (lambda (n) (< n 4)) '(1 2 3 4 5 6 7))
+       (1 2 3)
+
+Overlapped: set(['11', 'map', 'functions', 'b', '10', 'use', 'n', '1', '3', '2', '5', '4', '7', '6', '9', 'order', 'lambda']) 
+Overlap: 17 
+
+Question:
+ 2. How much stack space does the following function use?
+    let rec f n = match n with
+        | 0 -> 0
+        | 1 -> 1
+        | n -> f (n - 1) + f (n - 2)
+    (A) $ O ( 1 ) $
+    (B) $ O ( log n ) $
+    (C) $ O ( n ) $
+    (D) $ O ( 2 sup n ) $
+
+Overlapped: set(['function', 'use', 'log', 'space', 'f', 'n', '1', '0', '2', 'much', 'let', 'sup', 'following', 'rec', 'stack', 'match']) 
+Overlap: 16 
+
+Question:
+1. Ocaml.  Define a tail-recursive function evenlen which returns true
+   if its argument is a list of even length and false if there are an
+   odd number of elements in the list.  Do not use a higher-order
+   function.  [2pt]
+   # evenlen [];;
+   - : bool = true
+   # evenlen [1];;
+   - : bool = false
+   # evenlen [1;2];;
+   - : bool = true
+
+Overlapped: set(['even', 'function', 'use', 'elements', 'false', 'true', 'list', 'argument', 'number', '1', 'returns', '2', 'bool', 'length', 'odd']) 
+Overlap: 15 
+
+Question:
+4. Ocaml.  Define the function reverse to reverse an arbitrary list.
+   Use $ O ( n ) $ time and $ O ( 1 ) $ stack.  You may code tail
+   recursion explicitly, or express the function as a one-liner using
+   List.fold_left.  [2pt]
+   val reverse : 'a list -> 'a list
+   # reverse [1;2;3;4];;
+   - : int list = [4; 3; 2; 1]
+
+Overlapped: set(['function', 'reverse', 'val', 'int', 'recursion', 'list', '3', 'n', '1', 'tail', '2', '4', 'using', 'stack']) 
+Overlap: 14 
+
+Question:
+2. Scheme.  Define a tail-recursive function oddlen which returns #t
+   if the list has an odd number of elements, and #f if not.  Do not
+   use a higher-order function.  [2pt]
+   > (oddlen '())
+   #f
+   > (oddlen '(1))
+   #t
+   > (oddlen '(1 2))
+   #f
+
+Overlapped: set(['function', 'use', 'elements', 'f', 'oddlen', 'list', 'number', '1', 'returns', '2', 'odd']) 
+Overlap: 11 
+
+Question:
+3. Scheme.  Define the tail-recursive function foldl so that it may be
+   used in the following example.  [2pt]
+   > (define (sum list) (foldl + 0 list))
+   > (sum '(1 2 3))
+   6
+
+Overlapped: set(['function', 'used', 'sum', 'list', '1', '0', '3', '2', '6', 'following', 'define']) 
+Overlap: 11 
+
+Question:
+6. Ocaml.  Define length and sum for a list using a \beta-reduced
+   version of the definitions.  Fill in the space with an appropriate
+   fun and another argument.  [2pt]
+   # let foldl = List.fold_left;;
+   val foldl : ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
+
+   # let length = foldl
+   _____________________________________________;;
+   val length : '_a list -> int
+
+   # let sum = foldl _____________________________________________;;
+   val sum : int list -> int
+
+Overlapped: set(['val', 'space', 'int', 'sum', 'list', 'argument', 'length', 'let', '6', 'fun', 'using']) 
+Overlap: 11 
+
+Question:
+10. C or C++.  Code a function to reverse a list.  Do not allocate or
+   free any memory.  Do not cause memory leak or use uninitialized
+   memory.  Do not use recursion.  Write a loop which does nothing but
+   manipulate pointers.  Return a pointer to the first node in the
+   reversed list.  [2pt]
+                             |
+   typedef struct node node; | node* reverse (node* head) {
+   struct node {             |
+      int value;             |
+      node* link;            |
+   };                        |
+                             |
+                             | }
+
+Overlapped: set(['function', '10', 'use', 'reverse', 'int', 'pointer', 'list', 'value', 'recursion', 'cause', 'first']) 
+Overlap: 11 
+
+Question:
+ 9. Given:
+    # List.map ((+)3) [1;2;3];;
+    - : int list = [4; 5; 6]
+    what is the type of List.map ((+)3)?
+    (A) int -> int
+    (B) int -> int list
+    (C) int list -> int
+    (D) int list -> int list
+
+Overlapped: set(['int', 'list', '1', '3', '2', '5', '4', '6', '9', 'type']) 
+Overlap: 10 
+
+Question:
+8. Ocaml.  In a strongly typed language:
+   (a) Every expression has exactly one type.
+   (b) When an expression is evaluated, exactly one of the following
+       general things might happen:  [2pt]
+
+       (i)
+
+       (ii)
+
+       (iii)
+
+       (iv)
+
+Overlapped: set(['b', 'language', 'might', 'one', 'following', '8', 'type']) 
+Overlap: 7 
+
+Question:
+ 3. In smalltalk code is executed by:
+    (A) calling functions which are static members of classes.
+    (B) making use of the standard template library.
+    (C) sending messages to objects.
+    (D) using higher-order functions.
+
+Overlapped: set(['functions', 'use', 'calling', '3', 'static', 'using', 'smalltalk']) 
+Overlap: 7 
+
+Question:
+ 6. In Smalltalk, the expression 3+4.  means:
+    (A) The message + is sent to the number 3, the result of which is
+        a function that accepts the message 4.
+    (B) The message +4 is sent to the number 3.
+    (C) The message 3+ is sent to the number 4.
+    (D) The messages 3 and 4 are sent to the operator +.
+
+Overlapped: set(['function', 'number', '3', '4', '6', 'message']) 
+Overlap: 6 
+
+Question:
+ 1. What is the Scheme value of:
+    (caddr '(1 2 3 4 5))
+    (A) (3 4 5)
+    (B) (4 5)
+    (C) 2
+    (D) 3
+
+Overlapped: set(['value', '1', '3', '2', '5', '4']) 
+Overlap: 6 
+
+Question:
+ 7. What feature of imperative languages is typically missing from
+    functional languages?
+    (A) conditionals
+    (B) functions
+    (C) loops
+    (D) recursion
+
+Overlapped: set(['functions', 'missing', 'recursion', 'functional', 'languages', '7']) 
+Overlap: 6 
+
+Question:
+ 4. Which function can be written in a tail recursive purely
+    functional manner?
+    (A) filter
+    (B) fold_left
+    (C) fold_right
+    (D) map
+
+Overlapped: set(['function', 'map', 'tail', 'functional', '4']) 
+Overlap: 5 
+
+Question:
+11. Backus-Naur format describes what about a language?
+    (A) environment
+    (B) linkage
+    (C) semantics
+    (D) syntax
+
+Overlapped: set(['11', 'environment', 'syntax', 'language', 'format']) 
+Overlap: 5 
+
+Question:
+ 8. What is the signature of the Ocaml function List.hd (equivalent to
+    car)?
+    (A) 'a -> 'a list
+    (B) 'a -> 'a
+    (C) 'a list -> 'a list
+    (D) 'a list -> 'a
+
+Overlapped: set(['function', 'car', 'list', '8']) 
+Overlap: 4 
+
+Question:
+10. In both Java and C++, what keyword is used to restrict access to a
+    class itself but allow access to classes derived from it?
+    (A) inheritance
+    (B) private
+    (C) protected
+    (D) public
+
+Overlapped: set(['10', 'used', 'class', 'inheritance']) 
+Overlap: 4 
+
+Question:
+ 4. In the expression (lambda (x) (+ x y))
+    (A) x is bound and y is bound.
+    (B) x is bound and y is free.
+    (C) x is free and y is bound.
+    (D) x is free and y is free.
+
+Overlapped: set(['x', '4', 'lambda']) 
+Overlap: 3 
+
+Question:
+ 5. The make language can be referred to as:
+    (A) a functional language.
+    (B) a ``little'' language.
+    (C) a logic language.
+    (D) an object-oriented language.
+
+Overlapped: set(['5', 'functional', 'language']) 
+Overlap: 3 
+
+Question:
+ 3. What is the Ocaml type signature of:
+    (/);;
+    (A) - : int * int * int
+    (B) - : int * int -> int
+    (C) - : int -> int * int
+    (D) - : int -> int -> int
+
+Overlapped: set(['int', '3', 'type']) 
+Overlap: 3 
+
+Question:
+ 2. Static type inference is a major feature of:
+    (A) C
+    (B) Java
+    (C) Ocaml
+    (D) Scheme
+
+Overlapped: set(['2', 'type']) 
+Overlap: 2 
+
+Question:
+ 5. Lisp (McCarthy) and Scheme (Steele and Sussman), in general form,
+    are based on a form of mathematics first formulated by Alonzo
+    Church.
+    (A) \lambda-calculus
+    (B) \mu-calculus
+    (C) \pi-calculus
+    (D) \psi-calculus
+
+Overlapped: set(['5', 'first']) 
+Overlap: 2 
+
+Question:
+ 6. Which line is a comment in Scheme?
+    (A) (*...*)
+    (B) /*...*/
+    (C) //...
+    (D) ;;...
+
+Overlapped: set(['line', '6']) 
+Overlap: 2 
+
+Question:
+Overlapped: set([]) 
+Overlap: 0 
+

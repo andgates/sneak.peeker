@@ -1,0 +1,263 @@
+Question:
+1. For each language described here, fill in the name of the language.
+   Choose from among the following languages:  Algol 60, AWK, Basic,
+   C++, C, COBOL, FORTRAN, Haskell, Intercal, Java, Lisp, ML, OCaml,
+   Pascal, Perl, PL/I, Prolog, Python, Scheme, Simula 67.  (Grading:
+   Deduct 1/2 point for each wrong or missing answer, but do not
+   assign a score less than 0.)  [2pt]
+
+   +--------------+------------------------------------------------+
+   |              |Language which uses primarily lazy evaluation,  |
+   |              |based on the $lambda$-calculus.                 |
+   +--------------+------------------------------------------------+
+   |              |Kemeny and Kurtz designed this language         |
+   |              |included in the IBM PC ROM in 1980.             |
+   +--------------+------------------------------------------------+
+   |              |Scripting language designed by ${ size 11 bold  |
+   |              |A } under bar$ho, ${ size 11 bold W } under     |
+   |              |bar$einberger, and ${ size 11 bold K } under    |
+   |              |bar$ernighan.                                   |
+   +--------------+------------------------------------------------+
+   |              |Van Rossum designed this scripting language     |
+   |              |named after Monty's Flying Circus.              |
+   +--------------+------------------------------------------------+
+   |              |Steele and Sussman designed this functional     |
+   |              |language with lexical scoping rules.            |
+   +--------------+------------------------------------------------+
+   |Intercal      |Parody language with the come from, maybe, and  |
+   |              |forget control structures.                      |
+   +-``Abandon-All+Sanity,-Ye-Who-Enter-Here.''-----http://catb.org/esr/
+    intercal/
+
+Overlapped: set(['control', 'among', 'less', 'functional', '60', '67', 'size', '1', 'described', 'point', 'languages', '0', 'score', 'answer', 'fill', 'structures', 'missing', 'rules', 'wrong', 'designed', 'come', '11', 'bar', 'name', 'language', 'maybe', 'following', 'lambda']) 
+Overlap: 28 
+
+Question:
+3. Smalltalk.  Extend class Object with the message fibonacci:, which
+   returns an array filled with the first $n$ Fibonacci numbers.
+   [3pt]
+                           |
+   Expected output.        | Your answer.
+   st> a := Object new.    | Object extend [
+   an Object               |    fibonacci: n [
+   st> a fibonacci: 10.    |
+   (0 1 1 2 3 5 8 13 21 34 |
+   )                       |
+                           |
+                           |
+                           |
+                           |
+
+Overlapped: set(['10', '13', 'extend', 'class', '3', 'st', '1', '0', 'returns', '2', '5', '8', 'answer', 'new', 'array', 'n', 'message', 'first']) 
+Overlap: 18 
+
+Question:
+4. Scheme.  Define the function merge which takes two lists of numbers
+   sorted in ascending order and returns a list of these numbers
+   sorted into ascending order.  [3pt]
+                          |
+   Expected output.       | Your answer.
+   >(merge '(1 3 5) '(2 4 | (define (merge list1 list2)
+   6 8))                  |
+   (1 2 3 4 5 6 8)        |
+   >(merge '(0 1 1 2 3)   |
+   '(1 4 9))              |
+   (0 1 1 1 2 3 4 9)      |
+                          |
+                          |
+
+Overlapped: set(['function', '9', '3', 'list', 'two', '1', '0', 'returns', '2', '5', '4', '6', 'answer', '8', 'order', 'define']) 
+Overlap: 16 
+
+Question:
+9. Smalltalk.  Define a block called product so that when given a
+   vector as its value: argument, it returns the product of the
+   vector.  [2pt]
+
+   product := [
+
+   ].
+   product value: #(1 2 3 4 5).
+   120
+
+Overlapped: set(['given', 'vector', '3', 'argument', 'value', '1', 'returns', '2', '5', '4', '9', 'product', 'called']) 
+Overlap: 13 
+
+Question:
+ 1. A thunk is:
+    (A) A heap allocated value yet to be initialized.
+    (B) A pointer to a virtual function table used in dynamic
+        dispatch.
+    (C) An unevaluated expression passed into a function which may be
+        evaluated by the function if needed.
+    (D) The sound of dead code dropping.
+
+Overlapped: set(['function', 'value', 'used', 'dynamic', 'dispatch', '1', 'thunk', 'virtual', 'heap', 'table', 'pointer']) 
+Overlap: 11 
+
+Question:
+6. Scheme.  Define the higher-order function foldl whose arguments are
+   a binary function, an identity element, and a list in that order.
+   It folds them from left to right into a single value.  [2pt]
+
+   (define (foldl fn unit list)
+
+   )
+
+Overlapped: set(['function', 'right', 'list', 'value', 'element', 'arguments', '6', 'left', 'order', 'define']) 
+Overlap: 10 
+
+Question:
+11. Scheme.  Define the function reverse, which reverses a list.  Do
+   not use any higher-order functions.  Do not use append.  [2pt]
+
+   (define (reverse list)
+
+Overlapped: set(['function', '11', 'use', 'reverse', 'list', 'functions', 'define']) 
+Overlap: 7 
+
+Question:
+ 2. What is 2?
+    (A) (caar '(1 2 3))
+    (B) (cadr '(1 2 3))
+    (C) (cdar '(1 2 3))
+    (D) (cddr '(1 2 3))
+
+Overlapped: set(['cadr', 'cdar', '1', '3', '2', 'caar', 'cddr']) 
+Overlap: 7 
+
+Question:
+ 6. Java supports:
+    (A) single inheritance only.
+    (B) multiple (mixin) inheritance of functions (methods) but not
+        fields.
+    (C) multiple inheritance of functions (methods) and shared
+        inheritance of fields.
+    (D) multiple inheritance of functions (methods) and repeated
+        inheritance of fields.
+
+Overlapped: set(['functions', 'multiple', 'methods', 'inheritance', 'repeated', '6', 'shared']) 
+Overlap: 7 
+
+Question:
+11. In Smalltalk and Scheme, type checking is:
+    (A) strong and dynamic.
+    (B) strong and static.
+    (C) weak and dynamic.
+    (D) weak and static.
+
+Overlapped: set(['11', 'checking', 'weak', 'dynamic', 'static', 'strong', 'type']) 
+Overlap: 7 
+
+Question:
+5. Scheme.  Write the function product in tail recursive accumulator
+   style so that it computes the product of a list of numbers.  [1pt]
+
+Overlapped: set(['function', 'style', 'list', 'product', 'tail', '5']) 
+Overlap: 6 
+
+Question:
+8. Scheme.  Using foldl, define the function length, which returns the
+   length of a list.  [1pt]
+
+Overlapped: set(['function', 'list', 'length', 'returns', '8', 'define']) 
+Overlap: 6 
+
+Question:
+ 7. What is ((lambda (x) x) '(+ 2 3))?
+    (A) (+ 2 3)
+    (B) +
+    (C) 5
+    (D) x
+
+Overlapped: set(['3', '2', '5', '7', 'x', 'lambda']) 
+Overlap: 6 
+
+Question:
+7. Scheme.  Using foldl, define the function product, which computes
+   the product of a list of numbers.  [1pt]
+
+Overlapped: set(['function', 'product', 'list', '7', 'define']) 
+Overlap: 5 
+
+Question:
+10. Perl.  Write a line of code that uses map to compute the product
+   of an array.  [1pt]
+
+Overlapped: set(['10', 'product', 'line', 'array', 'map']) 
+Overlap: 5 
+
+Question:
+ 3. What is ((lambda (x) x) (+ 2 3))?
+    (A) (+ 2 3)
+    (B) +
+    (C) 5
+    (D) x
+
+Overlapped: set(['x', '3', '2', '5', 'lambda']) 
+Overlap: 5 
+
+Question:
+ 9. Which of these functions can be written in a tail-recursive style?
+    (A) append
+    (B) fold_right
+    (C) map
+    (D) reverse
+
+Overlapped: set(['9', 'map', 'functions', 'style', 'reverse']) 
+Overlap: 5 
+
+Question:
+2. Perl.  Write a program in Perl which will use <> to read in lines.
+   At end of file, print the number of characters, words, and lines.
+   A word is any sequence of characters delimited by white space.
+   [2pt]
+
+Overlapped: set(['use', '2', 'number', 'space']) 
+Overlap: 4 
+
+Question:
+ 4. What is the parenthesized equivalent of the Smalltalk expression a
+    b c: d?
+    (A) ((a b) c: d)
+    (B) (a (b c: d))
+    (C) (a b) (c: d)
+    (D) a ((b c:) d)
+
+Overlapped: set(['c', 'b', '4']) 
+Overlap: 3 
+
+Question:
+ 5. In the \lambda-calculus expression $ ( lambda x . ^ + ^ x ^ y ) $:
+    (A) $x$ is bound and $y$ is bound.
+    (B) $x$ is bound and $y$ is free.
+    (C) $x$ is free and $y$ is bound.
+    (D) $x$ is free and $y$ is free.
+
+Overlapped: set(['x', '5', 'lambda']) 
+Overlap: 3 
+
+Question:
+ 8. Static type checking in C and C++ is done:
+    (A) by the preprocessor
+    (B) by the compiler
+    (C) by the linker
+    (D) at run time
+
+Overlapped: set(['checking', '8', 'type']) 
+Overlap: 3 
+
+Question:
+10. In Smalltalk, how does one compute $ sqrt 2 $?
+    (A) 2 **: 0.5
+    (B) 2 sqrt
+    (C) Number sqrt: 2
+    (D) sqrt 2
+
+Overlapped: set(['10', '2', 'one']) 
+Overlap: 3 
+
+Question:
+Overlapped: set([]) 
+Overlap: 0 
+

@@ -1,0 +1,407 @@
+Question:
+ 6. Ocaml:  Define the function merge which takes a predicate as an
+    argument and a pair of sorted lists.  The result is a single list in
+    sorted order.  [3pt]
+    # merge;;
+    - : ('a -> 'a -> bool) -> 'a list -> 'a list -> 'a list
+    # merge (<) [1;3;5] [2;4;8;9];;
+    - : int list = [1; 2; 4; 4; 8; 9; 9]
+
+Overlapped: set(['function', 'predicate', 'int', 'list', 'argument', '1', '3', '2', 'bool', '4', '6', '9', '5', 'order', '8']) 
+Overlap: 15 
+
+Question:
+11. Ocaml:  Write a function iota which has an integer argument $n$ and
+    returns a list of numbers from $1$ to $n$ inclusive.  The empty list
+    is returned for non-positive numbers.  Use a local helper function
+    to make your solution tail-recursive.  [2pt]
+    # iota;;
+    - : int -> int list = <fun>
+    # iota 5;;
+    - : int list = [1; 2; 3; 4; 5]
+    # iota (-5);;
+    - : int list = []
+
+Overlapped: set(['function', '11', 'helper', 'int', 'list', 'returns', 'argument', '1', '3', '2', '5', '4', 'fun', 'n', 'solution']) 
+Overlap: 15 
+
+Question:
+ 9. Ocaml:  Define the function map, which a unary function to a list
+    and returns the list of results.  Use recursion.  Do not use a
+    higher-order function.  [2pt]
+    # map;;
+    - : ('a -> 'b) -> 'a list -> 'b list
+    # map ((+)2) [1;2;3;4];;
+    - : int list = [3; 4; 5; 6]
+
+Overlapped: set(['function', 'map', 'use', 'int', 'recursion', 'list', '3', '1', 'returns', '2', '5', '4', '6', '9']) 
+Overlap: 14 
+
+Question:
+15. Scheme:  Write the function elim, which takes a symbol and a list
+    and returns a list consisting of elements of the list starting with
+    the first one that is eqv?  to its first argument;  or the empty
+    list, if none.  [2pt]
+    > (elim 3 '(5 4 3 2 1))
+    (3 2 1)
+    > (elim 9 '(1 2 3))
+    ()
+    > (elim 1 '(1 2 3 4))
+    (1 2 3 4)
+
+Overlapped: set(['function', 'elements', '15', '3', 'list', 'argument', 'one', '1', 'returns', '2', '5', '4', '9', 'first']) 
+Overlap: 14 
+
+Question:
+ 4. Prolog:  Draw a picture of the undirected graph represented by the
+    facts given below.  Write a function adjacent which will succeed if
+    two nodes in the graph are adjacent to each other.  [2pt]
+    edge(a,b).
+    edge(b,c).
+    edge(c,d).
+    edge(d,a).
+    edge(a,c).
+
+Overlapped: set(['function', 'picture', 'given', 'b', 'graph', 'c', 'two', 'edge', '4', 'adjacent', 'facts', 'nodes', 'undirected']) 
+Overlap: 13 
+
+Question:
+ 8. Ocaml:  Define the function zip whose arguments are a curried pair
+    of lists and whose result is a list of tuples.  Raise Invalid_
+    argument if the lengths are different.  [2pt]
+    # zip;;
+    - : 'a list -> 'b list -> ('a * 'b) list
+    # zip [1;2;3] ["foo";"bar";"baz"];;
+    - : (int * string) list = [(1, "foo"); (2, "bar"); (3, "baz")]
+    # zip [1;2;3] [];;
+    Exception: Invalid_argument "length mismatch".
+
+Overlapped: set(['function', 'bar', 'string', 'int', 'length', 'list', 'argument', '1', '3', '2', 'arguments', '8', 'foo']) 
+Overlap: 13 
+
+Question:
+ 3. The function List.fold_left uses up how much stack space on a list
+    of length $n$?
+    (A) $ O ( 1 ) $
+    (B) $ O ( 2 sup n ) $
+    (C) $ O ( log sub 2 n ) $
+    (D) $ O ( n ) $
+
+Overlapped: set(['function', 'sub', 'space', 'list', 'length', 'n', '1', '3', 'much', 'sup', '2', 'stack', 'log']) 
+Overlap: 13 
+
+Question:
+ 7. Ocaml:  Define the function sum in terms of List.fold_left in a
+    curried manner to sum a list of integers.  Do not write a recursive
+    function.  [1pt]
+    # sum;;
+    - : int list -> int
+    # sum [1;2;3;4;5];;
+    - : int = 15
+
+Overlapped: set(['function', '1', '15', 'int', 'sum', 'list', 'write', '3', '2', '5', '4', '7']) 
+Overlap: 12 
+
+Question:
+ 5. Prolog:  Write drop/3 such that it returns all elements of the
+    second argument, starting with the one that matches the first
+    argument, or none, if none match.  The third argument is the result.
+    [2pt]
+    | ?- drop(3,[5,4,3,2,1],X).
+    X = [3,2,1]
+    | ?- drop(9,[1,2,3],X).
+    X = []
+    | ?- drop(1,[1,2,3,4],X).
+    X = [1,2,3,4]
+
+Overlapped: set(['elements', '3', 'returns', 'argument', '1', 'second', '5', '9', 'one', 'match', 'first']) 
+Overlap: 11 
+
+Question:
+10. Ocaml:  Write the function reverse which reverses list.  Do not use
+    any higher-order functions.  Your function must be tail-recursive or
+    use a local tail-recursive helper.  [2pt]
+    # reverse;;
+    - : 'a list -> 'a list
+    # reverse [1;2;3];;
+    - : int list = [3; 2; 1]
+
+Overlapped: set(['function', '10', 'use', 'reverse', 'helper', 'int', 'list', 'functions', '1', '3', '2']) 
+Overlap: 11 
+
+Question:
+ 2. What is 6?
+    (A) ((lambda (x)(+ x 3 ))3)
+    (B) (cdar '(7 6 5 4 3))
+    (C) (if (2 < 3) 4 6)
+    (D) (map * '(1 2 3))
+
+Overlapped: set(['map', 'cdar', '1', '3', '2', '5', '4', '7', '6', 'x', 'lambda']) 
+Overlap: 11 
+
+Question:
+ 5. What is the stack efficiency of this function?
+    let rec f n =
+        if n <= 1 then n
+        else f (n - 1) + f (n - 2);;
+    (A) $ O ( 1 ) $
+    (B) $ O ( n ) $
+    (C) $ O ( n sup 2 ) $
+    (D) $ O ( 2 sup n ) $
+
+Overlapped: set(['function', 'let', 'f', 'else', '1', '2', '5', 'sup', 'rec', 'n', 'stack']) 
+Overlap: 11 
+
+Question:
+ 7. What is the stack efficiency of this function?
+    let rec f n =
+        if n <= 1 then n
+        else f (n - 1) + f (n - 2);;
+    (A) $ O ( 1 ) $
+    (B) $ O ( n ) $
+    (C) $ O ( n sup 2 ) $
+    (D) $ O ( 2 sup n ) $
+
+Overlapped: set(['function', 'f', 'else', '1', '2', 'let', '7', 'sup', 'rec', 'n', 'stack']) 
+Overlap: 11 
+
+Question:
+ 8. Which of the following data structures violates the spirit of
+    functional programming?
+    (A) array
+    (B) list
+    (C) stack
+    (D) tree
+
+Overlapped: set(['programming', 'tree', 'list', 'functional', 'data', 'following', '8', 'array', 'structures', 'stack']) 
+Overlap: 10 
+
+Question:
+ 3. Perl:  Write a function that will accept a function and an array and
+    return all elements of the array in the same order, for which the
+    function applied to an element of the array returns true.  [2pt]
+
+Overlapped: set(['function', 'elements', 'return', 'returns', 'element', '3', 'array', 'true', 'order']) 
+Overlap: 9 
+
+Question:
+12. Give an example of one function nested inside another, where the
+    inner function refers to a local variable of the outer function in
+    such a way that the program crashes due to a dangling pointer.
+    [2pt]
+
+Overlapped: set(['function', '12', 'outer', 'nested', 'inner', 'way', 'variable', 'one', 'pointer']) 
+Overlap: 9 
+
+Question:
+ 9. Of the ones listed here, the attribute most associated with
+    functional programming is:
+    (A) dynamic dispatch
+    (B) referential transparency
+    (C) static type checking
+    (D) unification
+
+Overlapped: set(['checking', 'programming', 'dynamic', 'functional', 'dispatch', 'ones', 'static', '9', 'type']) 
+Overlap: 9 
+
+Question:
+ 6. If guess is a predicate that searches a database to return one of
+    its elements, and verify checks to see if the thing found is good,
+    then we may define the predicate find, which returns a valid entry
+    from the database as:
+    (A) find(X) :- guess(X), verify(X).
+    (B) find(X) :- guess(X).
+        find(X) :- verify(X).
+    (C) find(X) :- verify(X), guess(X).
+    (D) guess(X) :- find(X), verify(X).
+
+Overlapped: set(['predicate', 'good', 'return', 'returns', 'one', 'see', 'elements', '6', 'define']) 
+Overlap: 9 
+
+Question:
+ 2. C++:  Write code to print out the elements of a vector, one item per
+    line.  Assume that operator<< is defined on type foo.  Use a const_
+    iterator.  [2pt]
+    vector<foo> vec;
+
+Overlapped: set(['vector', 'elements', 'defined', 'one', '2', 'line', 'foo', 'type']) 
+Overlap: 8 
+
+Question:
+ 1. Haskell is a purely functional language which maintains state using
+    a:
+    (A) closure
+    (B) daemon
+    (C) monad
+    (D) thunk
+
+Overlapped: set(['closure', 'language', 'monad', 'functional', '1', 'thunk', 'state', 'using']) 
+Overlap: 8 
+
+Question:
+ 4. An object-oriented language such as C++ does dynamic dispatching of
+    method calls by means of a:
+    (A) virtual function table
+    (B) template declaration
+    (C) heap-allocated closure
+    (D) friend function
+
+Overlapped: set(['function', 'closure', 'language', 'dynamic', 'virtual', '4', 'declaration', 'table']) 
+Overlap: 8 
+
+Question:
+ 1. Give an example of how a function call in normal order might return
+    a result, but the same function call in applicative order might
+    crash or go into an infinite loop.  [2pt]
+
+Overlapped: set(['function', 'return', '1', 'go', 'might', 'order']) 
+Overlap: 6 
+
+Question:
+ 2. Partial parameterization of a currried function keeps arguments in
+    a:
+    (A) closure
+    (B) daemon
+    (C) monad
+    (D) thunk
+
+Overlapped: set(['function', 'closure', 'monad', 'thunk', '2', 'arguments']) 
+Overlap: 6 
+
+Question:
+ 3. In C++, a static variable is bound to a virtual address:
+    (A) at compile (CC) time.
+    (B) at link (ld) time.
+    (C) at exec() time.
+    (D) when main() is called.
+
+Overlapped: set(['virtual', '3', 'static', 'variable', 'main', 'called']) 
+Overlap: 6 
+
+Question:
+ 4. In Java, a static variable is allocated:
+    (A) at translation time.
+    (B) when the class files are put in a jar.
+    (C) when the class is loaded.
+    (D) when an object is created with new.
+
+Overlapped: set(['object', 'static', '4', 'variable', 'new', 'class']) 
+Overlap: 6 
+
+Question:
+ 6. What is the type of f?
+    let f x y = x + y;;
+    (A) int * int * int
+    (B) int * int -> int
+    (C) int -> int * int
+    (D) int -> int -> int
+
+Overlapped: set(['f', 'int', 'let', '6', 'x', 'type']) 
+Overlap: 6 
+
+Question:
+ 7. When arguments to functions are evaluated before the function is
+    called, this is __ order.
+    (A) applicative
+    (B) efficient
+    (C) normal
+    (D) short circuit
+
+Overlapped: set(['function', 'functions', 'called', 'arguments', '7', 'order']) 
+Overlap: 6 
+
+Question:
+ 1. What is the type of swap?
+    let swap f x y = f y x;;
+    (A) ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
+    (B) ('a -> 'b -> 'b) -> 'a list -> 'b -> 'b
+    (C) ('a -> 'b -> 'c) -> 'b -> 'a -> 'c
+    (D) ('a -> 'b) -> ('c -> 'a) -> 'c -> 'b
+
+Overlapped: set(['f', 'list', '1', 'let', 'x', 'type']) 
+Overlap: 6 
+
+Question:
+10. Which of these is not part of the local stack frame in ANSI C?
+    (A) access (static) link
+    (B) control (dynamic) link
+    (C) register save area
+    (D) return address
+
+Overlapped: set(['control', '10', 'return', 'dynamic', 'static', 'stack']) 
+Overlap: 6 
+
+Question:
+ 5. From what segment does a call to new in C++ allocate memory?
+    (A) data
+    (B) heap
+    (C) stack
+    (D) text
+
+Overlapped: set(['new', '5', 'stack', 'heap', 'data']) 
+Overlap: 5 
+
+Question:
+10. If a is a list, which expression produces the same list?
+    (A) (car (cdr (cons a))
+    (B) (car (cons a (cdr a))
+    (C) (cons (car a) (cdr a))
+    (D) (cons (cdr a) (car a))
+
+Overlapped: set(['10', 'cons', 'list', 'cdr', 'car']) 
+Overlap: 5 
+
+Question:
+14. Prolog:  Define the function product, which produces the product of
+    all the numbers in a list.  [2pt]
+    | ?- product(N,[1,2,3,4,5]).
+    N = 120
+    | ?- product(N,[]).
+    N = 1
+
+Overlapped: set(['1', 'function', 'product', 'list']) 
+Overlap: 4 
+
+Question:
+11. The Java class that permits a process to have multiple things done
+    concurrently is:
+    (A) Daemon
+    (B) Runnable
+    (C) Task
+    (D) Thread
+
+Overlapped: set(['11', 'multiple', 'class', 'permits']) 
+Overlap: 4 
+
+Question:
+ 8. A garbage collector which is most friendly to the page tables by
+    compacting heap objects into as few pages as possible:
+    (A) concurrent reclamation of live objects
+    (B) copying collector with semispaces
+    (C) mark and sweep collector
+    (D) reference counting
+
+Overlapped: set(['8', 'page', 'heap']) 
+Overlap: 3 
+
+Question:
+ 9. Passing a parameter by __ means that it is passed in unevaluated and
+    then evaluated only if needed.
+    (A) name
+    (B) reference
+    (C) value
+    (D) value-result
+
+Overlapped: set(['9', 'name', 'value']) 
+Overlap: 3 
+
+Question:
+13. Give an example of how memory leak might occur in Java.  [2pt]
+
+Overlapped: set(['13', 'might']) 
+Overlap: 2 
+
+Question:
+Overlapped: set([]) 
+Overlap: 0 
+
