@@ -223,7 +223,7 @@ def add(args):
         #print "Overlapped: %s" % overlap
         #print "Overlap: %s \n\n" % overlapcount
         results.append((overlapcount, overlap, q))
-        all_results.append((overlapcount, overlap, q))
+        all_results.append((overlapcount, overlap, q, test_name))
 
       # Sort the results
       sresults = sorted(results, key=operator.itemgetter(0), reverse=True)
@@ -252,8 +252,9 @@ def add(args):
 
     all_sresults = sorted(all_results, key=operator.itemgetter(0), reverse=True)
 
-    # Write to file
+    # Write all results to file
     for r in all_sresults:
+      test_outfile_object.write("Test: %s\n" % r[3])
       test_outfile_object.write("Question:\n")
       for line in r[2]:
           q_string += line + " "

@@ -1,17 +1,4 @@
-Question:
- 5. A closure is:
-    (A) A special field of a structure or class used to point at a
-        base class when implementing shared multiple inheritance.
-    (B) A special type declaration in Ocaml used to distinguish sum
-        types from product types.
-    (C) A structure on the heap, used to hold variables of an outer
-        function when referenced by an inner function.
-    (D) A table used to dynamically dispatch virtual functions in an
-        object-oriented environment.
-
-Overlapped: set(['referenced', 'point', 'variables', 'dispatch', 'table', 'special', 'functions', 'outer', 'inheritance', 'sum', 'virtual', 'environment', 'field', 'inner', 'shared', 'type', 'dynamically', 'function', 'product', 'used', 'multiple', 'structure', 'implementing', 'base', 'heap', 'declaration', 'distinguish', 'hold', 'class', 'types', 'closure']) 
-Overlap: 31 
-
+Test: cmps112-2014q4-test1.tt
 Question:
 1. For each language described here, fill in the name of the language.
    Choose from among the following languages:  Algol 60, AWK, Basic,
@@ -40,23 +27,10 @@ Question:
    |              |Sun Microsystems claimed this language is ``write once, run anywhere''.          |
    +--------------+---------------------------------------------------------------------------------+
 
-Overlapped: set(['among', 'deduct', 'point', 'developed', 'design', 'computation', 'fill', 'write', 'described', 'less', 'languages', 'score', 'way', 'answer', 'used', 'scientific', 'missing', 'processing', 'wrong', 'designed', 'included', 'designers', 'data', 'name', 'language', 'structured', 'programming', 'influenced', 'following', 'contribution', 'noted']) 
-Overlap: 31 
+Overlapped: set(['among', 'deduct', 'point', 'developed', 'design', 'computation', '67', 'fill', 'write', 'described', 'less', 'languages', 'score', 'way', 'answer', 'used', 'scientific', 'missing', 'processing', 'wrong', 'designed', 'included', 'designers', 'data', 'name', 'language', 'structured', 'programming', 'influenced', 'following', 'contribution', 'noted']) 
+Overlap: 32 
 
-Question:
- 9. A closure is:
-    (A) A special field of a structure or class used to point at a
-        base class when implementing shared multiple inheritance.
-    (B) A special type declaration in Ocaml used to distinguish sum
-        types from product types.
-    (C) A structure on the heap, used to hold variables of an outer
-        function when referenced by an inner function.
-    (D) A table used to dynamically dispatch virtual functions in an
-        object-oriented environment.
-
-Overlapped: set(['referenced', 'point', 'variables', 'dispatch', 'table', 'special', 'functions', 'outer', 'inheritance', 'sum', 'virtual', 'environment', 'field', 'inner', 'shared', 'type', 'dynamically', 'function', 'product', 'used', 'multiple', 'structure', 'implementing', 'base', 'heap', 'declaration', 'distinguish', 'hold', 'class', 'types', 'closure']) 
-Overlap: 31 
-
+Test: cmps112-2016q4-final.tt
 Question:
 1. For each language described here, fill in the name of the language.
    Choose from among the following languages:  Algol 60, AWK, Bash,
@@ -85,9 +59,40 @@ Question:
    |              |Sun Microsystems claimed this language is ``write once, run anywhere''.          |
    +--------------+---------------------------------------------------------------------------------+
 
-Overlapped: set(['among', 'deduct', 'point', 'developed', 'design', 'computation', 'fill', 'write', 'described', 'less', 'languages', 'score', 'way', 'answer', 'used', 'scientific', 'missing', 'processing', 'wrong', 'designed', 'included', 'designers', 'data', 'name', 'language', 'structured', 'programming', 'influenced', 'following', 'contribution', 'noted']) 
+Overlapped: set(['among', 'deduct', 'point', 'developed', 'design', 'computation', '67', 'fill', 'write', 'described', 'less', 'languages', 'score', 'way', 'answer', 'used', 'scientific', 'missing', 'processing', 'wrong', 'designed', 'included', 'designers', 'data', 'name', 'language', 'structured', 'programming', 'influenced', 'following', 'contribution', 'noted']) 
+Overlap: 32 
+
+Test: cmps112-2012q1-test2.tt
+Question:
+ 5. A closure is:
+    (A) A special field of a structure or class used to point at a
+        base class when implementing shared multiple inheritance.
+    (B) A special type declaration in Ocaml used to distinguish sum
+        types from product types.
+    (C) A structure on the heap, used to hold variables of an outer
+        function when referenced by an inner function.
+    (D) A table used to dynamically dispatch virtual functions in an
+        object-oriented environment.
+
+Overlapped: set(['referenced', 'point', 'variables', 'dispatch', 'table', 'special', 'functions', 'outer', 'inheritance', 'sum', 'virtual', 'environment', 'field', 'inner', 'shared', 'type', 'dynamically', 'function', 'product', 'used', 'multiple', 'structure', 'implementing', 'base', 'heap', 'declaration', 'distinguish', 'hold', 'class', 'types', 'closure']) 
 Overlap: 31 
 
+Test: cmps112-2015q4-final.tt
+Question:
+ 9. A closure is:
+    (A) A special field of a structure or class used to point at a
+        base class when implementing shared multiple inheritance.
+    (B) A special type declaration in Ocaml used to distinguish sum
+        types from product types.
+    (C) A structure on the heap, used to hold variables of an outer
+        function when referenced by an inner function.
+    (D) A table used to dynamically dispatch virtual functions in an
+        object-oriented environment.
+
+Overlapped: set(['referenced', 'point', 'variables', 'dispatch', 'table', 'special', 'functions', 'outer', 'inheritance', 'sum', 'virtual', 'environment', 'field', 'inner', 'shared', 'type', 'dynamically', 'function', 'product', 'used', 'multiple', 'structure', 'implementing', 'base', 'heap', 'declaration', 'distinguish', 'hold', 'class', 'types', 'closure']) 
+Overlap: 31 
+
+Test: cmps112-2016q4-final.tt
 Question:
  1. A closure is:
     (A) A special field of a structure or class used to point at a
@@ -102,6 +107,7 @@ Question:
 Overlapped: set(['referenced', 'point', 'variables', 'dispatch', 'table', 'special', 'functions', 'outer', 'inheritance', 'sum', 'virtual', 'environment', 'field', 'inner', 'shared', 'type', 'dynamically', 'function', 'product', 'used', 'multiple', 'structure', 'implementing', 'base', 'heap', 'declaration', 'distinguish', 'hold', 'class', 'types', 'closure']) 
 Overlap: 31 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 1. For each language described here, fill in the name of the language.
    Choose from among the following languages:  Algol 60, AWK, Basic,
@@ -133,9 +139,10 @@ Question:
    +-``Abandon-All+Sanity,-Ye-Who-Enter-Here.''-----http://catb.org/esr/
     intercal/
 
-Overlapped: set(['control', 'among', 'less', 'functional', 'fill', 'described', 'point', 'languages', 'score', 'answer', 'size', 'structures', 'missing', 'rules', 'wrong', 'designed', 'come', 'bar', 'name', 'language', 'maybe', 'following', 'lambda']) 
-Overlap: 23 
+Overlapped: set(['control', 'among', 'less', 'functional', '67', 'fill', 'described', 'point', 'languages', 'score', 'answer', 'size', 'structures', 'missing', 'rules', 'wrong', 'designed', 'come', 'bar', 'name', 'language', 'maybe', 'following', 'lambda']) 
+Overlap: 24 
 
+Test: cmps112-2015q4-test1.tt
 Question:
 5. Define the function fold_left:  the first argument is a function to
    use to fold the list, the second argument is a unit value used to
@@ -166,6 +173,7 @@ Question:
 Overlapped: set(['int', 'argument', 'fold', 'second', 'element', 'use', 'val', 'recursion', 'sum', 'tail', 'define', 'function', 'used', 'let', 'stack', 'b', 'list', 'value', 'n', 'length', 'fun', 'first', 'lambda']) 
 Overlap: 23 
 
+Test: cmps112-2015q4-final.tt
 Question:
 1. Define gcd which uses Euclid's algorithm to find the greatest
    common divisor for two integers $x > 0$ and $y > 0$.  The C version
@@ -211,6 +219,7 @@ Question:
 Overlapped: set(['function', 'c', 'b', 'return', 'g', 'format', 'else', 'int', 'e', 'number', 'two', 'order', 'define', 'tail', 'let', 'recursion', 'x', 'given', 'class', 'lambda']) 
 Overlap: 20 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  1. In the following table, there are fragmentary examples of various
     kinds of polymorphism.  In each box, identify the example by writing
@@ -231,6 +240,7 @@ Question:
 Overlapped: set(['polymorphism', 'conversion', 'bar', 'ad', 'inheritance', 'int', 'double', 'universal', 'f', 'one', 'overloading', 'void', 'x', 'following', 'table', 'foo', 'stack', 'hoc']) 
 Overlap: 18 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  1. Some fragmentary examples of polymorphism are given in each entry
     in the following table.  Identify the general category by writing
@@ -251,6 +261,7 @@ Question:
 Overlapped: set(['function', 'polymorphism', 'given', 'ad', 'inclusion', 'int', 'double', 'universal', 'conversion', 'one', 'overloading', 'cdr', 'rec', 'following', 'table', 'foo', 'stack', 'hoc']) 
 Overlap: 18 
 
+Test: cmps112-2012q1-final.tt
 Question:
 12. Smalltalk:  Define the class Stack.  Internally it has an array of
     fixed size and no attempt is made to verify pre- or post-
@@ -286,6 +297,7 @@ Question:
 Overlapped: set(['c', 'b', 'e', 'methods', 'nil', 'f', 'class', 'given', 'argument', 'creates', 'returns', 'following', 'new', 'array', 'stack', 'maximum', 'size']) 
 Overlap: 17 
 
+Test: cmps112-2014q4-final.tt
 Question:
  5. In Java or C++, which statement can cause control to pass from the
     current function to the calling function, or perhaps the caller of
@@ -298,6 +310,7 @@ Question:
 Overlapped: set(['control', 'even', 'return', 'statement', 'perhaps', 'caller', 'back', 'calling', 'current', 'continue', 'way', 'pass', 'break', 'function', 'main', 'cause', 'throw']) 
 Overlap: 17 
 
+Test: cmps112-2015q4-final.tt
 Question:
 8. Prolog.  Write facts in Prolog to describe the graph at left.  Use
    the term arrow whose first argument is the tail of the arrow and
@@ -325,6 +338,7 @@ Question:
 Overlapped: set(['following', 'c', 'b', 'e', 'graph', 'tail', 'argument', 'chop', '1i', 'second', 'points', 'two', 'arrow', 'facts', 'circle', 'first', 'left']) 
 Overlap: 17 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 8. Smalltalk.  Define classes Num and Mul that can be used as a basis
    for expression trees.  Num has an instance value number, a class
@@ -356,6 +370,7 @@ Question:
 Overlapped: set(['c', 'set', 'methods', 'point', 'tree', 'number', 'used', 'two', 'creates', 'returns', 'right', 'value', 'new', 'st', 'b', 'class', 'left']) 
 Overlap: 17 
 
+Test: cmps112-2016q4-final.tt
 Question:
 11. Smalltalk:  Define the class Stack.  Internally it has an array of
    fixed size and no attempt is made to verify pre- or post-
@@ -391,6 +406,7 @@ Question:
 Overlapped: set(['c', 'b', 'e', 'methods', 'nil', 'f', 'class', 'given', 'argument', 'creates', 'returns', 'following', 'new', 'array', 'stack', 'maximum', 'size']) 
 Overlap: 17 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  6. Inheritance in C++.  Your answers should be as minimal as possible,
     provided the question is answered.  You don't need to provide a main
@@ -415,6 +431,7 @@ delim $$
 Overlapped: set(['function', 'provided', 'functions', 'b', 'string', 'int', 'delim', 'void', 'question', 'answers', 'field', 'base', 'variable', 'main', 'class', 'define']) 
 Overlap: 16 
 
+Test: cmps112-2011q2-final.tt
 Question:
  7. Prolog:  Given the following graph, Define several facts called
     edge which define the graph.  Also, define a rule adjacent which
@@ -438,6 +455,7 @@ Question:
 Overlapped: set(['c', 'used', 'e', 'called', 'graph', 'two', 'edge', 'chop', 'following', 'b', 'circle', 'adjacent', 'facts', 'line', 'nodes', 'define']) 
 Overlap: 16 
 
+Test: cmps112-2015q4-final.tt
 Question:
 3. Scheme.  Using apply, map, max, and cons, define the function depth
    for any argument.  If it is null?, its depth is 1.  Otherwise, if
@@ -456,6 +474,7 @@ Question:
 Overlapped: set(['function', 'map', 'c', 'cons', 'depth', 'maximum', 'max', 'list', 'argument', 'one', 'else', 'elements', 'apply', 'null', 'b', 'define']) 
 Overlap: 16 
 
+Test: cmps112-2015q4-test1.tt
 Question:
 2. Define the function filter whose first argument is a predicate and
    whose second argument is a list.  It returns a list consisting of
@@ -479,6 +498,7 @@ Question:
 Overlapped: set(['even', 'function', 'use', 'elements', 'predicate', 'int', 'list', 'argument', 'first', 'second', 'b', 'bool', 'fun', 'x', 'returns', 'lambda']) 
 Overlap: 16 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 5. Scheme.  Draw a picture of the following Scheme expression.  For
    each cons cell, draw a small box with two arrows coming out of it.
@@ -489,6 +509,7 @@ Question:
 Overlapped: set(['draw', 'picture', 'phi', 'cons', 'e', 'arrow', 'point', 'c', 'two', 'cell', 'small', 'b', 'letter', 'following', 'null', 'pointer']) 
 Overlap: 16 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  5. Scheme:  Assuming you have a hash table named hash, which contains
     pointers to binary functions, Write code to evaluate an expression
@@ -504,6 +525,7 @@ Question:
 Overlapped: set(['function', 'cadr', 'right', 'checking', 'car', 'variables', 'contains', 'tree', 'functions', 'element', 'elements', 'table', 'nodes', 'left', 'define']) 
 Overlap: 15 
 
+Test: cmps112-2012q1-final.tt
 Question:
  1. Ocaml:  Define a function split which takes a predicate and a list
     and returns a 2-tuple of lists, where all elements of the first
@@ -518,6 +540,7 @@ Question:
 Overlapped: set(['even', 'function', 'predicate', 'elements', 'return', 'int', 'true', 'list', 'returns', 'second', 'bool', 'fun', 'cause', 'order', 'first']) 
 Overlap: 15 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  6. Ocaml:  Define a function zipwith whose first argument is a
     curried function of two arguments, second argument is a single
@@ -542,6 +565,7 @@ Question:
 Overlapped: set(['function', 'foo', 'bar', 'string', 'int', 'list', 'argument', 'value', 'two', 'second', 'arguments', 'fun', 'using', 'one', 'first']) 
 Overlap: 15 
 
+Test: cmps112-2014q4-final.tt
 Question:
 11. Prolog.  Given facts like the ones presented at the left, define
    the rules father and mother where the first argument is the parent
@@ -561,6 +585,7 @@ Question:
 Overlapped: set(['like', 'parent', 'presented', 'rules', 'mother', 'father', 'argument', 'first', 'second', 'ones', 'parents', 'child', 'facts', 'left', 'define']) 
 Overlap: 15 
 
+Test: cmps112-2015q4-final.tt
 Question:
 9. Scheme.  Draw a picture of the following Scheme expression.  For
    each cons cell, draw a rectangular box divided into to parts, and
@@ -571,6 +596,7 @@ Question:
 Overlapped: set(['picture', 'draw', 'cons', 'e', 'arrow', 'g', 'f', 'car', 'object', 'c', 'cell', 'b', 'cdr', 'h', 'following']) 
 Overlap: 15 
 
+Test: cmps112-2015q4-test1.tt
 Question:
 6. Define the function reverse which produces a list in reverse order
    to that of its argument.  The function must use $ O ( 1 ) $ stack.
@@ -597,6 +623,7 @@ Question:
 Overlapped: set(['function', 'use', 'b', 'reverse', 'int', 'list', 'argument', 'two', 'points', 'left', 'fun', 'stack', 'order', 'worth', 'define']) 
 Overlap: 15 
 
+Test: cmps112-2016q4-final.tt
 Question:
 2. Prolog.  Define some facts called arrow which describe this graph.
    If a->b, then a is the first argument and b is the second argument.
@@ -621,6 +648,7 @@ Question:
 Overlapped: set(['c', 'b', 'e', 'graph', 'argument', 'chop', '1i', 'second', 'circlerad', 'arrow', 'facts', 'circle', 'called', 'first']) 
 Overlap: 14 
 
+Test: cmps112-2016q4-final.tt
 Question:
 12. A C++ compiler does object-oriented dispatch via:
     (A) duck typing
@@ -635,6 +663,7 @@ http://en.wikipedia.org/wiki/Antikythera_mechanism
 Overlapped: set(['function', 'closure', 'http', 'scientific', 'calculator', 'dispatch', 'computer', 'virtual', 'heap', 'table', 'first', 'type', 'called', 'built']) 
 Overlap: 14 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  3. Scheme:  Without using any higher-order functions, define the
     function map whose first argument is a function, which is applied to
@@ -647,6 +676,7 @@ Question:
 Overlapped: set(['function', 'map', 'functions', 'list', 'argument', 'first', 'element', 'second', 'x', 'using', 'new', 'lambda', 'define']) 
 Overlap: 13 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  5. Define a function in Scheme whose first argument is a predicate (a
     function of one argument which returns either #t or #f) and whose
@@ -662,6 +692,7 @@ Question:
 Overlapped: set(['function', 'predicate', 'f', 'contains', 'list', 'second', 'first', 'argument', 'returns', 'element', 'x', 'one', 'lambda']) 
 Overlap: 13 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  4. Smalltalk:  Assuming a class Complex has instance fields real and
     imag, and methods of the same name that may be used to enquire of
@@ -677,6 +708,7 @@ Question:
 Overlapped: set(['used', 'return', 'methods', 'name', 'sum', 'object', 'two', 'argument', 'b', 'new', 'message', 'class', 'define']) 
 Overlap: 13 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  7. Ocaml:  Define a function max such that given a function of two
     arguments giving a bool and a list, it returns Some maximum
@@ -697,6 +729,7 @@ Question:
 Overlapped: set(['function', 'given', 'int', 'max', 'list', 'two', 'maximum', 'returns', 'bool', 'arguments', 'fun', 'element', 'type']) 
 Overlap: 13 
 
+Test: cmps112-2014q4-final.tt
 Question:
 12. Define a function range with two integer arguments and which
    returns a list of all arguments in order including the two
@@ -724,6 +757,7 @@ Question:
 Overlapped: set(['function', 'c', 'b', 'return', 'int', 'list', 'returns', 'number', 'second', 'arguments', 'order', 'two', 'first']) 
 Overlap: 13 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 5. Ocaml.  Define the function ip (inner product) which is the sum of
    pairwise products of two lists.  Use tail recursion.  Raise an
@@ -742,6 +776,7 @@ Question:
 Overlapped: set(['function', 'product', 'sub', 'recursion', 'sum', 'list', 'two', 'n', 'tail', 'inner', 'v', 'fun', 'given']) 
 Overlap: 13 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 7. Smalltalk.  Define a class List.  It has instance variables car and
    cdr, and functions of the same name which return those values.  It
@@ -768,6 +803,7 @@ Question:
 Overlapped: set(['functions', 'return', 'methods', 'nil', 'car', 'variables', 'two', 'st', 'returns', 'cdr', 'new', 'class', 'name']) 
 Overlap: 13 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 1. Ocaml.  Define a tail-recursive function evenlen which returns true
    if its argument is a list of even length and false if there are an
@@ -783,6 +819,7 @@ Question:
 Overlapped: set(['even', 'function', 'use', 'elements', 'false', 'true', 'list', 'argument', 'number', 'returns', 'bool', 'length', 'odd']) 
 Overlap: 13 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 7. Ocaml.  Define the function zipwith that takes a function and two
    lists and returns a new list with the elements combined.  Use
@@ -800,6 +837,7 @@ Question:
 Overlapped: set(['function', 'b', 'length', 'val', 'int', 'max', 'list', 'two', 'returns', 'elements', 'fun', 'new', 'failwith']) 
 Overlap: 13 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 9. Scheme.  The Collatz conjectures states that for any positive
    integer $n$, if it is repeatedly replaced by $ n / 2 $ when even
@@ -823,6 +861,7 @@ Question:
 Overlapped: set(['function', 'even', 'functions', 'outer', 'reverse', 'list', 'use', 'argument', 'inner', 'return', 'n', 'odd', 'order']) 
 Overlap: 13 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  2. How much stack space does the following function use?
     let rec f n = match n with
@@ -837,6 +876,7 @@ Question:
 Overlapped: set(['function', 'use', 'log', 'space', 'f', 'n', 'much', 'let', 'sup', 'following', 'rec', 'stack', 'match']) 
 Overlap: 13 
 
+Test: cmps112-2009q1-final.tt
 Question:
  4. Prolog:  Draw a picture of the undirected graph represented by the
     facts given below.  Write a function adjacent which will succeed if
@@ -850,6 +890,7 @@ Question:
 Overlapped: set(['function', 'picture', 'given', 'b', 'graph', 'c', 'two', 'edge', 'adjacent', 'facts', 'nodes', 'undirected']) 
 Overlap: 12 
 
+Test: cmps112-2012q1-final.tt
 Question:
  8. Which of the following functions can take a function, a unit, and
     a list as arguments, and which applies the function between each
@@ -863,6 +904,7 @@ Question:
 Overlapped: set(['function', 'map', 'functions', 'space', 'list', 'use', 'one', 'arguments', 'applies', 'following', 'element', 'stack']) 
 Overlap: 12 
 
+Test: cmps112-2014q4-final.tt
 Question:
 3. Ocaml.  The Collatz conjecture states that for any positive integer
    $n$, if it is replaced by $ n / 2 $ when even and $ 3 n + 1 $ when
@@ -883,6 +925,7 @@ Question:
 Overlapped: set(['function', 'even', 'outer', 'reverse', 'int', 'list', 'argument', 'n', 'inner', 'return', 'odd', 'order']) 
 Overlap: 12 
 
+Test: cmps112-2014q4-final.tt
 Question:
 7. Ocaml.  Given the function at the left, fill in the table at the
    right giving the Ocaml types for each item.  [2pt]
@@ -908,6 +951,7 @@ Question:
 Overlapped: set(['function', 'right', 'left', 'else', 'let', 'fac', 'rec', 'table', 'n', 'failwith', 'types', 'fill']) 
 Overlap: 12 
 
+Test: cmps112-2014q4-final.tt
 Question:
 8. Prolog.  Given the graph shown here, write edge facts to describe
    it.  Write a rule adjacent which uses edge to determine if two
@@ -928,6 +972,7 @@ Question:
 Overlapped: set(['chop', 'c', 'b', 'graph', 'two', 'edge', 'write', 'circle', 'adjacent', 'facts', 'line', 'nodes']) 
 Overlap: 12 
 
+Test: cmps112-2015q4-final.tt
 Question:
 4. Ocaml.  Define drop, which returns its argument list without the
    first $n$ elements.  If $n$ is larger than the length of the list,
@@ -948,6 +993,7 @@ Question:
 Overlapped: set(['elements', 'without', 'int', 'list', 'tail', 'argument', 'returns', 'n', 'fun', 'length', 'null', 'first']) 
 Overlap: 12 
 
+Test: cmps112-2015q4-final.tt
 Question:
  8. What function is called immediately after d() if d() is true?
     for (a(); b(); c()){
@@ -965,6 +1011,7 @@ Question:
 Overlapped: set(['function', 'c', 'b', 'e', 'g', 'f', 'h', 'break', 'continue', 'immediately', 'true', 'called']) 
 Overlap: 12 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  7. Scheme:  Define a function split that takes a single list argument
     and returns a list of two elements, with the car of the result
@@ -978,6 +1025,7 @@ Question:
 Overlapped: set(['even', 'function', 'elements', 'car', 'list', 'argument', 'two', 'returns', 'cdr', 'odd', 'order']) 
 Overlap: 11 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  8. Scheme:  Without using any higher order functions, code reverse,
     which reverses a list.  Hint:  Think about two stacks.  Use tail
@@ -987,6 +1035,7 @@ Question:
 Overlapped: set(['function', 'functions', 'reverse', 'helper', 'list', 'two', 'tail', 'style', 'using', 'order', 'higher']) 
 Overlap: 11 
 
+Test: cmps112-2011q2-final.tt
 Question:
  6. Scheme:  Using apply and max, define the Scheme function depth.
     The depth of anything that is not a list is 0.  The depth of a
@@ -1005,6 +1054,7 @@ Question:
 Overlapped: set(['function', 'c', 'elements', 'max', 'list', 'maximum', 'one', 'depth', 'b', 'apply', 'define']) 
 Overlap: 11 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  1. Define a function grep in Scheme whose first argument is a
     predicate and second argument a list.  It returns a new list of
@@ -1014,6 +1064,7 @@ Question:
 Overlapped: set(['function', 'use', 'elements', 'predicate', 'list', 'second', 'argument', 'returns', 'new', 'true', 'first']) 
 Overlap: 11 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  2. Ocaml:  Define the function mapf whose first argument is a unary
     function, and second argument list.  The result is a list of the
@@ -1030,6 +1081,7 @@ Question:
 Overlapped: set(['function', 'point', 'int', 'list', 'argument', 'element', 'second', 'x', 'fun', 'using', 'first']) 
 Overlap: 11 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  4. Ocaml:  Define the functions car and cdr in Ocaml so that they
     work in the expected way.  Use pattern matching.  Neither function
@@ -1046,6 +1098,7 @@ Question:
 Overlapped: set(['function', 'functions', 'cdr', 'int', 'car', 'work', 'list', 'argument', 'way', 'fun', 'failwith']) 
 Overlap: 11 
 
+Test: cmps112-2014q4-final.tt
 Question:
 5. Ocaml, or any functional language.  Rules about type checking.
     (i) Every expression has exactly one type.
@@ -1078,6 +1131,7 @@ Question:
 Overlapped: set(['c', 'b', 'language', 'checking', 'functional', 'one', 'following', 'x', 'type', 'order', 'lambda']) 
 Overlap: 11 
 
+Test: cmps112-2014q4-final.tt
 Question:
 13. Write a function that takes two lists as arguments and which
    returns a single list where each element is a list of corresponding
@@ -1099,6 +1153,7 @@ Question:
 Overlapped: set(['function', 'c', 'elements', 'e', 'int', 'list', 'two', 'element', 'returns', 'b', 'arguments']) 
 Overlap: 11 
 
+Test: cmps112-2014q4-test1.tt
 Question:
 4. Using a loop, not recursion, write a function whose single argument
    is a number and which returns the factorial of that number.  Return
@@ -1113,6 +1168,7 @@ Question:
 Overlapped: set(['function', 'b', 'sub', 'extend', 'recursion', 'number', 'argument', 'write', 'returns', 'fac', 'class']) 
 Overlap: 11 
 
+Test: cmps112-2015q4-final.tt
 Question:
  9. The following interaction indicates what kind of polymorphism?
     # List.length;;
@@ -1125,6 +1181,7 @@ Question:
 Overlapped: set(['polymorphism', 'conversion', 'inclusion', 'int', 'following', 'list', 'kind', 'overloading', 'indicates', 'fun', 'parametric']) 
 Overlap: 11 
 
+Test: cmps112-2015q4-test2.tt
 Question:
  7. For a list of length $n$, how much function call stack space is
     used by fold left and fold right?
@@ -1136,6 +1193,7 @@ Question:
 Overlapped: set(['function', 'right', 'space', 'list', 'used', 'n', 'fold', 'length', 'much', 'stack', 'left']) 
 Overlap: 11 
 
+Test: cmps112-2016q4-final.tt
 Question:
 5. Ocaml.  Define the function max which finds the largest element in
    a list, given a comparison operator and a list.  Use failwith if
@@ -1153,6 +1211,7 @@ Question:
 Overlapped: set(['function', 'given', 'int', 'max', 'list', 'use', 'solution', 'bool', 'fun', 'element', 'failwith']) 
 Overlap: 11 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 11. Ocaml.  Define the function max which returns Some maximum element
    of a list as determined by its function argument.  Return None if
@@ -1171,6 +1230,7 @@ Question:
 Overlapped: set(['function', 'int', 'max', 'list', 'argument', 'maximum', 'returns', 'bool', 'fun', 'element', 'type']) 
 Overlap: 11 
 
+Test: cmps112-2009q1-final.tt
 Question:
  3. The function List.fold_left uses up how much stack space on a list
     of length $n$?
@@ -1182,6 +1242,7 @@ Question:
 Overlapped: set(['function', 'sub', 'space', 'list', 'n', 'length', 'much', 'sup', 'stack', 'log']) 
 Overlap: 10 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  2. Scheme:  Define the function foldl, which has three arguments in
     this order:  a function, a unit, and a list.  A single result is
@@ -1196,6 +1257,7 @@ Question:
 Overlapped: set(['function', 'car', 'list', 'length', 'tail', 'arguments', 'cdr', 'returns', 'order', 'define']) 
 Overlap: 10 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  4. C++:  Define a function print whose argument is a vector<string>,
     and which uses an iterator to print out all of the elements, one per
@@ -1207,6 +1269,7 @@ Question:
 Overlapped: set(['function', 'elements', 'string', 'point', 'defined', 'argument', 'one', 'vector', 'line', 'type']) 
 Overlap: 10 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  5. Fold right (foldr) uses up how much stack space on a list of length
     $n$?
@@ -1218,6 +1281,7 @@ Question:
 Overlapped: set(['right', 'sub', 'space', 'list', 'n', 'length', 'much', 'sup', 'stack', 'log']) 
 Overlap: 10 
 
+Test: cmps112-2011q2-final.tt
 Question:
  1. Ocaml:  Define a function evenlen in Ocaml which returns true if
     the list's length is even and false if not.  It must be tail-
@@ -1234,6 +1298,7 @@ Question:
 Overlapped: set(['even', 'function', 'use', 'false', 'list', 'length', 'returns', 'bool', 'true', 'functions']) 
 Overlap: 10 
 
+Test: cmps112-2011q2-final.tt
 Question:
  9. Ocaml:  The Collatz conjecture states that for any positive
     integer $n$, if it is replaced by $n / 2$ when even and $3 n + 1$
@@ -1255,6 +1320,7 @@ Question:
 Overlapped: set(['even', 'function', 'int', 'solution', 'maximum', 'value', 'number', 'returns', 'n', 'odd']) 
 Overlap: 10 
 
+Test: cmps112-2011q2-final.tt
 Question:
  4. Some early languages, like PL/I, allowed non-local gotos, i.e.,
     the ability to use a goto to transfer control to a different
@@ -1267,6 +1333,7 @@ Question:
 Overlapped: set(['control', 'function', 'use', 'like', 'structured', 'languages', 'continue', 'way', 'break', 'throw']) 
 Overlap: 10 
 
+Test: cmps112-2011q2-final.tt
 Question:
  9. In C++, templates such as stack<int> are an example of what kind
     of polymorphism?
@@ -1278,6 +1345,7 @@ Question:
 Overlapped: set(['templates', 'polymorphism', 'conversion', 'inclusion', 'int', 'universal', 'kind', 'overloading', 'parametric', 'stack']) 
 Overlap: 10 
 
+Test: cmps112-2011q2-test1.tt
 Question:
 11. Draw a picture of the following Scheme expression.  For each cell,
     draw a rectangular box with two fields in it, and draw a pointer
@@ -1288,6 +1356,7 @@ Question:
 Overlapped: set(['picture', 'draw', 'b', 'e', 'f', 'c', 'two', 'cell', 'following', 'pointer']) 
 Overlap: 10 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  4. For a list of length $n$, foldr, which does not use tail
     recursion, will take up how much stack space?
@@ -1299,6 +1368,7 @@ Question:
 Overlapped: set(['use', 'log', 'space', 'recursion', 'list', 'length', 'n', 'tail', 'much', 'stack']) 
 Overlap: 10 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  2. Scheme:  Define a function that will return the largest number in
     a list of numbers.  Return 'undef if the list is empty.  The
@@ -1310,6 +1380,7 @@ Question:
 Overlapped: set(['function', 'use', 'return', 'max', 'list', 'number', 'inner', 'apply', 'define', 'arguments']) 
 Overlap: 10 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  8. Scheme:  Define the function zipwith in Scheme.  Note that for
     both of these programs, if the first list is shorter, the value is
@@ -1324,6 +1395,7 @@ Question:
 Overlapped: set(['function', 'used', 'bar', 'programs', 'list', 'argument', 'value', 'second', 'foo', 'first']) 
 Overlap: 10 
 
+Test: cmps112-2014q4-final.tt
 Question:
 2. Ocaml.  Define the functions reverse and sum using fold_left.
    (Fill in the blanks.)  [3pt]
@@ -1345,6 +1417,7 @@ Question:
 Overlapped: set(['functions', 'blanks', 'reverse', 'val', 'int', 'sum', 'list', 'length', 'let', 'using']) 
 Overlap: 10 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 3. Smalltalk.  Extend class Object with the message fibonacci:, which
    returns an array filled with the first $n$ Fibonacci numbers.
@@ -1364,6 +1437,7 @@ Question:
 Overlapped: set(['extend', 'class', 'st', 'returns', 'answer', 'new', 'array', 'n', 'message', 'first']) 
 Overlap: 10 
 
+Test: cmps112-2014q4-test2.tt
 Question:
  1. A thunk is:
     (A) A heap allocated value yet to be initialized.
@@ -1376,6 +1450,7 @@ Question:
 Overlapped: set(['function', 'value', 'used', 'dynamic', 'dispatch', 'thunk', 'virtual', 'heap', 'table', 'pointer']) 
 Overlap: 10 
 
+Test: cmps112-2015q4-final.tt
 Question:
 7. Write the name of a programming language associated with each of
    the following people.  Score 1/4 point for each correct answer, but
@@ -1396,6 +1471,7 @@ Question:
 Overlapped: set(['name', 'language', 'point', 'programming', 'answers', 'following', 'points', 'answer', 'total', 'correct']) 
 Overlap: 10 
 
+Test: cmps112-2015q4-final.tt
 Question:
  8. If we have a function not (bool -> bool) and a function even (int
     -> bool), how might the function odd be defined?
@@ -1407,6 +1483,7 @@ Question:
 Overlapped: set(['even', 'map', 'int', 'might', 'defined', 'bool', 'x', 'let', 'function', 'odd']) 
 Overlap: 10 
 
+Test: cmps112-2015q4-final.tt
 Question:
 12. What is the type of tail in the following?
     let cdr s = match s with | x::xs -> xs
@@ -1418,6 +1495,7 @@ Question:
 Overlapped: set(['val', 'list', 'following', 'tail', 'let', 'cdr', 'fun', 'x', 'type', 'match']) 
 Overlap: 10 
 
+Test: cmps112-2015q4-test1.tt
 Question:
 7. C or C++.  Code the function in C or C++ to reverse a list.  Do not
    allocate or free any memory.  Do not cause memory leak or use
@@ -1433,6 +1511,7 @@ Question:
 Overlapped: set(['function', 'use', 'reverse', 'space', 'int', 'list', 'value', 'nodes', 'cause', 'stack']) 
 Overlap: 10 
 
+Test: cmps112-2016q4-final.tt
 Question:
 10. Scheme.  Write a function that takes two lists as arguments and
    which returns a single list where each element is a list of
@@ -1446,6 +1525,7 @@ Question:
 Overlapped: set(['function', 'c', 'elements', 'e', 'list', 'two', 'element', 'returns', 'b', 'arguments']) 
 Overlap: 10 
 
+Test: cmps112-2016q4-final.tt
 Question:
  6. Where is the variable a kept, given the following function
     definition?
@@ -1458,6 +1538,7 @@ Question:
 Overlapped: set(['function', 'given', 'return', 'f', 'int', 'following', 'heap', 'variable', 'data', 'stack']) 
 Overlap: 10 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 4. Ocaml.  Define the function reverse to reverse an arbitrary list.
    Use $ O ( n ) $ time and $ O ( 1 ) $ stack.  You may code tail
@@ -1470,6 +1551,7 @@ Question:
 Overlapped: set(['function', 'reverse', 'val', 'int', 'recursion', 'list', 'n', 'tail', 'using', 'stack']) 
 Overlap: 10 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 6. Ocaml.  Define length and sum for a list using a \beta-reduced
    version of the definitions.  Fill in the space with an appropriate
@@ -1487,6 +1569,7 @@ Question:
 Overlapped: set(['val', 'space', 'int', 'sum', 'list', 'argument', 'length', 'let', 'fun', 'using']) 
 Overlap: 10 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 10. C or C++.  Code a function to reverse a list.  Do not allocate or
    free any memory.  Do not cause memory leak or use uninitialized
@@ -1505,6 +1588,7 @@ Question:
 Overlapped: set(['function', 'use', 'reverse', 'int', 'pointer', 'list', 'value', 'recursion', 'cause', 'first']) 
 Overlap: 10 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 5. Ocaml.  Define the function filter which takes a predicate and a
    list and returns a list in the same order as the original list, but
@@ -1517,6 +1601,7 @@ Question:
 Overlapped: set(['function', 'predicate', 'elements', 'int', 'list', 'returns', 'bool', 'fun', 'true', 'order']) 
 Overlap: 10 
 
+Test: cmps112-2009q1-final.tt
 Question:
  8. Ocaml:  Define the function zip whose arguments are a curried pair
     of lists and whose result is a list of tuples.  Raise Invalid_
@@ -1531,6 +1616,7 @@ Question:
 Overlapped: set(['function', 'bar', 'string', 'int', 'list', 'argument', 'length', 'arguments', 'foo']) 
 Overlap: 9 
 
+Test: cmps112-2009q1-final.tt
 Question:
 11. Ocaml:  Write a function iota which has an integer argument $n$ and
     returns a list of numbers from $1$ to $n$ inclusive.  The empty list
@@ -1546,6 +1632,7 @@ Question:
 Overlapped: set(['function', 'helper', 'int', 'list', 'argument', 'solution', 'returns', 'fun', 'n']) 
 Overlap: 9 
 
+Test: cmps112-2009q1-final.tt
 Question:
  8. Which of the following data structures violates the spirit of
     functional programming?
@@ -1557,6 +1644,7 @@ Question:
 Overlapped: set(['programming', 'tree', 'list', 'functional', 'data', 'following', 'array', 'structures', 'stack']) 
 Overlap: 9 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  1. Scheme:  The following function by filius Bonacci takes $ O ( 2 sup
     n ) $ time and $ O ( n ) $ stack.  Recode it using a helper function
@@ -1566,6 +1654,7 @@ Question:
 Overlapped: set(['function', 'helper', 'f', 'n', 'sup', 'following', 'using', 'stack', 'define']) 
 Overlap: 9 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  6. Perl:  Define a function fold, which uses a loop to join all
     elements of an array into a single value.  Its first argument is a
@@ -1578,6 +1667,7 @@ Question:
 Overlapped: set(['function', 'elements', 'sub', 'argument', 'value', 'fold', 'second', 'array', 'first']) 
 Overlap: 9 
 
+Test: cmps112-2011q2-final.tt
 Question:
 14. Ocaml:  Define the function zipwith whose arguments are a function
     of two curried arguments, and two lists.  The lists must have
@@ -1599,6 +1689,7 @@ Question:
 Overlapped: set(['function', 'elements', 'int', 'list', 'two', 'element', 'arguments', 'fun', 'types']) 
 Overlap: 9 
 
+Test: cmps112-2011q2-final.tt
 Question:
  6. A closure is:
     (A) the address of the local variables that are passed to another
@@ -1614,6 +1705,7 @@ Question:
 Overlapped: set(['function', 'closure', 'used', 'variables', 'contains', 'points', 'heap', 'called', 'structure']) 
 Overlap: 9 
 
+Test: cmps112-2011q2-final.tt
 Question:
  7. A thunk is:
     (A) the address of the local variables that are passed to another
@@ -1629,6 +1721,7 @@ Question:
 Overlapped: set(['function', 'used', 'variables', 'contains', 'thunk', 'points', 'heap', 'called', 'structure']) 
 Overlap: 9 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  7. Define a Scheme function map2 whose arguments are a binary
     function and two lists.  It returns a list whose length is the
@@ -1643,6 +1736,7 @@ Question:
 Overlapped: set(['function', 'elements', 'length', 'f', 'list', 'two', 'returns', 'arguments', 'using']) 
 Overlap: 9 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  7. With respect to Java, the term ``overloading'' refers to:
     (A) Automatic type conversion when the argument does not match the
@@ -1656,6 +1750,7 @@ Question:
 Overlapped: set(['conversion', 'name', 'defined', 'argument', 'overloading', 'type', 'class', 'match', 'functions']) 
 Overlap: 9 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  5. Ocaml:  Define a function contains which accepts a predicate and a
     list and returns true if the predicate is true for some element in
@@ -1668,6 +1763,7 @@ Question:
 Overlapped: set(['function', 'predicate', 'false', 'contains', 'list', 'element', 'returns', 'bool', 'true']) 
 Overlap: 9 
 
+Test: cmps112-2012q1-final.tt
 Question:
  2. Prolog:  Define a function filter which takes three arguments:  a
     predicate, an input list, and an output list.  The output list
@@ -1679,6 +1775,7 @@ Question:
 Overlapped: set(['even', 'function', 'predicate', 'elements', 'contains', 'list', 'arguments', 'true', 'order']) 
 Overlap: 9 
 
+Test: cmps112-2012q1-final.tt
 Question:
 11. In PL/I, a goto statement had the capability of being executed in
     one function and transver control to another function, perhaps the
@@ -1692,6 +1789,7 @@ Question:
 Overlapped: set(['control', 'function', 'called', 'perhaps', 'one', 'break', 'continue', 'statement', 'throw']) 
 Overlap: 9 
 
+Test: cmps112-2012q1-final.tt
 Question:
  5. Which of the following data structures violates the spirit of
     functional programming?
@@ -1703,6 +1801,7 @@ Question:
 Overlapped: set(['programming', 'tree', 'list', 'functional', 'data', 'following', 'array', 'structures', 'stack']) 
 Overlap: 9 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  3. Define a function sum which returns the sum of all elements of a
     list.  Do not use any higher-order functions.  Use constant ($ O (
@@ -1711,6 +1810,7 @@ Question:
 Overlapped: set(['function', 'use', 'elements', 'space', 'sum', 'list', 'functions', 'returns', 'stack']) 
 Overlap: 9 
 
+Test: cmps112-2014q4-final.tt
 Question:
  6. A static (access) link is:
     (A) a pointer to the instruction which called the current
@@ -1724,6 +1824,7 @@ Question:
 Overlapped: set(['function', 'called', 'caller', 'nested', 'current', 'static', 'heap', 'pointer', 'stack']) 
 Overlap: 9 
 
+Test: cmps112-2014q4-test1.tt
 Question:
 11. What does the static link in a stack frame point at?
     (A) The call instruction that activated this function.
@@ -1736,6 +1837,7 @@ Question:
 Overlapped: set(['function', 'closure', 'point', 'variables', 'nested', 'static', 'called', 'heap', 'stack']) 
 Overlap: 9 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 6. Scheme.  Define the higher-order function foldl whose arguments are
    a binary function, an identity element, and a list in that order.
@@ -1748,6 +1850,7 @@ Question:
 Overlapped: set(['function', 'right', 'list', 'value', 'element', 'arguments', 'left', 'order', 'define']) 
 Overlap: 9 
 
+Test: cmps112-2015q4-final.tt
 Question:
  6. An object-oriented language like C++ does dynamic dispatching of
     method calls using a:
@@ -1759,6 +1862,7 @@ Question:
 Overlapped: set(['function', 'closure', 'like', 'using', 'dynamic', 'virtual', 'language', 'declaration', 'table']) 
 Overlap: 9 
 
+Test: cmps112-2015q4-final.tt
 Question:
 11. What is the type of car in the following?
     let car s = match s with | x::xs -> x
@@ -1770,6 +1874,7 @@ Question:
 Overlapped: set(['val', 'car', 'list', 'following', 'let', 'fun', 'x', 'type', 'match']) 
 Overlap: 9 
 
+Test: cmps112-2015q4-test1.tt
 Question:
 3. Define the function length, which returns the length of a list.
    Use tail-recursion:  the function must use $ O ( 1 ) $ stack.  Do
@@ -1788,6 +1893,7 @@ Question:
 Overlapped: set(['function', 'use', 'b', 'int', 'list', 'length', 'returns', 'fun', 'stack']) 
 Overlap: 9 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 3. Scheme.  Define the function eval for arbitrarily nested arithmetic
    expressions.  Use map and apply.  Assume the car of each list and
@@ -1804,6 +1910,7 @@ Question:
 Overlapped: set(['even', 'function', 'map', 'car', 'f', 'list', 'number', 'nested', 'apply']) 
 Overlap: 9 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 4. Smalltalk.  Define a block called sum which when sent the value:
    message with an array argument, returns the sum of the elements of
@@ -1815,6 +1922,7 @@ Question:
 Overlapped: set(['elements', 'called', 'sum', 'argument', 'value', 'st', 'returns', 'array', 'message']) 
 Overlap: 9 
 
+Test: cmps112-2016q4-final.tt
 Question:
 8. Prolog.  Write rules for determining the greatest common divisor of
    two positive integers.  Write code equivalent to the following C
@@ -1831,6 +1939,7 @@ Question:
 Overlapped: set(['function', 'given', 'return', 'int', 'two', 'else', 'rules', 'following', 'x']) 
 Overlap: 9 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 2. Scheme.  Define a tail-recursive function oddlen which returns #t
    if the list has an odd number of elements, and #f if not.  Do not
@@ -1845,6 +1954,7 @@ Question:
 Overlapped: set(['function', 'use', 'elements', 'f', 'oddlen', 'list', 'number', 'returns', 'odd']) 
 Overlap: 9 
 
+Test: cmps112-2009q1-final.tt
 Question:
  3. Perl:  Write a function that will accept a function and an array and
     return all elements of the array in the same order, for which the
@@ -1853,6 +1963,7 @@ Question:
 Overlapped: set(['function', 'elements', 'return', 'element', 'returns', 'array', 'true', 'order']) 
 Overlap: 8 
 
+Test: cmps112-2009q1-final.tt
 Question:
 12. Give an example of one function nested inside another, where the
     inner function refers to a local variable of the outer function in
@@ -1862,6 +1973,7 @@ Question:
 Overlapped: set(['function', 'outer', 'nested', 'inner', 'way', 'variable', 'one', 'pointer']) 
 Overlap: 8 
 
+Test: cmps112-2009q1-final.tt
 Question:
  9. Of the ones listed here, the attribute most associated with
     functional programming is:
@@ -1873,6 +1985,7 @@ Question:
 Overlapped: set(['checking', 'programming', 'dynamic', 'functional', 'dispatch', 'ones', 'static', 'type']) 
 Overlap: 8 
 
+Test: cmps112-2009q1-final.tt
 Question:
  5. What is the stack efficiency of this function?
     let rec f n =
@@ -1886,6 +1999,7 @@ Question:
 Overlapped: set(['function', 'f', 'else', 'let', 'sup', 'rec', 'n', 'stack']) 
 Overlap: 8 
 
+Test: cmps112-2009q1-final.tt
 Question:
  6. If guess is a predicate that searches a database to return one of
     its elements, and verify checks to see if the thing found is good,
@@ -1900,6 +2014,7 @@ Question:
 Overlapped: set(['predicate', 'good', 'return', 'returns', 'one', 'see', 'elements', 'define']) 
 Overlap: 8 
 
+Test: cmps112-2009q1-final.tt
 Question:
  7. What is the stack efficiency of this function?
     let rec f n =
@@ -1913,6 +2028,7 @@ Question:
 Overlapped: set(['function', 'f', 'else', 'let', 'sup', 'rec', 'n', 'stack']) 
 Overlap: 8 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  3. Write a function in Perl which takes a filename as an argument and
     prints out a lexicographically sorted list of words in the file.
@@ -1927,6 +2043,7 @@ Question:
 Overlapped: set(['function', 'bar', 'sub', 'list', 'argument', 'line', 'foo', 'match']) 
 Overlap: 8 
 
+Test: cmps112-2011q2-final.tt
 Question:
  2. Prolog:  Define some facts or rules such that the predicate
     oddlen/1 succeeds if the length of its list is odd and fails
@@ -1943,6 +2060,7 @@ Question:
 Overlapped: set(['predicate', 'rules', 'oddlen', 'list', 'length', 'computation', 'facts', 'odd']) 
 Overlap: 8 
 
+Test: cmps112-2011q2-final.tt
 Question:
  5. Haskell:  Consider the following two Ocaml functions.  Define the
     functions filter and map in Haskell in terms of list
@@ -1960,6 +2078,7 @@ Question:
 Overlapped: set(['map', 'functions', 'int', 'list', 'two', 'following', 'bool', 'fun']) 
 Overlap: 8 
 
+Test: cmps112-2011q2-final.tt
 Question:
 10. A static link is a pointer to the:
     (A) call instruction that activated the current function.
@@ -1972,6 +2091,7 @@ Question:
 Overlapped: set(['function', 'variables', 'nested', 'current', 'static', 'calling', 'pointer', 'stack']) 
 Overlap: 8 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  8. Ocaml:  Define a function unzip which takes a list of tuples and
     returns a tuple of lists, the first list containing the first item
@@ -1983,6 +2103,7 @@ Question:
 Overlapped: set(['function', 'val', 'int', 'list', 'returns', 'second', 'let', 'first']) 
 Overlap: 8 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  5. A function which accepts a unit value, a function, and a list, and
     which produces a single value in an eager language using $ O ( 1 )
@@ -1995,6 +2116,7 @@ Question:
 Overlapped: set(['function', 'map', 'language', 'space', 'list', 'value', 'using', 'stack']) 
 Overlap: 8 
 
+Test: cmps112-2012q1-final.tt
 Question:
 10. Java:  Finish the following program by specifying the class >V=
     say .  When started from the main function, it prints the message
@@ -2011,6 +2133,7 @@ Question:
 Overlapped: set(['function', 'void', 'static', 'following', 'new', 'message', 'main', 'class']) 
 Overlap: 8 
 
+Test: cmps112-2012q1-final.tt
 Question:
  4. In an object-oriented language like C++, a virtual function
     (instance method) is called based on a:
@@ -2022,6 +2145,7 @@ Question:
 Overlapped: set(['function', 'closure', 'like', 'language', 'virtual', 'declaration', 'table', 'called']) 
 Overlap: 8 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  2. Define a function positives which uses grep (above) to accept a
     list of numbers and return only the positive ones.  Use a lambda
@@ -2030,6 +2154,7 @@ Question:
 Overlapped: set(['function', 'return', 'name', 'list', 'one', 'ones', 'arguments', 'lambda']) 
 Overlap: 8 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  3. What is the running time of the following function?
        (define (f n)
@@ -2043,6 +2168,7 @@ Question:
 Overlapped: set(['function', 'sub', 'f', 'n', 'log', 'sup', 'following', 'define']) 
 Overlap: 8 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  4. What amount of stack space is taken up by evaluating that same
     function?
@@ -2054,6 +2180,7 @@ Question:
 Overlapped: set(['function', 'log', 'space', 'n', 'sup', 'taken', 'stack', 'sub']) 
 Overlap: 8 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  1. Haskell:  Define the function map whose first argument is a unary
     function, and second argument list.  The result is a list of the
@@ -2067,6 +2194,7 @@ Question:
 Overlapped: set(['function', 'map', 'list', 'argument', 'element', 'second', 'using', 'first']) 
 Overlap: 8 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  5. Perl:  Write a program in Perl which reads words and keeps track
     of their lengths.  At end of file, print out a table of two
@@ -2087,6 +2215,7 @@ Question:
 Overlapped: set(['regex', 'bar', 'number', 'two', 'length', 'x', 'table', 'line']) 
 Overlap: 8 
 
+Test: cmps112-2014q4-final.tt
 Question:
  4. What is the required amount of stack space for fold left and fold
     right on a list of length $n$?
@@ -2098,6 +2227,7 @@ Question:
 Overlapped: set(['right', 'space', 'list', 'n', 'fold', 'length', 'stack', 'left']) 
 Overlap: 8 
 
+Test: cmps112-2014q4-final.tt
 Question:
  5. If guess is a predicate that searches a database to return one of
     its elements, and verify checks to see if the thing found is good,
@@ -2112,6 +2242,7 @@ Question:
 Overlapped: set(['predicate', 'good', 'return', 'returns', 'one', 'see', 'elements', 'define']) 
 Overlap: 8 
 
+Test: cmps112-2015q4-final.tt
 Question:
 5. Smalltalk.  Extend class Array with an instance method find:  whose
    argument is a value which is searched for in the array.  If the
@@ -2127,6 +2258,7 @@ Question:
 Overlapped: set(['return', 'nil', 'argument', 'value', 'st', 'array', 'class', 'first']) 
 Overlap: 8 
 
+Test: cmps112-2015q4-final.tt
 Question:
 6. Perl.  Write a program which prints out the file size, modification
    time, and filename for each file mentioned in @ARGV.  Hints:  The
@@ -2144,6 +2276,7 @@ Question:
 Overlapped: set(['function', 'b', 'e', 'format', 'length', 'array', 'message', 'size']) 
 Overlap: 8 
 
+Test: cmps112-2015q4-test1.tt
 Question:
 4. Code sub' according to the specifications of the project.  Assume
    that the number of larger magnitude is the first argument, and the
@@ -2154,6 +2287,7 @@ Question:
 Overlapped: set(['sub', 'val', 'int', 'list', 'argument', 'number', 'taken', 'first']) 
 Overlap: 8 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 6. Ocaml.  Define the function zip which takes two lists as arguments
    and returns a single list of pairwise tuples with the same data.
@@ -2167,6 +2301,7 @@ Question:
 Overlapped: set(['function', 'int', 'list', 'two', 'returns', 'arguments', 'fun', 'data']) 
 Overlap: 8 
 
+Test: cmps112-2015q4-test2.tt
 Question:
  5. What is the running time of let rec f n = if n <= 1 then n else f
     (n - 1) + f (n - 2)?
@@ -2178,6 +2313,7 @@ Question:
 Overlapped: set(['sub', 'f', 'else', 'let', 'sup', 'rec', 'n', 'log']) 
 Overlap: 8 
 
+Test: cmps112-2016q4-final.tt
 Question:
 4. Prolog.  Write a relation findpath(X,Y,P) so that if there is a
    path from X to Y in the previous question, it returns the path.
@@ -2187,6 +2323,7 @@ Question:
 Overlapped: set(['c', 'b', 'return', 'graph', 'question', 'returns', 'e', 'first']) 
 Overlap: 8 
 
+Test: cmps112-2016q4-final.tt
 Question:
 7. Ocaml:  Define a function unzip which takes a list of tuples and
    returns a tuple of lists, the first list containing the first item
@@ -2198,6 +2335,7 @@ Question:
 Overlapped: set(['function', 'val', 'int', 'list', 'returns', 'second', 'let', 'first']) 
 Overlap: 8 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 2. Ocaml.  Fill in the blanks:  [2pt]
    # List.fold_left;;
@@ -2214,6 +2352,7 @@ Question:
 Overlapped: set(['blanks', 'val', 'int', 'sum', 'list', 'length', 'let', 'fun']) 
 Overlap: 8 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
  4. What kind of polymorphism is vector<string> an example of?
     (A) conversion
@@ -2224,6 +2363,7 @@ Question:
 Overlapped: set(['polymorphism', 'conversion', 'string', 'inclusion', 'kind', 'overloading', 'vector', 'parametric']) 
 Overlap: 8 
 
+Test: cmps112-2009q1-final.tt
 Question:
  2. C++:  Write code to print out the elements of a vector, one item per
     line.  Assume that operator<< is defined on type foo.  Use a const_
@@ -2233,6 +2373,7 @@ Question:
 Overlapped: set(['elements', 'defined', 'one', 'vector', 'line', 'foo', 'type']) 
 Overlap: 7 
 
+Test: cmps112-2009q1-final.tt
 Question:
  5. Prolog:  Write drop/3 such that it returns all elements of the
     second argument, starting with the one that matches the first
@@ -2248,6 +2389,7 @@ Question:
 Overlapped: set(['elements', 'returns', 'argument', 'second', 'one', 'match', 'first']) 
 Overlap: 7 
 
+Test: cmps112-2009q1-final.tt
 Question:
  6. Ocaml:  Define the function merge which takes a predicate as an
     argument and a pair of sorted lists.  The result is a single list in
@@ -2260,6 +2402,7 @@ Question:
 Overlapped: set(['function', 'predicate', 'int', 'list', 'argument', 'bool', 'order']) 
 Overlap: 7 
 
+Test: cmps112-2009q1-final.tt
 Question:
  9. Ocaml:  Define the function map, which a unary function to a list
     and returns the list of results.  Use recursion.  Do not use a
@@ -2272,6 +2415,7 @@ Question:
 Overlapped: set(['function', 'map', 'use', 'int', 'recursion', 'list', 'returns']) 
 Overlap: 7 
 
+Test: cmps112-2009q1-final.tt
 Question:
 10. Ocaml:  Write the function reverse which reverses list.  Do not use
     any higher-order functions.  Your function must be tail-recursive or
@@ -2284,6 +2428,7 @@ Question:
 Overlapped: set(['function', 'use', 'reverse', 'helper', 'int', 'list', 'functions']) 
 Overlap: 7 
 
+Test: cmps112-2009q1-final.tt
 Question:
 15. Scheme:  Write the function elim, which takes a symbol and a list
     and returns a list consisting of elements of the list starting with
@@ -2299,6 +2444,7 @@ Question:
 Overlapped: set(['function', 'elements', 'list', 'argument', 'one', 'returns', 'first']) 
 Overlap: 7 
 
+Test: cmps112-2009q1-final.tt
 Question:
  1. Haskell is a purely functional language which maintains state using
     a:
@@ -2310,6 +2456,7 @@ Question:
 Overlapped: set(['closure', 'language', 'monad', 'functional', 'thunk', 'state', 'using']) 
 Overlap: 7 
 
+Test: cmps112-2009q1-final.tt
 Question:
  4. An object-oriented language such as C++ does dynamic dispatching of
     method calls by means of a:
@@ -2321,6 +2468,7 @@ Question:
 Overlapped: set(['function', 'closure', 'language', 'dynamic', 'virtual', 'declaration', 'table']) 
 Overlap: 7 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  5. In perl, lexical scope is introduced by the my declaration, while
     dynamic scope is introduced via a local declaration.  Lacking a
@@ -2344,6 +2492,7 @@ Question:
 Overlapped: set(['right', 'sub', 'g', 'dynamic', 'perl', 'declaration', 'foo']) 
 Overlap: 7 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  6. In the following statement, continue goes to what part ?
           for (i = 0; i < n; ++i) {
@@ -2357,6 +2506,7 @@ Question:
 Overlapped: set(['g', 'f', 'h', 'n', 'continue', 'statement', 'following']) 
 Overlap: 7 
 
+Test: cmps112-2011q2-final.tt
 Question:
  4. Smalltalk:  Define a class List in which supports the class
     messages new and cons:with:;  and the instance messages car, cdr,
@@ -2377,6 +2527,7 @@ Question:
 Overlapped: set(['cons', 'nil', 'car', 'st', 'cdr', 'new', 'class']) 
 Overlap: 7 
 
+Test: cmps112-2011q2-final.tt
 Question:
 10. Smalltalk:  Write some smalltalk code to create a SortedCollection
     and store it in a variable called sc.  Then use cascaded (chained)
@@ -2387,6 +2538,7 @@ Question:
 Overlapped: set(['use', 'called', 'one', 'variable', 'line', 'order', 'smalltalk']) 
 Overlap: 7 
 
+Test: cmps112-2011q2-final.tt
 Question:
  1. In Ocaml, what is the depth of recursive non-tail calls for the
     following functions, where $n$ is the length of the list argument?
@@ -2398,6 +2550,7 @@ Question:
 Overlapped: set(['functions', 'argument', 'list', 'length', 'n', 'depth', 'following']) 
 Overlap: 7 
 
+Test: cmps112-2011q2-final.tt
 Question:
  2. If a balanced binary search treeis implemented in a purely
     functional language, the insertion of one new node will take how
@@ -2410,6 +2563,7 @@ Question:
 Overlapped: set(['log', 'language', 'functional', 'one', 'new', 'n', 'sub']) 
 Overlap: 7 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  9. Define a function ip which computes the inner product of two lists
     by using map2 and foldl.  Elements of the two lists are pair-wise
@@ -2421,6 +2575,7 @@ Question:
 Overlapped: set(['function', 'product', 'sum', 'two', 'inner', 'taken', 'using']) 
 Overlap: 7 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  3. Which of the following is a higher-order function whose arguments
     are a function and a list, and whose result is a list containing
@@ -2434,6 +2589,7 @@ Question:
 Overlapped: set(['function', 'map', 'list', 'element', 'arguments', 'following', 'lambda']) 
 Overlap: 7 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  5. When is a static variable in C bound to a specific virtual
     address?
@@ -2445,6 +2601,7 @@ Question:
 Overlapped: set(['function', 'object', 'virtual', 'static', 'variable', 'main', 'called']) 
 Overlap: 7 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  7. Ocaml:  Define a function zip which takes two lists and returns a
     list of tuples, pairing each corresponding element.  If the lists
@@ -2456,6 +2613,7 @@ Question:
 Overlapped: set(['function', 'elements', 'int', 'list', 'two', 'element', 'returns']) 
 Overlap: 7 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  9. The Ocaml function List.tl functions like cdr in Scheme.  Its type
     is:
@@ -2467,6 +2625,7 @@ Question:
 Overlapped: set(['function', 'functions', 'like', 'int', 'list', 'cdr', 'type']) 
 Overlap: 7 
 
+Test: cmps112-2012q1-final.tt
 Question:
  9. Smalltalk:  Define a class Find with a single class method key:
     array: which accepts a key and an array and returns the first
@@ -2480,6 +2639,7 @@ Question:
 Overlapped: set(['return', 'nil', 'st', 'returns', 'array', 'class', 'first']) 
 Overlap: 7 
 
+Test: cmps112-2012q1-final.tt
 Question:
  7. Which of the following functions is a higher-order function whose
     arguments are a function and a list, and whose result is a list
@@ -2493,6 +2653,7 @@ Question:
 Overlapped: set(['function', 'map', 'functions', 'elements', 'list', 'arguments', 'following']) 
 Overlap: 7 
 
+Test: cmps112-2012q1-final.tt
 Question:
 10. Which of the following programs will cause a dangling pointer?
     (A) int *f() {int i = 6; return &i; }
@@ -2503,6 +2664,7 @@ Question:
 Overlapped: set(['return', 'f', 'int', 'pointer', 'programs', 'following', 'cause']) 
 Overlap: 7 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  9. Define the same function in Perl.  It takes a reference to a
     function of two arguments, followed by references to two arrays
@@ -2515,6 +2677,7 @@ Question:
 Overlapped: set(['function', 'sub', 'two', 'length', 'arguments', 'applies', 'array']) 
 Overlap: 7 
 
+Test: cmps112-2014q4-final.tt
 Question:
 1. Ocaml.  Define the function reverse which reverses a list.  Use an
    inner function that is tail recursive.  Do not use a higher-order
@@ -2524,6 +2687,7 @@ Question:
 Overlapped: set(['function', 'use', 'reverse', 'val', 'list', 'tail', 'inner']) 
 Overlap: 7 
 
+Test: cmps112-2014q4-final.tt
 Question:
 4. Scheme.  Write a function take in Scheme which will make a copy of
    the first $n$ elements of a list.  If there are fewer than $n$
@@ -2535,6 +2699,7 @@ Question:
 Overlapped: set(['function', 'elements', 'list', 'n', 'returns', 'first', 'define']) 
 Overlap: 7 
 
+Test: cmps112-2014q4-final.tt
 Question:
 11. A C++ compiler does object-oriented dynamic dispatch via:
     (A) default memory allocator
@@ -2551,6 +2716,7 @@ Question:
 Overlapped: set(['function', 'closure', 'dynamic', 'virtual', 'dispatch', 'table', 'type']) 
 Overlap: 7 
 
+Test: cmps112-2014q4-test1.tt
 Question:
 3. Define a Smalltalk class Complex.  [4pt]
    (a) It has two instance fields real and imag.
@@ -2562,6 +2728,7 @@ Question:
 Overlapped: set(['c', 'b', 'methods', 'sum', 'two', 'returns', 'class']) 
 Overlap: 7 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 4. Scheme.  Define the function merge which takes two lists of numbers
    sorted in ascending order and returns a list of these numbers
@@ -2580,6 +2747,7 @@ Question:
 Overlapped: set(['function', 'list', 'two', 'returns', 'answer', 'order', 'define']) 
 Overlap: 7 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 9. Smalltalk.  Define a block called product so that when given a
    vector as its value: argument, it returns the product of the
@@ -2594,6 +2762,7 @@ Question:
 Overlapped: set(['product', 'given', 'value', 'argument', 'returns', 'vector', 'called']) 
 Overlap: 7 
 
+Test: cmps112-2015q4-final.tt
 Question:
 11. Ocaml.  Write a function eval which takes an expr as an argument
    and returns a float result.  An expr is either a Number or an Expr
@@ -2614,6 +2783,7 @@ Question:
 Overlapped: set(['function', 'argument', 'two', 'returns', 'let', 'fun', 'type']) 
 Overlap: 7 
 
+Test: cmps112-2015q4-final.tt
 Question:
  4. What is the Ocaml type signature for the definition:   let f x =
     x;;
@@ -2625,6 +2795,7 @@ Question:
 Overlapped: set(['val', 'f', 'int', 'let', 'fun', 'x', 'type']) 
 Overlap: 7 
 
+Test: cmps112-2015q4-test1.tt
 Question:
  1. What kind of polymorphism is exhibited by generic classes in Java
     and template classes in C++?
@@ -2636,6 +2807,7 @@ Question:
 Overlapped: set(['polymorphism', 'conversion', 'inheritance', 'kind', 'overloading', 'parametric', 'exhibited']) 
 Overlap: 7 
 
+Test: cmps112-2016q4-final.tt
 Question:
 6. Ocaml:  Define a function zip which takes two lists and returns a
    list of tuples, pairing each corresponding element.  If the lists
@@ -2647,6 +2819,7 @@ Question:
 Overlapped: set(['function', 'elements', 'int', 'list', 'two', 'element', 'returns']) 
 Overlap: 7 
 
+Test: cmps112-2016q4-final.tt
 Question:
 10. What is the type of
     let f x y z = x + y + z;;
@@ -2658,6 +2831,7 @@ Question:
 Overlapped: set(['val', 'f', 'int', 'let', 'x', 'z', 'type']) 
 Overlap: 7 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 11. Scheme.  Define the functions map and filter.  Do not use higher-
    order functions.
@@ -2673,6 +2847,7 @@ Question:
 Overlapped: set(['map', 'functions', 'b', 'use', 'n', 'order', 'lambda']) 
 Overlap: 7 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 13. Scheme.  Define the function map2 which takes three arguments:  a
    binary function and two lists.  It returns a list with the two
@@ -2686,6 +2861,7 @@ Question:
 Overlapped: set(['function', 'elements', 'list', 'two', 'returns', 'arguments', 'using']) 
 Overlap: 7 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
  8. Which was a language designed in the 1950s for use mainly in
     business data processing?
@@ -2697,6 +2873,7 @@ Question:
 Overlapped: set(['use', 'language', 'business', 'processing', '1957', 'designed', 'data']) 
 Overlap: 7 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 10. Java generics and C++ templates are an example of __ polymorphism.
     (A) conversion
@@ -2707,6 +2884,7 @@ Question:
 Overlapped: set(['templates', 'polymorphism', 'conversion', 'inclusion', 'overloading', 'generics', 'parametric']) 
 Overlap: 7 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  2. Write a Perl program which reads in a sequence of lines using <>.
     Each line consists of a key and a value separated by an equal (=)
@@ -2720,6 +2898,7 @@ Question:
 Overlapped: set(['use', 'value', 'order', 'using', 'message', 'line']) 
 Overlap: 6 
 
+Test: cmps112-2011q2-final.tt
 Question:
 11. Scheme:  Define the function iota, which returns a list of all
     integers from 1 to the argument given.  It returns an empty list
@@ -2737,6 +2916,7 @@ Question:
 Overlapped: set(['function', 'given', 'less', 'list', 'argument', 'returns']) 
 Overlap: 6 
 
+Test: cmps112-2011q2-final.tt
 Question:
  5. In Prolog, if guess is a function that searches a database to
     return one of its elements, and verify checks to see if the
@@ -2751,6 +2931,7 @@ Question:
 Overlapped: set(['function', 'elements', 'return', 'one', 'see', 'define']) 
 Overlap: 6 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  6. Write a program in Perl which reads either the standard input or
     all of the files whose names are given on the command line and
@@ -2769,6 +2950,7 @@ Question:
 Overlapped: set(['given', 'use', 'number', 'second', 'line', 'order']) 
 Overlap: 6 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  8. Define a function foldl which takes a function, a unit value, and
     a list, and returns a single value by applying the function
@@ -2783,6 +2965,7 @@ Question:
 Overlapped: set(['function', 'cons', 'list', 'tail', 'value', 'returns']) 
 Overlap: 6 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  3. Scheme:  Define a function to reverse a list.  Your solution must
     be tail-recursive.  Hint:  You will need an internal helper
@@ -2792,6 +2975,7 @@ Question:
 Overlapped: set(['function', 'reverse', 'helper', 'list', 'solution', 'define']) 
 Overlap: 6 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  6. Ocaml:  Define a function merge whose arguments are a binary
     predicate returning a relative ordering and two lists that are
@@ -2805,6 +2989,7 @@ Question:
 Overlapped: set(['function', 'predicate', 'int', 'list', 'two', 'arguments']) 
 Overlap: 6 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  4. In a language with garbage collection, where the function free is
     unavailable, which of the following is impossible?
@@ -2816,6 +3001,7 @@ Question:
 Overlapped: set(['function', 'language', 'following', 'impossible', 'null', 'pointer']) 
 Overlap: 6 
 
+Test: cmps112-2012q1-final.tt
 Question:
  3. Scheme:  Define a function maxzip which takes a predicate and two
     lists and zips the lists into a single list by taking the larger
@@ -2831,6 +3017,7 @@ Question:
 Overlapped: set(['function', 'predicate', 'elements', 'list', 'two', 'length']) 
 Overlap: 6 
 
+Test: cmps112-2012q1-final.tt
 Question:
  6. Scheme:  Define a function exclude which takes a count and a list
     and returns a list with the first count items removed.  A negative
@@ -2846,6 +3033,7 @@ Question:
 Overlapped: set(['function', 'return', 'list', 'negative', 'returns', 'first']) 
 Overlap: 6 
 
+Test: cmps112-2012q1-final.tt
 Question:
  8. Prolog:  Define A function exclude/3 with the same semantics.  The
     first two arguments are as before, and the third argument is the
@@ -2864,6 +3052,7 @@ Question:
 Overlapped: set(['function', 'list', 'argument', 'two', 'arguments', 'first']) 
 Overlap: 6 
 
+Test: cmps112-2012q1-final.tt
 Question:
  4. What kind of type equivalence is used to determine if two
     different typedefs in C declare the same type?
@@ -2875,6 +3064,7 @@ Question:
 Overlapped: set(['kind', 'used', 'name', 'two', 'value', 'type']) 
 Overlap: 6 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  4. Define the same function sum using the higher-order function
     foldleft, whose arguments are a unit value, a binary function, and
@@ -2883,6 +3073,7 @@ Question:
 Overlapped: set(['function', 'sum', 'list', 'value', 'arguments', 'using']) 
 Overlap: 6 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  8. A static link in a stack frame points at:
     (A) the address of the call instruction that activated this
@@ -2895,6 +3086,7 @@ Question:
 Overlapped: set(['function', 'calling', 'points', 'static', 'nested', 'stack']) 
 Overlap: 6 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  3. Ocaml:  Define the function mapr having exactly the functionality
     in the previous questions, except do not use any higher order
@@ -2903,6 +3095,7 @@ Question:
 Overlapped: set(['function', 'use', 'recursion', 'functions', 'order', 'higher']) 
 Overlap: 6 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  4. If you have a function not (bool->bool) and a function even
     (int->bool), which higher-order function would be useful in
@@ -2915,6 +3108,7 @@ Question:
 Overlapped: set(['even', 'map', 'function', 'bool', 'odd', 'called']) 
 Overlap: 6 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  9. Which of the following is not part of the local stack frame in
     ANSI C?
@@ -2926,6 +3120,7 @@ Question:
 Overlapped: set(['control', 'return', 'dynamic', 'static', 'following', 'stack']) 
 Overlap: 6 
 
+Test: cmps112-2014q4-final.tt
 Question:
  3. What is the expected running time of fold left and fold right on a
     list of length $n$?
@@ -2937,6 +3132,7 @@ Question:
 Overlapped: set(['right', 'list', 'n', 'fold', 'length', 'left']) 
 Overlap: 6 
 
+Test: cmps112-2014q4-test1.tt
 Question:
  7. In Perl, to apply a block to every element of an array, what
     function is used?
@@ -2948,6 +3144,7 @@ Question:
 Overlapped: set(['function', 'map', 'used', 'element', 'apply', 'array']) 
 Overlap: 6 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 11. Scheme.  Define the function reverse, which reverses a list.  Do
    not use any higher-order functions.  Do not use append.  [2pt]
@@ -2957,6 +3154,7 @@ Question:
 Overlapped: set(['function', 'use', 'reverse', 'list', 'functions', 'define']) 
 Overlap: 6 
 
+Test: cmps112-2014q4-test2.tt
 Question:
  6. Java supports:
     (A) single inheritance only.
@@ -2970,6 +3168,7 @@ Question:
 Overlapped: set(['functions', 'multiple', 'methods', 'inheritance', 'repeated', 'shared']) 
 Overlap: 6 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 11. In Smalltalk and Scheme, type checking is:
     (A) strong and dynamic.
@@ -2980,6 +3179,7 @@ Question:
 Overlapped: set(['checking', 'dynamic', 'weak', 'static', 'strong', 'type']) 
 Overlap: 6 
 
+Test: cmps112-2015q4-final.tt
 Question:
 11. What kind of function is
     let f x y z = x + y + z;;
@@ -2991,6 +3191,7 @@ Question:
 Overlapped: set(['function', 'kind', 'f', 'let', 'x', 'z']) 
 Overlap: 6 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 2. Name two kinds of ad hoc polymorphism, and give a brief example of
    each.  Do not use more than a few lines of code.  [2pt]
@@ -3002,6 +3203,7 @@ Question:
 Overlapped: set(['polymorphism', 'use', 'b', 'ad', 'two', 'hoc']) 
 Overlap: 6 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 11. The PL/1 language allows a non-local goto directly from a function
     to a label in a function deeper down in the function call stack,
@@ -3015,6 +3217,7 @@ Question:
 Overlapped: set(['function', 'language', 'throw', 'past', 'statement', 'stack']) 
 Overlap: 6 
 
+Test: cmps112-2016q4-final.tt
 Question:
  7. The PL/1 language allows a non-local goto directly from a function
     to a label in a function deeper down in the function call stack,
@@ -3028,6 +3231,7 @@ Question:
 Overlapped: set(['function', 'language', 'throw', 'past', 'statement', 'stack']) 
 Overlap: 6 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 3. Scheme.  Define the tail-recursive function foldl so that it may be
    used in the following example.  [2pt]
@@ -3038,6 +3242,7 @@ Question:
 Overlapped: set(['function', 'used', 'sum', 'list', 'following', 'define']) 
 Overlap: 6 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 8. Ocaml.  In a strongly typed language:
    (a) Every expression has exactly one type.
@@ -3055,6 +3260,7 @@ Question:
 Overlapped: set(['b', 'language', 'might', 'one', 'following', 'type']) 
 Overlap: 6 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  3. In smalltalk code is executed by:
     (A) calling functions which are static members of classes.
@@ -3065,6 +3271,7 @@ Question:
 Overlapped: set(['functions', 'use', 'calling', 'static', 'using', 'smalltalk']) 
 Overlap: 6 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 4. Define the function zipwith that takes a function and two lists and
    uses the function to join the lists.  If the lists are of different
@@ -3077,6 +3284,7 @@ Question:
 Overlapped: set(['function', 'elements', 'int', 'list', 'two', 'fun']) 
 Overlap: 6 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
  5. Two kinds of universal polymorphism are:
     (A) conversion & overloading
@@ -3087,6 +3295,7 @@ Question:
 Overlapped: set(['polymorphism', 'conversion', 'inclusion', 'universal', 'overloading', 'parametric']) 
 Overlap: 6 
 
+Test: cmps112-2009q1-final.tt
 Question:
  1. Give an example of how a function call in normal order might return
     a result, but the same function call in applicative order might
@@ -3095,6 +3304,7 @@ Question:
 Overlapped: set(['go', 'function', 'might', 'return', 'order']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-final.tt
 Question:
  7. Ocaml:  Define the function sum in terms of List.fold_left in a
     curried manner to sum a list of integers.  Do not write a recursive
@@ -3107,6 +3317,7 @@ Question:
 Overlapped: set(['int', 'write', 'sum', 'function', 'list']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-final.tt
 Question:
  2. Partial parameterization of a currried function keeps arguments in
     a:
@@ -3118,6 +3329,7 @@ Question:
 Overlapped: set(['monad', 'thunk', 'function', 'closure', 'arguments']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-final.tt
 Question:
  3. In C++, a static variable is bound to a virtual address:
     (A) at compile (CC) time.
@@ -3128,6 +3340,7 @@ Question:
 Overlapped: set(['variable', 'main', 'static', 'called', 'virtual']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-final.tt
 Question:
  4. In Java, a static variable is allocated:
     (A) at translation time.
@@ -3138,6 +3351,7 @@ Question:
 Overlapped: set(['variable', 'new', 'object', 'static', 'class']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-final.tt
 Question:
  6. What is the type of f?
     let f x y = x + y;;
@@ -3149,6 +3363,7 @@ Question:
 Overlapped: set(['int', 'let', 'type', 'x', 'f']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-final.tt
 Question:
  7. When arguments to functions are evaluated before the function is
     called, this is __ order.
@@ -3160,6 +3375,7 @@ Question:
 Overlapped: set(['function', 'functions', 'order', 'arguments', 'called']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-final.tt
 Question:
  1. What is the type of swap?
     let swap f x y = f y x;;
@@ -3171,6 +3387,7 @@ Question:
 Overlapped: set(['let', 'list', 'type', 'x', 'f']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-final.tt
 Question:
 10. Which of these is not part of the local stack frame in ANSI C?
     (A) access (static) link
@@ -3181,6 +3398,7 @@ Question:
 Overlapped: set(['control', 'static', 'dynamic', 'return', 'stack']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  2. C++ is primarily thought of as an example of what kind of language?
     (A) functional
@@ -3191,6 +3409,7 @@ Question:
 Overlapped: set(['oriented', 'kind', 'object', 'functional', 'language']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  6. The following two declarations are examples of:
     ostream &operator<< (ostream &,
@@ -3206,6 +3425,7 @@ Question:
 Overlapped: set(['following', 'overloading', 'vector', 'two', 'string']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-test1.tt
 Question:
 10. In C++, if we have a call of the form a.f(x,y), inside the function
     f, how is a field x in the object a referred to?
@@ -3217,6 +3437,7 @@ Question:
 Overlapped: set(['function', 'field', 'object', 'x', 'f']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  3. What might cause a dangling pointer in C++?
     (A) catch
@@ -3227,6 +3448,7 @@ Question:
 Overlapped: set(['new', 'cause', 'might', 'throw', 'pointer']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  7. What declares a variable m of type map whose keys are strings and
     whose values are ints?
@@ -3238,6 +3460,7 @@ Question:
 Overlapped: set(['int', 'map', 'type', 'string', 'variable']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  8. Both Perl and Scheme have type systems which are:
     (A) strong and dynamic.
@@ -3248,6 +3471,7 @@ Question:
 Overlapped: set(['static', 'strong', 'dynamic', 'weak', 'type']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  9. For which function will C++ say:  Warning:  Returning a reference to
     a local variable or temporary.
@@ -3259,6 +3483,7 @@ Question:
 Overlapped: set(['int', 'function', 'return', 'variable', 'f']) 
 Overlap: 5 
 
+Test: cmps112-2011q2-final.tt
 Question:
 12. Prolog:  Define after/3, which returns in its third argument all
     of the elements of the second argument that appear after the first
@@ -3277,6 +3502,7 @@ Question:
 Overlapped: set(['second', 'returns', 'argument', 'elements', 'first']) 
 Overlap: 5 
 
+Test: cmps112-2011q2-final.tt
 Question:
 13. Enter the names of these programming languages in the appropriate
     box:  C, C++, Haskell, Java, Ocaml, Perl, Prolog, Scheme.  [1pt]
@@ -3294,6 +3520,7 @@ Question:
 Overlapped: set(['languages', 'programming', 'strong', 'weak', 'types']) 
 Overlap: 5 
 
+Test: cmps112-2011q2-final.tt
 Question:
  4. Which expression will cause Scheme to print:
        (3)
@@ -3305,6 +3532,7 @@ Question:
 Overlapped: set(['cdar', 'cadr', 'cause', 'caar', 'cddr']) 
 Overlap: 5 
 
+Test: cmps112-2011q2-final.tt
 Question:
  6. Ocaml does *not* have:
     (A) applicative order evaluation
@@ -3315,6 +3543,7 @@ Question:
 Overlapped: set(['overloading', 'order', 'type', 'parametric', 'polymorphism']) 
 Overlap: 5 
 
+Test: cmps112-2011q2-final.tt
 Question:
  8. What kind of function is
        let f x y = x + y
@@ -3326,6 +3555,7 @@ Question:
 Overlapped: set(['function', 'x', 'kind', 'let', 'f']) 
 Overlap: 5 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  1. Fill in the blank with a lambda expression so that mul behaves as
     shown here.  [1pt]
@@ -3340,6 +3570,7 @@ Question:
 Overlapped: set(['answer', 'x', 'lambda', 'sub', 'define']) 
 Overlap: 5 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  8. Perl and Scheme are languages whose type checking is:
     (A) Strong and dynamic.
@@ -3350,6 +3581,7 @@ Question:
 Overlapped: set(['languages', 'static', 'checking', 'dynamic', 'type']) 
 Overlap: 5 
 
+Test: cmps112-2012q1-final.tt
 Question:
  9. How might one declare an array variable in Perl with lexical
     scope?
@@ -3361,6 +3593,7 @@ Question:
 Overlapped: set(['variable', 'array', 'might', 'use', 'one']) 
 Overlap: 5 
 
+Test: cmps112-2012q1-final.tt
 Question:
  3. Allowing partial parameterization of a function in a functional
     language such as Ocaml is called:
@@ -3372,6 +3605,7 @@ Question:
 Overlapped: set(['function', 'lambda', 'functional', 'language', 'called']) 
 Overlap: 5 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  7. Write a complete program in Perl that reads in words from all of
     the filenames specified in @ARGV, and after end of file of the
@@ -3392,6 +3626,7 @@ Question:
 Overlapped: set(['use', 'line', 'number', 'match', 'one']) 
 Overlap: 5 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  8. Define the function zip in Scheme.  It takes a function and a pair
     of lists and returns a list having pairwise applied the function
@@ -3404,6 +3639,7 @@ Question:
 Overlapped: set(['function', 'returns', 'elements', 'list', 'length']) 
 Overlap: 5 
 
+Test: cmps112-2012q1-test1.tt
 Question:
 10. Write a program in Perl which prints out all of the command line
     arguments (but not the program name) on one line, each separated
@@ -3416,6 +3652,7 @@ Question:
 Overlapped: set(['line', 'one', 'arguments', 'name', 'space']) 
 Overlap: 5 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  6. In C, when is a static local variable bound to a particular
     virtual address?
@@ -3428,6 +3665,7 @@ Question:
 Overlapped: set(['function', 'variable', 'static', 'called', 'virtual']) 
 Overlap: 5 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  7. Data types in Perl and Scheme are:
     (A) strong and dynamic.
@@ -3438,6 +3676,7 @@ Question:
 Overlapped: set(['static', 'strong', 'dynamic', 'types', 'weak']) 
 Overlap: 5 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  6. After the following open statement, what can be used to read one
     line from the file?
@@ -3450,6 +3689,7 @@ Question:
 Overlapped: set(['following', 'line', 'used', 'statement', 'one']) 
 Overlap: 5 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  7. In a lazy language, unevaluated arguments are passed into
     functions by means of a:
@@ -3461,6 +3701,7 @@ Question:
 Overlapped: set(['closure', 'thunk', 'functions', 'arguments', 'language']) 
 Overlap: 5 
 
+Test: cmps112-2014q4-final.tt
 Question:
  1. What is not to be avoided in a pure functional language?
     (A) goto
@@ -3471,6 +3712,7 @@ Question:
 Overlapped: set(['language', 'variables', 'functional', 'pure', 'lambda']) 
 Overlap: 5 
 
+Test: cmps112-2014q4-final.tt
 Question:
  8. What is the type of the Ocaml function
     let g () = 3;;
@@ -3482,6 +3724,7 @@ Question:
 Overlapped: set(['int', 'function', 'let', 'type', 'g']) 
 Overlap: 5 
 
+Test: cmps112-2014q4-test1.tt
 Question:
 7. Using Perl, write a program that reads lines from files using <>,
    and splits each line into words.  A word is any sequence of
@@ -3494,6 +3737,7 @@ Question:
 Overlapped: set(['write', 'using', 'line', 'number', 'order']) 
 Overlap: 5 
 
+Test: cmps112-2014q4-test1.tt
 Question:
  9. If we define the block sum := [:i :j| i + j] in Smalltalk, how
     might we obtain the number 7?
@@ -3505,6 +3749,7 @@ Question:
 Overlapped: set(['sum', 'might', 'number', 'value', 'define']) 
 Overlap: 5 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 5. Scheme.  Write the function product in tail recursive accumulator
    style so that it computes the product of a list of numbers.  [1pt]
@@ -3512,6 +3757,7 @@ Question:
 Overlapped: set(['function', 'style', 'product', 'list', 'tail']) 
 Overlap: 5 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 8. Scheme.  Using foldl, define the function length, which returns the
    length of a list.  [1pt]
@@ -3519,6 +3765,7 @@ Question:
 Overlapped: set(['function', 'returns', 'list', 'length', 'define']) 
 Overlap: 5 
 
+Test: cmps112-2015q4-final.tt
 Question:
  2. If guess finds something in a sequence of facts, and verify checks
     to see if it is a good one, then find can be defined in Prolog as:
@@ -3531,6 +3778,7 @@ Question:
 Overlapped: set(['defined', 'facts', 'see', 'good', 'one']) 
 Overlap: 5 
 
+Test: cmps112-2015q4-test1.tt
 Question:
 1. What are the very general possibilities that a function might
    exhibit when called?  [2pt]
@@ -3546,6 +3794,7 @@ Question:
 Overlapped: set(['function', 'c', 'b', 'might', 'called']) 
 Overlap: 5 
 
+Test: cmps112-2015q4-test1.tt
 Question:
  6. The type system in Scheme are:
     (A) strong and dynamic
@@ -3556,6 +3805,7 @@ Question:
 Overlapped: set(['static', 'strong', 'dynamic', 'weak', 'type']) 
 Overlap: 5 
 
+Test: cmps112-2015q4-test1.tt
 Question:
  7. The type system in Ocaml are:
     (A) strong and dynamic
@@ -3566,6 +3816,7 @@ Question:
 Overlapped: set(['static', 'strong', 'dynamic', 'weak', 'type']) 
 Overlap: 5 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 1. Name two kinds of universal polymorphism, and give a brief example
    of each.  Do not use more than a few lines of code.  [2pt]
@@ -3577,6 +3828,7 @@ Question:
 Overlapped: set(['polymorphism', 'universal', 'b', 'use', 'two']) 
 Overlap: 5 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 10. Which function can be implemented using a constant amount of stack
     space?
@@ -3588,6 +3840,7 @@ Question:
 Overlapped: set(['function', 'map', 'stack', 'using', 'space']) 
 Overlap: 5 
 
+Test: cmps112-2016q4-final.tt
 Question:
  7. In a ``lazy'' language, unevaluated arguments are passed into
     functions by means of a:
@@ -3599,6 +3852,7 @@ Question:
 Overlapped: set(['closure', 'thunk', 'functions', 'arguments', 'language']) 
 Overlap: 5 
 
+Test: cmps112-2016q4-final.tt
 Question:
  9. Unification is part of the static type checking algorithm used by
     what language?
@@ -3610,6 +3864,7 @@ Question:
 Overlapped: set(['checking', 'type', 'used', 'static', 'language']) 
 Overlap: 5 
 
+Test: cmps112-2016q4-final.tt
 Question:
 11. Smalltalk determines if an object can respond to a message by the
     method of:
@@ -3621,6 +3876,7 @@ Question:
 Overlapped: set(['respond', 'message', 'object', 'multiple', 'inheritance']) 
 Overlap: 5 
 
+Test: cmps112-2016q4-final.tt
 Question:
 11. Which expression causes a list of length zero to be passed into
     the function f?
@@ -3632,6 +3888,7 @@ Question:
 Overlapped: set(['function', 'length', 'null', 'list', 'f']) 
 Overlap: 5 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  7. What feature of imperative languages is typically missing from
     functional languages?
@@ -3643,6 +3900,7 @@ Question:
 Overlapped: set(['languages', 'recursion', 'functions', 'functional', 'missing']) 
 Overlap: 5 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 6. Ocaml.  Rewrite the second filter statement above using a fun (i.
    e., lambda) expression instead of ((>)0).  [1pt]
@@ -3650,6 +3908,7 @@ Question:
 Overlapped: set(['fun', 'using', 'second', 'statement', 'lambda']) 
 Overlap: 5 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 12. Scheme.  Write a tail-recursive function called reverse that re-
    verses a list.  Do not use a higher-order function.  [2pt]
@@ -3659,6 +3918,7 @@ Question:
 Overlapped: set(['function', 'use', 'list', 'reverse', 'called']) 
 Overlap: 5 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
  6. Which of the following functions can be written tail-recursively
     without the need for reversing the list?
@@ -3670,6 +3930,7 @@ Question:
 Overlapped: set(['following', 'map', 'functions', 'without', 'list']) 
 Overlap: 5 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
  7. Edsger Dijkstra published a paper entitled ``__ statement
     considered harmful''.
@@ -3681,6 +3942,7 @@ Question:
 Overlapped: set(['harmful', 'considered', 'continue', 'throw', 'statement']) 
 Overlap: 5 
 
+Test: cmps112-2009q1-final.tt
 Question:
  5. From what segment does a call to new in C++ allocate memory?
     (A) data
@@ -3691,6 +3953,7 @@ Question:
 Overlapped: set(['new', 'data', 'stack', 'heap']) 
 Overlap: 4 
 
+Test: cmps112-2009q1-final.tt
 Question:
 10. If a is a list, which expression produces the same list?
     (A) (car (cdr (cons a))
@@ -3701,6 +3964,7 @@ Question:
 Overlapped: set(['car', 'cons', 'list', 'cdr']) 
 Overlap: 4 
 
+Test: cmps112-2009q1-final.tt
 Question:
  2. What is 6?
     (A) ((lambda (x)(+ x 3 ))3)
@@ -3711,6 +3975,7 @@ Question:
 Overlapped: set(['map', 'lambda', 'cdar', 'x']) 
 Overlap: 4 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  1. Which expression is not valid, given the following two declarations?
        int *p; int i;
@@ -3722,6 +3987,7 @@ Question:
 Overlapped: set(['int', 'following', 'given', 'two']) 
 Overlap: 4 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  7. In C++, a protected field of a class foo is visible only to
     functions which are members:
@@ -3735,6 +4001,7 @@ Question:
 Overlapped: set(['field', 'functions', 'foo', 'class']) 
 Overlap: 4 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  9. Which of these is a C++ keyword that might cause a pointer to become
     dangling?
@@ -3746,6 +4013,7 @@ Question:
 Overlapped: set(['might', 'cause', 'pointer', 'new']) 
 Overlap: 4 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  1. What expression will print (3)?
     (A) (caar '(1 2 3))
@@ -3756,6 +4024,7 @@ Question:
 Overlapped: set(['cadr', 'cdar', 'caar', 'cddr']) 
 Overlap: 4 
 
+Test: cmps112-2011q2-final.tt
 Question:
  2. In Ocaml, the expression 3+4 means:
     (A) The same as the expression (3)(+)(4).
@@ -3768,6 +4037,7 @@ Question:
 Overlapped: set(['function', 'sum', 'number', 'stack']) 
 Overlap: 4 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  2. Fill in the following table.  Answers (in alphabetical order) are:
     John Backus;  Grace Hopper et.al.;  John Kemeny & Thomas Kurtz;
@@ -3781,6 +4051,7 @@ Question:
 Overlapped: set(['following', 'table', '1957', 'order']) 
 Overlap: 4 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  2. Which Scheme expression will evaluate to the atom 2?
     (A) (caar '(1 2 3))
@@ -3791,6 +4062,7 @@ Question:
 Overlapped: set(['cadr', 'cdar', 'caar', 'cddr']) 
 Overlap: 4 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  6. A variable declared inside a C or Java function has:
     (A) Dynamic scope and dynamic lifetime.
@@ -3801,6 +4073,7 @@ Question:
 Overlapped: set(['function', 'static', 'dynamic', 'variable']) 
 Overlap: 4 
 
+Test: cmps112-2011q2-test1.tt
 Question:
 10. Which expression will cause the empty list to be passed into f?
     (A) (f '())
@@ -3811,6 +4084,7 @@ Question:
 Overlapped: set(['list', 'null', 'cause', 'f']) 
 Overlap: 4 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  6. What is the type of the Ocaml expression
        map ((+)3)
@@ -3822,6 +4096,7 @@ Question:
 Overlapped: set(['int', 'map', 'list', 'type']) 
 Overlap: 4 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  7. How would the first element (the element with the smallest
     subscript) of a Smalltalk array be set?
@@ -3833,6 +4108,7 @@ Question:
 Overlapped: set(['array', 'set', 'first', 'element']) 
 Overlap: 4 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  8. What is the value of
        (cdr (car (cons '(1 2 3) '(4 5 6))))
@@ -3844,6 +4120,7 @@ Question:
 Overlapped: set(['car', 'cons', 'value', 'cdr']) 
 Overlap: 4 
 
+Test: cmps112-2012q1-final.tt
 Question:
  3. In Ocaml, what is the type of List.tl?  (Hint:  like cdr in
     Scheme).
@@ -3855,6 +4132,7 @@ Question:
 Overlapped: set(['list', 'type', 'like', 'cdr']) 
 Overlap: 4 
 
+Test: cmps112-2012q1-final.tt
 Question:
  1. In Java, if two functions have the same name in the same class,
     but have different signatures, this is referred to as:
@@ -3863,6 +4141,7 @@ Question:
 Overlapped: set(['functions', 'two', 'name', 'class']) 
 Overlap: 4 
 
+Test: cmps112-2012q1-final.tt
 Question:
  9. From what memory segment does the malloc(3) function allocate
     memory?
@@ -3874,6 +4153,7 @@ Question:
 Overlapped: set(['function', 'data', 'stack', 'heap']) 
 Overlap: 4 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  6. Name the two kinds of ad hoc polymorphism and give an example of
     each.  [2pt]
@@ -3881,6 +4161,7 @@ Question:
 Overlapped: set(['ad', 'polymorphism', 'two', 'hoc']) 
 Overlap: 4 
 
+Test: cmps112-2014q4-final.tt
 Question:
 9. Scheme.  Define the functions map and filter.  [2pt]
    > (map (lambda (n) (+ 1 n)) '(3 4 5))
@@ -3891,6 +4172,7 @@ Question:
 Overlapped: set(['map', 'functions', 'lambda', 'n']) 
 Overlap: 4 
 
+Test: cmps112-2014q4-final.tt
 Question:
 10. Perl.  Write a script in Perl which will iterate over all of the
    input files given on the command line and print the contents of all
@@ -3903,6 +4185,7 @@ Question:
 Overlapped: set(['given', 'line', 'statement', 'one']) 
 Overlap: 4 
 
+Test: cmps112-2014q4-final.tt
 Question:
  9. Unification is a part of the static type checking algorithm used
     by compilers of?
@@ -3914,6 +4197,7 @@ Question:
 Overlapped: set(['checking', 'type', 'used', 'static']) 
 Overlap: 4 
 
+Test: cmps112-2014q4-final.tt
 Question:
  8. Given the Smalltalk statement a:=[:x|x+1].
     What expression would return the number 4?
@@ -3925,6 +4209,7 @@ Question:
 Overlapped: set(['value', 'return', 'number', 'statement']) 
 Overlap: 4 
 
+Test: cmps112-2014q4-test1.tt
 Question:
 6. Name two kinds if ad hoc polymorphism and give an extremely brief
    example of each in Java or C++.  [2pt]
@@ -3932,6 +4217,7 @@ Question:
 Overlapped: set(['polymorphism', 'ad', 'two', 'hoc']) 
 Overlap: 4 
 
+Test: cmps112-2014q4-test1.tt
 Question:
  6. In C and C++, when is an external variable bound to a particular
     address?
@@ -3943,6 +4229,7 @@ Question:
 Overlapped: set(['function', 'variable', 'main', 'called']) 
 Overlap: 4 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 7. Scheme.  Using foldl, define the function product, which computes
    the product of a list of numbers.  [1pt]
@@ -3950,6 +4237,7 @@ Question:
 Overlapped: set(['function', 'product', 'list', 'define']) 
 Overlap: 4 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 10. Perl.  Write a line of code that uses map to compute the product
    of an array.  [1pt]
@@ -3957,6 +4245,7 @@ Question:
 Overlapped: set(['map', 'product', 'line', 'array']) 
 Overlap: 4 
 
+Test: cmps112-2014q4-test2.tt
 Question:
  2. What is 2?
     (A) (caar '(1 2 3))
@@ -3967,6 +4256,7 @@ Question:
 Overlapped: set(['cadr', 'cdar', 'caar', 'cddr']) 
 Overlap: 4 
 
+Test: cmps112-2014q4-test2.tt
 Question:
  9. Which of these functions can be written in a tail-recursive style?
     (A) append
@@ -3977,6 +4267,7 @@ Question:
 Overlapped: set(['map', 'functions', 'style', 'reverse']) 
 Overlap: 4 
 
+Test: cmps112-2015q4-final.tt
 Question:
 10. Perl.  Write a program that reads files mentioned on the command
    line, and reads STDIN if none.  Do not open files -- use the <>
@@ -3999,6 +4290,7 @@ Question:
 Overlapped: set(['use', 'given', 'line', 'number']) 
 Overlap: 4 
 
+Test: cmps112-2015q4-final.tt
 Question:
  1. If a is a valid list, what is equal to a itself?
     (A) (car (cdr (cons a)))
@@ -4009,6 +4301,7 @@ Question:
 Overlapped: set(['car', 'cons', 'list', 'cdr']) 
 Overlap: 4 
 
+Test: cmps112-2015q4-final.tt
 Question:
  1. The basic algorithm used in type inference is:
     (A) code replication
@@ -4019,6 +4312,7 @@ Question:
 Overlapped: set(['overloading', 'used', 'type', 'basic']) 
 Overlap: 4 
 
+Test: cmps112-2015q4-final.tt
 Question:
  3. What is 6?
     (A) (apply + '(1 2 3))
@@ -4029,6 +4323,7 @@ Question:
 Overlapped: set(['map', 'cons', 'list', 'apply']) 
 Overlap: 4 
 
+Test: cmps112-2015q4-test1.tt
 Question:
  9. What is 2?
     (A) (caar '(1 2 3))
@@ -4039,6 +4334,7 @@ Question:
 Overlapped: set(['cadr', 'cdar', 'caar', 'cddr']) 
 Overlap: 4 
 
+Test: cmps112-2015q4-test2.tt
 Question:
  1. Backus-Naur Form, used to define syntax, was first used in the
     definition of:
@@ -4050,6 +4346,7 @@ Question:
 Overlapped: set(['first', 'define', 'used', 'syntax']) 
 Overlap: 4 
 
+Test: cmps112-2016q4-final.tt
 Question:
 9. Name the two general types of polymorphism, and for each of them,
    name the specific kinds that represents each of them.  [2pt]
@@ -4069,6 +4366,7 @@ Question:
 Overlapped: set(['polymorphism', 'two', 'types', 'name']) 
 Overlap: 4 
 
+Test: cmps112-2016q4-final.tt
 Question:
  5. What is 6?
     (A) (apply + '(1 2 3))
@@ -4079,6 +4377,7 @@ Question:
 Overlapped: set(['map', 'cons', 'list', 'apply']) 
 Overlap: 4 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  4. Which function can be written in a tail recursive purely
     functional manner?
@@ -4090,6 +4389,7 @@ Question:
 Overlapped: set(['function', 'map', 'tail', 'functional']) 
 Overlap: 4 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 11. Backus-Naur format describes what about a language?
     (A) environment
@@ -4100,6 +4400,7 @@ Question:
 Overlapped: set(['environment', 'syntax', 'language', 'format']) 
 Overlap: 4 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 9. Scheme.  Define the function sum.  You may use the function foldl
    or explicitly write a tail-recursive function.  [1pt]
@@ -4107,6 +4408,7 @@ Question:
 Overlapped: set(['function', 'write', 'use', 'sum']) 
 Overlap: 4 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
  9. The address of a static variable in C and C++ is determined when?
     (A) compile time
@@ -4117,6 +4419,7 @@ Question:
 Overlapped: set(['function', 'variable', 'static', 'called']) 
 Overlap: 4 
 
+Test: cmps112-2009q1-final.tt
 Question:
 14. Prolog:  Define the function product, which produces the product of
     all the numbers in a list.  [2pt]
@@ -4128,6 +4431,7 @@ Question:
 Overlapped: set(['function', 'product', 'list']) 
 Overlap: 3 
 
+Test: cmps112-2009q1-final.tt
 Question:
 11. The Java class that permits a process to have multiple things done
     concurrently is:
@@ -4139,6 +4443,7 @@ Question:
 Overlapped: set(['multiple', 'class', 'permits']) 
 Overlap: 3 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  3. The address of a static variable in C++ is determined at what time?
     (A) compile
@@ -4149,6 +4454,7 @@ Question:
 Overlapped: set(['function', 'variable', 'static']) 
 Overlap: 3 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  5. What is the name of the C++ variable used to print error messages?
     (A) STDERR
@@ -4159,6 +4465,7 @@ Question:
 Overlapped: set(['variable', 'used', 'name']) 
 Overlap: 3 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  4. In Ocaml, what is the type of the function (+)?
     (A) int * int * int
@@ -4169,6 +4476,7 @@ Question:
 Overlapped: set(['int', 'function', 'type']) 
 Overlap: 3 
 
+Test: cmps112-2011q2-final.tt
 Question:
  8. Perl:  Write a program in Perl that uses <> to read all of the
     input lines.  At end of the last file, it prints the number of
@@ -4184,6 +4492,7 @@ Question:
 Overlapped: set(['number', 'match', 'space']) 
 Overlap: 3 
 
+Test: cmps112-2011q2-final.tt
 Question:
  1. In Smalltalk, the expression 3+4 means:
     (A) The message + is sent to the number 3, the result of which is
@@ -4195,6 +4504,7 @@ Question:
 Overlapped: set(['function', 'message', 'number']) 
 Overlap: 3 
 
+Test: cmps112-2011q2-final.tt
 Question:
 10. In Ocaml, what is the type of List.map?
     (A) ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
@@ -4205,6 +4515,7 @@ Question:
 Overlapped: set(['type', 'list', 'bool']) 
 Overlap: 3 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  3. Write an expression in Java using the operator && which will
     return a result because && is a lazy operator, but which would
@@ -4213,6 +4524,7 @@ Question:
 Overlapped: set(['using', 'return', 'throw']) 
 Overlap: 3 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  4. Write a Perl program that will read STDIN and print the number of
     characters, words, and lines in the file.  A word is any sequence
@@ -4228,6 +4540,7 @@ Question:
 Overlapped: set(['second', 'line', 'number']) 
 Overlap: 3 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  3. In Smalltalk, an expression to which the value message may be sent
     in order to retrieve the value 9 is:
@@ -4239,6 +4552,7 @@ Question:
 Overlapped: set(['message', 'order', 'value']) 
 Overlap: 3 
 
+Test: cmps112-2011q2-test2.tt
 Question:
 10. The style of programming in Smalltalk is:
     (A) functional
@@ -4249,6 +4563,7 @@ Question:
 Overlapped: set(['style', 'programming', 'functional']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-final.tt
 Question:
  5. Name the two general kinds of polymorphism, and for each of them,
     name the two sub-kinds of polymporhism into which they may be
@@ -4257,6 +4572,7 @@ Question:
 Overlapped: set(['polymorphism', 'two', 'name']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-final.tt
 Question:
  7. Ocaml:  Define a function exclude which does the same.  [2pt]
     # exclude 2 [1;2;3;4;5];;
@@ -4269,6 +4585,7 @@ Question:
 Overlapped: set(['int', 'function', 'list']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-final.tt
 Question:
  5. A process that has exited, either by calling exit or from a
     signal, but has not yet been waited for by its parent process is
@@ -4281,6 +4598,7 @@ Question:
 Overlapped: set(['called', 'parent', 'calling']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-final.tt
 Question:
  6. In Perl, the default argument to a function requiring an argument,
     when none is given, is:
@@ -4292,6 +4610,7 @@ Question:
 Overlapped: set(['function', 'given', 'argument']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-final.tt
 Question:
  2. In Java, if two functions in different classes have the same
     signature, but one of the classes is a subclass of another, this
@@ -4301,6 +4620,7 @@ Question:
 Overlapped: set(['functions', 'two', 'one']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-final.tt
 Question:
  6. All imperative featurs of Haskell must be isolated from the rest
     of the program and contained in a:
@@ -4312,6 +4632,7 @@ Question:
 Overlapped: set(['monad', 'closure', 'thunk']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  5. Name the two kinds of universal polymorphism and give an example
     of each.  [2pt]
@@ -4319,6 +4640,7 @@ Question:
 Overlapped: set(['polymorphism', 'universal', 'two']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  9. Assuming only pure Java code with no sneaky tricks written in C,
     If M = memory leaks, D = dangling references, and U = unsafe type
@@ -4332,6 +4654,7 @@ Question:
 Overlapped: set(['following', 'type', 'pure']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  2. Assuming a competent implemention in Ocaml, which function takes
     up the most stack space?
@@ -4343,6 +4666,7 @@ Question:
 Overlapped: set(['function', 'stack', 'space']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  8. The type of [1; 2; 3; 4] is:
     (A) 'a list
@@ -4353,6 +4677,7 @@ Question:
 Overlapped: set(['int', 'list', 'type']) 
 Overlap: 3 
 
+Test: cmps112-2012q1-test2.tt
 Question:
 10. The following prints the number 6 in which language?
        stdout << 6 << Character nl.
@@ -4364,6 +4689,7 @@ Question:
 Overlapped: set(['following', 'number', 'language']) 
 Overlap: 3 
 
+Test: cmps112-2014q4-final.tt
 Question:
  2. Which languages do not have parametric polymorphism?
     (A) C++
@@ -4374,6 +4700,7 @@ Question:
 Overlapped: set(['languages', 'polymorphism', 'parametric']) 
 Overlap: 3 
 
+Test: cmps112-2014q4-final.tt
 Question:
  6. What is the type of List.map?
     (A) ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
@@ -4384,6 +4711,7 @@ Question:
 Overlapped: set(['bool', 'list', 'type']) 
 Overlap: 3 
 
+Test: cmps112-2014q4-final.tt
 Question:
  7. In Smalltalk, the expression 3+4 means:
     (A) The message +4 is sent to the object 3.
@@ -4395,6 +4723,7 @@ Question:
 Overlapped: set(['function', 'message', 'object']) 
 Overlap: 3 
 
+Test: cmps112-2014q4-final.tt
 Question:
 10. When a garbage collector forms the closure of the root set, it
     identifies all ___ objects on the heap.
@@ -4406,6 +4735,7 @@ Question:
 Overlapped: set(['closure', 'set', 'heap']) 
 Overlap: 3 
 
+Test: cmps112-2014q4-final.tt
 Question:
  3. What kind of garbage collection fails on cyclic data structures?
     (A) copying with semispaces
@@ -4416,6 +4746,7 @@ Question:
 Overlapped: set(['structures', 'kind', 'data']) 
 Overlap: 3 
 
+Test: cmps112-2014q4-final.tt
 Question:
  7. Which is a fully curried lazy functional language with
     overloading?
@@ -4427,6 +4758,7 @@ Question:
 Overlapped: set(['overloading', 'functional', 'language']) 
 Overlap: 3 
 
+Test: cmps112-2014q4-test1.tt
 Question:
 2. Write a program in perl which reads in lines using <>.  Each line
    consists of three numbers.  At end of file print out the totals of
@@ -4435,6 +4767,7 @@ Question:
 Overlapped: set(['using', 'line', 'perl']) 
 Overlap: 3 
 
+Test: cmps112-2014q4-test1.tt
 Question:
 5. Name two kinds if universal polymorphism and give an extremely
    brief example of each in Java or C++.  [2pt]
@@ -4442,6 +4775,7 @@ Question:
 Overlapped: set(['polymorphism', 'universal', 'two']) 
 Overlap: 3 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 2. Perl.  Write a program in Perl which will use <> to read in lines.
    At end of file, print the number of characters, words, and lines.
@@ -4451,6 +4785,7 @@ Question:
 Overlapped: set(['use', 'number', 'space']) 
 Overlap: 3 
 
+Test: cmps112-2015q4-test1.tt
 Question:
  2. What is ((lambda (f x) (f x)) + 3)?
     (A) '(+ 3)
@@ -4461,6 +4796,7 @@ Question:
 Overlapped: set(['x', 'lambda', 'f']) 
 Overlap: 3 
 
+Test: cmps112-2015q4-test1.tt
 Question:
  4. What is?
     (car (cdr (cons '(1 2 3) '(4 5 6))))
@@ -4472,6 +4808,7 @@ Question:
 Overlapped: set(['car', 'cons', 'cdr']) 
 Overlap: 3 
 
+Test: cmps112-2015q4-test1.tt
 Question:
  5. In Ocaml, what is the type of [1;2;3;4]?
     (A) (list int)
@@ -4482,6 +4819,7 @@ Question:
 Overlapped: set(['int', 'list', 'type']) 
 Overlap: 3 
 
+Test: cmps112-2015q4-test1.tt
 Question:
 11. Which feature of imperative languages* is missing from Scheme?
     (A) conditionals
@@ -4492,6 +4830,7 @@ Question:
 Overlapped: set(['functions', 'variables', 'missing']) 
 Overlap: 3 
 
+Test: cmps112-2015q4-test2.tt
 Question:
  4. In a garbage collected language like Java, with no free function
     or its equivalent, if M = memory leaks and D = dangling pointers
@@ -4504,6 +4843,7 @@ Question:
 Overlapped: set(['function', 'like', 'language']) 
 Overlap: 3 
 
+Test: cmps112-2015q4-test2.tt
 Question:
  8. In Smalltalk what is the meaning of:
     foo bar + foo set: 3 + 4 next
@@ -4515,6 +4855,7 @@ Question:
 Overlapped: set(['set', 'bar', 'foo']) 
 Overlap: 3 
 
+Test: cmps112-2016q4-final.tt
 Question:
  1. Language designed primarily to handle scalars, vectors, matrices,
     and higher order arrays.
@@ -4526,6 +4867,7 @@ Question:
 Overlapped: set(['order', 'designed', 'higher']) 
 Overlap: 3 
 
+Test: cmps112-2016q4-final.tt
 Question:
  8. What kind of memory management fails to handle a cyclic data
     structure?
@@ -4537,6 +4879,7 @@ Question:
 Overlapped: set(['kind', 'data', 'structure']) 
 Overlap: 3 
 
+Test: cmps112-2016q4-final.tt
 Question:
  9. If multiple threads sharing global variables are not synchronized
     by means of a critical section, what program problem will appear?
@@ -4548,6 +4891,7 @@ Question:
 Overlapped: set(['variables', 'multiple', 'problem']) 
 Overlap: 3 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  6. In Smalltalk, the expression 3+4.  means:
     (A) The message + is sent to the number 3, the result of which is
@@ -4559,6 +4903,7 @@ Question:
 Overlapped: set(['function', 'message', 'number']) 
 Overlap: 3 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  8. What is the signature of the Ocaml function List.hd (equivalent to
     car)?
@@ -4570,6 +4915,7 @@ Question:
 Overlapped: set(['function', 'car', 'list']) 
 Overlap: 3 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  9. Given:
     # List.map ((+)3) [1;2;3];;
@@ -4583,6 +4929,7 @@ Question:
 Overlapped: set(['int', 'list', 'type']) 
 Overlap: 3 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 10. In both Java and C++, what keyword is used to restrict access to a
     class itself but allow access to classes derived from it?
@@ -4594,6 +4941,7 @@ Question:
 Overlapped: set(['used', 'class', 'inheritance']) 
 Overlap: 3 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 1. What are the four very general things a function might do when
    called?  [2pt]
@@ -4609,6 +4957,7 @@ Question:
 Overlapped: set(['function', 'might', 'called']) 
 Overlap: 3 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 7. Smalltalk.  List the kinds of messages that can be sent to a
    Smalltalk object, and give an example of each.  [3pt]
@@ -4622,6 +4971,7 @@ Question:
 Overlapped: set(['c', 'object', 'b']) 
 Overlap: 3 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 8. Fill in the following table.  Some possible answers:  John Backus.
    Alonzo Church.  Grace Hopper.  John Kemeny & Thomas Kurtz.  John
@@ -4637,6 +4987,7 @@ Question:
 Overlapped: set(['following', 'table', 'answers']) 
 Overlap: 3 
 
+Test: cmps112-2009q1-final.tt
 Question:
  8. A garbage collector which is most friendly to the page tables by
     compacting heap objects into as few pages as possible:
@@ -4648,6 +4999,7 @@ Question:
 Overlapped: set(['page', 'heap']) 
 Overlap: 2 
 
+Test: cmps112-2009q1-final.tt
 Question:
  9. Passing a parameter by __ means that it is passed in unevaluated and
     then evaluated only if needed.
@@ -4659,6 +5011,7 @@ Question:
 Overlapped: set(['name', 'value']) 
 Overlap: 2 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  4. What time is the address returned by new determinaed?
     (A) compile
@@ -4669,6 +5022,7 @@ Question:
 Overlapped: set(['function', 'new']) 
 Overlap: 2 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  8. Of the following languages, which is oldest?
     (A) Algol 60
@@ -4679,6 +5033,7 @@ Question:
 Overlapped: set(['languages', 'following']) 
 Overlap: 2 
 
+Test: cmps112-2009q1-test2.tt
 Question:
  2. What variable in a command in a Makefile has as its value the target
     of the recipe?
@@ -4690,6 +5045,7 @@ Question:
 Overlapped: set(['variable', 'value']) 
 Overlap: 2 
 
+Test: cmps112-2011q2-final.tt
 Question:
  3. What are the four general things that a function may do when
     called?  [2pt]
@@ -4697,6 +5053,7 @@ Question:
 Overlapped: set(['function', 'called']) 
 Overlap: 2 
 
+Test: cmps112-2011q2-final.tt
 Question:
  8. A Perl pattern that matches one or more white space characters is:
     (A) \d+
@@ -4707,6 +5064,7 @@ Question:
 Overlapped: set(['space', 'one']) 
 Overlap: 2 
 
+Test: cmps112-2011q2-final.tt
 Question:
 11. The first computer bug was so named in 1947 at:
     (A) Carnegie-Mellon
@@ -4717,6 +5075,7 @@ Question:
 Overlapped: set(['computer', 'first']) 
 Overlap: 2 
 
+Test: cmps112-2011q2-final.tt
 Question:
  3. If %h is a hash in Perl, and $k is its key, the value is obtained
     by the expression:
@@ -4728,6 +5087,7 @@ Question:
 Overlapped: set(['h', 'value']) 
 Overlap: 2 
 
+Test: cmps112-2011q2-final.tt
 Question:
  9. In Ocaml, the type of (+) is:
     (A) int * int * int
@@ -4738,6 +5098,7 @@ Question:
 Overlapped: set(['int', 'type']) 
 Overlap: 2 
 
+Test: cmps112-2011q2-test1.tt
 Question:
 10. Explain the difference between static and dynamic scope, and give
     an example of each.  [2pt]
@@ -4745,6 +5106,7 @@ Question:
 Overlapped: set(['static', 'dynamic']) 
 Overlap: 2 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  1. Lazy evaluation of functions is the default in which language?
     (A) Fortran
@@ -4755,6 +5117,7 @@ Question:
 Overlapped: set(['functions', 'language']) 
 Overlap: 2 
 
+Test: cmps112-2012q1-final.tt
 Question:
  4. Perl:  Write a program which uses <> to read files and at end
     prints the number of characters, words, and lines in these files.
@@ -4765,6 +5128,7 @@ Question:
 Overlapped: set(['foo', 'number']) 
 Overlap: 2 
 
+Test: cmps112-2012q1-final.tt
 Question:
  7. Unification is an important algorithm in performing automatic type
     inference in which of these languages?
@@ -4776,6 +5140,7 @@ Question:
 Overlapped: set(['languages', 'type']) 
 Overlap: 2 
 
+Test: cmps112-2012q1-final.tt
 Question:
 10. A process that sleeps in the background and wakes up whenever a
     request is made on its port, then performs that service, and
@@ -4788,6 +5153,7 @@ Question:
 Overlapped: set(['returns', 'called']) 
 Overlap: 2 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  5. What is the value of:
        (cadr '((1 2 3) (4 5 6) (7 8 9)))
@@ -4799,6 +5165,7 @@ Question:
 Overlapped: set(['cadr', 'value']) 
 Overlap: 2 
 
+Test: cmps112-2014q4-test1.tt
 Question:
  5. Assuming pure Java code with no native methods written in C, if M
     = memory leaks and D = dangling references, then which are
@@ -4811,6 +5178,7 @@ Question:
 Overlapped: set(['methods', 'pure']) 
 Overlap: 2 
 
+Test: cmps112-2014q4-test2.tt
 Question:
  3. What is ((lambda (x) x) (+ 2 3))?
     (A) (+ 2 3)
@@ -4821,6 +5189,7 @@ Question:
 Overlapped: set(['x', 'lambda']) 
 Overlap: 2 
 
+Test: cmps112-2014q4-test2.tt
 Question:
  4. What is the parenthesized equivalent of the Smalltalk expression a
     b c: d?
@@ -4832,6 +5201,7 @@ Question:
 Overlapped: set(['c', 'b']) 
 Overlap: 2 
 
+Test: cmps112-2014q4-test2.tt
 Question:
  5. In the \lambda-calculus expression $ ( lambda x . ^ + ^ x ^ y ) $:
     (A) $x$ is bound and $y$ is bound.
@@ -4842,6 +5212,7 @@ Question:
 Overlapped: set(['x', 'lambda']) 
 Overlap: 2 
 
+Test: cmps112-2014q4-test2.tt
 Question:
  7. What is ((lambda (x) x) '(+ 2 3))?
     (A) (+ 2 3)
@@ -4852,6 +5223,7 @@ Question:
 Overlapped: set(['x', 'lambda']) 
 Overlap: 2 
 
+Test: cmps112-2014q4-test2.tt
 Question:
  8. Static type checking in C and C++ is done:
     (A) by the preprocessor
@@ -4862,6 +5234,7 @@ Question:
 Overlapped: set(['checking', 'type']) 
 Overlap: 2 
 
+Test: cmps112-2015q4-final.tt
 Question:
  5. Passing a parameter by ___ means that it is passed in unevaluated
     and then evaluated only if needed.
@@ -4873,6 +5246,7 @@ Question:
 Overlapped: set(['name', 'value']) 
 Overlap: 2 
 
+Test: cmps112-2015q4-final.tt
 Question:
 10. In Perl, what command will put the names of files in the current
     directory in the variable @files?
@@ -4884,6 +5258,7 @@ Question:
 Overlapped: set(['current', 'variable']) 
 Overlap: 2 
 
+Test: cmps112-2015q4-final.tt
 Question:
  4. Which will unexpectedly start a comment?
     (A) let f = (*);;
@@ -4894,6 +5269,7 @@ Question:
 Overlapped: set(['let', 'f']) 
 Overlap: 2 
 
+Test: cmps112-2015q4-final.tt
 Question:
  5. What Perl statement will open a pipe to a subprocess and allow
     writing to its standard input?
@@ -4905,6 +5281,7 @@ Question:
 Overlapped: set(['name', 'statement']) 
 Overlap: 2 
 
+Test: cmps112-2015q4-test1.tt
 Question:
  3. What is type of (+) in Ocaml?
     (A) int * int * int
@@ -4915,6 +5292,7 @@ Question:
 Overlapped: set(['int', 'type']) 
 Overlap: 2 
 
+Test: cmps112-2015q4-test2.tt
 Question:
  3. What is ((lambda (x) x) (+ 2 3))?
     (A) (+ 2 3)
@@ -4925,6 +5303,7 @@ Question:
 Overlapped: set(['x', 'lambda']) 
 Overlap: 2 
 
+Test: cmps112-2015q4-test2.tt
 Question:
  6. The Java idea of an interface is implemented in Smalltalk as:
     (A) abstract classes
@@ -4935,6 +5314,7 @@ Question:
 Overlapped: set(['multiple', 'inheritance']) 
 Overlap: 2 
 
+Test: cmps112-2016q4-final.tt
 Question:
 3. Prolog.  Write a relation ispath(X,Y) if there is a path from X to
    Y in one or more steps.  It fails if X=Y.  Assume an acyclic graph.
@@ -4943,6 +5323,19 @@ Question:
 Overlapped: set(['graph', 'one']) 
 Overlap: 2 
 
+Test: cmps112-2016q4-final.tt
+Question:
+ 5. Besides C, the object-oriented language which is an ancestor of
+    C++.
+    (A) Algol 60
+    (B) Fortran IV
+    (C) Pascal
+    (D) Simula 67
+
+Overlapped: set(['language', '67']) 
+Overlap: 2 
+
+Test: cmps112-2016q4-midterm.tt
 Question:
  4. In the expression (lambda (x) (+ x y))
     (A) x is bound and y is bound.
@@ -4953,6 +5346,7 @@ Question:
 Overlapped: set(['x', 'lambda']) 
 Overlap: 2 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  5. The make language can be referred to as:
     (A) a functional language.
@@ -4963,6 +5357,7 @@ Question:
 Overlapped: set(['functional', 'language']) 
 Overlap: 2 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  3. What is the Ocaml type signature of:
     (/);;
@@ -4974,6 +5369,7 @@ Question:
 Overlapped: set(['int', 'type']) 
 Overlap: 2 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 3. Ocaml.  Define the function fold_left.
 
@@ -4984,6 +5380,7 @@ Question:
 Overlapped: set(['function', 'b']) 
 Overlap: 2 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 14. Ocaml.  Define mul' as per the project specifications.  [3pt]
    # add' [1;2;3] [4;5;6;7] 0;;
@@ -4996,12 +5393,14 @@ Question:
 Overlapped: set(['int', 'list']) 
 Overlap: 2 
 
+Test: cmps112-2009q1-final.tt
 Question:
 13. Give an example of how memory leak might occur in Java.  [2pt]
 
 Overlapped: set(['might']) 
 Overlap: 1 
 
+Test: cmps112-2009q1-test1.tt
 Question:
  4. Write the prototypes for the four default members of class box that
     are automatically added to a class if not explicitly overriden.
@@ -5012,6 +5411,7 @@ Question:
 Overlapped: set(['class']) 
 Overlap: 1 
 
+Test: cmps112-2011q2-final.tt
 Question:
  3. If M = memory leak, D = dangling references, and U = unsafe type
     conversions, which is possible in Java?
@@ -5023,6 +5423,7 @@ Question:
 Overlapped: set(['type']) 
 Overlap: 1 
 
+Test: cmps112-2011q2-final.tt
 Question:
  5. Unification is an important algorithm in determining the flow of
     control in:
@@ -5034,6 +5435,7 @@ Question:
 Overlapped: set(['control']) 
 Overlap: 1 
 
+Test: cmps112-2011q2-final.tt
 Question:
  7. In Perl, the name of the script being run is:
     (A) $!
@@ -5044,6 +5446,7 @@ Question:
 Overlapped: set(['name']) 
 Overlap: 1 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  1. Which of the following Java operators uses lazy evaluation?
     (A) &&
@@ -5054,6 +5457,7 @@ Question:
 Overlapped: set(['following']) 
 Overlap: 1 
 
+Test: cmps112-2011q2-test1.tt
 Question:
  9. After a Perl program has executed a subprocess, the completion
     status of that process is available in what variable?
@@ -5065,6 +5469,7 @@ Question:
 Overlapped: set(['variable']) 
 Overlap: 1 
 
+Test: cmps112-2011q2-test2.tt
 Question:
  2. In Smalltalk, $ sqrt 2 $ can be computed with the following
     expression:
@@ -5076,12 +5481,14 @@ Question:
 Overlapped: set(['following']) 
 Overlap: 1 
 
+Test: cmps112-2012q1-final.tt
 Question:
 11. Give an example of how memory leak might occur in Java.  [2pt]
 
 Overlapped: set(['might']) 
 Overlap: 1 
 
+Test: cmps112-2012q1-final.tt
 Question:
  1. What will make Smalltalk print 9?
     (A) (4 + 5) value.
@@ -5092,6 +5499,7 @@ Question:
 Overlapped: set(['value']) 
 Overlap: 1 
 
+Test: cmps112-2012q1-final.tt
 Question:
  8. Given the declarations int *p;  and int i;, which C expression is
     not valid?
@@ -5103,6 +5511,7 @@ Question:
 Overlapped: set(['int']) 
 Overlap: 1 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  1. Which of these languages evaluates expressions in a lazy manner by
     default?
@@ -5114,6 +5523,7 @@ Question:
 Overlapped: set(['languages']) 
 Overlap: 1 
 
+Test: cmps112-2012q1-test1.tt
 Question:
  2. Which of the following C operators is ``lazy''?
     (A) &&
@@ -5124,6 +5534,7 @@ Question:
 Overlapped: set(['following']) 
 Overlap: 1 
 
+Test: cmps112-2012q1-test1.tt
 Question:
 10. Given the C declaration char **p;, which expression is invalid?
     (A) &(&p)
@@ -5134,6 +5545,7 @@ Question:
 Overlapped: set(['declaration']) 
 Overlap: 1 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  1. The type signature of (/.)  is:
     (A) float * float * float
@@ -5144,6 +5556,7 @@ Question:
 Overlapped: set(['type']) 
 Overlap: 1 
 
+Test: cmps112-2014q4-final.tt
 Question:
  1. Which language is not completely strongly typed?
     (A) C++
@@ -5154,6 +5567,7 @@ Question:
 Overlapped: set(['language']) 
 Overlap: 1 
 
+Test: cmps112-2014q4-final.tt
 Question:
  4. In Ocaml, what is the type of (/.)?
     (A) float * float * float
@@ -5164,6 +5578,7 @@ Question:
 Overlapped: set(['type']) 
 Overlap: 1 
 
+Test: cmps112-2014q4-final.tt
 Question:
  9. In Perl, what will print the current date and time?
     (A) print "date";
@@ -5174,6 +5589,7 @@ Question:
 Overlapped: set(['current']) 
 Overlap: 1 
 
+Test: cmps112-2014q4-final.tt
 Question:
 10. What is not false in Perl?
     (A) 0
@@ -5184,6 +5600,7 @@ Question:
 Overlapped: set(['false']) 
 Overlap: 1 
 
+Test: cmps112-2014q4-test1.tt
 Question:
  1. Which of the following C operators uses lazy evaluation?
     (A) !=
@@ -5194,6 +5611,7 @@ Question:
 Overlapped: set(['following']) 
 Overlap: 1 
 
+Test: cmps112-2014q4-test1.tt
 Question:
  2. The Perl variable equivalent to strerror(errno) is:
     (A) $!
@@ -5204,6 +5622,7 @@ Question:
 Overlapped: set(['variable']) 
 Overlap: 1 
 
+Test: cmps112-2014q4-test1.tt
 Question:
  4. In Smalltalk, what produces 13?
     (A) '4+9' value
@@ -5214,6 +5633,7 @@ Question:
 Overlapped: set(['value']) 
 Overlap: 1 
 
+Test: cmps112-2014q4-test1.tt
 Question:
  8. If $p is a reference to a Perl hash and $k is a key whose
     corresponding value is a scalar, how is the value extracted?
@@ -5225,6 +5645,7 @@ Question:
 Overlapped: set(['value']) 
 Overlap: 1 
 
+Test: cmps112-2014q4-test1.tt
 Question:
 10. What is not false in Perl?
     (A) 0
@@ -5235,6 +5656,7 @@ Question:
 Overlapped: set(['false']) 
 Overlap: 1 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 10. In Smalltalk, how does one compute $ sqrt 2 $?
     (A) 2 **: 0.5
@@ -5245,6 +5667,7 @@ Question:
 Overlapped: set(['one']) 
 Overlap: 1 
 
+Test: cmps112-2015q4-final.tt
 Question:
  3. In Perl, how can $p be made to be a reference to an array
     containing some integers?
@@ -5256,6 +5679,7 @@ Question:
 Overlapped: set(['array']) 
 Overlap: 1 
 
+Test: cmps112-2015q4-final.tt
 Question:
  6. Which language uses lazy evaluation by default?
     (A) Haskell
@@ -5266,6 +5690,7 @@ Question:
 Overlapped: set(['language']) 
 Overlap: 1 
 
+Test: cmps112-2015q4-final.tt
 Question:
 10. If $key is a key, what is the value associated with it in a hash?
     $hash{$key} %hash{$key} &hash{$key} @hash{$key}
@@ -5273,6 +5698,7 @@ Question:
 Overlapped: set(['value']) 
 Overlap: 1 
 
+Test: cmps112-2015q4-test1.tt
 Question:
 10. Lisp and Scheme, in general form, are based on a form of
     mathematics first formulated by Alonzo Church.
@@ -5284,6 +5710,7 @@ Question:
 Overlapped: set(['first']) 
 Overlap: 1 
 
+Test: cmps112-2015q4-test2.tt
 Question:
  9. What is 7 in Smalltalk?
     (A) (+) 3 4.
@@ -5294,6 +5721,7 @@ Question:
 Overlapped: set(['value']) 
 Overlap: 1 
 
+Test: cmps112-2016q4-final.tt
 Question:
  2. Scripting language covered during the last few lectures.
     (A) Bash
@@ -5304,6 +5732,7 @@ Question:
 Overlapped: set(['language']) 
 Overlap: 1 
 
+Test: cmps112-2016q4-final.tt
 Question:
  3. First two characters of a script source file.
     (A) #!
@@ -5314,6 +5743,7 @@ Question:
 Overlapped: set(['two']) 
 Overlap: 1 
 
+Test: cmps112-2016q4-final.tt
 Question:
  4. Earliest language which is an ancestor of Scheme.
     (A) BCPL
@@ -5324,17 +5754,7 @@ Question:
 Overlapped: set(['language']) 
 Overlap: 1 
 
-Question:
- 5. Besides C, the object-oriented language which is an ancestor of
-    C++.
-    (A) Algol 60
-    (B) Fortran IV
-    (C) Pascal
-    (D) Simula 67
-
-Overlapped: set(['language']) 
-Overlap: 1 
-
+Test: cmps112-2016q4-final.tt
 Question:
  8. Lisp was designed when, by whom, and where?
     (A) 1953, John Backus.
@@ -5345,6 +5765,7 @@ Question:
 Overlapped: set(['designed']) 
 Overlap: 1 
 
+Test: cmps112-2016q4-final.tt
 Question:
  3. What Perl regex matches a sequence of letters, digits, and
     underscores?
@@ -5356,6 +5777,7 @@ Question:
 Overlapped: set(['regex']) 
 Overlap: 1 
 
+Test: cmps112-2016q4-final.tt
 Question:
  4. Which of the following C++ operators is ``lazy''?
     (A) *=
@@ -5366,6 +5788,7 @@ Question:
 Overlapped: set(['following']) 
 Overlap: 1 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  2. Static type inference is a major feature of:
     (A) C
@@ -5376,6 +5799,7 @@ Question:
 Overlapped: set(['type']) 
 Overlap: 1 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  1. What is the Scheme value of:
     (caddr '(1 2 3 4 5))
@@ -5387,6 +5811,7 @@ Question:
 Overlapped: set(['value']) 
 Overlap: 1 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  5. Lisp (McCarthy) and Scheme (Steele and Sussman), in general form,
     are based on a form of mathematics first formulated by Alonzo
@@ -5399,6 +5824,7 @@ Question:
 Overlapped: set(['first']) 
 Overlap: 1 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
  6. Which line is a comment in Scheme?
     (A) (*...*)
@@ -5409,6 +5835,7 @@ Question:
 Overlapped: set(['line']) 
 Overlap: 1 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 10. Java.  Give an example of how memory leak might happen in Java.
    [2pt]
@@ -5416,6 +5843,7 @@ Question:
 Overlapped: set(['might']) 
 Overlap: 1 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
  1. Replacing $ (\lambdax~ . ~ + ~ x ~ 1) ~  2 $ by $ ( + ~ 2 ~ 1 ) $
     is an example of
@@ -5427,6 +5855,7 @@ Question:
 Overlapped: set(['x']) 
 Overlap: 1 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
  3. A garbage collector automatically recycles what kind of objects?
     (A) dead
@@ -5437,6 +5866,7 @@ Question:
 Overlapped: set(['kind']) 
 Overlap: 1 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 11. Which C operator uses normal order evaluation?
     (A) ++
@@ -5447,18 +5877,22 @@ Question:
 Overlapped: set(['order']) 
 Overlap: 1 
 
+Test: cmps112-2009q1-final.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2009q1-test1.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2009q1-test2.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2009q1-test2.tt
 Question:
 10. In C++, which of these operators is ``lazy''?
     (A) &&
@@ -5469,22 +5903,27 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2011q2-final.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2011q2-test1.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2011q2-test2.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2012q1-final.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2012q1-final.tt
 Question:
  2. In Smalltalk, what is 1.4142135623730951?
     (A) (sqrt 2)
@@ -5495,14 +5934,17 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2012q1-test1.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2012q1-test2.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2012q1-test2.tt
 Question:
  3. In Smalltalk, the expression 3-4/5-6 is equivalent to:
     (A) ((3-4)/5)-6
@@ -5513,10 +5955,12 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2014q4-final.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2014q4-final.tt
 Question:
  2. What is a comment in Ocaml?
     (A) (*...*)
@@ -5527,10 +5971,12 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2014q4-test1.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2014q4-test1.tt
 Question:
  3. In Smalltalk, a-b*c+d is equivalent to:
     (A) ((a-b)*c)+d
@@ -5541,14 +5987,17 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2014q4-test2.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2015q4-final.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2015q4-final.tt
 Question:
  2. What is the Perl equivalent to strerror(errno)?
     (A) "$!"
@@ -5559,6 +6008,7 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2015q4-final.tt
 Question:
  7. The Perl pattern equivalent to [a-zA-Z0-9_] is:
     (A) \d+
@@ -5569,6 +6019,7 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2015q4-final.tt
 Question:
  7. In Ocaml, what is 7?
     (A) (+) (3, 4);;
@@ -5579,10 +6030,12 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2015q4-test1.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2015q4-test1.tt
 Question:
  8. In C, C++, and Java, which operator is lazy?
     (A) ++
@@ -5593,10 +6046,12 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2015q4-test2.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2015q4-test2.tt
 Question:
  2. What is the Smalltalk expression for $ sqrt 2 $ ?
     (A) sqrt (2)
@@ -5607,10 +6062,12 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2016q4-final.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2016q4-final.tt
 Question:
  6. In Smalltalk:  $ sqrt 2.0 $
     (A) (sqrt 2.0)
@@ -5621,6 +6078,7 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2016q4-final.tt
 Question:
 10. Prolog:
     | ?- X is sin(pi).
@@ -5632,6 +6090,7 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2016q4-final.tt
 Question:
  2. The classic paper ``Go To Statement Considered Harmful'', CACM,
     1968, was written by:
@@ -5643,14 +6102,17 @@ Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2016q4-midterm.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
 Overlapped: set([]) 
 Overlap: 0 
 
+Test: cmps112-2017q2-midterm.tt
 Question:
  2. The \lambda-calculus was invented by:
     (A) Ada Lovelace
