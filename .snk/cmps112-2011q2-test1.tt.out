@@ -1,19 +1,4 @@
 Question:
- 7. Define a Scheme function map2 whose arguments are a binary
-    function and two lists.  It returns a list whose length is the
-    same as the shorter list consisting of elements by using the
-    function to combine corresponding elements of the list.  [3pt]
-
-    > (map2 * '(1 2 3) '(4 5 6))
-    (4 10 18)
-    > (map2 = '(1 2 3) '(1 4 3 8 9))
-    (#t #f #t)
-
-Overlapped: set(['function', '10', 'elements', 'length', 'using', '3', '18', 'f', 'list', 'two', '1', 'returns', '2', '5', 'arguments', '7', '6', '9', '8', '4']) 
-Overlap: 20 
-Accuracy: 0.253164556962 
-
-Question:
  5. Define a function in Scheme whose first argument is a predicate (a
     function of one argument which returns either #t or #f) and whose
     second argument is a list.  If the predicate returns #t for any
@@ -25,47 +10,37 @@ Question:
     > (contains (lambda (x) (> x 9)) '(1 2 3 4))
     #f
 
-Overlapped: set(['function', 'predicate', 'f', '3', 'contains', 'list', 'second', 'first', 'argument', '1', 'returns', '2', '5', '4', 'element', '9', 'x', 'one', 'lambda']) 
-Overlap: 19 
-Accuracy: 0.213483146067 
-
-Question:
- 8. Define a function foldl which takes a function, a unit value, and
-    a list, and returns a single value by applying the function
-    between each member of the list.  It must be tail recursive.
-    [2pt]
-
-    > (foldl + 0 '(4 10 18))
-    27
-    > (foldl cons '() '(1 2 3))
-    (((() . 1) . 2) . 3)
-
-Overlapped: set(['function', '10', '27', '18', 'list', '3', 'value', '1', '0', 'returns', 'cons', 'tail', '4', '8', '2']) 
+Overlapped: set(['one', 'function', 'predicate', 'f', 'contains', 'list', 'second', 'first', 'argument', 'define', 'returns', 'element', 'x', 'scheme', 'lambda']) 
 Overlap: 15 
-Accuracy: 0.214285714286 
+Accuracy: 0.172413793103 
 
 Question:
- 9. Define a function ip which computes the inner product of two lists
-    by using map2 and foldl.  Elements of the two lists are pair-wise
-    multiplied together, and the sum is taken.  [1pt]
+ 7. With respect to Java, the term ``overloading'' refers to:
+    (A) Automatic type conversion when the argument does not match the
+        declared type of the parameter.
+    (B) Generic classes with type parameterization.
+    (C) Multiple functions with the same name and different
+        signatures, defined in the same class.
+    (D) Multiple functions with the same name and signature, defined
+        in different classes.
 
-    > (ip '(1 2 3) '(4 5 6))
-    32
-
-Overlapped: set(['function', 'product', 'sum', 'two', '1', 'taken', '3', '2', '5', 'inner', '6', '9', 'using', '4']) 
-Overlap: 14 
-Accuracy: 0.318181818182 
+Overlapped: set(['conversion', 'b', 'java', 'name', 'defined', 'c', 'argument', 'overloading', 'multiple', 'type', 'class', 'match', 'functions']) 
+Overlap: 13 
+Accuracy: 0.25 
 
 Question:
-11. Draw a picture of the following Scheme expression.  For each cell,
-    draw a rectangular box with two fields in it, and draw a pointer
-    from inside the box to the thing being pointed at.  Atoms are
-    drawn outside of all of these boxes.  [2pt]
-    ((a b c) (d ((e)) f 6))
+ 2. Fill in the following table.  Answers (in alphabetical order) are:
+    John Backus;  Grace Hopper et.al.;  John Kemeny & Thomas Kurtz;
+    John McCarthy.  [1pt]
 
-Overlapped: set(['11', 'picture', 'draw', 'b', 'e', 'f', 'c', 'two', 'cell', '6', 'following', 'pointer']) 
+    +---------------+----------------+----------------+----------------+
+    |FORTRAN (1957) | LISP (1958)    | COBOL (1959)   | BASIC (1964)   |
+    |               |                |                |                |
+    +---------------+----------------+----------------+----------------+
+
+Overlapped: set(['lisp', 'hopper', 'answers', 'order', '1957', 'cobol', 'basic', 'following', 'table', 'backus', 'grace', 'fill']) 
 Overlap: 12 
-Accuracy: 0.255319148936 
+Accuracy: 0.09375 
 
 Question:
  4. For a list of length $n$, foldr, which does not use tail
@@ -75,24 +50,84 @@ Question:
     (C) $ O ( n ) $
     (D) $ O ( n log n ) $
 
-Overlapped: set(['use', 'log', 'space', 'recursion', 'list', 'length', 'n', '1', 'tail', 'much', '4', 'stack']) 
+Overlapped: set(['use', 'b', 'log', 'space', 'recursion', 'list', 'c', 'n', 'tail', 'much', 'length', 'stack']) 
 Overlap: 12 
-Accuracy: 0.203389830508 
+Accuracy: 0.235294117647 
 
 Question:
- 1. Fill in the blank with a lambda expression so that mul behaves as
-    shown here.  [1pt]
-    The answer, in Perl, would be:
-    my $mul = sub {my $x = $_[0]; sub {$x * $_[0]}};  print
-    $mul->(3)->(4), "\n";
+ 7. Define a Scheme function map2 whose arguments are a binary
+    function and two lists.  It returns a list whose length is the
+    same as the shorter list consisting of elements by using the
+    function to combine corresponding elements of the list.  [3pt]
 
-    > (define mul (______________________________))
-    > ((mul 3) 4)
-    12
+    > (map2 * '(1 2 3) '(4 5 6))
+    (4 10 18)
+    > (map2 = '(1 2 3) '(1 4 3 8 9))
+    (#t #f #t)
 
-Overlapped: set(['12', 'sub', '1', '0', '3', '4', 'answer', 'x', 'lambda', 'define']) 
-Overlap: 10 
-Accuracy: 0.123456790123 
+Overlapped: set(['function', 'elements', 'length', 'f', 'list', 'two', 'returns', 'arguments', 'using', 'scheme', 'define']) 
+Overlap: 11 
+Accuracy: 0.142857142857 
+
+Question:
+11. Draw a picture of the following Scheme expression.  For each cell,
+    draw a rectangular box with two fields in it, and draw a pointer
+    from inside the box to the thing being pointed at.  Atoms are
+    drawn outside of all of these boxes.  [2pt]
+    ((a b c) (d ((e)) f 6))
+
+Overlapped: set(['picture', 'draw', 'b', 'e', 'f', 'c', 'two', 'cell', 'following', 'scheme', 'pointer']) 
+Overlap: 11 
+Accuracy: 0.244444444444 
+
+Question:
+ 8. Perl and Scheme are languages whose type checking is:
+    (A) Strong and dynamic.
+    (B) Strong and static.
+    (C) Weak and dynamic.
+    (D) Weak and static.
+
+Overlapped: set(['c', 'strong', 'checking', 'weak', 'dynamic', 'perl', 'languages', 'b', 'static', 'scheme', 'type']) 
+Overlap: 11 
+Accuracy: 0.366666666667 
+
+Question:
+ 9. Define a function ip which computes the inner product of two lists
+    by using map2 and foldl.  Elements of the two lists are pair-wise
+    multiplied together, and the sum is taken.  [1pt]
+
+    > (ip '(1 2 3) '(4 5 6))
+    32
+
+Overlapped: set(['function', 'product', 'elements', 'sum', 'two', 'inner', 'taken', 'using', 'define']) 
+Overlap: 9 
+Accuracy: 0.209302325581 
+
+Question:
+ 3. Which of the following is a higher-order function whose arguments
+    are a function and a list, and whose result is a list containing
+    the results of having applied the function to each element of the
+    list?
+    (A) filter
+    (B) foldl
+    (C) lambda
+    (D) map
+
+Overlapped: set(['function', 'map', 'c', 'b', 'list', 'element', 'arguments', 'following', 'lambda']) 
+Overlap: 9 
+Accuracy: 0.272727272727 
+
+Question:
+ 5. When is a static variable in C bound to a specific virtual
+    address?
+    (A) When the compiler produces an object file.
+    (B) When the linker produces an executable image.
+    (C) When the program is loaded via the exec system call.
+    (D) When the main function is called.
+
+Overlapped: set(['function', 'c', 'b', 'object', 'virtual', 'static', 'variable', 'main', 'called']) 
+Overlap: 9 
+Accuracy: 0.225 
 
 Question:
  6. Write a program in Perl which reads either the standard input or
@@ -109,49 +144,39 @@ Question:
     test 4
     the 10
 
-Overlapped: set(['10', 'given', 'use', 'number', 'second', '2', '4', '6', 'line', 'order']) 
-Overlap: 10 
-Accuracy: 0.166666666667 
-
-Question:
- 7. With respect to Java, the term ``overloading'' refers to:
-    (A) Automatic type conversion when the argument does not match the
-        declared type of the parameter.
-    (B) Generic classes with type parameterization.
-    (C) Multiple functions with the same name and different
-        signatures, defined in the same class.
-    (D) Multiple functions with the same name and signature, defined
-        in different classes.
-
-Overlapped: set(['conversion', 'name', 'defined', 'argument', 'overloading', '7', 'type', 'class', 'match', 'functions']) 
-Overlap: 10 
-Accuracy: 0.178571428571 
-
-Question:
- 3. Which of the following is a higher-order function whose arguments
-    are a function and a list, and whose result is a list containing
-    the results of having applied the function to each element of the
-    list?
-    (A) filter
-    (B) foldl
-    (C) lambda
-    (D) map
-
-Overlapped: set(['function', 'map', 'list', 'element', '3', 'arguments', 'following', 'lambda']) 
+Overlapped: set(['given', 'use', 'number', 'perl', 'write', 'second', 'line', 'order']) 
 Overlap: 8 
-Accuracy: 0.216216216216 
+Accuracy: 0.140350877193 
 
 Question:
- 5. When is a static variable in C bound to a specific virtual
-    address?
-    (A) When the compiler produces an object file.
-    (B) When the linker produces an executable image.
-    (C) When the program is loaded via the exec system call.
-    (D) When the main function is called.
+ 1. Fill in the blank with a lambda expression so that mul behaves as
+    shown here.  [1pt]
+    The answer, in Perl, would be:
+    my $mul = sub {my $x = $_[0]; sub {$x * $_[0]}};  print
+    $mul->(3)->(4), "\n";
 
-Overlapped: set(['function', 'object', 'virtual', '5', 'variable', 'static', 'main', 'called']) 
-Overlap: 8 
-Accuracy: 0.166666666667 
+    > (define mul (______________________________))
+    > ((mul 3) 4)
+    12
+
+Overlapped: set(['sub', 'lambda', 'perl', 'answer', 'x', 'define', 'fill']) 
+Overlap: 7 
+Accuracy: 0.0886075949367 
+
+Question:
+ 8. Define a function foldl which takes a function, a unit value, and
+    a list, and returns a single value by applying the function
+    between each member of the list.  It must be tail recursive.
+    [2pt]
+
+    > (foldl + 0 '(4 10 18))
+    27
+    > (foldl cons '() '(1 2 3))
+    (((() . 1) . 2) . 3)
+
+Overlapped: set(['function', 'cons', 'list', 'tail', 'value', 'returns', 'define']) 
+Overlap: 7 
+Accuracy: 0.102941176471 
 
 Question:
  2. Which Scheme expression will evaluate to the atom 2?
@@ -160,9 +185,40 @@ Question:
     (C) (cdar '(1 2 3))
     (D) (cddr '(1 2 3))
 
-Overlapped: set(['cadr', 'cdar', '1', '3', '2', 'caar', 'cddr']) 
+Overlapped: set(['c', 'b', 'cdar', 'cadr', 'scheme', 'caar', 'cddr']) 
 Overlap: 7 
-Accuracy: 0.122807017544 
+Accuracy: 0.132075471698 
+
+Question:
+ 6. A variable declared inside a C or Java function has:
+    (A) Dynamic scope and dynamic lifetime.
+    (B) Dynamic scope and static lifetime.
+    (C) Static scope and dynamic lifetime.
+    (D) Static scope and static lifetime.
+
+Overlapped: set(['function', 'c', 'b', 'java', 'dynamic', 'static', 'variable']) 
+Overlap: 7 
+Accuracy: 0.184210526316 
+
+Question:
+10. Which expression will cause the empty list to be passed into f?
+    (A) (f '())
+    (B) (f ())
+    (C) (f null?)
+    (D) f (null)
+
+Overlapped: set(['c', 'b', 'f', 'list', 'null', 'cause']) 
+Overlap: 6 
+Accuracy: 0.157894736842 
+
+Question:
+ 3. Write an expression in Java using the operator && which will
+    return a result because && is a lazy operator, but which would
+    throw an exception if it were evaluated eagerly.  [1pt]
+
+Overlapped: set(['write', 'return', 'java', 'throw', 'using']) 
+Overlap: 5 
+Accuracy: 0.208333333333 
 
 Question:
  4. Write a Perl program that will read STDIN and print the number of
@@ -176,73 +232,9 @@ Question:
     % wc.perl  <t
           3      11      49
 
-Overlapped: set(['11', '3', 'number', 'second', '4', 'line']) 
-Overlap: 6 
-Accuracy: 0.153846153846 
-
-Question:
- 8. Perl and Scheme are languages whose type checking is:
-    (A) Strong and dynamic.
-    (B) Strong and static.
-    (C) Weak and dynamic.
-    (D) Weak and static.
-
-Overlapped: set(['checking', 'dynamic', 'languages', 'static', '8', 'type']) 
-Overlap: 6 
-Accuracy: 0.181818181818 
-
-Question:
- 2. Fill in the following table.  Answers (in alphabetical order) are:
-    John Backus;  Grace Hopper et.al.;  John Kemeny & Thomas Kurtz;
-    John McCarthy.  [1pt]
-
-    +---------------+----------------+----------------+----------------+
-    |FORTRAN (1957) | LISP (1958)    | COBOL (1959)   | BASIC (1964)   |
-    |               |                |                |                |
-    +---------------+----------------+----------------+----------------+
-
-Overlapped: set(['following', 'table', '1957', '2', 'order']) 
+Overlapped: set(['write', 'second', 'line', 'number', 'perl']) 
 Overlap: 5 
-Accuracy: 0.0387596899225 
-
-Question:
- 6. A variable declared inside a C or Java function has:
-    (A) Dynamic scope and dynamic lifetime.
-    (B) Dynamic scope and static lifetime.
-    (C) Static scope and dynamic lifetime.
-    (D) Static scope and static lifetime.
-
-Overlapped: set(['function', 'static', 'dynamic', 'variable', '6']) 
-Overlap: 5 
-Accuracy: 0.119047619048 
-
-Question:
-10. Which expression will cause the empty list to be passed into f?
-    (A) (f '())
-    (B) (f ())
-    (C) (f null?)
-    (D) f (null)
-
-Overlapped: set(['10', 'list', 'null', 'cause', 'f']) 
-Overlap: 5 
-Accuracy: 0.119047619048 
-
-Question:
- 3. Write an expression in Java using the operator && which will
-    return a result because && is a lazy operator, but which would
-    throw an exception if it were evaluated eagerly.  [1pt]
-
-Overlapped: set(['using', '3', 'return', 'throw']) 
-Overlap: 4 
-Accuracy: 0.16 
-
-Question:
-10. Explain the difference between static and dynamic scope, and give
-    an example of each.  [2pt]
-
-Overlapped: set(['10', 'static', 'dynamic']) 
-Overlap: 3 
-Accuracy: 0.214285714286 
+Accuracy: 0.135135135135 
 
 Question:
  1. Which of the following Java operators uses lazy evaluation?
@@ -251,9 +243,9 @@ Question:
     (C) ==
     (D) >>
 
-Overlapped: set(['1', 'following']) 
-Overlap: 2 
-Accuracy: 0.0714285714286 
+Overlapped: set(['following', 'c', 'b', 'java']) 
+Overlap: 4 
+Accuracy: 0.166666666667 
 
 Question:
  9. After a Perl program has executed a subprocess, the completion
@@ -263,9 +255,17 @@ Question:
     (C) $?
     (D) $_
 
-Overlapped: set(['9', 'variable']) 
+Overlapped: set(['variable', 'c', 'b', 'perl']) 
+Overlap: 4 
+Accuracy: 0.133333333333 
+
+Question:
+10. Explain the difference between static and dynamic scope, and give
+    an example of each.  [2pt]
+
+Overlapped: set(['static', 'dynamic']) 
 Overlap: 2 
-Accuracy: 0.0588235294118 
+Accuracy: 0.153846153846 
 
 Question:
 Overlapped: set([]) 

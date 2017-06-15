@@ -9,9 +9,9 @@ Question:
     (D) A table used to dynamically dispatch virtual functions in an
         object-oriented environment.
 
-Overlapped: set(['referenced', 'point', 'variables', 'dispatch', 'table', 'special', 'functions', 'outer', 'inheritance', 'sum', 'virtual', 'environment', 'field', '5', 'inner', 'shared', 'type', 'dynamically', 'function', 'product', 'used', 'multiple', 'structure', 'implementing', 'base', 'heap', 'declaration', 'distinguish', 'hold', 'class', 'types', 'closure']) 
-Overlap: 32 
-Accuracy: 0.484848484848 
+Overlapped: set(['referenced', 'point', 'variables', 'dispatch', 'table', 'special', 'functions', 'outer', 'inheritance', 'sum', 'virtual', 'environment', 'field', 'inner', 'shared', 'type', 'dynamically', 'function', 'product', 'used', 'multiple', 'structure', 'implementing', 'base', 'heap', 'declaration', 'distinguish', 'hold', 'class', 'types', 'closure', 'c', 'b', 'ocaml']) 
+Overlap: 34 
+Accuracy: 0.586206896552 
 
 Question:
  6. Ocaml:  Define a function zipwith whose first argument is a
@@ -34,9 +34,9 @@ Question:
     # zipwith (^) "**" ["foo"; "bar"] ["baz"];;
     - : string list = ["foobaz"; "bar**"]
 
-Overlapped: set(['int', 'argument', 'one', 'second', 'two', '1', '0', '3', '2', '5', 'arguments', '7', '6', '9', '8', 'foo', '4', 'function', 'string', 'using', 'bar', 'list', 'value', 'fun', 'first']) 
-Overlap: 25 
-Accuracy: 0.103305785124 
+Overlapped: set(['function', 'foo', 'bar', 'string', 'int', 'first', 'list', 'argument', 'value', 'two', 'ocaml', 'second', 'arguments', 'fun', 'using', 'one', 'define']) 
+Overlap: 17 
+Accuracy: 0.0708333333333 
 
 Question:
  7. Ocaml:  Define a function max such that given a function of two
@@ -55,9 +55,9 @@ Question:
     # max (>) [];;
     - : 'a opt = None
 
-Overlapped: set(['function', 'given', '3', 'int', 'max', 'list', 'two', 'maximum', '1', 'fun', 'returns', 'bool', '4', '7', '9', '5', 'element', 'type', 'arguments']) 
-Overlap: 19 
-Accuracy: 0.11801242236 
+Overlapped: set(['function', 'given', 'ocaml', 'int', 'max', 'list', 'maximum', 'two', 'returns', 'bool', 'arguments', 'fun', 'element', 'type', 'define']) 
+Overlap: 15 
+Accuracy: 0.0967741935484 
 
 Question:
  2. Ocaml:  Define the function mapf whose first argument is a unary
@@ -72,24 +72,9 @@ Question:
     # mapf ((-)3) [1;2;5;6];;
     - : int list = [2; 1; -2; -3]
 
-Overlapped: set(['function', 'x', 'using', 'point', 'int', 'list', '3', 'argument', '1', 'second', '2', '5', '7', '6', 'fun', '8', 'element', 'first']) 
-Overlap: 18 
-Accuracy: 0.130434782609 
-
-Question:
- 8. Scheme:  Define the function zipwith in Scheme.  Note that for
-    both of these programs, if the first list is shorter, the value is
-    used as the first argument, and if the second list is shorter, the
-    value is the second argument to the function.  [4pt]
-    > (zipwith - 5 '(9 8 7) '(5 4 3 2 1))
-    (4 4 4 3 4)
-    > (zipwith string-append "**"
-      '("hello" "foo" "qux" "goto") '(" world" " bar"))
-    ("hello world" "foo bar" "qux**" "goto**")
-
-Overlapped: set(['function', 'used', 'bar', 'second', 'programs', 'list', 'argument', 'value', '1', '3', '2', '5', '4', '7', '9', '8', 'foo', 'first']) 
-Overlap: 18 
-Accuracy: 0.166666666667 
+Overlapped: set(['function', 'point', 'int', 'list', 'argument', 'first', 'ocaml', 'write', 'second', 'x', 'fun', 'using', 'element', 'define']) 
+Overlap: 14 
+Accuracy: 0.102941176471 
 
 Question:
  4. Ocaml:  Define the functions car and cdr in Ocaml so that they
@@ -104,9 +89,24 @@ Question:
     # cdr [1;2;3;4];;
     - : int list = [2; 3; 4]
 
-Overlapped: set(['function', 'functions', 'way', 'int', 'car', 'work', 'list', 'argument', '1', '3', '2', '4', 'cdr', 'fun', 'failwith']) 
-Overlap: 15 
-Accuracy: 0.142857142857 
+Overlapped: set(['function', 'functions', 'work', 'cdr', 'int', 'car', 'use', 'list', 'argument', 'ocaml', 'way', 'fun', 'failwith', 'define']) 
+Overlap: 14 
+Accuracy: 0.134615384615 
+
+Question:
+ 8. Scheme:  Define the function zipwith in Scheme.  Note that for
+    both of these programs, if the first list is shorter, the value is
+    used as the first argument, and if the second list is shorter, the
+    value is the second argument to the function.  [4pt]
+    > (zipwith - 5 '(9 8 7) '(5 4 3 2 1))
+    (4 4 4 3 4)
+    > (zipwith string-append "**"
+      '("hello" "foo" "qux" "goto") '(" world" " bar"))
+    ("hello world" "foo bar" "qux**" "goto**")
+
+Overlapped: set(['function', 'foo', 'bar', 'programs', 'first', 'list', 'argument', 'value', 'second', 'used', 'scheme', 'define']) 
+Overlap: 12 
+Accuracy: 0.11214953271 
 
 Question:
  5. Perl:  Write a program in Perl which reads words and keeps track
@@ -125,9 +125,9 @@ Question:
     |qux quuux     |      5     3   |
     +--------------+----------------+
 
-Overlapped: set(['regex', 'bar', 'length', 'number', 'two', '1', '3', '5', '4', 'x', 'table', 'line']) 
-Overlap: 12 
-Accuracy: 0.0810810810811 
+Overlapped: set(['regex', 'use', 'bar', 'number', 'perl', 'write', 'length', 'two', 'x', 'table', 'line']) 
+Overlap: 11 
+Accuracy: 0.0763888888889 
 
 Question:
  1. Haskell:  Define the function map whose first argument is a unary
@@ -139,29 +139,30 @@ Question:
     Prelude> map (3-) [1,2,5,6]
     [2,1,-2,-3]
 
-Overlapped: set(['function', 'map', 'list', 'argument', 'element', '1', 'second', 'using', 'first']) 
-Overlap: 9 
-Accuracy: 0.140625 
+Overlapped: set(['function', 'map', 'list', 'argument', 'element', 'second', 'haskell', 'using', 'first', 'define']) 
+Overlap: 10 
+Accuracy: 0.16393442623 
 
 Question:
- 8. The type of [1; 2; 3; 4] is:
-    (A) 'a list
-    (B) int list
-    (C) list<Object>
-    (D) list<int>
+10. The following prints the number 6 in which language?
+       stdout << 6 << Character nl.
+    (A) Ocaml
+    (B) Perl
+    (C) Scheme
+    (D) Smalltalk
 
-Overlapped: set(['int', 'list', '1', '3', '2', '4', '8', 'type']) 
-Overlap: 8 
-Accuracy: 0.210526315789 
+Overlapped: set(['c', 'b', 'language', 'number', 'perl', 'ocaml', 'following', 'scheme', 'smalltalk']) 
+Overlap: 9 
+Accuracy: 0.3 
 
 Question:
  3. Ocaml:  Define the function mapr having exactly the functionality
     in the previous questions, except do not use any higher order
     functions.  Use recursion.  [2pt]
 
-Overlapped: set(['function', 'use', 'recursion', 'functions', '3', 'order', 'higher']) 
-Overlap: 7 
-Accuracy: 0.291666666667 
+Overlapped: set(['function', 'use', 'recursion', 'ocaml', 'define', 'higher', 'order', 'functions']) 
+Overlap: 8 
+Accuracy: 0.347826086957 
 
 Question:
  4. If you have a function not (bool->bool) and a function even
@@ -172,9 +173,9 @@ Question:
     (C) fold_left
     (D) map
 
-Overlapped: set(['even', 'map', 'function', 'bool', '4', 'odd', 'called']) 
-Overlap: 7 
-Accuracy: 0.162790697674 
+Overlapped: set(['even', 'map', 'c', 'b', 'function', 'bool', 'odd', 'called']) 
+Overlap: 8 
+Accuracy: 0.205128205128 
 
 Question:
  9. Which of the following is not part of the local stack frame in
@@ -184,9 +185,9 @@ Question:
     (C) dynamic (control) link
     (D) return address
 
-Overlapped: set(['control', 'return', 'dynamic', 'following', 'static', '9', 'stack']) 
-Overlap: 7 
-Accuracy: 0.184210526316 
+Overlapped: set(['control', 'c', 'b', 'return', 'dynamic', 'static', 'following', 'stack']) 
+Overlap: 8 
+Accuracy: 0.235294117647 
 
 Question:
  6. After the following open statement, what can be used to read one
@@ -197,9 +198,9 @@ Question:
     (C) $line = "$file";
     (D) $line = `$file`;
 
-Overlapped: set(['used', 'one', 'statement', '6', 'following', 'line']) 
-Overlap: 6 
-Accuracy: 0.0923076923077 
+Overlapped: set(['c', 'used', 'one', 'b', 'statement', 'following', 'line']) 
+Overlap: 7 
+Accuracy: 0.114754098361 
 
 Question:
  7. In a lazy language, unevaluated arguments are passed into
@@ -209,21 +210,9 @@ Question:
     (C) thunk
     (D) tuple
 
-Overlapped: set(['closure', 'functions', 'language', 'thunk', 'arguments', '7']) 
-Overlap: 6 
-Accuracy: 0.214285714286 
-
-Question:
-10. The following prints the number 6 in which language?
-       stdout << 6 << Character nl.
-    (A) Ocaml
-    (B) Perl
-    (C) Scheme
-    (D) Smalltalk
-
-Overlapped: set(['following', '10', 'number', 'language', '6']) 
-Overlap: 5 
-Accuracy: 0.147058823529 
+Overlapped: set(['closure', 'functions', 'b', 'language', 'c', 'thunk', 'arguments']) 
+Overlap: 7 
+Accuracy: 0.291666666667 
 
 Question:
  2. Assuming a competent implemention in Ocaml, which function takes
@@ -233,9 +222,20 @@ Question:
     (C) List.fold_right
     (D) List.length
 
-Overlapped: set(['function', '2', 'stack', 'space']) 
-Overlap: 4 
-Accuracy: 0.142857142857 
+Overlapped: set(['function', 'c', 'b', 'space', 'ocaml', 'stack']) 
+Overlap: 6 
+Accuracy: 0.24 
+
+Question:
+ 8. The type of [1; 2; 3; 4] is:
+    (A) 'a list
+    (B) int list
+    (C) list<Object>
+    (D) list<int>
+
+Overlapped: set(['c', 'b', 'int', 'object', 'list', 'type']) 
+Overlap: 6 
+Accuracy: 0.176470588235 
 
 Question:
  1. The type signature of (/.)  is:
@@ -244,9 +244,9 @@ Question:
     (C) float -> float * float
     (D) float -> float -> float
 
-Overlapped: set(['1', 'type']) 
-Overlap: 2 
-Accuracy: 0.0434782608696 
+Overlapped: set(['c', 'b', 'type']) 
+Overlap: 3 
+Accuracy: 0.0714285714286 
 
 Question:
  3. In Smalltalk, the expression 3-4/5-6 is equivalent to:
@@ -255,9 +255,9 @@ Question:
     (C) (3-4)/(5-6)
     (D) 3-((4/5)-6)
 
-Overlapped: set(['3']) 
-Overlap: 1 
-Accuracy: 0.0204081632653 
+Overlapped: set(['c', 'b', 'smalltalk']) 
+Overlap: 3 
+Accuracy: 0.0666666666667 
 
 Question:
 Overlapped: set([]) 

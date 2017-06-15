@@ -15,9 +15,9 @@ Question:
     |double y);                     |                               |
     +-------------------------------+-------------------------------+
 
-Overlapped: set(['polymorphism', 'conversion', 'bar', 'ad', 'inheritance', 'int', 'double', 'universal', 'f', 'one', '1', 'overloading', 'void', 'x', '6', 'following', 'table', 'foo', 'stack', 'hoc']) 
-Overlap: 20 
-Accuracy: 0.0934579439252 
+Overlapped: set(['polymorphism', 'conversion', 'bar', 'ad', 'inheritance', 'int', 'double', 'universal', 'f', 'one', 'overloading', 'void', 'x', 'following', 'table', 'foo', 'stack', 'hoc']) 
+Overlap: 18 
+Accuracy: 0.0857142857143 
 
 Question:
  6. Inheritance in C++.  Your answers should be as minimal as possible,
@@ -40,9 +40,9 @@ Question:
 delim $$
 .EN
 
-Overlapped: set(['function', 'provided', 'functions', 'b', 'string', 'int', 'delim', 'void', 'question', 'answers', 'field', 'base', '6', 'variable', 'main', 'class', 'define']) 
+Overlapped: set(['function', 'provided', 'functions', 'b', 'string', 'inheritance', 'int', 'delim', 'void', 'question', 'answers', 'field', 'base', 'variable', 'main', 'class', 'define']) 
 Overlap: 17 
-Accuracy: 0.163461538462 
+Accuracy: 0.17 
 
 Question:
  3. Write a function in Perl which takes a filename as an argument and
@@ -55,9 +55,34 @@ Question:
        my ($filename) = @_;                                                          foo 3 44 98
        open my $file, "<$filename" or die "$0: $filename: $!\n";
 
-Overlapped: set(['function', '88', 'bar', 'sub', 'list', 'argument', '0', '3', '7', '9', 'line', 'foo', 'match']) 
-Overlap: 13 
-Accuracy: 0.141304347826 
+Overlapped: set(['function', 'bar', 'sub', 'list', 'argument', 'perl', 'write', 'line', 'foo', 'match']) 
+Overlap: 10 
+Accuracy: 0.113636363636 
+
+Question:
+ 2. Write a Perl program which reads in a sequence of lines using <>.
+    Each line consists of a key and a value separated by an equal (=)
+    sign.  Strip off leading and trailing whitespace from each key and
+    value.  Put the key and value into a hash.  Print an error message
+    if any line does not have an equal sign, but ignore any line
+    containing only whitespace.  At end of file, print out each key and
+    value pair in lexicographic order.  You need not use strict or use
+    warnings.  [4pt]
+
+Overlapped: set(['use', 'value', 'perl', 'write', 'using', 'message', 'order', 'line']) 
+Overlap: 8 
+Accuracy: 0.123076923077 
+
+Question:
+ 8. Of the following languages, which is oldest?
+    (A) Algol 60
+    (B) C++
+    (C) Fortran
+    (D) Java
+
+Overlapped: set(['languages', 'c', 'b', 'java', '60', 'fortran', 'following', 'algol']) 
+Overlap: 8 
+Accuracy: 0.380952380952 
 
 Question:
  5. In perl, lexical scope is introduced by the my declaration, while
@@ -79,23 +104,9 @@ Question:
     |                                                                 |                     |
     +-----------------------------------------------------------------+---------------------+
 
-Overlapped: set(['right', 'sub', 'g', 'dynamic', 'perl', '0', '5', 'declaration', 'foo']) 
-Overlap: 9 
-Accuracy: 0.0273556231003 
-
-Question:
- 2. Write a Perl program which reads in a sequence of lines using <>.
-    Each line consists of a key and a value separated by an equal (=)
-    sign.  Strip off leading and trailing whitespace from each key and
-    value.  Put the key and value into a hash.  Print an error message
-    if any line does not have an equal sign, but ignore any line
-    containing only whitespace.  At end of file, print out each key and
-    value pair in lexicographic order.  You need not use strict or use
-    warnings.  [4pt]
-
-Overlapped: set(['use', 'value', 'order', '2', 'using', 'message', 'line']) 
+Overlapped: set(['right', 'sub', 'g', 'dynamic', 'perl', 'declaration', 'foo']) 
 Overlap: 7 
-Accuracy: 0.101449275362 
+Accuracy: 0.021472392638 
 
 Question:
  2. C++ is primarily thought of as an example of what kind of language?
@@ -104,9 +115,9 @@ Question:
     (C) logic
     (D) object oriented
 
-Overlapped: set(['kind', 'language', 'object', 'functional', 'oriented', '2']) 
-Overlap: 6 
-Accuracy: 0.230769230769 
+Overlapped: set(['c', 'b', 'language', 'object', 'kind', 'functional', 'oriented']) 
+Overlap: 7 
+Accuracy: 0.304347826087 
 
 Question:
  6. The following two declarations are examples of:
@@ -120,9 +131,9 @@ Question:
     (C) overloading
     (D) overriding
 
-Overlapped: set(['string', 'two', 'overloading', 'vector', '6', 'following']) 
-Overlap: 6 
-Accuracy: 0.1 
+Overlapped: set(['c', 'b', 'string', 'two', 'overloading', 'vector', 'following']) 
+Overlap: 7 
+Accuracy: 0.125 
 
 Question:
 10. In C++, if we have a call of the form a.f(x,y), inside the function
@@ -132,9 +143,9 @@ Question:
     (C) this.x
     (D) this[x]
 
-Overlapped: set(['function', '10', 'f', 'object', 'field', 'x']) 
-Overlap: 6 
-Accuracy: 0.136363636364 
+Overlapped: set(['function', 'c', 'b', 'f', 'object', 'field', 'x']) 
+Overlap: 7 
+Accuracy: 0.175 
 
 Question:
  1. Which expression is not valid, given the following two declarations?
@@ -144,9 +155,9 @@ Question:
     (C) p + i
     (D) p + p
 
-Overlapped: set(['int', '1', 'given', 'two', 'following']) 
-Overlap: 5 
-Accuracy: 0.138888888889 
+Overlapped: set(['c', 'b', 'int', 'given', 'two', 'following']) 
+Overlap: 6 
+Accuracy: 0.1875 
 
 Question:
  7. In C++, a protected field of a class foo is visible only to
@@ -158,9 +169,9 @@ Question:
         names foo as a friend
     (D) only of foo.
 
-Overlapped: set(['field', 'functions', 'foo', 'class', '7']) 
-Overlap: 5 
-Accuracy: 0.0943396226415 
+Overlapped: set(['functions', 'b', 'c', 'field', 'foo', 'class']) 
+Overlap: 6 
+Accuracy: 0.122448979592 
 
 Question:
  9. Which of these is a C++ keyword that might cause a pointer to become
@@ -170,9 +181,9 @@ Question:
     (C) malloc
     (D) new
 
-Overlapped: set(['9', 'might', 'cause', 'pointer', 'new']) 
-Overlap: 5 
-Accuracy: 0.185185185185 
+Overlapped: set(['c', 'b', 'cause', 'new', 'might', 'pointer']) 
+Overlap: 6 
+Accuracy: 0.260869565217 
 
 Question:
  3. The address of a static variable in C++ is determined at what time?
@@ -181,9 +192,9 @@ Question:
     (C) link
     (D) program exec
 
-Overlapped: set(['function', 'variable', '3', 'static']) 
-Overlap: 4 
-Accuracy: 0.142857142857 
+Overlapped: set(['function', 'variable', 'c', 'b', 'static']) 
+Overlap: 5 
+Accuracy: 0.208333333333 
 
 Question:
  5. What is the name of the C++ variable used to print error messages?
@@ -192,20 +203,9 @@ Question:
     (C) cerr
     (D) stderr
 
-Overlapped: set(['variable', 'used', '5', 'name']) 
-Overlap: 4 
-Accuracy: 0.148148148148 
-
-Question:
- 8. Of the following languages, which is oldest?
-    (A) Algol 60
-    (B) C++
-    (C) Fortran
-    (D) Java
-
-Overlapped: set(['60', 'languages', 'following', '8']) 
-Overlap: 4 
-Accuracy: 0.16 
+Overlapped: set(['variable', 'c', 'used', 'b', 'name']) 
+Overlap: 5 
+Accuracy: 0.217391304348 
 
 Question:
  4. What time is the address returned by new determinaed?
@@ -214,9 +214,9 @@ Question:
     (C) link
     (D) program exec
 
-Overlapped: set(['function', 'new', '4']) 
-Overlap: 3 
-Accuracy: 0.111111111111 
+Overlapped: set(['function', 'new', 'c', 'b']) 
+Overlap: 4 
+Accuracy: 0.173913043478 
 
 Question:
  4. Write the prototypes for the four default members of class box that
@@ -225,9 +225,9 @@ Question:
 
     class box {
 
-Overlapped: set(['4', 'class']) 
+Overlapped: set(['write', 'class']) 
 Overlap: 2 
-Accuracy: 0.0952380952381 
+Accuracy: 0.1 
 
 Question:
 Overlapped: set([]) 

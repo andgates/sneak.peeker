@@ -220,7 +220,7 @@ def add(args):
         for line in q:
           q_string += line + " "
         # Tokenize the question
-        q_list = nltk.word_tokenize(q_string)
+        q_list = nltk.word_tokenize(q_string.lower())
         overlap = set(q_list).intersection(set(peek_list))
         overlapcount += len(overlap)
         q_list_sans_stop = [w for w in q_list if w not in stopwords]
@@ -255,7 +255,7 @@ def add(args):
 
     pass
 
-    test_outfile = args.directory + "/" + "all_results" + ".out"
+    test_outfile = args.directory + "/" + "all_results_no_num" + ".out"
     test_outfile_object = open(test_outfile, "w")
 
     all_sresults = sorted(all_results, key=operator.itemgetter(4), reverse=True)

@@ -1,45 +1,4 @@
 Question:
- 6. Scheme:  Using apply and max, define the Scheme function depth.
-    The depth of anything that is not a list is 0.  The depth of a
-    list is one more than the maximum depth of its constituent
-    elements.  [2pt]
-
-    > (depth '(1 2 (3 4 (5 6)) 88))
-    3
-    > (depth '(a b c))
-    1
-    > (depth '())
-    1
-    > (depth 7)
-    0
-
-Overlapped: set(['function', 'depth', 'c', 'elements', 'maximum', 'max', 'list', '3', 'one', '1', '0', '88', '2', '5', '4', '7', '6', 'apply', 'b', 'define']) 
-Overlap: 20 
-Accuracy: 0.27027027027 
-
-Question:
- 9. Ocaml:  The Collatz conjecture states that for any positive
-    integer $n$, if it is replaced by $n / 2$ when even and $3 n + 1$
-    when odd, eventually it converges to the integer $1$.  Write a
-    function which accepts any integer and returns the number of steps
-    necessary to reach the value of $1$.  Your solution must be tail-
-    recursive.  Do not handle a case where $n < 1$ or is larger than
-    the maximum integer.  [2pt]
-
-    # collatz 1;;
-    - : int = 0
-    # collatz 2;;
-    - : int = 1
-    # collatz 3;;
-    - : int = 7
-    # collatz 10;;
-    - : int = 6
-
-Overlapped: set(['even', '10', '3', 'int', 'solution', 'maximum', 'value', 'number', '1', '0', 'returns', '2', '7', '6', '9', 'function', 'n', 'odd']) 
-Overlap: 18 
-Accuracy: 0.162162162162 
-
-Question:
  7. Prolog:  Given the following graph, Define several facts called
     edge which define the graph.  Also, define a rule adjacent which
     can be used to test whether or not two nodes are adjacent to each
@@ -59,9 +18,128 @@ Question:
     line from C to D chop
     .PE
 
-Overlapped: set(['c', 'used', 'e', 'adjacent', 'called', 'graph', 'two', 'edge', 'chop', 'following', 'b', 'circle', '7', 'facts', 'line', 'nodes', 'define']) 
-Overlap: 17 
-Accuracy: 0.166666666667 
+Overlapped: set(['given', 'used', 'e', 'called', 'graph', 'c', 'two', 'edge', 'chop', 'following', 'b', 'circle', 'adjacent', 'facts', 'line', 'prolog', 'nodes', 'define']) 
+Overlap: 18 
+Accuracy: 0.191489361702 
+
+Question:
+ 6. Scheme:  Using apply and max, define the Scheme function depth.
+    The depth of anything that is not a list is 0.  The depth of a
+    list is one more than the maximum depth of its constituent
+    elements.  [2pt]
+
+    > (depth '(1 2 (3 4 (5 6)) 88))
+    3
+    > (depth '(a b c))
+    1
+    > (depth '())
+    1
+    > (depth 7)
+    0
+
+Overlapped: set(['function', 'c', 'elements', 'max', 'list', 'maximum', 'one', 'depth', 'b', 'using', 'apply', 'scheme', 'define']) 
+Overlap: 13 
+Accuracy: 0.185714285714 
+
+Question:
+13. Enter the names of these programming languages in the appropriate
+    box:  C, C++, Haskell, Java, Ocaml, Perl, Prolog, Scheme.  [1pt]
+
+                   +---------------------------+--------------------------+
+                   |      strong typing        |       weak typing        |
+    +--------------+---------------------------+--------------------------+
+    |static types  |                           |                          |
+    |              |                           |                          |
+    +--------------+---------------------------+--------------------------+
+    |dynamic types |                           |                          |
+    |              |                           |                          |
+    +--------------+---------------------------+--------------------------+
+
+Overlapped: set(['c', 'strong', 'java', 'programming', 'weak', 'ocaml', 'perl', 'languages', 'haskell', 'enter', 'scheme', 'types', 'prolog']) 
+Overlap: 13 
+Accuracy: 0.0677083333333 
+
+Question:
+ 4. Some early languages, like PL/I, allowed non-local gotos, i.e.,
+    the ability to use a goto to transfer control to a different
+    function.  A structured way of doing this in Java is with:
+    (A) break
+    (B) continue
+    (C) throw
+    (D) try
+
+Overlapped: set(['control', 'function', 'use', 'b', 'java', 'like', 'structured', 'c', 'languages', 'continue', 'way', 'break', 'throw']) 
+Overlap: 13 
+Accuracy: 0.333333333333 
+
+Question:
+ 1. Ocaml:  Define a function evenlen in Ocaml which returns true if
+    the list's length is even and false if not.  It must be tail-
+    recursive and may not use the function List.length or any of the
+    folding functions.  [2pt]
+
+    # evenlen [];;
+    - : bool = true
+    # evenlen [1];;
+    - : bool = false
+    # evenlen [1;2;3;4];;
+    - : bool = true
+
+Overlapped: set(['even', 'function', 'use', 'false', 'list', 'functions', 'ocaml', 'returns', 'bool', 'length', 'true', 'define']) 
+Overlap: 12 
+Accuracy: 0.173913043478 
+
+Question:
+ 9. Ocaml:  The Collatz conjecture states that for any positive
+    integer $n$, if it is replaced by $n / 2$ when even and $3 n + 1$
+    when odd, eventually it converges to the integer $1$.  Write a
+    function which accepts any integer and returns the number of steps
+    necessary to reach the value of $1$.  Your solution must be tail-
+    recursive.  Do not handle a case where $n < 1$ or is larger than
+    the maximum integer.  [2pt]
+
+    # collatz 1;;
+    - : int = 0
+    # collatz 2;;
+    - : int = 1
+    # collatz 3;;
+    - : int = 7
+    # collatz 10;;
+    - : int = 6
+
+Overlapped: set(['even', 'function', 'ocaml', 'number', 'int', 'solution', 'value', 'maximum', 'write', 'returns', 'n', 'odd']) 
+Overlap: 12 
+Accuracy: 0.11214953271 
+
+Question:
+ 9. In C++, templates such as stack<int> are an example of what kind
+    of polymorphism?
+    (A) ad-hoc conversion
+    (B) ad-hoc overloading
+    (C) universal inclusion
+    (D) universal parametric
+
+Overlapped: set(['templates', 'polymorphism', 'c', 'b', 'inclusion', 'int', 'universal', 'conversion', 'kind', 'overloading', 'parametric', 'stack']) 
+Overlap: 12 
+Accuracy: 0.4 
+
+Question:
+ 5. Haskell:  Consider the following two Ocaml functions.  Define the
+    functions filter and map in Haskell in terms of list
+    comprehensions.  [2pt]
+
+    # filter;;
+    - : ('a -> bool) -> 'a list -> 'a list = <fun>
+    # filter ((>)4) [3; 1; 4; 1; 5; 9];;
+    - : int list = [3; 1; 1]
+    # map;;
+    - : ('a -> 'b) -> 'a list -> 'b list = <fun>
+    # map ((-)8) [3; 1; 4; 1; 5; 9];;
+    - : int list = [5; 7; 4; 7; 3; -1]
+
+Overlapped: set(['map', 'functions', 'int', 'list', 'two', 'ocaml', 'following', 'haskell', 'bool', 'fun', 'define']) 
+Overlap: 11 
+Accuracy: 0.0758620689655 
 
 Question:
 14. Ocaml:  Define the function zipwith whose arguments are a function
@@ -81,87 +159,41 @@ Question:
     # zipwith (+) [1;3;5] [2];;
     Exception: Invalid_argument "zipwith".
 
-Overlapped: set(['function', '11', 'elements', 'int', 'list', 'two', 'element', '1', '3', '2', '5', '4', '7', '6', 'fun', 'types', 'arguments']) 
-Overlap: 17 
-Accuracy: 0.101796407186 
-
-Question:
-11. Scheme:  Define the function iota, which returns a list of all
-    integers from 1 to the argument given.  It returns an empty list
-    for an argument less than 1.  [2pt]
-
-    > (iota -5)
-    ()
-    > (iota 0)
-    ()
-    > (iota 1)
-    (1)
-    > (iota 8)
-    (1 2 3 4 5 6 7 8)
-
-Overlapped: set(['function', '11', 'given', 'less', 'list', 'argument', '3', '1', '0', 'returns', '2', '5', '4', '7', '6', '8']) 
-Overlap: 16 
-Accuracy: 0.253968253968 
-
-Question:
- 5. Haskell:  Consider the following two Ocaml functions.  Define the
-    functions filter and map in Haskell in terms of list
-    comprehensions.  [2pt]
-
-    # filter;;
-    - : ('a -> bool) -> 'a list -> 'a list = <fun>
-    # filter ((>)4) [3; 1; 4; 1; 5; 9];;
-    - : int list = [3; 1; 1]
-    # map;;
-    - : ('a -> 'b) -> 'a list -> 'b list = <fun>
-    # map ((-)8) [3; 1; 4; 1; 5; 9];;
-    - : int list = [5; 7; 4; 7; 3; -1]
-
-Overlapped: set(['map', 'functions', 'int', 'following', 'list', 'two', '1', 'fun', '3', '5', '4', '7', '8', '9', 'bool']) 
-Overlap: 15 
-Accuracy: 0.102739726027 
-
-Question:
- 1. Ocaml:  Define a function evenlen in Ocaml which returns true if
-    the list's length is even and false if not.  It must be tail-
-    recursive and may not use the function List.length or any of the
-    folding functions.  [2pt]
-
-    # evenlen [];;
-    - : bool = true
-    # evenlen [1];;
-    - : bool = false
-    # evenlen [1;2;3;4];;
-    - : bool = true
-
-Overlapped: set(['even', 'function', 'use', 'false', 'list', '3', '1', 'returns', '2', 'bool', '4', 'length', 'true', 'functions']) 
-Overlap: 14 
-Accuracy: 0.197183098592 
-
-Question:
- 4. Some early languages, like PL/I, allowed non-local gotos, i.e.,
-    the ability to use a goto to transfer control to a different
-    function.  A structured way of doing this in Java is with:
-    (A) break
-    (B) continue
-    (C) throw
-    (D) try
-
-Overlapped: set(['control', 'function', 'use', 'like', 'structured', 'languages', 'continue', '4', 'way', 'break', 'throw']) 
+Overlapped: set(['function', 'elements', 'int', 'list', 'two', 'ocaml', 'arguments', 'fun', 'element', 'types', 'define']) 
 Overlap: 11 
-Accuracy: 0.25 
+Accuracy: 0.0674846625767 
 
 Question:
- 9. In C++, templates such as stack<int> are an example of what kind
-    of polymorphism?
-    (A) ad-hoc conversion
-    (B) ad-hoc overloading
-    (C) universal inclusion
-    (D) universal parametric
+ 6. A closure is:
+    (A) the address of the local variables that are passed to another
+        function during a function call.
+    (B) automatically closing all opened files when the exit function
+        is called.
+    (C) a heap allocated structure which points at a function and
+        contains the values of all non-local variables used by that
+        function.
+    (D) a structure which holds an unevauated expression used when
+        parameters are passed in normal form.
 
-Overlapped: set(['templates', 'polymorphism', 'conversion', 'inclusion', 'int', 'universal', 'kind', 'overloading', '9', 'parametric', 'stack']) 
+Overlapped: set(['function', 'closure', 'c', 'used', 'variables', 'contains', 'b', 'heap', 'called', 'structure', 'points']) 
 Overlap: 11 
-Accuracy: 0.323529411765 
+Accuracy: 0.211538461538 
+
+Question:
+ 7. A thunk is:
+    (A) the address of the local variables that are passed to another
+        function during a function call.
+    (B) automatically closing all opened files when the exit function
+        is called.
+    (C) a heap allocated structure which points at a function and
+        contains the values of all non-local variables used by that
+        function.
+    (D) a structure which holds an unevauated expression used when
+        parameters are passed in normal form.
+
+Overlapped: set(['function', 'c', 'used', 'variables', 'contains', 'thunk', 'b', 'heap', 'called', 'structure', 'points']) 
+Overlap: 11 
+Accuracy: 0.211538461538 
 
 Question:
  2. Prolog:  Define some facts or rules such that the predicate
@@ -176,41 +208,9 @@ Question:
     | ?- oddlen([1,2,3,4]).
     no
 
-Overlapped: set(['predicate', 'rules', 'oddlen', 'list', '1', 'length', '2', 'computation', 'facts', 'odd']) 
+Overlapped: set(['predicate', 'rules', 'oddlen', 'list', 'length', 'computation', 'facts', 'prolog', 'odd', 'define']) 
 Overlap: 10 
-Accuracy: 0.185185185185 
-
-Question:
- 6. A closure is:
-    (A) the address of the local variables that are passed to another
-        function during a function call.
-    (B) automatically closing all opened files when the exit function
-        is called.
-    (C) a heap allocated structure which points at a function and
-        contains the values of all non-local variables used by that
-        function.
-    (D) a structure which holds an unevauated expression used when
-        parameters are passed in normal form.
-
-Overlapped: set(['function', 'closure', 'used', 'variables', 'contains', 'points', 'heap', '6', 'called', 'structure']) 
-Overlap: 10 
-Accuracy: 0.178571428571 
-
-Question:
- 7. A thunk is:
-    (A) the address of the local variables that are passed to another
-        function during a function call.
-    (B) automatically closing all opened files when the exit function
-        is called.
-    (C) a heap allocated structure which points at a function and
-        contains the values of all non-local variables used by that
-        function.
-    (D) a structure which holds an unevauated expression used when
-        parameters are passed in normal form.
-
-Overlapped: set(['function', 'used', 'heap', 'variables', 'contains', 'thunk', 'points', '7', 'called', 'structure']) 
-Overlap: 10 
-Accuracy: 0.178571428571 
+Accuracy: 0.192307692308 
 
 Question:
  4. Smalltalk:  Define a class List in which supports the class
@@ -229,9 +229,49 @@ Question:
     st> a cdr cdr.
     nil
 
-Overlapped: set(['cons', 'nil', 'car', 'st', '3', '4', 'cdr', 'new', 'class']) 
-Overlap: 9 
-Accuracy: 0.107142857143 
+Overlapped: set(['cons', 'nil', 'car', 'list', 'st', 'cdr', 'new', 'class', 'smalltalk', 'define']) 
+Overlap: 10 
+Accuracy: 0.120481927711 
+
+Question:
+10. A static link is a pointer to the:
+    (A) call instruction that activated the current function.
+    (B) segment in an executable binary containing all of a C
+        program's static variables.
+    (C) stack frame of the calling function.
+    (D) stack frame of the most recent function activation for the
+        function in which the current function is nested.
+
+Overlapped: set(['function', 'c', 'b', 'variables', 'nested', 'current', 'static', 'calling', 'pointer', 'stack']) 
+Overlap: 10 
+Accuracy: 0.217391304348 
+
+Question:
+ 1. In Ocaml, what is the depth of recursive non-tail calls for the
+    following functions, where $n$ is the length of the list argument?
+    (A) fold_left:  $ O ( 1 ) $;  fold_right:  $ O ( 1 ) $
+    (B) fold_left:  $ O ( 1 ) $;  fold_right:  $ O ( n ) $
+    (C) fold_left:  $ O ( n ) $;  fold_right:  $ O ( 1 ) $
+    (D) fold_left:  $ O ( n ) $;  fold_right:  $ O ( n ) $
+
+Overlapped: set(['c', 'b', 'list', 'argument', 'ocaml', 'depth', 'following', 'length', 'n', 'functions']) 
+Overlap: 10 
+Accuracy: 0.114942528736 
+
+Question:
+ 5. In Prolog, if guess is a function that searches a database to
+    return one of its elements, and verify checks to see if the
+    selection is valid, then we may define the function find to look
+    up a valid entity in the database.
+    (A) find(X) :- guess(X), verify(X).
+    (B) guess(X) :- verify(X), find(X).
+    (C) find(X) :- guess(X).
+        find(X) := verify(X).
+    (D) verify(X) :- guess(X), find(X).
+
+Overlapped: set(['function', 'c', 'elements', 'return', 'one', 'see', 'b', 'x', 'prolog', 'define']) 
+Overlap: 10 
+Accuracy: 0.0943396226415 
 
 Question:
 12. Prolog:  Define after/3, which returns in its third argument all
@@ -248,22 +288,9 @@ Question:
     X = [] ?
     yes
 
-Overlapped: set(['elements', '3', 'returns', 'argument', '0', 'second', '12', '6', 'first']) 
+Overlapped: set(['elements', 'return', 'returns', 'first', 'argument', 'second', 'x', 'prolog', 'define']) 
 Overlap: 9 
-Accuracy: 0.109756097561 
-
-Question:
-10. A static link is a pointer to the:
-    (A) call instruction that activated the current function.
-    (B) segment in an executable binary containing all of a C
-        program's static variables.
-    (C) stack frame of the calling function.
-    (D) stack frame of the most recent function activation for the
-        function in which the current function is nested.
-
-Overlapped: set(['function', '10', 'variables', 'nested', 'current', 'static', 'calling', 'pointer', 'stack']) 
-Overlap: 9 
-Accuracy: 0.18 
+Accuracy: 0.111111111111 
 
 Question:
  2. If a balanced binary search treeis implemented in a purely
@@ -274,9 +301,38 @@ Question:
     (C) $ O ( n ) $
     (D) $ O ( n log sub 2 n ) $
 
-Overlapped: set(['log', 'language', 'functional', 'one', '1', '2', 'new', 'n', 'sub']) 
+Overlapped: set(['c', 'b', 'log', 'language', 'functional', 'one', 'new', 'n', 'sub']) 
 Overlap: 9 
-Accuracy: 0.145161290323 
+Accuracy: 0.166666666667 
+
+Question:
+10. Smalltalk:  Write some smalltalk code to create a SortedCollection
+    and store it in a variable called sc.  Then use cascaded (chained)
+    messages to add the numbers 23, 498, 33, 87, and 10, in that
+    order.  Then print out all the numbers, one per line, in sorted
+    order.  [2pt]
+
+Overlapped: set(['use', 'called', 'one', 'write', 'variable', 'line', 'order', 'smalltalk']) 
+Overlap: 8 
+Accuracy: 0.173913043478 
+
+Question:
+11. Scheme:  Define the function iota, which returns a list of all
+    integers from 1 to the argument given.  It returns an empty list
+    for an argument less than 1.  [2pt]
+
+    > (iota -5)
+    ()
+    > (iota 0)
+    ()
+    > (iota 1)
+    (1)
+    > (iota 8)
+    (1 2 3 4 5 6 7 8)
+
+Overlapped: set(['function', 'given', 'less', 'list', 'argument', 'returns', 'scheme', 'define']) 
+Overlap: 8 
+Accuracy: 0.131147540984 
 
 Question:
  4. Which expression will cause Scheme to print:
@@ -286,32 +342,20 @@ Question:
     (C) (cdar '(1 2 3))
     (D) (cddr '(1 2 3))
 
-Overlapped: set(['cadr', 'cdar', '1', '3', '2', '4', 'cause', 'caar', 'cddr']) 
-Overlap: 9 
-Accuracy: 0.152542372881 
+Overlapped: set(['c', 'b', 'cdar', 'cadr', 'scheme', 'cause', 'caar', 'cddr']) 
+Overlap: 8 
+Accuracy: 0.145454545455 
 
 Question:
-10. Smalltalk:  Write some smalltalk code to create a SortedCollection
-    and store it in a variable called sc.  Then use cascaded (chained)
-    messages to add the numbers 23, 498, 33, 87, and 10, in that
-    order.  Then print out all the numbers, one per line, in sorted
-    order.  [2pt]
+ 6. Ocaml does *not* have:
+    (A) applicative order evaluation
+    (B) operator overloading
+    (C) parametric polymorphism
+    (D) type inference
 
-Overlapped: set(['10', 'use', 'called', 'one', 'variable', 'line', 'order', 'smalltalk']) 
+Overlapped: set(['polymorphism', 'c', 'b', 'type', 'ocaml', 'overloading', 'parametric', 'order']) 
 Overlap: 8 
-Accuracy: 0.163265306122 
-
-Question:
- 1. In Ocaml, what is the depth of recursive non-tail calls for the
-    following functions, where $n$ is the length of the list argument?
-    (A) fold_left:  $ O ( 1 ) $;  fold_right:  $ O ( 1 ) $
-    (B) fold_left:  $ O ( 1 ) $;  fold_right:  $ O ( n ) $
-    (C) fold_left:  $ O ( n ) $;  fold_right:  $ O ( 1 ) $
-    (D) fold_left:  $ O ( n ) $;  fold_right:  $ O ( n ) $
-
-Overlapped: set(['depth', 'functions', 'list', 'argument', 'n', '1', 'length', 'following']) 
-Overlap: 8 
-Accuracy: 0.0808080808081 
+Accuracy: 0.347826086957 
 
 Question:
  2. In Ocaml, the expression 3+4 means:
@@ -322,24 +366,56 @@ Question:
         which is a function which is applied to the number 4.
     (D) The operator + is applied to the operands 3 and 4.
 
-Overlapped: set(['function', 'sum', 'number', '3', '2', '4', 'stack']) 
+Overlapped: set(['function', 'c', 'b', 'sum', 'ocaml', 'number', 'stack']) 
 Overlap: 7 
-Accuracy: 0.102941176471 
+Accuracy: 0.116666666667 
 
 Question:
- 5. In Prolog, if guess is a function that searches a database to
-    return one of its elements, and verify checks to see if the
-    selection is valid, then we may define the function find to look
-    up a valid entity in the database.
-    (A) find(X) :- guess(X), verify(X).
-    (B) guess(X) :- verify(X), find(X).
-    (C) find(X) :- guess(X).
-        find(X) := verify(X).
-    (D) verify(X) :- guess(X), find(X).
+ 5. Unification is an important algorithm in determining the flow of
+    control in:
+    (A) Ocaml
+    (B) Prolog
+    (C) Scheme
+    (D) Smalltalk
 
-Overlapped: set(['function', 'elements', 'return', 'one', 'see', '5', 'define']) 
+Overlapped: set(['control', 'c', 'b', 'ocaml', 'scheme', 'smalltalk', 'prolog']) 
 Overlap: 7 
-Accuracy: 0.0636363636364 
+Accuracy: 0.318181818182 
+
+Question:
+ 8. What kind of function is
+       let f x y = x + y
+    (A) curried
+    (B) thunked
+    (C) tupled
+    (D) unified
+
+Overlapped: set(['function', 'c', 'b', 'f', 'kind', 'let', 'x']) 
+Overlap: 7 
+Accuracy: 0.304347826087 
+
+Question:
+ 1. In Smalltalk, the expression 3+4 means:
+    (A) The message + is sent to the number 3, the result of which is
+        a function that accepts the message 4.
+    (B) The message +4 is sent to the number 3.
+    (C) The message 3+ is sent to the number 4.
+    (D) The messages 3 and 4 are sent to the operator +.
+
+Overlapped: set(['function', 'c', 'b', 'number', 'message', 'smalltalk']) 
+Overlap: 6 
+Accuracy: 0.125 
+
+Question:
+10. In Ocaml, what is the type of List.map?
+    (A) ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
+    (B) ('a -> 'b) -> 'a list -> 'b list
+    (C) ('a -> bool) -> 'a list -> 'a list
+    (D) ('a -> bool) -> 'a list -> bool
+
+Overlapped: set(['c', 'b', 'list', 'ocaml', 'bool', 'type']) 
+Overlap: 6 
+Accuracy: 0.0789473684211 
 
 Question:
  8. Perl:  Write a program in Perl that uses <> to read all of the
@@ -353,81 +429,9 @@ Question:
     > | wc.perl
     2 9 35
 
-Overlapped: set(['space', 'number', '2', '9', '8', 'match']) 
-Overlap: 6 
-Accuracy: 0.089552238806 
-
-Question:
-13. Enter the names of these programming languages in the appropriate
-    box:  C, C++, Haskell, Java, Ocaml, Perl, Prolog, Scheme.  [1pt]
-
-                   +---------------------------+--------------------------+
-                   |      strong typing        |       weak typing        |
-    +--------------+---------------------------+--------------------------+
-    |static types  |                           |                          |
-    |              |                           |                          |
-    +--------------+---------------------------+--------------------------+
-    |dynamic types |                           |                          |
-    |              |                           |                          |
-    +--------------+---------------------------+--------------------------+
-
-Overlapped: set(['13', 'weak', 'programming', 'languages', 'strong', 'types']) 
-Overlap: 6 
-Accuracy: 0.0310880829016 
-
-Question:
- 1. In Smalltalk, the expression 3+4 means:
-    (A) The message + is sent to the number 3, the result of which is
-        a function that accepts the message 4.
-    (B) The message +4 is sent to the number 3.
-    (C) The message 3+ is sent to the number 4.
-    (D) The messages 3 and 4 are sent to the operator +.
-
-Overlapped: set(['function', 'number', '1', '3', '4', 'message']) 
-Overlap: 6 
-Accuracy: 0.107142857143 
-
-Question:
- 6. Ocaml does *not* have:
-    (A) applicative order evaluation
-    (B) operator overloading
-    (C) parametric polymorphism
-    (D) type inference
-
-Overlapped: set(['polymorphism', 'parametric', 'overloading', '6', 'type', 'order']) 
-Overlap: 6 
-Accuracy: 0.230769230769 
-
-Question:
- 8. What kind of function is
-       let f x y = x + y
-    (A) curried
-    (B) thunked
-    (C) tupled
-    (D) unified
-
-Overlapped: set(['function', 'kind', 'f', 'let', 'x', '8']) 
-Overlap: 6 
-Accuracy: 0.222222222222 
-
-Question:
-10. In Ocaml, what is the type of List.map?
-    (A) ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
-    (B) ('a -> 'b) -> 'a list -> 'b list
-    (C) ('a -> bool) -> 'a list -> 'a list
-    (D) ('a -> bool) -> 'a list -> bool
-
-Overlapped: set(['type', 'list', 'bool', '10']) 
-Overlap: 4 
-Accuracy: 0.05 
-
-Question:
- 3. What are the four general things that a function may do when
-    called?  [2pt]
-
-Overlapped: set(['function', '3', 'called']) 
-Overlap: 3 
-Accuracy: 0.230769230769 
+Overlapped: set(['write', 'perl', 'number', 'match', 'space']) 
+Overlap: 5 
+Accuracy: 0.0793650793651 
 
 Question:
  8. A Perl pattern that matches one or more white space characters is:
@@ -436,20 +440,9 @@ Question:
     (C) \t+
     (D) \w+
 
-Overlapped: set(['8', 'space', 'one']) 
-Overlap: 3 
-Accuracy: 0.111111111111 
-
-Question:
-11. The first computer bug was so named in 1947 at:
-    (A) Carnegie-Mellon
-    (B) Harvard
-    (C) Princeton
-    (D) Stanford
-
-Overlapped: set(['11', 'computer', 'first']) 
-Overlap: 3 
-Accuracy: 0.12 
+Overlapped: set(['perl', 'c', 'space', 'b', 'one']) 
+Overlap: 5 
+Accuracy: 0.217391304348 
 
 Question:
  3. If %h is a hash in Perl, and $k is its key, the value is obtained
@@ -459,20 +452,9 @@ Question:
     (C) &h{$k}
     (D) @h{$k}
 
-Overlapped: set(['h', '3', 'value']) 
-Overlap: 3 
-Accuracy: 0.0576923076923 
-
-Question:
- 7. In Perl, the name of the script being run is:
-    (A) $!
-    (B) $0
-    (C) $ARGV[0]
-    (D) $ENV{SCRIPT}
-
-Overlapped: set(['0', 'name', '7']) 
-Overlap: 3 
-Accuracy: 0.0857142857143 
+Overlapped: set(['h', 'c', 'b', 'value', 'perl']) 
+Overlap: 5 
+Accuracy: 0.104166666667 
 
 Question:
  9. In Ocaml, the type of (+) is:
@@ -481,9 +463,9 @@ Question:
     (C) int -> int * int
     (D) int -> int -> int
 
-Overlapped: set(['int', '9', 'type']) 
-Overlap: 3 
-Accuracy: 0.0652173913043 
+Overlapped: set(['int', 'c', 'b', 'type', 'ocaml']) 
+Overlap: 5 
+Accuracy: 0.119047619048 
 
 Question:
  3. If M = memory leak, D = dangling references, and U = unsafe type
@@ -493,21 +475,39 @@ Question:
     (C) D but neither M nor U
     (D) M but neither D nor U
 
-Overlapped: set(['3', 'type']) 
-Overlap: 2 
-Accuracy: 0.046511627907 
+Overlapped: set(['type', 'c', 'b', 'java']) 
+Overlap: 4 
+Accuracy: 0.121212121212 
 
 Question:
- 5. Unification is an important algorithm in determining the flow of
-    control in:
-    (A) Ocaml
-    (B) Prolog
-    (C) Scheme
-    (D) Smalltalk
+11. The first computer bug was so named in 1947 at:
+    (A) Carnegie-Mellon
+    (B) Harvard
+    (C) Princeton
+    (D) Stanford
 
-Overlapped: set(['control', '5']) 
+Overlapped: set(['c', 'computer', 'b', 'first']) 
+Overlap: 4 
+Accuracy: 0.190476190476 
+
+Question:
+ 7. In Perl, the name of the script being run is:
+    (A) $!
+    (B) $0
+    (C) $ARGV[0]
+    (D) $ENV{SCRIPT}
+
+Overlapped: set(['c', 'b', 'name', 'perl']) 
+Overlap: 4 
+Accuracy: 0.129032258065 
+
+Question:
+ 3. What are the four general things that a function may do when
+    called?  [2pt]
+
+Overlapped: set(['function', 'called']) 
 Overlap: 2 
-Accuracy: 0.08 
+Accuracy: 0.181818181818 
 
 Question:
 Overlapped: set([]) 

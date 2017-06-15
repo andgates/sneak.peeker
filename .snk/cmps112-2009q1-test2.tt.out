@@ -1,31 +1,4 @@
 Question:
- 7. Scheme:  Define a function split that takes a single list argument
-    and returns a list of two elements, with the car of the result
-    containing the odd numberd elements (counting from 1) cdr the even
-    numbered elements.  The elements remain in the same relative order.
-    [3pt]
-
-    > (split '(1 2 3 4 5 6 7 8 9))
-    ((1 3 5 7 9) (2 4 6 8))
-
-Overlapped: set(['even', 'function', 'elements', '7', '3', 'car', 'list', 'argument', 'two', '1', 'returns', '2', '5', '4', 'cdr', '6', '9', '8', 'odd', 'order']) 
-Overlap: 20 
-Accuracy: 0.281690140845 
-
-Question:
- 3. Scheme:  Without using any higher-order functions, define the
-    function map whose first argument is a function, which is applied to
-    each element of its second argument, a list.  The result returned as
-    a new list.  [2pt]
-
-    > (map (lambda (x) (* x x)) '(1 2 3 4 5))
-    (1 4 9 16 25)
-
-Overlapped: set(['function', 'map', 'functions', 'second', 'list', 'argument', 'first', 'element', '1', '3', '2', '5', '4', 'using', '9', 'new', 'lambda', 'x', 'define']) 
-Overlap: 19 
-Accuracy: 0.301587301587 
-
-Question:
  5. Scheme:  Assuming you have a hash table named hash, which contains
     pointers to binary functions, Write code to evaluate an expression
     tree.  The tree is represented as three element lists, where car is
@@ -37,22 +10,46 @@ Question:
 
     (define (evaltree tree)
 
-Overlapped: set(['function', 'cadr', 'right', 'checking', 'car', 'variables', 'contains', 'tree', 'functions', 'element', 'elements', '5', 'table', 'nodes', 'left', 'define']) 
-Overlap: 16 
-Accuracy: 0.205128205128 
+Overlapped: set(['function', 'cadr', 'right', 'checking', 'car', 'variables', 'contains', 'tree', 'functions', 'element', 'write', 'elements', 'left', 'table', 'nodes', 'scheme', 'define']) 
+Overlap: 17 
+Accuracy: 0.226666666667 
 
 Question:
- 6. Perl:  Define a function fold, which uses a loop to join all
-    elements of an array into a single value.  Its first argument is a
-    reference to a binary function, it second argument is a unit value,
-    and its third argument is a reference to an array.  [2pt]
+ 3. Scheme:  Without using any higher-order functions, define the
+    function map whose first argument is a function, which is applied to
+    each element of its second argument, a list.  The result returned as
+    a new list.  [2pt]
 
-    print fold sub{$_[0]+$_[1]}, 0, [1, 2, 3, 4, 5, 6];
-    21
+    > (map (lambda (x) (* x x)) '(1 2 3 4 5))
+    (1 4 9 16 25)
 
-Overlapped: set(['function', 'elements', 'sub', 'second', '0', 'argument', 'value', '1', 'fold', '3', '2', '5', '4', '6', 'array', 'first']) 
-Overlap: 16 
-Accuracy: 0.228571428571 
+Overlapped: set(['function', 'map', 'functions', 'lambda', 'list', 'argument', 'first', 'element', 'second', 'without', 'x', 'using', 'new', 'scheme', 'define']) 
+Overlap: 15 
+Accuracy: 0.245901639344 
+
+Question:
+ 8. Scheme:  Without using any higher order functions, code reverse,
+    which reverses a list.  Hint:  Think about two stacks.  Use tail
+    recursive form and a helper function that uses accumulator style.
+    [2pt]
+
+Overlapped: set(['function', 'style', 'reverse', 'helper', 'use', 'list', 'functions', 'two', 'tail', 'without', 'using', 'scheme', 'order', 'higher']) 
+Overlap: 14 
+Accuracy: 0.411764705882 
+
+Question:
+ 7. Scheme:  Define a function split that takes a single list argument
+    and returns a list of two elements, with the car of the result
+    containing the odd numberd elements (counting from 1) cdr the even
+    numbered elements.  The elements remain in the same relative order.
+    [3pt]
+
+    > (split '(1 2 3 4 5 6 7 8 9))
+    ((1 3 5 7 9) (2 4 6 8))
+
+Overlapped: set(['even', 'function', 'elements', 'car', 'list', 'argument', 'two', 'returns', 'cdr', 'scheme', 'odd', 'order', 'define']) 
+Overlap: 13 
+Accuracy: 0.188405797101 
 
 Question:
  5. Fold right (foldr) uses up how much stack space on a list of length
@@ -62,29 +59,9 @@ Question:
     (C) $ O ( log sub 2 n ) $
     (D) $ O ( n ) $
 
-Overlapped: set(['right', 'sub', 'space', 'list', 'n', '1', 'length', 'much', '5', 'sup', '2', 'stack', 'log']) 
+Overlapped: set(['c', 'right', 'sub', 'space', 'list', 'n', 'fold', 'length', 'much', 'sup', 'b', 'stack', 'log']) 
 Overlap: 13 
-Accuracy: 0.224137931034 
-
-Question:
- 8. Scheme:  Without using any higher order functions, code reverse,
-    which reverses a list.  Hint:  Think about two stacks.  Use tail
-    recursive form and a helper function that uses accumulator style.
-    [2pt]
-
-Overlapped: set(['function', 'functions', 'reverse', 'helper', 'list', 'two', 'tail', 'style', 'using', '8', 'order', 'higher']) 
-Overlap: 12 
-Accuracy: 0.342857142857 
-
-Question:
- 1. Scheme:  The following function by filius Bonacci takes $ O ( 2 sup
-    n ) $ time and $ O ( n ) $ stack.  Recode it using a helper function
-    so that it takes $ O ( n ) $ time and $ O ( 1 ) $ stack.  [2pt]
-    (define (f n) (if (< n 2) n (+ (f (- n 1)) (f (- n 2)))))
-
-Overlapped: set(['function', 'helper', 'f', 'n', '1', '2', 'sup', 'following', 'using', 'stack', 'define']) 
-Overlap: 11 
-Accuracy: 0.130952380952 
+Accuracy: 0.254901960784 
 
 Question:
  2. Scheme:  Define the function foldl, which has three arguments in
@@ -97,9 +74,9 @@ Question:
     Using foldl, define the function length, which returns the length of
     a list.  [1pt]
 
-Overlapped: set(['function', 'car', 'list', 'length', 'tail', '2', 'arguments', 'cdr', 'returns', 'order', 'define']) 
-Overlap: 11 
-Accuracy: 0.186440677966 
+Overlapped: set(['function', 'length', 'car', 'list', 'tail', 'returns', 'arguments', 'cdr', 'using', 'scheme', 'order', 'define']) 
+Overlap: 12 
+Accuracy: 0.214285714286 
 
 Question:
  4. C++:  Define a function print whose argument is a vector<string>,
@@ -109,9 +86,32 @@ Question:
     Instead, for an extra point, make it a template function whose type
     can be anything for which operator<< is properly defined.  [1pt]
 
-Overlapped: set(['function', 'elements', 'string', 'point', 'defined', 'argument', 'one', 'vector', '4', 'line', 'type']) 
+Overlapped: set(['function', 'elements', 'string', 'point', 'defined', 'argument', 'one', 'vector', 'line', 'type', 'define']) 
 Overlap: 11 
-Accuracy: 0.239130434783 
+Accuracy: 0.244444444444 
+
+Question:
+ 6. Perl:  Define a function fold, which uses a loop to join all
+    elements of an array into a single value.  Its first argument is a
+    reference to a binary function, it second argument is a unit value,
+    and its third argument is a reference to an array.  [2pt]
+
+    print fold sub{$_[0]+$_[1]}, 0, [1, 2, 3, 4, 5, 6];
+    21
+
+Overlapped: set(['function', 'elements', 'sub', 'argument', 'value', 'perl', 'fold', 'second', 'array', 'first', 'define']) 
+Overlap: 11 
+Accuracy: 0.161764705882 
+
+Question:
+ 1. Scheme:  The following function by filius Bonacci takes $ O ( 2 sup
+    n ) $ time and $ O ( n ) $ stack.  Recode it using a helper function
+    so that it takes $ O ( n ) $ time and $ O ( 1 ) $ stack.  [2pt]
+    (define (f n) (if (< n 2) n (+ (f (- n 1)) (f (- n 2)))))
+
+Overlapped: set(['function', 'helper', 'f', 'n', 'sup', 'following', 'using', 'scheme', 'stack', 'define']) 
+Overlap: 10 
+Accuracy: 0.128205128205 
 
 Question:
  6. In the following statement, continue goes to what part ?
@@ -123,20 +123,20 @@ Question:
     (C) i < n
     (D) i = 0
 
-Overlapped: set(['g', 'f', 'h', 'n', '0', 'continue', 'statement', '6', 'following']) 
+Overlapped: set(['c', 'b', 'g', 'f', 'h', 'n', 'continue', 'statement', 'following']) 
 Overlap: 9 
-Accuracy: 0.160714285714 
+Accuracy: 0.173076923077 
 
 Question:
- 1. What expression will print (3)?
-    (A) (caar '(1 2 3))
-    (B) (cadr '(1 2 3))
-    (C) (cdar '(1 2 3))
-    (D) (cddr '(1 2 3))
+ 8. Both Perl and Scheme have type systems which are:
+    (A) strong and dynamic.
+    (B) strong and static.
+    (C) weak and dynamic.
+    (D) weak and static.
 
-Overlapped: set(['cadr', 'cdar', '1', '3', '2', 'caar', 'cddr']) 
-Overlap: 7 
-Accuracy: 0.122807017544 
+Overlapped: set(['c', 'strong', 'weak', 'dynamic', 'perl', 'b', 'static', 'scheme', 'type']) 
+Overlap: 9 
+Accuracy: 0.321428571429 
 
 Question:
  3. What might cause a dangling pointer in C++?
@@ -145,9 +145,9 @@ Question:
     (C) new
     (D) throw
 
-Overlapped: set(['might', '3', 'new', 'cause', 'throw', 'pointer']) 
-Overlap: 6 
-Accuracy: 0.24 
+Overlapped: set(['c', 'b', 'cause', 'new', 'might', 'throw', 'pointer']) 
+Overlap: 7 
+Accuracy: 0.333333333333 
 
 Question:
  7. What declares a variable m of type map whose keys are strings and
@@ -157,20 +157,9 @@ Question:
     (C) map [int, string] m;
     (D) map m <string, int>;
 
-Overlapped: set(['map', 'string', 'int', '7', 'variable', 'type']) 
-Overlap: 6 
-Accuracy: 0.109090909091 
-
-Question:
- 8. Both Perl and Scheme have type systems which are:
-    (A) strong and dynamic.
-    (B) strong and static.
-    (C) weak and dynamic.
-    (D) weak and static.
-
-Overlapped: set(['weak', 'dynamic', 'static', '8', 'strong', 'type']) 
-Overlap: 6 
-Accuracy: 0.1875 
+Overlapped: set(['map', 'c', 'b', 'string', 'int', 'variable', 'type']) 
+Overlap: 7 
+Accuracy: 0.137254901961 
 
 Question:
  9. For which function will C++ say:  Warning:  Returning a reference to
@@ -180,9 +169,20 @@ Question:
     (C) int f (int i) {int j; return j; }
     (D) int f (int i) {int &j; return j; }
 
-Overlapped: set(['function', 'return', 'f', 'int', 'variable', '9']) 
+Overlapped: set(['function', 'c', 'b', 'return', 'f', 'int', 'variable']) 
+Overlap: 7 
+Accuracy: 0.0886075949367 
+
+Question:
+ 1. What expression will print (3)?
+    (A) (caar '(1 2 3))
+    (B) (cadr '(1 2 3))
+    (C) (cdar '(1 2 3))
+    (D) (cddr '(1 2 3))
+
+Overlapped: set(['c', 'b', 'cdar', 'cadr', 'caar', 'cddr']) 
 Overlap: 6 
-Accuracy: 0.0722891566265 
+Accuracy: 0.11320754717 
 
 Question:
  4. In Ocaml, what is the type of the function (+)?
@@ -191,9 +191,9 @@ Question:
     (C) int -> int * int
     (D) int -> int -> int
 
-Overlapped: set(['int', 'function', 'type', '4']) 
-Overlap: 4 
-Accuracy: 0.0851063829787 
+Overlapped: set(['function', 'c', 'b', 'int', 'ocaml', 'type']) 
+Overlap: 6 
+Accuracy: 0.139534883721 
 
 Question:
  2. What variable in a command in a Makefile has as its value the target
@@ -203,9 +203,9 @@ Question:
     (C) $?
     (D) $@
 
-Overlapped: set(['variable', '2', 'value']) 
-Overlap: 3 
-Accuracy: 0.1 
+Overlapped: set(['variable', 'c', 'b', 'value']) 
+Overlap: 4 
+Accuracy: 0.153846153846 
 
 Question:
 10. In C++, which of these operators is ``lazy''?
@@ -214,9 +214,9 @@ Question:
     (C) <<
     (D) ==
 
-Overlapped: set(['10']) 
-Overlap: 1 
-Accuracy: 0.0357142857143 
+Overlapped: set(['c', 'b']) 
+Overlap: 2 
+Accuracy: 0.0833333333333 
 
 Question:
 Overlapped: set([]) 

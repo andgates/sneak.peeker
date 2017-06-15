@@ -30,9 +30,9 @@ Question:
     5
     1
 
-Overlapped: set(['methods', 'argument', 'array', 'size', 'given', 'returns', 'stack', '1', '0', '3', '5', 'new', 'nil', '12', 'class', '10', 'c', 'b', 'e', 'f', 'maximum', 'creates', 'following']) 
-Overlap: 23 
-Accuracy: 0.127071823204 
+Overlapped: set(['c', 'b', 'e', 'methods', 'nil', 'f', 'class', 'maximum', 'argument', 'creates', 'define', 'returns', 'following', 'new', 'array', 'given', 'stack', 'smalltalk', 'size']) 
+Overlap: 19 
+Accuracy: 0.107344632768 
 
 Question:
  1. Ocaml:  Define a function split which takes a predicate and a list
@@ -45,39 +45,9 @@ Question:
     # split even [1; 3; 5; 2; 8; 4; 1; 10];;
     - : int list * int list = ([2; 8; 4; 10], [1; 3; 5; 1])
 
-Overlapped: set(['int', 'second', 'bool', 'even', 'returns', '1', '3', '2', '5', '4', '8', 'cause', 'function', 'predicate', 'elements', 'return', 'true', '10', 'list', 'fun', 'order', 'first']) 
-Overlap: 22 
-Accuracy: 0.19298245614 
-
-Question:
- 6. Scheme:  Define a function exclude which takes a count and a list
-    and returns a list with the first count items removed.  A negative
-    count is the same as 0.  If more items are excluded than exist in
-    the list, return the empty list.  [2pt]
-    > (exclude 2 '(1 2 3 4 5))
-    (3 4 5)
-    > (exclude -5 '(1 2 3 4 5))
-    (1 2 3 4 5)
-    > (exclude 10 '(1 2 3))
-    ()
-
-Overlapped: set(['function', '10', 'return', '3', 'list', 'negative', '1', '0', 'returns', '2', '5', '4', '6', 'first']) 
-Overlap: 14 
-Accuracy: 0.162790697674 
-
-Question:
- 9. Smalltalk:  Define a class Find with a single class method key:
-    array: which accepts a key and an array and returns the first
-    position in the array equal to the key.  If not found, return V>=
-    nil.  [3pt]
-    st> Find key: 5 array: #(1 3 5 7 9).
-    3
-    st> Find key: 11 array: #(1 3 5 7 9).
-    nil
-
-Overlapped: set(['11', 'return', 'nil', '3', 'st', '1', 'returns', '5', '7', '9', 'array', 'class', 'first']) 
-Overlap: 13 
-Accuracy: 0.180555555556 
+Overlapped: set(['even', 'function', 'predicate', 'elements', 'return', 'int', 'true', 'list', 'returns', 'ocaml', 'second', 'bool', 'fun', 'first', 'cause', 'order', 'define']) 
+Overlap: 17 
+Accuracy: 0.151785714286 
 
 Question:
  8. Which of the following functions can take a function, a unit, and
@@ -89,9 +59,115 @@ Question:
     (C) foldr
     (D) map
 
-Overlapped: set(['function', 'map', 'functions', 'space', 'list', 'use', 'one', 'arguments', 'applies', 'following', '8', 'element', 'stack']) 
-Overlap: 13 
-Accuracy: 0.295454545455 
+Overlapped: set(['function', 'map', 'functions', 'b', 'space', 'c', 'list', 'use', 'one', 'arguments', 'applies', 'following', 'element', 'stack']) 
+Overlap: 14 
+Accuracy: 0.35 
+
+Question:
+ 2. Prolog:  Define a function filter which takes three arguments:  a
+    predicate, an input list, and an output list.  The output list
+    contains all elements of the input list for which the predicate is
+    true, and in the same order.  [2pt]
+    | ?- filter( even, [1,2,3,4,5,6,7,8], X).
+    X = [2,4,6,8] ?
+
+Overlapped: set(['even', 'function', 'predicate', 'elements', 'contains', 'list', 'arguments', 'x', 'prolog', 'true', 'order', 'define']) 
+Overlap: 12 
+Accuracy: 0.230769230769 
+
+Question:
+11. In PL/I, a goto statement had the capability of being executed in
+    one function and transver control to another function, perhaps the
+    one that called it.  The equivalent feature of Java uses what
+    keyword?
+    (A) break
+    (B) continue
+    (C) throw
+    (D) synchronized
+
+Overlapped: set(['control', 'function', 'c', 'b', 'java', 'called', 'perhaps', 'one', 'break', 'continue', 'statement', 'throw']) 
+Overlap: 12 
+Accuracy: 0.315789473684 
+
+Question:
+ 5. Which of the following data structures violates the spirit of
+    functional programming?
+    (A) array
+    (B) list
+    (C) stack
+    (D) tree
+
+Overlapped: set(['c', 'b', 'programming', 'tree', 'list', 'functional', 'data', 'following', 'array', 'structures', 'stack']) 
+Overlap: 11 
+Accuracy: 0.478260869565 
+
+Question:
+ 9. Smalltalk:  Define a class Find with a single class method key:
+    array: which accepts a key and an array and returns the first
+    position in the array equal to the key.  If not found, return V>=
+    nil.  [3pt]
+    st> Find key: 5 array: #(1 3 5 7 9).
+    3
+    st> Find key: 11 array: #(1 3 5 7 9).
+    nil
+
+Overlapped: set(['return', 'nil', 'st', 'returns', 'v', 'array', 'first', 'class', 'smalltalk', 'define']) 
+Overlap: 10 
+Accuracy: 0.142857142857 
+
+Question:
+10. Java:  Finish the following program by specifying the class >V=
+    say .  When started from the main function, it prints the message
+    ``hello'' and then quits.  [2pt]
+
+    class hello {
+       // What goes here?
+       public static void main (String[] args) {
+          Thread say = new Thread (new say ());
+          say.start();
+       }
+    }
+
+Overlapped: set(['function', 'java', 'string', 'void', 'static', 'following', 'new', 'message', 'main', 'class']) 
+Overlap: 10 
+Accuracy: 0.16393442623 
+
+Question:
+ 4. In an object-oriented language like C++, a virtual function
+    (instance method) is called based on a:
+    (A) duck-typing response
+    (B) generic declaration
+    (C) heap-allocated closure
+    (D) virtual function table
+
+Overlapped: set(['function', 'closure', 'c', 'b', 'like', 'language', 'virtual', 'declaration', 'table', 'called']) 
+Overlap: 10 
+Accuracy: 0.294117647059 
+
+Question:
+ 7. Which of the following functions is a higher-order function whose
+    arguments are a function and a list, and whose result is a list
+    containing the result of applying the function to each of the
+    elements of the list?
+    (A) filter
+    (B) foldl
+    (C) foldr
+    (D) map
+
+Overlapped: set(['function', 'map', 'functions', 'elements', 'list', 'c', 'b', 'arguments', 'following']) 
+Overlap: 9 
+Accuracy: 0.264705882353 
+
+Question:
+10. Which of the following programs will cause a dangling pointer?
+    (A) int *f() {int i = 6; return &i; }
+    (B) int *f() {int i = 6; return *i; }
+    (C) int *f() {int i = 6; return  i; }
+    (D) int  f() {int i = 6; return  i; }
+
+Overlapped: set(['c', 'b', 'return', 'programs', 'int', 'cause', 'f', 'following', 'pointer']) 
+Overlap: 9 
+Accuracy: 0.134328358209 
 
 Question:
  3. Scheme:  Define a function maxzip which takes a predicate and two
@@ -105,60 +181,25 @@ Question:
     > (maxzip <= '(1 3 5 7 9) '(9 9))
     (1 3)
 
-Overlapped: set(['function', 'predicate', 'elements', 'list', 'two', '1', '3', '5', '7', '9', 'length']) 
-Overlap: 11 
-Accuracy: 0.100917431193 
+Overlapped: set(['function', 'predicate', 'elements', 'list', 'two', 'length', 'scheme', 'define']) 
+Overlap: 8 
+Accuracy: 0.0747663551402 
 
 Question:
- 2. Prolog:  Define a function filter which takes three arguments:  a
-    predicate, an input list, and an output list.  The output list
-    contains all elements of the input list for which the predicate is
-    true, and in the same order.  [2pt]
-    | ?- filter( even, [1,2,3,4,5,6,7,8], X).
-    X = [2,4,6,8] ?
+ 6. Scheme:  Define a function exclude which takes a count and a list
+    and returns a list with the first count items removed.  A negative
+    count is the same as 0.  If more items are excluded than exist in
+    the list, return the empty list.  [2pt]
+    > (exclude 2 '(1 2 3 4 5))
+    (3 4 5)
+    > (exclude -5 '(1 2 3 4 5))
+    (1 2 3 4 5)
+    > (exclude 10 '(1 2 3))
+    ()
 
-Overlapped: set(['even', 'function', 'predicate', 'elements', 'contains', 'list', '2', 'arguments', 'true', 'order']) 
-Overlap: 10 
-Accuracy: 0.185185185185 
-
-Question:
- 7. Ocaml:  Define a function exclude which does the same.  [2pt]
-    # exclude 2 [1;2;3;4;5];;
-    - : int list = [3; 4; 5]
-    # exclude (-5) [1;2;3;4;5];;
-    - : int list = [1; 2; 3; 4; 5]
-    # exclude 10 [1;2;3];;
-    - : int list = []
-
-Overlapped: set(['function', '10', 'int', 'list', '1', '3', '2', '5', '4', '7']) 
-Overlap: 10 
-Accuracy: 0.108695652174 
-
-Question:
-11. In PL/I, a goto statement had the capability of being executed in
-    one function and transver control to another function, perhaps the
-    one that called it.  The equivalent feature of Java uses what
-    keyword?
-    (A) break
-    (B) continue
-    (C) throw
-    (D) synchronized
-
-Overlapped: set(['control', 'function', 'called', 'perhaps', 'one', 'break', 'continue', 'statement', '11', 'throw']) 
-Overlap: 10 
-Accuracy: 0.232558139535 
-
-Question:
- 5. Which of the following data structures violates the spirit of
-    functional programming?
-    (A) array
-    (B) list
-    (C) stack
-    (D) tree
-
-Overlapped: set(['programming', 'tree', 'list', 'functional', 'data', '5', 'following', 'array', 'structures', 'stack']) 
-Overlap: 10 
-Accuracy: 0.37037037037 
+Overlapped: set(['function', 'return', 'list', 'negative', 'first', 'returns', 'scheme', 'define']) 
+Overlap: 8 
+Accuracy: 0.0975609756098 
 
 Question:
  8. Prolog:  Define A function exclude/3 with the same semantics.  The
@@ -175,122 +216,9 @@ Question:
     U = [] ?
     yes
 
-Overlapped: set(['function', '10', 'list', 'argument', 'two', '2', 'arguments', '8', 'first']) 
-Overlap: 9 
-Accuracy: 0.0978260869565 
-
-Question:
-10. Java:  Finish the following program by specifying the class >V=
-    say .  When started from the main function, it prints the message
-    ``hello'' and then quits.  [2pt]
-
-    class hello {
-       // What goes here?
-       public static void main (String[] args) {
-          Thread say = new Thread (new say ());
-          say.start();
-       }
-    }
-
-Overlapped: set(['function', '10', 'void', 'static', 'following', 'new', 'message', 'main', 'class']) 
-Overlap: 9 
-Accuracy: 0.140625 
-
-Question:
-10. Which of the following programs will cause a dangling pointer?
-    (A) int *f() {int i = 6; return &i; }
-    (B) int *f() {int i = 6; return *i; }
-    (C) int *f() {int i = 6; return  i; }
-    (D) int  f() {int i = 6; return  i; }
-
-Overlapped: set(['10', 'return', 'programs', 'int', 'pointer', 'f', '6', 'following', 'cause']) 
-Overlap: 9 
-Accuracy: 0.12676056338 
-
-Question:
- 4. In an object-oriented language like C++, a virtual function
-    (instance method) is called based on a:
-    (A) duck-typing response
-    (B) generic declaration
-    (C) heap-allocated closure
-    (D) virtual function table
-
-Overlapped: set(['function', 'closure', 'like', 'language', 'virtual', '4', 'declaration', 'table', 'called']) 
-Overlap: 9 
-Accuracy: 0.236842105263 
-
-Question:
- 7. Which of the following functions is a higher-order function whose
-    arguments are a function and a list, and whose result is a list
-    containing the result of applying the function to each of the
-    elements of the list?
-    (A) filter
-    (B) foldl
-    (C) foldr
-    (D) map
-
-Overlapped: set(['function', 'map', 'functions', 'elements', 'list', 'arguments', '7', 'following']) 
+Overlapped: set(['function', 'list', 'argument', 'first', 'two', 'arguments', 'prolog', 'define']) 
 Overlap: 8 
-Accuracy: 0.210526315789 
-
-Question:
- 4. What kind of type equivalence is used to determine if two
-    different typedefs in C declare the same type?
-    (A) anonymous
-    (B) name
-    (C) structural
-    (D) value
-
-Overlapped: set(['kind', 'used', 'name', 'two', 'value', '4', 'type']) 
-Overlap: 7 
-Accuracy: 0.225806451613 
-
-Question:
- 9. How might one declare an array variable in Perl with lexical
-    scope?
-    (A) local @a;
-    (B) my @a;
-    (C) our @a;
-    (D) use @a;
-
-Overlapped: set(['use', 'one', 'variable', '9', 'array', 'might']) 
-Overlap: 6 
-Accuracy: 0.176470588235 
-
-Question:
- 3. Allowing partial parameterization of a function in a functional
-    language such as Ocaml is called:
-    (A) currying
-    (B) lambda lifting
-    (C) tupling
-    (D) unification
-
-Overlapped: set(['function', 'language', 'functional', '3', 'called', 'lambda']) 
-Overlap: 6 
-Accuracy: 0.214285714286 
-
-Question:
- 9. From what memory segment does the malloc(3) function allocate
-    memory?
-    (A) test
-    (B) data
-    (C) heap
-    (D) stack
-
-Overlapped: set(['function', '3', 'heap', '9', 'data', 'stack']) 
-Overlap: 6 
-Accuracy: 0.206896551724 
-
-Question:
- 1. What will make Smalltalk print 9?
-    (A) (4 + 5) value.
-    (B) (4 + 5) value:.
-    (C) [4 + 5] value.
-    (D) [4 + 5] value:.
-
-Overlapped: set(['1', '9', '5', '4', 'value']) 
-Overlap: 5 
-Accuracy: 0.1 
+Accuracy: 0.0909090909091 
 
 Question:
  3. In Ocaml, what is the type of List.tl?  (Hint:  like cdr in
@@ -300,9 +228,57 @@ Question:
     (C) 'a list -> 'a list
     (D) 'a list -> 'a list -> 'a list
 
-Overlapped: set(['list', '3', 'type', 'like', 'cdr']) 
-Overlap: 5 
-Accuracy: 0.0862068965517 
+Overlapped: set(['c', 'b', 'like', 'list', 'ocaml', 'cdr', 'scheme', 'type']) 
+Overlap: 8 
+Accuracy: 0.148148148148 
+
+Question:
+ 4. What kind of type equivalence is used to determine if two
+    different typedefs in C declare the same type?
+    (A) anonymous
+    (B) name
+    (C) structural
+    (D) value
+
+Overlapped: set(['c', 'used', 'name', 'kind', 'value', 'two', 'b', 'type']) 
+Overlap: 8 
+Accuracy: 0.296296296296 
+
+Question:
+ 9. How might one declare an array variable in Perl with lexical
+    scope?
+    (A) local @a;
+    (B) my @a;
+    (C) our @a;
+    (D) use @a;
+
+Overlapped: set(['c', 'b', 'use', 'one', 'variable', 'array', 'perl', 'might']) 
+Overlap: 8 
+Accuracy: 0.266666666667 
+
+Question:
+ 3. Allowing partial parameterization of a function in a functional
+    language such as Ocaml is called:
+    (A) currying
+    (B) lambda lifting
+    (C) tupling
+    (D) unification
+
+Overlapped: set(['function', 'c', 'b', 'language', 'functional', 'ocaml', 'called', 'lambda']) 
+Overlap: 8 
+Accuracy: 0.32 
+
+Question:
+ 7. Unification is an important algorithm in performing automatic type
+    inference in which of these languages?
+    (A) Java
+    (B) Ocaml
+    (C) Prolog
+    (D) Scheme
+
+Overlapped: set(['c', 'b', 'java', 'ocaml', 'languages', 'scheme', 'type', 'prolog']) 
+Overlap: 8 
+Accuracy: 0.333333333333 
 
 Question:
  6. In Perl, the default argument to a function requiring an argument,
@@ -312,27 +288,46 @@ Question:
     (C) $_
     (D) @_
 
-Overlapped: set(['function', '0', 'given', 'argument', '6']) 
-Overlap: 5 
-Accuracy: 0.142857142857 
+Overlapped: set(['function', 'c', 'b', 'given', 'argument', 'perl']) 
+Overlap: 6 
+Accuracy: 0.193548387097 
 
 Question:
- 1. In Java, if two functions have the same name in the same class,
-    but have different signatures, this is referred to as:
-    (A)
+ 6. All imperative featurs of Haskell must be isolated from the rest
+    of the program and contained in a:
+    (A) closure
+    (B) monad
+    (C) proxy
+    (D) thunk
 
-Overlapped: set(['1', 'functions', 'two', 'name', 'class']) 
-Overlap: 5 
-Accuracy: 0.277777777778 
+Overlapped: set(['closure', 'c', 'b', 'monad', 'thunk', 'haskell']) 
+Overlap: 6 
+Accuracy: 0.25 
 
 Question:
- 5. Name the two general kinds of polymorphism, and for each of them,
-    name the two sub-kinds of polymporhism into which they may be
-    classified.  [1pt]
+ 9. From what memory segment does the malloc(3) function allocate
+    memory?
+    (A) test
+    (B) data
+    (C) heap
+    (D) stack
 
-Overlapped: set(['polymorphism', '5', 'two', 'name']) 
-Overlap: 4 
-Accuracy: 0.210526315789 
+Overlapped: set(['function', 'c', 'b', 'heap', 'data', 'stack']) 
+Overlap: 6 
+Accuracy: 0.24 
+
+Question:
+ 7. Ocaml:  Define a function exclude which does the same.  [2pt]
+    # exclude 2 [1;2;3;4;5];;
+    - : int list = [3; 4; 5]
+    # exclude (-5) [1;2;3;4;5];;
+    - : int list = [1; 2; 3; 4; 5]
+    # exclude 10 [1;2;3];;
+    - : int list = []
+
+Overlapped: set(['int', 'function', 'list', 'ocaml', 'define']) 
+Overlap: 5 
+Accuracy: 0.0549450549451 
 
 Question:
  5. A process that has exited, either by calling exit or from a
@@ -343,31 +338,18 @@ Question:
     (C) init
     (D) zombie
 
-Overlapped: set(['5', 'called', 'parent', 'calling']) 
-Overlap: 4 
-Accuracy: 0.117647058824 
+Overlapped: set(['c', 'b', 'called', 'parent', 'calling']) 
+Overlap: 5 
+Accuracy: 0.166666666667 
 
 Question:
- 2. In Java, if two functions in different classes have the same
-    signature, but one of the classes is a subclass of another, this
-    is referred to as:
+ 1. In Java, if two functions have the same name in the same class,
+    but have different signatures, this is referred to as:
     (A)
 
-Overlapped: set(['functions', '2', 'two', 'one']) 
-Overlap: 4 
-Accuracy: 0.190476190476 
-
-Question:
- 6. All imperative featurs of Haskell must be isolated from the rest
-    of the program and contained in a:
-    (A) closure
-    (B) monad
-    (C) proxy
-    (D) thunk
-
-Overlapped: set(['monad', 'closure', '6', 'thunk']) 
-Overlap: 4 
-Accuracy: 0.142857142857 
+Overlapped: set(['functions', 'java', 'two', 'name', 'class']) 
+Overlap: 5 
+Accuracy: 0.333333333333 
 
 Question:
  4. Perl:  Write a program which uses <> to read files and at end
@@ -376,21 +358,42 @@ Question:
     % wc.perl foo
     4 28 149
 
-Overlapped: set(['foo', 'number', '4']) 
-Overlap: 3 
-Accuracy: 0.0833333333333 
+Overlapped: set(['write', 'foo', 'number', 'perl']) 
+Overlap: 4 
+Accuracy: 0.117647058824 
 
 Question:
- 7. Unification is an important algorithm in performing automatic type
-    inference in which of these languages?
-    (A) Java
-    (B) Ocaml
-    (C) Prolog
-    (D) Scheme
+ 1. What will make Smalltalk print 9?
+    (A) (4 + 5) value.
+    (B) (4 + 5) value:.
+    (C) [4 + 5] value.
+    (D) [4 + 5] value:.
 
-Overlapped: set(['languages', 'type', '7']) 
-Overlap: 3 
-Accuracy: 0.111111111111 
+Overlapped: set(['c', 'b', 'value', 'smalltalk']) 
+Overlap: 4 
+Accuracy: 0.0869565217391 
+
+Question:
+ 2. In Java, if two functions in different classes have the same
+    signature, but one of the classes is a subclass of another, this
+    is referred to as:
+    (A)
+
+Overlapped: set(['functions', 'java', 'two', 'one']) 
+Overlap: 4 
+Accuracy: 0.222222222222 
+
+Question:
+ 8. Given the declarations int *p;  and int i;, which C expression is
+    not valid?
+    (A) i + i
+    (B) i + p
+    (C) p + i
+    (D) p + p
+
+Overlapped: set(['int', 'given', 'b', 'c']) 
+Overlap: 4 
+Accuracy: 0.129032258065 
 
 Question:
 10. A process that sleeps in the background and wakes up whenever a
@@ -401,28 +404,18 @@ Question:
     (C) init
     (D) zombie
 
-Overlapped: set(['10', 'returns', 'called']) 
+Overlapped: set(['returns', 'b', 'c', 'called']) 
+Overlap: 4 
+Accuracy: 0.114285714286 
+
+Question:
+ 5. Name the two general kinds of polymorphism, and for each of them,
+    name the two sub-kinds of polymporhism into which they may be
+    classified.  [1pt]
+
+Overlapped: set(['polymorphism', 'two', 'name']) 
 Overlap: 3 
-Accuracy: 0.0769230769231 
-
-Question:
-11. Give an example of how memory leak might occur in Java.  [2pt]
-
-Overlapped: set(['11', 'might']) 
-Overlap: 2 
-Accuracy: 0.153846153846 
-
-Question:
- 8. Given the declarations int *p;  and int i;, which C expression is
-    not valid?
-    (A) i + i
-    (B) i + p
-    (C) p + i
-    (D) p + p
-
-Overlapped: set(['int', '8']) 
-Overlap: 2 
-Accuracy: 0.0588235294118 
+Accuracy: 0.166666666667 
 
 Question:
  2. In Smalltalk, what is 1.4142135623730951?
@@ -431,9 +424,16 @@ Question:
     (C) 2 sqrt
     (D) sqrt (2)
 
-Overlapped: set(['2']) 
-Overlap: 1 
-Accuracy: 0.03125 
+Overlapped: set(['c', 'b', 'smalltalk']) 
+Overlap: 3 
+Accuracy: 0.107142857143 
+
+Question:
+11. Give an example of how memory leak might occur in Java.  [2pt]
+
+Overlapped: set(['might', 'java']) 
+Overlap: 2 
+Accuracy: 0.166666666667 
 
 Question:
 Overlapped: set([]) 

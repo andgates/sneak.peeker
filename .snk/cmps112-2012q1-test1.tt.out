@@ -1,47 +1,30 @@
 Question:
- 9. Define the same function in Perl.  It takes a reference to a
-    function of two arguments, followed by references to two arrays
-    and applies the function pairwise to the arrays, returning an
-    array of the shorter length.  [2pt]
-    Example:  @y = zip sub{$_[0]+$_[1]}, [1, 2, 3], [4, 5, 6, 7];
-    print "@y\n";
-    Prints:  5 7 9
-
-Overlapped: set(['function', 'sub', 'applies', 'two', '1', '0', '3', '2', '5', 'arguments', '7', '6', '9', 'length', 'array', '4']) 
-Overlap: 16 
-Accuracy: 0.20253164557 
-
-Question:
- 8. Define the function zip in Scheme.  It takes a function and a pair
-    of lists and returns a list having pairwise applied the function
-    to corresponding pairs of elements in the list.  If the lists are
-    of unequal length, the function stops when the shorter list runs
-    out.  [2pt]
-    Example:  (zip + '(1 2 3) '(4 5 6 7))
-    Returns:  (5 7 9)
-
-Overlapped: set(['function', 'elements', 'length', 'list', '3', '1', 'returns', '2', '5', '4', '7', '6', '9', '8']) 
-Overlap: 14 
-Accuracy: 0.225806451613 
-
-Question:
  1. Define a function grep in Scheme whose first argument is a
     predicate and second argument a list.  It returns a new list of
     all of the elements of the argument list for which the predicate
     is true.  Do not use a higher-order function.  [2pt]
 
-Overlapped: set(['function', 'use', 'elements', 'predicate', 'list', 'second', 'argument', '1', 'returns', 'new', 'true', 'first']) 
-Overlap: 12 
-Accuracy: 0.375 
+Overlapped: set(['function', 'use', 'elements', 'predicate', 'list', 'second', 'first', 'argument', 'returns', 'new', 'scheme', 'true', 'define']) 
+Overlap: 13 
+Accuracy: 0.448275862069 
+
+Question:
+ 2. Define a function positives which uses grep (above) to accept a
+    list of numbers and return only the positive ones.  Use a lambda
+    expression, not a function name, as one of its arguments.  [1pt]
+
+Overlapped: set(['function', 'use', 'return', 'name', 'list', 'one', 'ones', 'arguments', 'lambda', 'define']) 
+Overlap: 10 
+Accuracy: 0.357142857143 
 
 Question:
  3. Define a function sum which returns the sum of all elements of a
     list.  Do not use any higher-order functions.  Use constant ($ O (
     1 ) $) stack space.  [2pt]
 
-Overlapped: set(['function', 'use', 'elements', 'space', 'sum', 'list', '3', '1', 'returns', 'stack', 'functions']) 
-Overlap: 11 
-Accuracy: 0.354838709677 
+Overlapped: set(['function', 'functions', 'elements', 'space', 'sum', 'list', 'use', 'returns', 'stack', 'define']) 
+Overlap: 10 
+Accuracy: 0.357142857143 
 
 Question:
  3. What is the running time of the following function?
@@ -53,21 +36,9 @@ Question:
     (C) $ O ( n sup 2 ) $
     (D) $ O ( 2 sup n ) $
 
-Overlapped: set(['function', 'sub', 'log', 'f', 'n', '1', '3', '2', 'sup', 'following', 'define']) 
-Overlap: 11 
-Accuracy: 0.129411764706 
-
-Question:
- 5. What is the value of:
-       (cadr '((1 2 3) (4 5 6) (7 8 9)))
-    (A) 1
-    (B) (4 5 6)
-    (C) (2 3)
-    (D) ((7 8 9))
-
-Overlapped: set(['cadr', 'value', '1', '3', '2', '5', '4', '7', '6', '9', '8']) 
-Overlap: 11 
-Accuracy: 0.2 
+Overlapped: set(['function', 'c', 'b', 'sub', 'f', 'n', 'log', 'sup', 'following', 'define']) 
+Overlap: 10 
+Accuracy: 0.12987012987 
 
 Question:
  4. What amount of stack space is taken up by evaluating that same
@@ -77,18 +48,55 @@ Question:
     (C) $ O ( n sup 2 ) $
     (D) $ O ( 2 sup n ) $
 
-Overlapped: set(['function', 'log', 'space', 'n', '2', '4', 'sup', 'taken', 'stack', 'sub']) 
+Overlapped: set(['function', 'c', 'b', 'log', 'space', 'n', 'sup', 'taken', 'stack', 'sub']) 
 Overlap: 10 
-Accuracy: 0.188679245283 
+Accuracy: 0.222222222222 
 
 Question:
- 2. Define a function positives which uses grep (above) to accept a
-    list of numbers and return only the positive ones.  Use a lambda
-    expression, not a function name, as one of its arguments.  [1pt]
+ 7. Data types in Perl and Scheme are:
+    (A) strong and dynamic.
+    (B) strong and static.
+    (C) weak and dynamic.
+    (D) weak and static.
 
-Overlapped: set(['function', 'return', 'name', 'list', 'one', 'ones', 'arguments', '2', 'lambda']) 
+Overlapped: set(['c', 'b', 'weak', 'dynamic', 'perl', 'static', 'scheme', 'strong', 'data', 'types']) 
+Overlap: 10 
+Accuracy: 0.357142857143 
+
+Question:
+ 9. Define the same function in Perl.  It takes a reference to a
+    function of two arguments, followed by references to two arrays
+    and applies the function pairwise to the arrays, returning an
+    array of the shorter length.  [2pt]
+    Example:  @y = zip sub{$_[0]+$_[1]}, [1, 2, 3], [4, 5, 6, 7];
+    print "@y\n";
+    Prints:  5 7 9
+
+Overlapped: set(['function', 'sub', 'two', 'perl', 'length', 'arguments', 'applies', 'array', 'define']) 
 Overlap: 9 
-Accuracy: 0.310344827586 
+Accuracy: 0.116883116883 
+
+Question:
+ 8. A static link in a stack frame points at:
+    (A) the address of the call instruction that activated this
+        function.
+    (B) the stack frame of the calling function.
+    (C) the stack frame of the function in which this function is
+        nested.
+    (D) the top of the function call stack.
+
+Overlapped: set(['function', 'c', 'b', 'nested', 'points', 'static', 'calling', 'stack']) 
+Overlap: 8 
+Accuracy: 0.205128205128 
+
+Question:
+ 4. Define the same function sum using the higher-order function
+    foldleft, whose arguments are a unit value, a binary function, and
+    a list.  [1pt]
+
+Overlapped: set(['function', 'sum', 'list', 'value', 'arguments', 'using', 'define']) 
+Overlap: 7 
+Accuracy: 0.318181818182 
 
 Question:
  7. Write a complete program in Perl that reads in words from all of
@@ -107,31 +115,22 @@ Question:
     use warnings;
     $0 =~ s|.*/||;
 
-Overlapped: set(['use', 'number', 'one', '1', '0', '7', 'line', 'match']) 
-Overlap: 8 
-Accuracy: 0.0747663551402 
+Overlapped: set(['use', 'number', 'perl', 'write', 'line', 'one', 'match']) 
+Overlap: 7 
+Accuracy: 0.0679611650485 
 
 Question:
- 4. Define the same function sum using the higher-order function
-    foldleft, whose arguments are a unit value, a binary function, and
-    a list.  [1pt]
+ 8. Define the function zip in Scheme.  It takes a function and a pair
+    of lists and returns a list having pairwise applied the function
+    to corresponding pairs of elements in the list.  If the lists are
+    of unequal length, the function stops when the shorter list runs
+    out.  [2pt]
+    Example:  (zip + '(1 2 3) '(4 5 6 7))
+    Returns:  (5 7 9)
 
-Overlapped: set(['function', 'sum', 'list', 'value', 'arguments', 'using', '4']) 
+Overlapped: set(['function', 'elements', 'list', 'length', 'returns', 'scheme', 'define']) 
 Overlap: 7 
-Accuracy: 0.304347826087 
-
-Question:
- 8. A static link in a stack frame points at:
-    (A) the address of the call instruction that activated this
-        function.
-    (B) the stack frame of the calling function.
-    (C) the stack frame of the function in which this function is
-        nested.
-    (D) the top of the function call stack.
-
-Overlapped: set(['function', 'calling', 'points', 'static', '8', 'nested', 'stack']) 
-Overlap: 7 
-Accuracy: 0.162790697674 
+Accuracy: 0.118644067797 
 
 Question:
 10. Write a program in Perl which prints out all of the command line
@@ -142,9 +141,21 @@ Question:
 
     #!/usr/bin/perl
 
-Overlapped: set(['10', 'name', 'space', 'one', 'arguments', 'line']) 
-Overlap: 6 
-Accuracy: 0.157894736842 
+Overlapped: set(['name', 'space', 'perl', 'write', 'arguments', 'line', 'one']) 
+Overlap: 7 
+Accuracy: 0.194444444444 
+
+Question:
+ 1. Which of these languages evaluates expressions in a lazy manner by
+    default?
+    (A) Haskell
+    (B) Lisp
+    (C) Perl
+    (D) Scheme
+
+Overlapped: set(['c', 'b', 'lisp', 'perl', 'languages', 'haskell', 'scheme']) 
+Overlap: 7 
+Accuracy: 0.318181818182 
 
 Question:
  6. In C, when is a static local variable bound to a particular
@@ -155,36 +166,9 @@ Question:
         call.
     (D) When the function in which it is declared is called.
 
-Overlapped: set(['function', 'virtual', 'static', '6', 'variable', 'called']) 
-Overlap: 6 
-Accuracy: 0.130434782609 
-
-Question:
- 7. Data types in Perl and Scheme are:
-    (A) strong and dynamic.
-    (B) strong and static.
-    (C) weak and dynamic.
-    (D) weak and static.
-
-Overlapped: set(['dynamic', 'weak', 'static', '7', 'strong', 'types']) 
-Overlap: 6 
-Accuracy: 0.193548387097 
-
-Question:
- 6. Name the two kinds of ad hoc polymorphism and give an example of
-    each.  [2pt]
-
-Overlapped: set(['ad', 'polymorphism', '6', 'two', 'hoc']) 
-Overlap: 5 
-Accuracy: 0.357142857143 
-
-Question:
- 5. Name the two kinds of universal polymorphism and give an example
-    of each.  [2pt]
-
-Overlapped: set(['polymorphism', 'universal', '5', 'two']) 
-Overlap: 4 
-Accuracy: 0.307692307692 
+Overlapped: set(['function', 'c', 'b', 'virtual', 'static', 'variable', 'called']) 
+Overlap: 7 
+Accuracy: 0.184210526316 
 
 Question:
  9. Assuming only pure Java code with no sneaky tricks written in C,
@@ -196,32 +180,37 @@ Question:
     (C) only D, but neither M nor U.
     (D) only M, but neither D nor U.
 
-Overlapped: set(['9', 'following', 'type', 'pure']) 
+Overlapped: set(['c', 'b', 'java', 'pure', 'following', 'type']) 
+Overlap: 6 
+Accuracy: 0.12 
+
+Question:
+ 6. Name the two kinds of ad hoc polymorphism and give an example of
+    each.  [2pt]
+
+Overlapped: set(['ad', 'polymorphism', 'name', 'hoc', 'two']) 
+Overlap: 5 
+Accuracy: 0.384615384615 
+
+Question:
+ 5. Name the two kinds of universal polymorphism and give an example
+    of each.  [2pt]
+
+Overlapped: set(['polymorphism', 'universal', 'name', 'two']) 
 Overlap: 4 
-Accuracy: 0.0666666666667 
+Accuracy: 0.333333333333 
 
 Question:
- 1. Which of these languages evaluates expressions in a lazy manner by
-    default?
-    (A) Haskell
-    (B) Lisp
-    (C) Perl
-    (D) Scheme
+ 5. What is the value of:
+       (cadr '((1 2 3) (4 5 6) (7 8 9)))
+    (A) 1
+    (B) (4 5 6)
+    (C) (2 3)
+    (D) ((7 8 9))
 
-Overlapped: set(['1', 'languages']) 
-Overlap: 2 
-Accuracy: 0.0769230769231 
-
-Question:
- 2. Which of the following C operators is ``lazy''?
-    (A) &&
-    (B) ++
-    (C) ==
-    (D) >>
-
-Overlapped: set(['following', '2']) 
-Overlap: 2 
-Accuracy: 0.0714285714286 
+Overlapped: set(['cadr', 'b', 'c', 'value']) 
+Overlap: 4 
+Accuracy: 0.078431372549 
 
 Question:
 10. Given the C declaration char **p;, which expression is invalid?
@@ -230,9 +219,20 @@ Question:
     (C) *(&p)
     (D) *(*p)
 
-Overlapped: set(['10', 'declaration']) 
-Overlap: 2 
-Accuracy: 0.047619047619 
+Overlapped: set(['given', 'b', 'c', 'declaration']) 
+Overlap: 4 
+Accuracy: 0.102564102564 
+
+Question:
+ 2. Which of the following C operators is ``lazy''?
+    (A) &&
+    (B) ++
+    (C) ==
+    (D) >>
+
+Overlapped: set(['following', 'c', 'b']) 
+Overlap: 3 
+Accuracy: 0.125 
 
 Question:
 Overlapped: set([]) 

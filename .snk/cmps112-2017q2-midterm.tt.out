@@ -1,18 +1,4 @@
 Question:
-13. Scheme.  Define the function map2 which takes three arguments:  a
-   binary function and two lists.  It returns a list with the two
-   lists merged using the function.  If the lists are of different
-   lengths, excess elements of the long list are ignored.  [2pt]
-   > (map2 + '(1 2 3) '(4 5 6 7))
-   (5 7 9)
-   > (map2 * '(1 2 3 4 5) '(6 7 8))
-   (6 14 24)
-
-Overlapped: set(['24', 'function', '13', 'elements', 'using', '3', 'list', 'two', '1', 'returns', '2', '5', 'arguments', '7', '6', '9', '8', '4']) 
-Overlap: 18 
-Accuracy: 0.209302325581 
-
-Question:
 11. Ocaml.  Define the function max which returns Some maximum element
    of a list as determined by its function argument.  Return None if
    the list is empty.  [3pt]
@@ -27,9 +13,21 @@ Question:
    # max (>) [];;
    - : 'a opt = None
 
-Overlapped: set(['function', '11', 'maximum', 'int', 'max', 'list', 'returns', 'argument', '1', 'fun', '3', 'bool', '4', '9', '5', 'element', 'type']) 
-Overlap: 17 
-Accuracy: 0.122302158273 
+Overlapped: set(['function', 'return', 'maximum', 'int', 'max', 'list', 'argument', 'ocaml', 'returns', 'bool', 'fun', 'element', 'type', 'define']) 
+Overlap: 14 
+Accuracy: 0.105263157895 
+
+Question:
+ 8. Which was a language designed in the 1950s for use mainly in
+    business data processing?
+    (A) 1957 FORTRAN
+    (B) 1958 Algol 58
+    (C) 1958 Lisp
+    (D) 1959 COBOL
+
+Overlapped: set(['use', 'b', 'language', 'business', 'lisp', 'processing', 'c', 'fortran', '1957', 'cobol', 'designed', 'algol', 'data']) 
+Overlap: 13 
+Accuracy: 0.448275862069 
 
 Question:
 5. Ocaml.  Define the function filter which takes a predicate and a
@@ -40,9 +38,25 @@ Question:
    # filter ((>)0) [1;2;-3;-4;8;-3];;
    - : int list = [-3; -4; -3]
 
-Overlapped: set(['function', 'predicate', 'elements', 'int', 'list', '1', '0', 'returns', '2', '5', '8', 'fun', 'bool', 'true', 'order']) 
-Overlap: 15 
-Accuracy: 0.182926829268 
+Overlapped: set(['function', 'predicate', 'elements', 'int', 'list', 'ocaml', 'returns', 'bool', 'fun', 'true', 'order', 'define']) 
+Overlap: 12 
+Accuracy: 0.148148148148 
+
+Question:
+8. Fill in the following table.  Some possible answers:  John Backus.
+   Alonzo Church.  Grace Hopper.  John Kemeny & Thomas Kurtz.  John
+   McCarthy.  Dennis Ritchie.  Bjarne Stroustrup.  [1pt]
+
+   +---------------+----------------+----------------+---------------+
+   |Fortran        | Cobol          | Basic          |Lisp           |
+   |               |                |                |               |
+   |               |                |                |               |
+   |               |                |                |               |
+   +---------------+----------------+----------------+---------------+
+
+Overlapped: set(['bjarne', 'hopper', 'answers', 'stroustrup', 'cobol', 'basic', 'following', 'table', 'backus', 'grace', 'fill']) 
+Overlap: 11 
+Accuracy: 0.0866141732283 
 
 Question:
 2. Ocaml.  Fill in the blanks:  [2pt]
@@ -57,9 +71,68 @@ Question:
    # length [1;2;3;4;5];;
    - : int = 5
 
-Overlapped: set(['blanks', '15', 'val', 'int', 'sum', 'list', 'length', '1', '3', '2', '5', '4', 'fun', 'let']) 
-Overlap: 14 
-Accuracy: 0.12389380531 
+Overlapped: set(['blanks', 'val', 'int', 'sum', 'list', 'ocaml', 'length', 'let', 'fun', 'fill']) 
+Overlap: 10 
+Accuracy: 0.0892857142857 
+
+Question:
+ 4. What kind of polymorphism is vector<string> an example of?
+    (A) conversion
+    (B) inclusion
+    (C) overloading
+    (D) parametric
+
+Overlapped: set(['polymorphism', 'kind', 'b', 'string', 'inclusion', 'c', 'conversion', 'overloading', 'vector', 'parametric']) 
+Overlap: 10 
+Accuracy: 0.434782608696 
+
+Question:
+10. Java generics and C++ templates are an example of __ polymorphism.
+    (A) conversion
+    (B) inclusion
+    (C) overloading
+    (D) parametric
+
+Overlapped: set(['templates', 'polymorphism', 'conversion', 'b', 'java', 'inclusion', 'c', 'overloading', 'generics', 'parametric']) 
+Overlap: 10 
+Accuracy: 0.434782608696 
+
+Question:
+13. Scheme.  Define the function map2 which takes three arguments:  a
+   binary function and two lists.  It returns a list with the two
+   lists merged using the function.  If the lists are of different
+   lengths, excess elements of the long list are ignored.  [2pt]
+   > (map2 + '(1 2 3) '(4 5 6 7))
+   (5 7 9)
+   > (map2 * '(1 2 3 4 5) '(6 7 8))
+   (6 14 24)
+
+Overlapped: set(['function', 'elements', 'list', 'two', 'returns', 'arguments', 'using', 'scheme', 'define']) 
+Overlap: 9 
+Accuracy: 0.10843373494 
+
+Question:
+ 5. Two kinds of universal polymorphism are:
+    (A) conversion & overloading
+    (B) inclusion & parametric
+    (C) overloading & inclusion
+    (D) parametric & overloading
+
+Overlapped: set(['polymorphism', 'conversion', 'b', 'inclusion', 'c', 'universal', 'two', 'overloading', 'parametric']) 
+Overlap: 9 
+Accuracy: 0.321428571429 
+
+Question:
+ 7. Edsger Dijkstra published a paper entitled ``__ statement
+    considered harmful''.
+    (A) continue
+    (B) goto
+    (C) switch
+    (D) throw
+
+Overlapped: set(['c', 'b', 'edsger', 'considered', 'harmful', 'dijkstra', 'continue', 'statement', 'throw']) 
+Overlap: 9 
+Accuracy: 0.333333333333 
 
 Question:
 4. Define the function zipwith that takes a function and two lists and
@@ -70,9 +143,9 @@ Question:
    # zipwith (+) [1;2;3] [4;5;6;7];;
    - : int list = [5; 7; 9]
 
-Overlapped: set(['function', 'elements', 'int', 'list', 'two', '1', 'fun', '3', '2', '5', '4', '7', '6', '9']) 
-Overlap: 14 
-Accuracy: 0.148936170213 
+Overlapped: set(['function', 'elements', 'int', 'list', 'two', 'fun', 'define']) 
+Overlap: 7 
+Accuracy: 0.0760869565217 
 
 Question:
 12. Scheme.  Write a tail-recursive function called reverse that re-
@@ -80,9 +153,73 @@ Question:
    > (reverse '(1 2 3 4 5))
    (5 4 3 2 1)
 
-Overlapped: set(['function', 'use', '12', 'reverse', 'list', '1', '3', '2', '5', '4', 'called']) 
-Overlap: 11 
-Accuracy: 0.275 
+Overlapped: set(['function', 'use', 'reverse', 'list', 'write', 'scheme', 'called']) 
+Overlap: 7 
+Accuracy: 0.184210526316 
+
+Question:
+ 6. Which of the following functions can be written tail-recursively
+    without the need for reversing the list?
+    (A) filter
+    (B) fold_left
+    (C) fold_right
+    (D) map
+
+Overlapped: set(['map', 'functions', 'b', 'list', 'c', 'without', 'following']) 
+Overlap: 7 
+Accuracy: 0.291666666667 
+
+Question:
+6. Ocaml.  Rewrite the second filter statement above using a fun (i.
+   e., lambda) expression instead of ((>)0).  [1pt]
+
+Overlapped: set(['ocaml', 'second', 'statement', 'fun', 'using', 'lambda']) 
+Overlap: 6 
+Accuracy: 0.222222222222 
+
+Question:
+9. Scheme.  Define the function sum.  You may use the function foldl
+   or explicitly write a tail-recursive function.  [1pt]
+
+Overlapped: set(['function', 'use', 'sum', 'write', 'scheme', 'define']) 
+Overlap: 6 
+Accuracy: 0.315789473684 
+
+Question:
+ 9. The address of a static variable in C and C++ is determined when?
+    (A) compile time
+    (B) link time
+    (C) exec time
+    (D) when a function is called
+
+Overlapped: set(['function', 'c', 'b', 'static', 'variable', 'called']) 
+Overlap: 6 
+Accuracy: 0.230769230769 
+
+Question:
+3. Ocaml.  Define the function fold_left.
+
+    (a) Ocaml.  [2pt]
+
+    (b) Scheme.  [2pt]
+
+Overlapped: set(['function', 'scheme', 'b', 'ocaml', 'define']) 
+Overlap: 5 
+Accuracy: 0.227272727273 
+
+Question:
+7. Smalltalk.  List the kinds of messages that can be sent to a
+   Smalltalk object, and give an example of each.  [3pt]
+
+    (a) Highest precedence:
+
+    (b) Middle precedence:
+
+    (c) Lowest precedence:
+
+Overlapped: set(['c', 'object', 'list', 'b', 'smalltalk']) 
+Overlap: 5 
+Accuracy: 0.151515151515 
 
 Question:
 14. Ocaml.  Define mul' as per the project specifications.  [3pt]
@@ -93,105 +230,20 @@ Question:
    # add' [9;9;9;9] [1] 0;;
    - : int list = [0; 0; 0; 0; 1]
 
-Overlapped: set(['int', 'list', '1', '0', '3', '2', '5', '4', '7', '6', '9']) 
-Overlap: 11 
-Accuracy: 0.0948275862069 
+Overlapped: set(['int', 'list', 'ocaml', 'define']) 
+Overlap: 4 
+Accuracy: 0.0347826086957 
 
 Question:
- 4. What kind of polymorphism is vector<string> an example of?
-    (A) conversion
-    (B) inclusion
-    (C) overloading
-    (D) parametric
+ 2. The \lambda-calculus was invented by:
+    (A) Ada Lovelace
+    (B) Alan Turing
+    (C) Alonzo Church
+    (D) Grace Hopper
 
-Overlapped: set(['polymorphism', 'conversion', 'string', 'inclusion', 'kind', 'overloading', 'vector', '4', 'parametric']) 
-Overlap: 9 
-Accuracy: 0.333333333333 
-
-Question:
- 8. Which was a language designed in the 1950s for use mainly in
-    business data processing?
-    (A) 1957 FORTRAN
-    (B) 1958 Algol 58
-    (C) 1958 Lisp
-    (D) 1959 COBOL
-
-Overlapped: set(['use', 'language', 'business', 'processing', '1957', 'designed', '8', 'data']) 
-Overlap: 8 
-Accuracy: 0.242424242424 
-
-Question:
-10. Java generics and C++ templates are an example of __ polymorphism.
-    (A) conversion
-    (B) inclusion
-    (C) overloading
-    (D) parametric
-
-Overlapped: set(['templates', 'polymorphism', 'conversion', 'inclusion', 'overloading', 'generics', 'parametric', '10']) 
-Overlap: 8 
-Accuracy: 0.307692307692 
-
-Question:
-6. Ocaml.  Rewrite the second filter statement above using a fun (i.
-   e., lambda) expression instead of ((>)0).  [1pt]
-
-Overlapped: set(['0', 'second', 'statement', '6', 'fun', 'using', 'lambda']) 
-Overlap: 7 
-Accuracy: 0.25 
-
-Question:
- 5. Two kinds of universal polymorphism are:
-    (A) conversion & overloading
-    (B) inclusion & parametric
-    (C) overloading & inclusion
-    (D) parametric & overloading
-
-Overlapped: set(['polymorphism', 'conversion', 'inclusion', 'universal', 'overloading', '5', 'parametric']) 
-Overlap: 7 
-Accuracy: 0.225806451613 
-
-Question:
- 6. Which of the following functions can be written tail-recursively
-    without the need for reversing the list?
-    (A) filter
-    (B) fold_left
-    (C) fold_right
-    (D) map
-
-Overlapped: set(['map', 'functions', 'list', 'without', '6', 'following']) 
-Overlap: 6 
-Accuracy: 0.214285714286 
-
-Question:
- 7. Edsger Dijkstra published a paper entitled ``__ statement
-    considered harmful''.
-    (A) continue
-    (B) goto
-    (C) switch
-    (D) throw
-
-Overlapped: set(['7', 'considered', 'harmful', 'continue', 'statement', 'throw']) 
-Overlap: 6 
-Accuracy: 0.2 
-
-Question:
-9. Scheme.  Define the function sum.  You may use the function foldl
-   or explicitly write a tail-recursive function.  [1pt]
-
-Overlapped: set(['function', 'write', 'use', '9', 'sum']) 
-Overlap: 5 
-Accuracy: 0.238095238095 
-
-Question:
- 9. The address of a static variable in C and C++ is determined when?
-    (A) compile time
-    (B) link time
-    (C) exec time
-    (D) when a function is called
-
-Overlapped: set(['function', '9', 'static', 'called', 'variable']) 
-Overlap: 5 
-Accuracy: 0.166666666667 
+Overlapped: set(['c', 'b', 'hopper', 'grace']) 
+Overlap: 4 
+Accuracy: 0.181818181818 
 
 Question:
 1. What are the four very general things a function might do when
@@ -205,50 +257,9 @@ Question:
    |                               |                               |
    +-------------------------------+-------------------------------+
 
-Overlapped: set(['1', 'function', 'might', 'called']) 
-Overlap: 4 
-Accuracy: 0.0322580645161 
-
-Question:
-7. Smalltalk.  List the kinds of messages that can be sent to a
-   Smalltalk object, and give an example of each.  [3pt]
-
-    (a) Highest precedence:
-
-    (b) Middle precedence:
-
-    (c) Lowest precedence:
-
-Overlapped: set(['c', 'object', 'b', '7']) 
-Overlap: 4 
-Accuracy: 0.117647058824 
-
-Question:
-8. Fill in the following table.  Some possible answers:  John Backus.
-   Alonzo Church.  Grace Hopper.  John Kemeny & Thomas Kurtz.  John
-   McCarthy.  Dennis Ritchie.  Bjarne Stroustrup.  [1pt]
-
-   +---------------+----------------+----------------+---------------+
-   |Fortran        | Cobol          | Basic          |Lisp           |
-   |               |                |                |               |
-   |               |                |                |               |
-   |               |                |                |               |
-   +---------------+----------------+----------------+---------------+
-
-Overlapped: set(['following', 'table', 'answers', '8']) 
-Overlap: 4 
-Accuracy: 0.031007751938 
-
-Question:
-3. Ocaml.  Define the function fold_left.
-
-    (a) Ocaml.  [2pt]
-
-    (b) Scheme.  [2pt]
-
-Overlapped: set(['function', '3', 'b']) 
+Overlapped: set(['function', 'might', 'called']) 
 Overlap: 3 
-Accuracy: 0.130434782609 
+Accuracy: 0.0245901639344 
 
 Question:
  1. Replacing $ (\lambdax~ . ~ + ~ x ~ 1) ~  2 $ by $ ( + ~ 2 ~ 1 ) $
@@ -258,17 +269,9 @@ Question:
     (C) \eta-reduction
     (D) \lambda-reduction
 
-Overlapped: set(['1', 'x', '2']) 
+Overlapped: set(['x', 'c', 'b']) 
 Overlap: 3 
-Accuracy: 0.0697674418605 
-
-Question:
-10. Java.  Give an example of how memory leak might happen in Java.
-   [2pt]
-
-Overlapped: set(['10', 'might']) 
-Overlap: 2 
-Accuracy: 0.133333333333 
+Accuracy: 0.075 
 
 Question:
  3. A garbage collector automatically recycles what kind of objects?
@@ -277,9 +280,9 @@ Question:
     (C) reachable
     (D) unreachable
 
-Overlapped: set(['kind', '3']) 
-Overlap: 2 
-Accuracy: 0.0769230769231 
+Overlapped: set(['c', 'b', 'kind']) 
+Overlap: 3 
+Accuracy: 0.136363636364 
 
 Question:
 11. Which C operator uses normal order evaluation?
@@ -288,20 +291,17 @@ Question:
     (C) ==
     (D) ||
 
-Overlapped: set(['11', 'order']) 
-Overlap: 2 
-Accuracy: 0.0740740740741 
+Overlapped: set(['c', 'b', 'order']) 
+Overlap: 3 
+Accuracy: 0.130434782609 
 
 Question:
- 2. The \lambda-calculus was invented by:
-    (A) Ada Lovelace
-    (B) Alan Turing
-    (C) Alonzo Church
-    (D) Grace Hopper
+10. Java.  Give an example of how memory leak might happen in Java.
+   [2pt]
 
-Overlapped: set(['2']) 
-Overlap: 1 
-Accuracy: 0.0384615384615 
+Overlapped: set(['might', 'java']) 
+Overlap: 2 
+Accuracy: 0.142857142857 
 
 Question:
 Overlapped: set([]) 

@@ -9,28 +9,9 @@ Question:
     (D) A table used to dynamically dispatch virtual functions in an
         object-oriented environment.
 
-Overlapped: set(['referenced', 'point', 'variables', 'dispatch', 'table', 'special', 'functions', 'outer', 'inheritance', 'sum', 'virtual', 'environment', 'field', 'inner', '9', 'shared', 'type', 'dynamically', 'function', 'product', 'used', 'multiple', 'structure', 'implementing', 'base', 'heap', 'declaration', 'distinguish', 'hold', 'class', 'types', 'closure']) 
-Overlap: 32 
-Accuracy: 0.484848484848 
-
-Question:
-3. Scheme.  Using apply, map, max, and cons, define the function depth
-   for any argument.  If it is null?, its depth is 1.  Otherwise, if
-   it is not a pair?, its depth is 0.  The depth of anything else (a
-   list) is one more than the maximum depth of the elements of the
-   list.  [2pt]
-   > (depth '(1 2 (3 4 (5 6)) 88))
-   3
-   > (depth '(a b c))
-   1
-   > (depth '())
-   1
-   > (depth 7)
-   0
-
-Overlapped: set(['cons', 'argument', 'one', '88', 'apply', 'null', '1', '0', '3', '2', '5', '4', '7', '6', 'define', 'function', 'map', 'elements', 'max', 'else', 'c', 'b', 'list', 'maximum', 'depth']) 
-Overlap: 25 
-Accuracy: 0.271739130435 
+Overlapped: set(['referenced', 'point', 'variables', 'dispatch', 'table', 'special', 'functions', 'outer', 'inheritance', 'sum', 'virtual', 'environment', 'field', 'inner', 'shared', 'type', 'dynamically', 'function', 'product', 'used', 'multiple', 'structure', 'implementing', 'base', 'heap', 'declaration', 'distinguish', 'hold', 'class', 'types', 'closure', 'c', 'b', 'ocaml']) 
+Overlap: 34 
+Accuracy: 0.586206896552 
 
 Question:
 1. Define gcd which uses Euclid's algorithm to find the greatest
@@ -74,30 +55,30 @@ Question:
    |                                                           |                                                            |
    +-----------------------------------------------------------+------------------------------------------------------------+
 
-Overlapped: set(['int', 'number', 'two', 'given', 'recursion', 'tail', '1', '0', '3', '2', 'define', 'function', 'return', 'format', 'else', 'let', 'class', 'c', 'b', 'e', 'g', 'x', 'order', 'lambda']) 
-Overlap: 24 
-Accuracy: 0.046511627907 
+Overlapped: set(['int', 'number', 'smalltalk', 'use', 'recursion', 'two', 'perl', 'tail', 'scheme', 'define', 'function', 'return', 'extend', 'format', 'given', 'else', 'let', 'class', 'c', 'b', 'e', 'g', 'ocaml', 'x', 'lambda', 'order', 'prolog']) 
+Overlap: 27 
+Accuracy: 0.0525291828794 
 
 Question:
-4. Ocaml.  Define drop, which returns its argument list without the
-   first $n$ elements.  If $n$ is larger than the length of the list,
-   it returns a null list.  If $n$ is not positive, it just returns
-   the list.  Use a tail call.  Do not compute the length of the list.
-   [2pt]
-   # drop;;
-   - : int -> 'a list -> 'a list = <fun>
-   # drop 3 [1;2;3;4;5;6;7];;
-   - : int list = [4; 5; 6; 7]
-   # drop 10 [1;2;3;4];;
-   - : int list = []
-   # drop (-5) [1;2;3;4];;
-   - : int list = [1; 2; 3; 4]
-   # drop 5 [];;
-   - : 'a list = []
+7. Write the name of a programming language associated with each of
+   the following people.  Score 1/4 point for each correct answer, but
+   not more than 2 points total.  Choose answers from:  AWK, BASIC, C,
+   C++, COBOL, FORTRAN, Java, Lisp, Perl, Python, Scheme,
+   \lambda-calculus.  [2pt]
 
-Overlapped: set(['10', 'elements', '3', 'int', 'tail', 'list', 'argument', 'n', '1', 'fun', 'returns', '2', '5', '4', '7', '6', 'without', 'length', 'null', 'first']) 
-Overlap: 20 
-Accuracy: 0.119047619048 
+   +---------------------+---------------------+--------------------+
+   |Alfred Aho           |John Backus          |Alonzo Church       |
+   +---------------------+---------------------+--------------------+
+   |James Gosling        |Grace Hopper         |John Kemeny         |
+   +---------------------+---------------------+--------------------+
+   |John McCarthy        |Dennis Ritchie       |Guy Steele          |
+   +---------------------+---------------------+--------------------+
+   |Bjarne Stroustrup    |Larry Wall           |Guido van Rossum    |
+   +---------------------+---------------------+--------------------+
+
+Overlapped: set(['point', 'hopper', 'cobol', 'total', 'java', 'score', 'perl', 'write', 'fortran', 'stroustrup', 'choose', 'basic', 'answer', 'scheme', 'correct', 'answers', 'awk', 'c', 'name', 'language', 'lisp', 'programming', 'points', 'following', 'backus']) 
+Overlap: 25 
+Accuracy: 0.100806451613 
 
 Question:
 8. Prolog.  Write facts in Prolog to describe the graph at left.  Use
@@ -123,9 +104,28 @@ Question:
    arrow from C to E chop
    .PE
 
-Overlapped: set(['following', 'c', 'b', 'e', 'graph', 'tail', 'argument', 'chop', '1i', 'second', 'points', 'two', 'arrow', 'facts', '8', 'circle', 'first', 'left']) 
+Overlapped: set(['following', 'use', 'tail', 'e', 'graph', 'c', 'points', 'argument', 'first', 'two', 'write', '1i', 'second', 'b', 'arrow', 'facts', 'x', 'circle', 'left', 'chop', 'prolog']) 
+Overlap: 21 
+Accuracy: 0.157894736842 
+
+Question:
+3. Scheme.  Using apply, map, max, and cons, define the function depth
+   for any argument.  If it is null?, its depth is 1.  Otherwise, if
+   it is not a pair?, its depth is 0.  The depth of anything else (a
+   list) is one more than the maximum depth of the elements of the
+   list.  [2pt]
+   > (depth '(1 2 (3 4 (5 6)) 88))
+   3
+   > (depth '(a b c))
+   1
+   > (depth '())
+   1
+   > (depth 7)
+   0
+
+Overlapped: set(['function', 'map', 'c', 'cons', 'depth', 'maximum', 'max', 'null', 'argument', 'one', 'list', 'else', 'elements', 'using', 'apply', 'scheme', 'b', 'define']) 
 Overlap: 18 
-Accuracy: 0.125 
+Accuracy: 0.206896551724 
 
 Question:
 9. Scheme.  Draw a picture of the following Scheme expression.  For
@@ -134,25 +134,43 @@ Question:
    or object pointed to.  [2pt]
    ((a b c) d (e) (f (g) h))
 
-Overlapped: set(['picture', 'draw', 'cons', 'e', 'arrow', 'g', 'f', 'car', 'object', 'c', 'cell', 'following', 'b', 'cdr', 'h', '9']) 
+Overlapped: set(['picture', 'draw', 'cons', 'e', 'arrow', 'g', 'f', 'car', 'object', 'c', 'cell', 'b', 'cdr', 'h', 'following', 'scheme']) 
 Overlap: 16 
-Accuracy: 0.333333333333 
+Accuracy: 0.347826086957 
 
 Question:
-5. Smalltalk.  Extend class Array with an instance method find:  whose
-   argument is a value which is searched for in the array.  If the
-   value is present in the array, return the index of the first
-   position where it is.  If not found, return nil.  [2pt]
-   st> a := #(5 6 7 8 9).
-   (5 6 7 8 9 )
-   st> a find: 6
-   2
-   st> a find: 99
-   nil
+4. Ocaml.  Define drop, which returns its argument list without the
+   first $n$ elements.  If $n$ is larger than the length of the list,
+   it returns a null list.  If $n$ is not positive, it just returns
+   the list.  Use a tail call.  Do not compute the length of the list.
+   [2pt]
+   # drop;;
+   - : int -> 'a list -> 'a list = <fun>
+   # drop 3 [1;2;3;4;5;6;7];;
+   - : int list = [4; 5; 6; 7]
+   # drop 10 [1;2;3;4];;
+   - : int list = []
+   # drop (-5) [1;2;3;4];;
+   - : int list = [1; 2; 3; 4]
+   # drop 5 [];;
+   - : 'a list = []
 
-Overlapped: set(['return', 'nil', 'argument', 'value', 'st', '2', '5', '7', '6', '9', '8', 'array', 'class', 'first']) 
-Overlap: 14 
-Accuracy: 0.205882352941 
+Overlapped: set(['use', 'elements', 'without', 'int', 'list', 'argument', 'first', 'ocaml', 'returns', 'n', 'tail', 'fun', 'length', 'null', 'define']) 
+Overlap: 15 
+Accuracy: 0.0914634146341 
+
+Question:
+ 9. The following interaction indicates what kind of polymorphism?
+    # List.length;;
+    - : 'a list -> int = <fun>
+    (A) conversion
+    (B) inclusion
+    (C) overloading
+    (D) parametric
+
+Overlapped: set(['polymorphism', 'c', 'b', 'inclusion', 'int', 'list', 'conversion', 'overloading', 'indicates', 'following', 'fun', 'parametric', 'kind']) 
+Overlap: 13 
+Accuracy: 0.361111111111 
 
 Question:
 6. Perl.  Write a program which prints out the file size, modification
@@ -168,9 +186,33 @@ Question:
         110 Dec  5 17:53 range.perl
          91 Mar 14 21:31 wc.perl
 
-Overlapped: set(['function', '12', 'e', 'format', '0', 'length', 'b', '5', '7', '6', '9', 'array', 'message', 'size']) 
-Overlap: 14 
-Accuracy: 0.141414141414 
+Overlapped: set(['function', 'use', 'b', 'e', 'format', 'h', 'perl', 'write', 'length', 'array', 'message', 'size']) 
+Overlap: 12 
+Accuracy: 0.125 
+
+Question:
+ 8. If we have a function not (bool -> bool) and a function even (int
+    -> bool), how might the function odd be defined?
+    (A) let odd = compose not even
+    (B) let odd = map not even
+    (C) let odd = not even
+    (D) let odd x = not even x
+
+Overlapped: set(['even', 'map', 'c', 'b', 'defined', 'might', 'int', 'bool', 'x', 'let', 'function', 'odd']) 
+Overlap: 12 
+Accuracy: 0.230769230769 
+
+Question:
+12. What is the type of tail in the following?
+    let cdr s = match s with | x::xs -> xs
+    (A) val cdr : 'a -> 'a = <fun>
+    (B) val cdr : 'a -> 'a list = <fun>
+    (C) val cdr : 'a list -> 'a = <fun>
+    (D) val cdr : 'a list -> 'a list = <fun>
+
+Overlapped: set(['c', 'b', 'val', 'list', 'following', 'tail', 'let', 'cdr', 'fun', 'x', 'type', 'match']) 
+Overlap: 12 
+Accuracy: 0.162162162162 
 
 Question:
  8. What function is called immediately after d() if d() is true?
@@ -186,67 +228,9 @@ Question:
     (C) e()
     (D) h()
 
-Overlapped: set(['function', 'c', 'b', 'e', 'g', 'f', 'h', 'break', 'continue', 'immediately', '8', 'true', 'called']) 
-Overlap: 13 
-Accuracy: 0.173333333333 
-
-Question:
-7. Write the name of a programming language associated with each of
-   the following people.  Score 1/4 point for each correct answer, but
-   not more than 2 points total.  Choose answers from:  AWK, BASIC, C,
-   C++, COBOL, FORTRAN, Java, Lisp, Perl, Python, Scheme,
-   \lambda-calculus.  [2pt]
-
-   +---------------------+---------------------+--------------------+
-   |Alfred Aho           |John Backus          |Alonzo Church       |
-   +---------------------+---------------------+--------------------+
-   |James Gosling        |Grace Hopper         |John Kemeny         |
-   +---------------------+---------------------+--------------------+
-   |John McCarthy        |Dennis Ritchie       |Guy Steele          |
-   +---------------------+---------------------+--------------------+
-   |Bjarne Stroustrup    |Larry Wall           |Guido van Rossum    |
-   +---------------------+---------------------+--------------------+
-
-Overlapped: set(['name', 'language', 'point', 'programming', 'answers', 'following', '2', '7', 'answer', 'total', 'correct', 'points']) 
+Overlapped: set(['function', 'c', 'b', 'e', 'g', 'f', 'h', 'break', 'continue', 'immediately', 'true', 'called']) 
 Overlap: 12 
-Accuracy: 0.0481927710843 
-
-Question:
- 9. The following interaction indicates what kind of polymorphism?
-    # List.length;;
-    - : 'a list -> int = <fun>
-    (A) conversion
-    (B) inclusion
-    (C) overloading
-    (D) parametric
-
-Overlapped: set(['fun', 'conversion', 'inclusion', 'int', 'following', 'list', 'kind', 'overloading', 'indicates', 'polymorphism', '9', 'parametric']) 
-Overlap: 12 
-Accuracy: 0.3 
-
-Question:
- 8. If we have a function not (bool -> bool) and a function even (int
-    -> bool), how might the function odd be defined?
-    (A) let odd = compose not even
-    (B) let odd = map not even
-    (C) let odd = not even
-    (D) let odd x = not even x
-
-Overlapped: set(['even', 'map', 'let', 'int', 'might', 'defined', 'bool', 'x', '8', 'function', 'odd']) 
-Overlap: 11 
-Accuracy: 0.196428571429 
-
-Question:
-12. What is the type of tail in the following?
-    let cdr s = match s with | x::xs -> xs
-    (A) val cdr : 'a -> 'a = <fun>
-    (B) val cdr : 'a -> 'a list = <fun>
-    (C) val cdr : 'a list -> 'a = <fun>
-    (D) val cdr : 'a list -> 'a list = <fun>
-
-Overlapped: set(['12', 'val', 'list', 'following', 'tail', 'let', 'cdr', 'fun', 'x', 'type', 'match']) 
-Overlap: 11 
-Accuracy: 0.141025641026 
+Accuracy: 0.169014084507 
 
 Question:
  6. An object-oriented language like C++ does dynamic dispatching of
@@ -256,9 +240,9 @@ Question:
     (C) template declaration
     (D) virtual function table
 
-Overlapped: set(['function', 'closure', 'like', 'using', 'declaration', 'dynamic', 'virtual', 'language', '6', 'table']) 
-Overlap: 10 
-Accuracy: 0.294117647059 
+Overlapped: set(['function', 'closure', 'c', 'b', 'like', 'using', 'dynamic', 'virtual', 'language', 'declaration', 'table']) 
+Overlap: 11 
+Accuracy: 0.366666666667 
 
 Question:
 11. What is the type of car in the following?
@@ -268,9 +252,94 @@ Question:
     (C) val car : 'a list -> 'a = <fun>
     (D) val car : 'a list -> 'a list = <fun>
 
-Overlapped: set(['11', 'val', 'car', 'list', 'following', 'let', 'fun', 'x', 'type', 'match']) 
+Overlapped: set(['c', 'b', 'val', 'car', 'list', 'following', 'let', 'fun', 'x', 'type', 'match']) 
+Overlap: 11 
+Accuracy: 0.148648648649 
+
+Question:
+5. Smalltalk.  Extend class Array with an instance method find:  whose
+   argument is a value which is searched for in the array.  If the
+   value is present in the array, return the index of the first
+   position where it is.  If not found, return nil.  [2pt]
+   st> a := #(5 6 7 8 9).
+   (5 6 7 8 9 )
+   st> a find: 6
+   2
+   st> a find: 99
+   nil
+
+Overlapped: set(['return', 'extend', 'nil', 'argument', 'value', 'st', 'array', 'class', 'smalltalk', 'first']) 
 Overlap: 10 
-Accuracy: 0.128205128205 
+Accuracy: 0.153846153846 
+
+Question:
+11. Ocaml.  Write a function eval which takes an expr as an argument
+   and returns a float result.  An expr is either a Number or an Expr
+   with a char operator and two exprs.  The only operators recognized
+   are '+' and '*'.  [2pt]
+   Definitions:
+   type expr = Number of float
+             | Expr of char * expr * expr;;
+   let a = Expr ('+',
+           Expr ('*', Number 6.0, Number 7.2),
+           Expr ('*', Number 1.5, Number 2.7));;
+   Interaction:
+   # eval;;
+   - : expr -> float = <fun>
+   # eval a;;
+   - : float = 47.25
+
+Overlapped: set(['function', 'ocaml', 'argument', 'number', 'two', 'write', 'returns', 'let', 'fun', 'type']) 
+Overlap: 10 
+Accuracy: 0.0943396226415 
+
+Question:
+ 4. What is the Ocaml type signature for the definition:   let f x =
+    x;;
+    (A) val f : 'a -> 'a = <fun>
+    (B) val f : 'a -> 'b -> 'b * 'a = <fun>
+    (C) val f : 'a -> 'b -> 'b = <fun>
+    (D) val f : int -> int = <fun>
+
+Overlapped: set(['c', 'b', 'val', 'f', 'int', 'ocaml', 'let', 'fun', 'x', 'type']) 
+Overlap: 10 
+Accuracy: 0.133333333333 
+
+Question:
+ 2. If guess finds something in a sequence of facts, and verify checks
+    to see if it is a good one, then find can be defined in Prolog as:
+    (A) find(X) :- guess(X), verify(X).
+    (B) find(X) :- guess(X).
+        find(X) :- verify(X).
+    (C) find(X) :- guess(X), !, verify(X).
+    (D) guess(X), verify(X) := find(X).
+
+Overlapped: set(['c', 'good', 'defined', 'one', 'see', 'b', 'facts', 'x', 'prolog']) 
+Overlap: 9 
+Accuracy: 0.0909090909091 
+
+Question:
+11. What kind of function is
+    let f x y z = x + y + z;;
+    (A) curried
+    (B) thunked
+    (C) tupled
+    (D) unified
+
+Overlapped: set(['function', 'c', 'b', 'f', 'kind', 'let', 'x', 'z']) 
+Overlap: 8 
+Accuracy: 0.285714285714 
+
+Question:
+ 6. Which language uses lazy evaluation by default?
+    (A) Haskell
+    (B) Lisp
+    (C) Ocaml
+    (D) Scheme
+
+Overlapped: set(['c', 'b', 'language', 'lisp', 'ocaml', 'haskell', 'scheme']) 
+Overlap: 7 
+Accuracy: 0.333333333333 
 
 Question:
 10. Perl.  Write a program that reads files mentioned on the command
@@ -291,78 +360,9 @@ Question:
    |                | this 2         |
    +----------------+----------------+
 
-Overlapped: set(['10', 'given', 'use', 'number', '1', '3', '2', 'line']) 
-Overlap: 8 
-Accuracy: 0.0526315789474 
-
-Question:
-11. Ocaml.  Write a function eval which takes an expr as an argument
-   and returns a float result.  An expr is either a Number or an Expr
-   with a char operator and two exprs.  The only operators recognized
-   are '+' and '*'.  [2pt]
-   Definitions:
-   type expr = Number of float
-             | Expr of char * expr * expr;;
-   let a = Expr ('+',
-           Expr ('*', Number 6.0, Number 7.2),
-           Expr ('*', Number 1.5, Number 2.7));;
-   Interaction:
-   # eval;;
-   - : expr -> float = <fun>
-   # eval a;;
-   - : float = 47.25
-
-Overlapped: set(['function', '11', 'argument', 'two', 'returns', 'let', 'fun', 'type']) 
-Overlap: 8 
-Accuracy: 0.0733944954128 
-
-Question:
- 4. What is the Ocaml type signature for the definition:   let f x =
-    x;;
-    (A) val f : 'a -> 'a = <fun>
-    (B) val f : 'a -> 'b -> 'b * 'a = <fun>
-    (C) val f : 'a -> 'b -> 'b = <fun>
-    (D) val f : int -> int = <fun>
-
-Overlapped: set(['val', 'f', 'int', 'let', '4', 'fun', 'x', 'type']) 
-Overlap: 8 
-Accuracy: 0.101265822785 
-
-Question:
- 3. What is 6?
-    (A) (apply + '(1 2 3))
-    (B) (cons + '(1 2 3))
-    (C) (list + '(1 2 3))
-    (D) (map + '(1 2 3))
-
-Overlapped: set(['map', 'cons', 'list', '1', '3', '2', '6', 'apply']) 
-Overlap: 8 
-Accuracy: 0.140350877193 
-
-Question:
-11. What kind of function is
-    let f x y z = x + y + z;;
-    (A) curried
-    (B) thunked
-    (C) tupled
-    (D) unified
-
-Overlapped: set(['function', '11', 'kind', 'f', 'let', 'x', 'z']) 
-Overlap: 7 
-Accuracy: 0.21875 
-
-Question:
- 2. If guess finds something in a sequence of facts, and verify checks
-    to see if it is a good one, then find can be defined in Prolog as:
-    (A) find(X) :- guess(X), verify(X).
-    (B) find(X) :- guess(X).
-        find(X) :- verify(X).
-    (C) find(X) :- guess(X), !, verify(X).
-    (D) guess(X), verify(X) := find(X).
-
-Overlapped: set(['good', 'defined', 'one', 'see', '2', 'facts']) 
+Overlapped: set(['use', 'given', 'number', 'write', 'line', 'perl']) 
 Overlap: 6 
-Accuracy: 0.0582524271845 
+Accuracy: 0.0413793103448 
 
 Question:
  1. If a is a valid list, what is equal to a itself?
@@ -371,7 +371,53 @@ Question:
     (C) (cons (car a) (cdr a))
     (D) (cons (cdr a) (car a))
 
-Overlapped: set(['1', 'car', 'cons', 'list', 'cdr']) 
+Overlapped: set(['c', 'cons', 'car', 'list', 'b', 'cdr']) 
+Overlap: 6 
+Accuracy: 0.115384615385 
+
+Question:
+ 1. The basic algorithm used in type inference is:
+    (A) code replication
+    (B) interpretation
+    (C) overloading
+    (D) unification
+
+Overlapped: set(['c', 'used', 'overloading', 'b', 'basic', 'type']) 
+Overlap: 6 
+Accuracy: 0.272727272727 
+
+Question:
+ 3. What is 6?
+    (A) (apply + '(1 2 3))
+    (B) (cons + '(1 2 3))
+    (C) (list + '(1 2 3))
+    (D) (map + '(1 2 3))
+
+Overlapped: set(['map', 'c', 'b', 'list', 'cons', 'apply']) 
+Overlap: 6 
+Accuracy: 0.11320754717 
+
+Question:
+10. In Perl, what command will put the names of files in the current
+    directory in the variable @files?
+    (A) @files = <ls>;
+    (B) @files = `ls`;
+    (C) @files = glob "ls";
+    (D) @files = system 'ls';
+
+Overlapped: set(['current', 'variable', 'c', 'b', 'perl']) 
+Overlap: 5 
+Accuracy: 0.1 
+
+Question:
+ 5. What Perl statement will open a pipe to a subprocess and allow
+    writing to its standard input?
+    (A) open my $file, "$name|"
+    (B) open my $file, "<$name"
+    (C) open my $file, ">$name"
+    (D) open my $file, "|$name"
+
+Overlapped: set(['c', 'b', 'name', 'statement', 'perl']) 
 Overlap: 5 
 Accuracy: 0.0892857142857 
 
@@ -383,20 +429,9 @@ Question:
     (C) $p = [1, 2, 3, 4];
     (D) $p = {1, 2, 3, 4};
 
-Overlapped: set(['1', 'array', '2', '3', '4']) 
-Overlap: 5 
-Accuracy: 0.0649350649351 
-
-Question:
- 1. The basic algorithm used in type inference is:
-    (A) code replication
-    (B) interpretation
-    (C) overloading
-    (D) unification
-
-Overlapped: set(['1', 'overloading', 'used', 'type', 'basic']) 
-Overlap: 5 
-Accuracy: 0.192307692308 
+Overlapped: set(['array', 'b', 'c', 'perl']) 
+Overlap: 4 
+Accuracy: 0.0547945205479 
 
 Question:
  5. Passing a parameter by ___ means that it is passed in unevaluated
@@ -406,21 +441,9 @@ Question:
     (C) value
     (D) value-result
 
-Overlapped: set(['5', 'name', 'value']) 
-Overlap: 3 
-Accuracy: 0.111111111111 
-
-Question:
-10. In Perl, what command will put the names of files in the current
-    directory in the variable @files?
-    (A) @files = <ls>;
-    (B) @files = `ls`;
-    (C) @files = glob "ls";
-    (D) @files = system 'ls';
-
-Overlapped: set(['current', 'variable', '10']) 
-Overlap: 3 
-Accuracy: 0.0555555555556 
+Overlapped: set(['c', 'b', 'name', 'value']) 
+Overlap: 4 
+Accuracy: 0.166666666667 
 
 Question:
  4. Which will unexpectedly start a comment?
@@ -429,32 +452,9 @@ Question:
     (C) let f = (-);;
     (D) let f = (/);;
 
-Overlapped: set(['let', '4', 'f']) 
-Overlap: 3 
-Accuracy: 0.0588235294118 
-
-Question:
- 5. What Perl statement will open a pipe to a subprocess and allow
-    writing to its standard input?
-    (A) open my $file, "$name|"
-    (B) open my $file, "<$name"
-    (C) open my $file, ">$name"
-    (D) open my $file, "|$name"
-
-Overlapped: set(['5', 'name', 'statement']) 
-Overlap: 3 
-Accuracy: 0.05 
-
-Question:
- 7. In Ocaml, what is 7?
-    (A) (+) (3, 4);;
-    (B) (+) 3 4;;
-    (C) (+) 3, 4;;
-    (D) 3 (+) 4;;
-
-Overlapped: set(['3', '4', '7']) 
-Overlap: 3 
-Accuracy: 0.0588235294118 
+Overlapped: set(['c', 'b', 'let', 'f']) 
+Overlap: 4 
+Accuracy: 0.0851063829787 
 
 Question:
  2. What is the Perl equivalent to strerror(errno)?
@@ -463,28 +463,9 @@ Question:
     (C) "$?"
     (D) "$_"
 
-Overlapped: set(['0', '2']) 
-Overlap: 2 
-Accuracy: 0.0526315789474 
-
-Question:
- 6. Which language uses lazy evaluation by default?
-    (A) Haskell
-    (B) Lisp
-    (C) Ocaml
-    (D) Scheme
-
-Overlapped: set(['language', '6']) 
-Overlap: 2 
-Accuracy: 0.08 
-
-Question:
-10. If $key is a key, what is the value associated with it in a hash?
-    $hash{$key} %hash{$key} &hash{$key} @hash{$key}
-
-Overlapped: set(['10', 'value']) 
-Overlap: 2 
-Accuracy: 0.0571428571429 
+Overlapped: set(['c', 'b', 'perl']) 
+Overlap: 3 
+Accuracy: 0.0882352941176 
 
 Question:
  7. The Perl pattern equivalent to [a-zA-Z0-9_] is:
@@ -493,9 +474,28 @@ Question:
     (C) \t+
     (D) \w+
 
-Overlapped: set(['7']) 
+Overlapped: set(['c', 'b', 'perl']) 
+Overlap: 3 
+Accuracy: 0.136363636364 
+
+Question:
+ 7. In Ocaml, what is 7?
+    (A) (+) (3, 4);;
+    (B) (+) 3 4;;
+    (C) (+) 3, 4;;
+    (D) 3 (+) 4;;
+
+Overlapped: set(['c', 'b', 'ocaml']) 
+Overlap: 3 
+Accuracy: 0.063829787234 
+
+Question:
+10. If $key is a key, what is the value associated with it in a hash?
+    $hash{$key} %hash{$key} &hash{$key} @hash{$key}
+
+Overlapped: set(['value']) 
 Overlap: 1 
-Accuracy: 0.0384615384615 
+Accuracy: 0.030303030303 
 
 Question:
 Overlapped: set([]) 

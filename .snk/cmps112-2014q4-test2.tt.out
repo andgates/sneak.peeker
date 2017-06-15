@@ -29,9 +29,9 @@ Question:
    +-``Abandon-All+Sanity,-Ye-Who-Enter-Here.''-----http://catb.org/esr/
     intercal/
 
-Overlapped: set(['control', 'among', 'less', 'functional', '60', '67', 'size', '1', 'described', 'point', 'languages', '0', 'score', 'answer', 'fill', 'structures', 'missing', 'rules', 'wrong', 'designed', 'come', '11', 'bar', 'name', 'language', 'maybe', 'following', 'lambda']) 
-Overlap: 28 
-Accuracy: 0.0684596577017 
+Overlapped: set(['control', 'among', 'deduct', 'less', 'fill', 'functional', '60', 'pascal', 'haskell', 'cobol', '67', 'size', 'described', 'grading', 'point', 'perl', 'languages', 'fortran', 'score', 'choose', 'basic', 'answer', 'scheme', 'structures', 'missing', 'rules', 'wrong', 'awk', 'designed', 'simula', 'intercal', 'come', 'ibm', 'c', 'bar', 'name', 'language', 'java', 'lisp', 'ml', 'ocaml', 'w', 'maybe', 'following', 'algol', 'prolog', 'lambda']) 
+Overlap: 47 
+Accuracy: 0.115479115479 
 
 Question:
 3. Smalltalk.  Extend class Object with the message fibonacci:, which
@@ -49,9 +49,75 @@ Question:
                            |
                            |
 
-Overlapped: set(['10', '13', 'extend', 'class', '3', 'st', '1', '0', 'returns', '2', '5', '8', 'answer', 'new', 'array', 'n', 'message', 'first']) 
-Overlap: 18 
-Accuracy: 0.243243243243 
+Overlapped: set(['extend', 'class', 'object', 'st', 'returns', 'answer', 'new', 'array', 'n', 'message', 'smalltalk', 'first']) 
+Overlap: 12 
+Accuracy: 0.166666666667 
+
+Question:
+ 1. A thunk is:
+    (A) A heap allocated value yet to be initialized.
+    (B) A pointer to a virtual function table used in dynamic
+        dispatch.
+    (C) An unevaluated expression passed into a function which may be
+        evaluated by the function if needed.
+    (D) The sound of dead code dropping.
+
+Overlapped: set(['function', 'value', 'c', 'used', 'dynamic', 'virtual', 'thunk', 'b', 'dispatch', 'heap', 'table', 'pointer']) 
+Overlap: 12 
+Accuracy: 0.292682926829 
+
+Question:
+6. Scheme.  Define the higher-order function foldl whose arguments are
+   a binary function, an identity element, and a list in that order.
+   It folds them from left to right into a single value.  [2pt]
+
+   (define (foldl fn unit list)
+
+   )
+
+Overlapped: set(['function', 'right', 'list', 'value', 'element', 'arguments', 'left', 'scheme', 'order', 'define']) 
+Overlap: 10 
+Accuracy: 0.277777777778 
+
+Question:
+11. In Smalltalk and Scheme, type checking is:
+    (A) strong and dynamic.
+    (B) strong and static.
+    (C) weak and dynamic.
+    (D) weak and static.
+
+Overlapped: set(['c', 'b', 'checking', 'weak', 'dynamic', 'static', 'scheme', 'strong', 'type', 'smalltalk']) 
+Overlap: 10 
+Accuracy: 0.344827586207 
+
+Question:
+9. Smalltalk.  Define a block called product so that when given a
+   vector as its value: argument, it returns the product of the
+   vector.  [2pt]
+
+   product := [
+
+   ].
+   product value: #(1 2 3 4 5).
+   120
+
+Overlapped: set(['product', 'given', 'value', 'argument', 'returns', 'vector', 'called', 'smalltalk', 'define']) 
+Overlap: 9 
+Accuracy: 0.230769230769 
+
+Question:
+ 6. Java supports:
+    (A) single inheritance only.
+    (B) multiple (mixin) inheritance of functions (methods) but not
+        fields.
+    (C) multiple inheritance of functions (methods) and shared
+        inheritance of fields.
+    (D) multiple inheritance of functions (methods) and repeated
+        inheritance of fields.
+
+Overlapped: set(['functions', 'b', 'multiple', 'methods', 'java', 'inheritance', 'c', 'repeated', 'shared']) 
+Overlap: 9 
+Accuracy: 0.1875 
 
 Question:
 4. Scheme.  Define the function merge which takes two lists of numbers
@@ -68,50 +134,25 @@ Question:
                           |
                           |
 
-Overlapped: set(['function', '9', '3', 'list', 'two', '1', '0', 'returns', '2', '5', '4', '6', 'answer', '8', 'order', 'define']) 
-Overlap: 16 
-Accuracy: 0.158415841584 
+Overlapped: set(['function', 'list', 'two', 'returns', 'answer', 'scheme', 'order', 'define']) 
+Overlap: 8 
+Accuracy: 0.0808080808081 
 
 Question:
-9. Smalltalk.  Define a block called product so that when given a
-   vector as its value: argument, it returns the product of the
-   vector.  [2pt]
+5. Scheme.  Write the function product in tail recursive accumulator
+   style so that it computes the product of a list of numbers.  [1pt]
 
-   product := [
-
-   ].
-   product value: #(1 2 3 4 5).
-   120
-
-Overlapped: set(['given', 'vector', '3', 'argument', 'value', '1', 'returns', '2', '5', '4', '9', 'product', 'called']) 
-Overlap: 13 
-Accuracy: 0.325 
+Overlapped: set(['function', 'style', 'list', 'product', 'write', 'tail', 'scheme']) 
+Overlap: 7 
+Accuracy: 0.388888888889 
 
 Question:
- 1. A thunk is:
-    (A) A heap allocated value yet to be initialized.
-    (B) A pointer to a virtual function table used in dynamic
-        dispatch.
-    (C) An unevaluated expression passed into a function which may be
-        evaluated by the function if needed.
-    (D) The sound of dead code dropping.
+8. Scheme.  Using foldl, define the function length, which returns the
+   length of a list.  [1pt]
 
-Overlapped: set(['function', 'value', 'used', 'dynamic', 'dispatch', '1', 'thunk', 'virtual', 'heap', 'table', 'pointer']) 
-Overlap: 11 
-Accuracy: 0.224489795918 
-
-Question:
-6. Scheme.  Define the higher-order function foldl whose arguments are
-   a binary function, an identity element, and a list in that order.
-   It folds them from left to right into a single value.  [2pt]
-
-   (define (foldl fn unit list)
-
-   )
-
-Overlapped: set(['function', 'right', 'list', 'value', 'element', 'arguments', '6', 'left', 'order', 'define']) 
-Overlap: 10 
-Accuracy: 0.263157894737 
+Overlapped: set(['function', 'list', 'length', 'returns', 'using', 'scheme', 'define']) 
+Overlap: 7 
+Accuracy: 0.411764705882 
 
 Question:
 11. Scheme.  Define the function reverse, which reverses a list.  Do
@@ -119,9 +160,25 @@ Question:
 
    (define (reverse list)
 
-Overlapped: set(['function', '11', 'use', 'reverse', 'list', 'functions', 'define']) 
+Overlapped: set(['function', 'use', 'reverse', 'list', 'functions', 'scheme', 'define']) 
 Overlap: 7 
-Accuracy: 0.241379310345 
+Accuracy: 0.269230769231 
+
+Question:
+7. Scheme.  Using foldl, define the function product, which computes
+   the product of a list of numbers.  [1pt]
+
+Overlapped: set(['function', 'product', 'list', 'using', 'scheme', 'define']) 
+Overlap: 6 
+Accuracy: 0.333333333333 
+
+Question:
+10. Perl.  Write a line of code that uses map to compute the product
+   of an array.  [1pt]
+
+Overlapped: set(['map', 'product', 'perl', 'write', 'line', 'array']) 
+Overlap: 6 
+Accuracy: 0.4 
 
 Question:
  2. What is 2?
@@ -130,88 +187,9 @@ Question:
     (C) (cdar '(1 2 3))
     (D) (cddr '(1 2 3))
 
-Overlapped: set(['cadr', 'cdar', '1', '3', '2', 'caar', 'cddr']) 
-Overlap: 7 
-Accuracy: 0.132075471698 
-
-Question:
- 6. Java supports:
-    (A) single inheritance only.
-    (B) multiple (mixin) inheritance of functions (methods) but not
-        fields.
-    (C) multiple inheritance of functions (methods) and shared
-        inheritance of fields.
-    (D) multiple inheritance of functions (methods) and repeated
-        inheritance of fields.
-
-Overlapped: set(['functions', 'multiple', 'methods', 'inheritance', 'repeated', '6', 'shared']) 
-Overlap: 7 
-Accuracy: 0.137254901961 
-
-Question:
-11. In Smalltalk and Scheme, type checking is:
-    (A) strong and dynamic.
-    (B) strong and static.
-    (C) weak and dynamic.
-    (D) weak and static.
-
-Overlapped: set(['11', 'checking', 'weak', 'dynamic', 'static', 'strong', 'type']) 
-Overlap: 7 
-Accuracy: 0.212121212121 
-
-Question:
-5. Scheme.  Write the function product in tail recursive accumulator
-   style so that it computes the product of a list of numbers.  [1pt]
-
-Overlapped: set(['function', 'style', 'list', 'product', 'tail', '5']) 
+Overlapped: set(['c', 'b', 'cdar', 'cadr', 'caar', 'cddr']) 
 Overlap: 6 
-Accuracy: 0.315789473684 
-
-Question:
-8. Scheme.  Using foldl, define the function length, which returns the
-   length of a list.  [1pt]
-
-Overlapped: set(['function', 'list', 'length', 'returns', '8', 'define']) 
-Overlap: 6 
-Accuracy: 0.333333333333 
-
-Question:
- 7. What is ((lambda (x) x) '(+ 2 3))?
-    (A) (+ 2 3)
-    (B) +
-    (C) 5
-    (D) x
-
-Overlapped: set(['3', '2', '5', '7', 'x', 'lambda']) 
-Overlap: 6 
-Accuracy: 0.153846153846 
-
-Question:
-7. Scheme.  Using foldl, define the function product, which computes
-   the product of a list of numbers.  [1pt]
-
-Overlapped: set(['function', 'product', 'list', '7', 'define']) 
-Overlap: 5 
-Accuracy: 0.263157894737 
-
-Question:
-10. Perl.  Write a line of code that uses map to compute the product
-   of an array.  [1pt]
-
-Overlapped: set(['10', 'product', 'line', 'array', 'map']) 
-Overlap: 5 
-Accuracy: 0.3125 
-
-Question:
- 3. What is ((lambda (x) x) (+ 2 3))?
-    (A) (+ 2 3)
-    (B) +
-    (C) 5
-    (D) x
-
-Overlapped: set(['x', '3', '2', '5', 'lambda']) 
-Overlap: 5 
-Accuracy: 0.131578947368 
+Accuracy: 0.122448979592 
 
 Question:
  9. Which of these functions can be written in a tail-recursive style?
@@ -220,9 +198,9 @@ Question:
     (C) map
     (D) reverse
 
-Overlapped: set(['9', 'map', 'functions', 'style', 'reverse']) 
-Overlap: 5 
-Accuracy: 0.208333333333 
+Overlapped: set(['map', 'functions', 'b', 'reverse', 'c', 'style']) 
+Overlap: 6 
+Accuracy: 0.3 
 
 Question:
 2. Perl.  Write a program in Perl which will use <> to read in lines.
@@ -230,9 +208,64 @@ Question:
    A word is any sequence of characters delimited by white space.
    [2pt]
 
-Overlapped: set(['use', '2', 'number', 'space']) 
+Overlapped: set(['write', 'use', 'space', 'number', 'perl']) 
+Overlap: 5 
+Accuracy: 0.151515151515 
+
+Question:
+ 8. Static type checking in C and C++ is done:
+    (A) by the preprocessor
+    (B) by the compiler
+    (C) by the linker
+    (D) at run time
+
+Overlapped: set(['checking', 'type', 'c', 'b', 'static']) 
+Overlap: 5 
+Accuracy: 0.217391304348 
+
+Question:
+10. In Smalltalk, how does one compute $ sqrt 2 $?
+    (A) 2 **: 0.5
+    (B) 2 sqrt
+    (C) Number sqrt: 2
+    (D) sqrt 2
+
+Overlapped: set(['c', 'b', 'number', 'smalltalk', 'one']) 
+Overlap: 5 
+Accuracy: 0.15625 
+
+Question:
+ 3. What is ((lambda (x) x) (+ 2 3))?
+    (A) (+ 2 3)
+    (B) +
+    (C) 5
+    (D) x
+
+Overlapped: set(['x', 'c', 'b', 'lambda']) 
 Overlap: 4 
-Accuracy: 0.111111111111 
+Accuracy: 0.117647058824 
+
+Question:
+ 5. In the \lambda-calculus expression $ ( lambda x . ^ + ^ x ^ y ) $:
+    (A) $x$ is bound and $y$ is bound.
+    (B) $x$ is bound and $y$ is free.
+    (C) $x$ is free and $y$ is bound.
+    (D) $x$ is free and $y$ is free.
+
+Overlapped: set(['x', 'c', 'b', 'lambda']) 
+Overlap: 4 
+Accuracy: 0.0689655172414 
+
+Question:
+ 7. What is ((lambda (x) x) '(+ 2 3))?
+    (A) (+ 2 3)
+    (B) +
+    (C) 5
+    (D) x
+
+Overlapped: set(['x', 'c', 'b', 'lambda']) 
+Overlap: 4 
+Accuracy: 0.114285714286 
 
 Question:
  4. What is the parenthesized equivalent of the Smalltalk expression a
@@ -242,42 +275,9 @@ Question:
     (C) (a b) (c: d)
     (D) a ((b c:) d)
 
-Overlapped: set(['c', 'b', '4']) 
+Overlapped: set(['c', 'b', 'smalltalk']) 
 Overlap: 3 
-Accuracy: 0.0588235294118 
-
-Question:
- 5. In the \lambda-calculus expression $ ( lambda x . ^ + ^ x ^ y ) $:
-    (A) $x$ is bound and $y$ is bound.
-    (B) $x$ is bound and $y$ is free.
-    (C) $x$ is free and $y$ is bound.
-    (D) $x$ is free and $y$ is free.
-
-Overlapped: set(['x', '5', 'lambda']) 
-Overlap: 3 
-Accuracy: 0.0483870967742 
-
-Question:
- 8. Static type checking in C and C++ is done:
-    (A) by the preprocessor
-    (B) by the compiler
-    (C) by the linker
-    (D) at run time
-
-Overlapped: set(['checking', '8', 'type']) 
-Overlap: 3 
-Accuracy: 0.115384615385 
-
-Question:
-10. In Smalltalk, how does one compute $ sqrt 2 $?
-    (A) 2 **: 0.5
-    (B) 2 sqrt
-    (C) Number sqrt: 2
-    (D) sqrt 2
-
-Overlapped: set(['10', '2', 'one']) 
-Overlap: 3 
-Accuracy: 0.0833333333333 
+Accuracy: 0.063829787234 
 
 Question:
 Overlapped: set([]) 

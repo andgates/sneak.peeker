@@ -25,9 +25,9 @@ Question:
         # sum [1;2;3;4;5];;
         - : int = 15
 
-Overlapped: set(['int', 'argument', 'fold', 'second', 'element', 'use', 'val', 'recursion', 'sum', '3', '1', '0', 'tail', '2', '5', '4', 'define', 'function', 'used', 'let', 'stack', 'b', '15', 'list', 'value', 'n', 'length', 'fun', 'first', 'lambda']) 
-Overlap: 30 
-Accuracy: 0.121457489879 
+Overlapped: set(['int', 'argument', 'fold', 'second', 'element', 'use', 'val', 'recursion', 'sum', 'tail', 'scheme', 'define', 'function', 'used', 'let', 'stack', 'b', 'list', 'ocaml', 'value', 'n', 'length', 'fun', 'first', 'lambda']) 
+Overlap: 25 
+Accuracy: 0.102040816327 
 
 Question:
 2. Define the function filter whose first argument is a predicate and
@@ -49,9 +49,9 @@ Question:
         # filter even [1;2;3;4;5;6;7;8;9];;
         - : int list = [2; 4; 6; 8]
 
-Overlapped: set(['int', 'argument', 'second', 'even', 'use', 'returns', '1', '0', '3', '2', 'bool', '4', '7', '6', '9', '5', 'function', 'predicate', 'elements', '8', 'b', 'list', 'fun', 'x', 'first', 'lambda']) 
-Overlap: 26 
-Accuracy: 0.128712871287 
+Overlapped: set(['even', 'function', 'use', 'scheme', 'predicate', 'lambda', 'int', 'list', 'argument', 'first', 'ocaml', 'second', 'elements', 'bool', 'fun', 'x', 'returns', 'b', 'define']) 
+Overlap: 19 
+Accuracy: 0.0954773869347 
 
 Question:
 6. Define the function reverse which produces a list in reverse order
@@ -76,9 +76,9 @@ Question:
         # reverse [];;
         - : 'a list = []
 
-Overlapped: set(['function', 'use', 'b', 'reverse', 'int', 'points', 'list', 'argument', 'two', '1', 'left', '3', '2', '5', '4', '6', 'fun', 'stack', 'order', 'worth', 'define']) 
-Overlap: 21 
-Accuracy: 0.117318435754 
+Overlapped: set(['function', 'use', 'b', 'reverse', 'int', 'list', 'argument', 'two', 'order', 'ocaml', 'points', 'left', 'fun', 'stack', 'scheme', 'worth', 'define']) 
+Overlap: 17 
+Accuracy: 0.0977011494253 
 
 Question:
 3. Define the function length, which returns the length of a list.
@@ -95,9 +95,9 @@ Question:
         # length [1;2;3;4;5];;
         - : int = 5
 
-Overlapped: set(['function', 'use', 'b', 'int', 'list', '3', '1', 'returns', '2', '5', '4', 'fun', 'length', 'stack']) 
-Overlap: 14 
-Accuracy: 0.152173913043 
+Overlapped: set(['function', 'use', 'b', 'int', 'list', 'ocaml', 'returns', 'fun', 'length', 'scheme', 'stack', 'define']) 
+Overlap: 12 
+Accuracy: 0.134831460674 
 
 Question:
 7. C or C++.  Code the function in C or C++ to reverse a list.  Do not
@@ -111,32 +111,9 @@ Question:
       node* link;            |
    };                        |
 
-Overlapped: set(['function', 'use', 'reverse', 'space', 'int', 'list', 'value', '1', '7', 'nodes', 'cause', 'stack']) 
-Overlap: 12 
-Accuracy: 0.16 
-
-Question:
-4. Code sub' according to the specifications of the project.  Assume
-   that the number of larger magnitude is the first argument, and the
-   carry is the third argument.  Assume sub has taken care of the
-   signs so that sub' does not need to do so.  [2pt]
-   val sub' : int list -> int list -> int -> int list
-
-Overlapped: set(['sub', 'val', 'int', 'list', 'argument', 'number', '4', 'taken', 'first']) 
-Overlap: 9 
-Accuracy: 0.183673469388 
-
-Question:
- 4. What is?
-    (car (cdr (cons '(1 2 3) '(4 5 6))))
-    (A) '(1 2 3)
-    (B) '(4 5 6)
-    (C) 1
-    (D) 4
-
-Overlapped: set(['cons', 'car', '1', '3', '2', '5', '4', 'cdr', '6']) 
-Overlap: 9 
-Accuracy: 0.176470588235 
+Overlapped: set(['function', 'use', 'reverse', 'space', 'int', 'list', 'c', 'value', 'nodes', 'cause', 'stack']) 
+Overlap: 11 
+Accuracy: 0.154929577465 
 
 Question:
  1. What kind of polymorphism is exhibited by generic classes in Java
@@ -146,9 +123,42 @@ Question:
     (C) overloading
     (D) parametric
 
-Overlapped: set(['polymorphism', 'conversion', 'inheritance', 'kind', '1', 'overloading', 'parametric', 'exhibited']) 
+Overlapped: set(['polymorphism', 'c', 'b', 'java', 'inheritance', 'conversion', 'exhibited', 'overloading', 'parametric', 'kind']) 
+Overlap: 10 
+Accuracy: 0.4 
+
+Question:
+4. Code sub' according to the specifications of the project.  Assume
+   that the number of larger magnitude is the first argument, and the
+   carry is the third argument.  Assume sub has taken care of the
+   signs so that sub' does not need to do so.  [2pt]
+   val sub' : int list -> int list -> int -> int list
+
+Overlapped: set(['sub', 'val', 'int', 'list', 'argument', 'number', 'taken', 'first']) 
 Overlap: 8 
-Accuracy: 0.275862068966 
+Accuracy: 0.166666666667 
+
+Question:
+ 6. The type system in Scheme are:
+    (A) strong and dynamic
+    (B) strong and static
+    (C) weak and dynamic
+    (D) weak and static
+
+Overlapped: set(['c', 'b', 'weak', 'dynamic', 'static', 'strong', 'scheme', 'type']) 
+Overlap: 8 
+Accuracy: 0.347826086957 
+
+Question:
+ 7. The type system in Ocaml are:
+    (A) strong and dynamic
+    (B) strong and static
+    (C) weak and dynamic
+    (D) weak and static
+
+Overlapped: set(['c', 'b', 'weak', 'dynamic', 'ocaml', 'static', 'strong', 'type']) 
+Overlap: 8 
+Accuracy: 0.347826086957 
 
 Question:
  5. In Ocaml, what is the type of [1;2;3;4]?
@@ -157,9 +167,9 @@ Question:
     (C) list->int
     (D) list<int>
 
-Overlapped: set(['int', 'list', '1', '3', '2', '5', '4', 'type']) 
-Overlap: 8 
-Accuracy: 0.19512195122 
+Overlapped: set(['c', 'b', 'int', 'list', 'ocaml', 'type']) 
+Overlap: 6 
+Accuracy: 0.162162162162 
 
 Question:
  9. What is 2?
@@ -168,9 +178,20 @@ Question:
     (C) (cdar '(1 2 3))
     (D) (cddr '(1 2 3))
 
-Overlapped: set(['cadr', 'cdar', '1', '3', '2', '9', 'caar', 'cddr']) 
-Overlap: 8 
-Accuracy: 0.150943396226 
+Overlapped: set(['c', 'b', 'cdar', 'cadr', 'caar', 'cddr']) 
+Overlap: 6 
+Accuracy: 0.122448979592 
+
+Question:
+11. Which feature of imperative languages* is missing from Scheme?
+    (A) conditionals
+    (B) functions
+    (C) loops
+    (D) variables
+
+Overlapped: set(['functions', 'b', 'missing', 'variables', 'c', 'scheme']) 
+Overlap: 6 
+Accuracy: 0.285714285714 
 
 Question:
 1. What are the very general possibilities that a function might
@@ -184,9 +205,9 @@ Question:
 
     (d)
 
-Overlapped: set(['function', 'c', 'b', '1', 'might', 'called']) 
-Overlap: 6 
-Accuracy: 0.260869565217 
+Overlapped: set(['function', 'c', 'b', 'might', 'called']) 
+Overlap: 5 
+Accuracy: 0.238095238095 
 
 Question:
  2. What is ((lambda (f x) (f x)) + 3)?
@@ -195,42 +216,9 @@ Question:
     (C) 3
     (D) 6
 
-Overlapped: set(['f', '3', '2', '6', 'x', 'lambda']) 
-Overlap: 6 
-Accuracy: 0.139534883721 
-
-Question:
- 6. The type system in Scheme are:
-    (A) strong and dynamic
-    (B) strong and static
-    (C) weak and dynamic
-    (D) weak and static
-
-Overlapped: set(['weak', 'dynamic', 'static', '6', 'strong', 'type']) 
-Overlap: 6 
-Accuracy: 0.222222222222 
-
-Question:
- 7. The type system in Ocaml are:
-    (A) strong and dynamic
-    (B) strong and static
-    (C) weak and dynamic
-    (D) weak and static
-
-Overlapped: set(['dynamic', 'weak', 'static', '7', 'strong', 'type']) 
-Overlap: 6 
-Accuracy: 0.222222222222 
-
-Question:
-11. Which feature of imperative languages* is missing from Scheme?
-    (A) conditionals
-    (B) functions
-    (C) loops
-    (D) variables
-
-Overlapped: set(['11', 'functions', 'variables', 'missing']) 
-Overlap: 4 
-Accuracy: 0.16 
+Overlapped: set(['x', 'c', 'b', 'lambda', 'f']) 
+Overlap: 5 
+Accuracy: 0.128205128205 
 
 Question:
  3. What is type of (+) in Ocaml?
@@ -239,9 +227,21 @@ Question:
     (C) int -> int * int
     (D) int -> int -> int
 
-Overlapped: set(['int', '3', 'type']) 
-Overlap: 3 
-Accuracy: 0.0666666666667 
+Overlapped: set(['int', 'c', 'b', 'type', 'ocaml']) 
+Overlap: 5 
+Accuracy: 0.121951219512 
+
+Question:
+ 4. What is?
+    (car (cdr (cons '(1 2 3) '(4 5 6))))
+    (A) '(1 2 3)
+    (B) '(4 5 6)
+    (C) 1
+    (D) 4
+
+Overlapped: set(['car', 'c', 'cons', 'b', 'cdr']) 
+Overlap: 5 
+Accuracy: 0.106382978723 
 
 Question:
 10. Lisp and Scheme, in general form, are based on a form of
@@ -251,9 +251,9 @@ Question:
     (C) \pi-calculus
     (D) \psi-calculus
 
-Overlapped: set(['10', 'first']) 
-Overlap: 2 
-Accuracy: 0.0625 
+Overlapped: set(['lisp', 'c', 'scheme', 'b', 'first']) 
+Overlap: 5 
+Accuracy: 0.172413793103 
 
 Question:
  8. In C, C++, and Java, which operator is lazy?
@@ -262,9 +262,9 @@ Question:
     (C) //
     (D) ||
 
-Overlapped: set(['8']) 
-Overlap: 1 
-Accuracy: 0.0357142857143 
+Overlapped: set(['c', 'b', 'java']) 
+Overlap: 3 
+Accuracy: 0.125 
 
 Question:
 Overlapped: set([]) 
