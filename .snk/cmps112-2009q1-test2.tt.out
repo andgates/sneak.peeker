@@ -10,6 +10,7 @@ Question:
 
 Overlapped: set(['even', 'function', 'elements', '7', '3', 'car', 'list', 'argument', 'two', '1', 'returns', '2', '5', '4', 'cdr', '6', '9', '8', 'odd', 'order']) 
 Overlap: 20 
+Accuracy: 0.281690140845 
 
 Question:
  3. Scheme:  Without using any higher-order functions, define the
@@ -22,6 +23,7 @@ Question:
 
 Overlapped: set(['function', 'map', 'functions', 'second', 'list', 'argument', 'first', 'element', '1', '3', '2', '5', '4', 'using', '9', 'new', 'lambda', 'x', 'define']) 
 Overlap: 19 
+Accuracy: 0.301587301587 
 
 Question:
  5. Scheme:  Assuming you have a hash table named hash, which contains
@@ -37,6 +39,7 @@ Question:
 
 Overlapped: set(['function', 'cadr', 'right', 'checking', 'car', 'variables', 'contains', 'tree', 'functions', 'element', 'elements', '5', 'table', 'nodes', 'left', 'define']) 
 Overlap: 16 
+Accuracy: 0.205128205128 
 
 Question:
  6. Perl:  Define a function fold, which uses a loop to join all
@@ -49,6 +52,7 @@ Question:
 
 Overlapped: set(['function', 'elements', 'sub', 'second', '0', 'argument', 'value', '1', 'fold', '3', '2', '5', '4', '6', 'array', 'first']) 
 Overlap: 16 
+Accuracy: 0.228571428571 
 
 Question:
  5. Fold right (foldr) uses up how much stack space on a list of length
@@ -60,6 +64,7 @@ Question:
 
 Overlapped: set(['right', 'sub', 'space', 'list', 'n', '1', 'length', 'much', '5', 'sup', '2', 'stack', 'log']) 
 Overlap: 13 
+Accuracy: 0.224137931034 
 
 Question:
  8. Scheme:  Without using any higher order functions, code reverse,
@@ -69,6 +74,7 @@ Question:
 
 Overlapped: set(['function', 'functions', 'reverse', 'helper', 'list', 'two', 'tail', 'style', 'using', '8', 'order', 'higher']) 
 Overlap: 12 
+Accuracy: 0.342857142857 
 
 Question:
  1. Scheme:  The following function by filius Bonacci takes $ O ( 2 sup
@@ -78,6 +84,7 @@ Question:
 
 Overlapped: set(['function', 'helper', 'f', 'n', '1', '2', 'sup', 'following', 'using', 'stack', 'define']) 
 Overlap: 11 
+Accuracy: 0.130952380952 
 
 Question:
  2. Scheme:  Define the function foldl, which has three arguments in
@@ -92,6 +99,7 @@ Question:
 
 Overlapped: set(['function', 'car', 'list', 'length', 'tail', '2', 'arguments', 'cdr', 'returns', 'order', 'define']) 
 Overlap: 11 
+Accuracy: 0.186440677966 
 
 Question:
  4. C++:  Define a function print whose argument is a vector<string>,
@@ -103,6 +111,7 @@ Question:
 
 Overlapped: set(['function', 'elements', 'string', 'point', 'defined', 'argument', 'one', 'vector', '4', 'line', 'type']) 
 Overlap: 11 
+Accuracy: 0.239130434783 
 
 Question:
  6. In the following statement, continue goes to what part ?
@@ -116,6 +125,7 @@ Question:
 
 Overlapped: set(['g', 'f', 'h', 'n', '0', 'continue', 'statement', '6', 'following']) 
 Overlap: 9 
+Accuracy: 0.160714285714 
 
 Question:
  1. What expression will print (3)?
@@ -126,6 +136,7 @@ Question:
 
 Overlapped: set(['cadr', 'cdar', '1', '3', '2', 'caar', 'cddr']) 
 Overlap: 7 
+Accuracy: 0.122807017544 
 
 Question:
  3. What might cause a dangling pointer in C++?
@@ -136,6 +147,7 @@ Question:
 
 Overlapped: set(['might', '3', 'new', 'cause', 'throw', 'pointer']) 
 Overlap: 6 
+Accuracy: 0.24 
 
 Question:
  7. What declares a variable m of type map whose keys are strings and
@@ -147,6 +159,7 @@ Question:
 
 Overlapped: set(['map', 'string', 'int', '7', 'variable', 'type']) 
 Overlap: 6 
+Accuracy: 0.109090909091 
 
 Question:
  8. Both Perl and Scheme have type systems which are:
@@ -157,6 +170,7 @@ Question:
 
 Overlapped: set(['weak', 'dynamic', 'static', '8', 'strong', 'type']) 
 Overlap: 6 
+Accuracy: 0.1875 
 
 Question:
  9. For which function will C++ say:  Warning:  Returning a reference to
@@ -168,6 +182,7 @@ Question:
 
 Overlapped: set(['function', 'return', 'f', 'int', 'variable', '9']) 
 Overlap: 6 
+Accuracy: 0.0722891566265 
 
 Question:
  4. In Ocaml, what is the type of the function (+)?
@@ -178,6 +193,7 @@ Question:
 
 Overlapped: set(['int', 'function', 'type', '4']) 
 Overlap: 4 
+Accuracy: 0.0851063829787 
 
 Question:
  2. What variable in a command in a Makefile has as its value the target
@@ -189,6 +205,7 @@ Question:
 
 Overlapped: set(['variable', '2', 'value']) 
 Overlap: 3 
+Accuracy: 0.1 
 
 Question:
 10. In C++, which of these operators is ``lazy''?
@@ -199,8 +216,10 @@ Question:
 
 Overlapped: set(['10']) 
 Overlap: 1 
+Accuracy: 0.0357142857143 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

@@ -17,6 +17,7 @@ Question:
 
 Overlapped: set(['function', 'polymorphism', 'given', 'ad', 'inclusion', 'int', 'double', 'universal', '6', 'conversion', 'overloading', 'one', '1', '0', 'cdr', 'rec', 'following', 'table', 'foo', 'stack', 'hoc']) 
 Overlap: 21 
+Accuracy: 0.1004784689 
 
 Question:
  6. Ocaml:  Define a function merge whose arguments are a binary
@@ -30,6 +31,7 @@ Question:
 
 Overlapped: set(['function', 'predicate', '88', 'int', 'list', 'two', '1', '3', '2', '5', 'arguments', '7', '6', '9', '13', '4']) 
 Overlap: 16 
+Accuracy: 0.135593220339 
 
 Question:
  5. Ocaml:  Define a function contains which accepts a predicate and a
@@ -42,6 +44,7 @@ Question:
 
 Overlapped: set(['function', 'predicate', 'false', 'contains', 'list', 'returns', 'element', '1', '3', '2', '5', '4', '9', 'bool', 'true']) 
 Overlap: 15 
+Accuracy: 0.220588235294 
 
 Question:
  4. Smalltalk:  Assuming a class Complex has instance fields real and
@@ -57,6 +60,7 @@ Question:
 
 Overlapped: set(['used', 'return', 'methods', 'name', 'sum', 'object', 'two', 'argument', 'b', '4', 'new', 'message', 'class', 'define']) 
 Overlap: 14 
+Accuracy: 0.189189189189 
 
 Question:
  8. Ocaml:  Define a function unzip which takes a list of tuples and
@@ -68,6 +72,7 @@ Question:
 
 Overlapped: set(['function', 'val', '3', 'int', 'list', 'returns', '1', 'second', '2', 'let', '8', 'first']) 
 Overlap: 12 
+Accuracy: 0.133333333333 
 
 Question:
  2. Scheme:  Define a function that will return the largest number in
@@ -79,6 +84,7 @@ Question:
 
 Overlapped: set(['function', 'use', 'return', 'max', 'list', 'number', '2', 'inner', 'apply', 'define', 'arguments']) 
 Overlap: 11 
+Accuracy: 0.244444444444 
 
 Question:
  7. Ocaml:  Define a function zip which takes two lists and returns a
@@ -90,6 +96,7 @@ Question:
 
 Overlapped: set(['function', 'elements', '3', 'int', 'list', 'two', 'element', '1', 'returns', '2', '7']) 
 Overlap: 11 
+Accuracy: 0.126436781609 
 
 Question:
  8. What is the value of
@@ -101,6 +108,7 @@ Question:
 
 Overlapped: set(['cons', 'car', 'value', '1', '3', '2', '5', '4', 'cdr', '6', '8']) 
 Overlap: 11 
+Accuracy: 0.154929577465 
 
 Question:
  5. A function which accepts a unit value, a function, and a list, and
@@ -113,6 +121,7 @@ Question:
 
 Overlapped: set(['function', 'map', 'language', 'space', 'list', 'value', '1', '5', 'using', 'stack']) 
 Overlap: 10 
+Accuracy: 0.232558139535 
 
 Question:
  9. The Ocaml function List.tl functions like cdr in Scheme.  Its type
@@ -124,6 +133,7 @@ Question:
 
 Overlapped: set(['function', 'functions', 'like', 'int', 'list', 'cdr', '9', 'type']) 
 Overlap: 8 
+Accuracy: 0.153846153846 
 
 Question:
  3. Scheme:  Define a function to reverse a list.  Your solution must
@@ -133,6 +143,7 @@ Question:
 
 Overlapped: set(['function', 'reverse', 'helper', 'list', 'solution', '3', 'define']) 
 Overlap: 7 
+Accuracy: 0.225806451613 
 
 Question:
  3. In Smalltalk, an expression to which the value message may be sent
@@ -144,6 +155,7 @@ Question:
 
 Overlapped: set(['value', '3', '5', '4', '9', 'message', 'order']) 
 Overlap: 7 
+Accuracy: 0.148936170213 
 
 Question:
  4. In a language with garbage collection, where the function free is
@@ -155,6 +167,7 @@ Question:
 
 Overlapped: set(['function', 'language', '4', 'following', 'impossible', 'null', 'pointer']) 
 Overlap: 7 
+Accuracy: 0.2 
 
 Question:
  7. How would the first element (the element with the smallest
@@ -166,6 +179,7 @@ Question:
 
 Overlapped: set(['set', 'element', '1', '7', '6', 'array', 'first']) 
 Overlap: 7 
+Accuracy: 0.148936170213 
 
 Question:
  6. What is the type of the Ocaml expression
@@ -177,6 +191,7 @@ Question:
 
 Overlapped: set(['map', 'int', 'list', '3', '6', 'type']) 
 Overlap: 6 
+Accuracy: 0.103448275862 
 
 Question:
 10. The style of programming in Smalltalk is:
@@ -187,6 +202,7 @@ Question:
 
 Overlapped: set(['10', 'style', 'programming', 'functional']) 
 Overlap: 4 
+Accuracy: 0.173913043478 
 
 Question:
  1. Lazy evaluation of functions is the default in which language?
@@ -197,6 +213,7 @@ Question:
 
 Overlapped: set(['1', 'functions', 'language']) 
 Overlap: 3 
+Accuracy: 0.125 
 
 Question:
  2. In Smalltalk, $ sqrt 2 $ can be computed with the following
@@ -208,8 +225,10 @@ Question:
 
 Overlapped: set(['following', '2']) 
 Overlap: 2 
+Accuracy: 0.0512820512821 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

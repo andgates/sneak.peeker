@@ -23,6 +23,7 @@ Question:
 
 Overlapped: set(['functions', 'return', 'methods', 'nil', '3', 'car', 'variables', 'two', '7', '1', 'returns', '2', '8', 'cdr', '6', 'new', 'st', 'class', 'name']) 
 Overlap: 19 
+Accuracy: 0.155737704918 
 
 Question:
 8. Smalltalk.  Define classes Num and Mul that can be used as a basis
@@ -54,6 +55,7 @@ Question:
 
 Overlapped: set(['c', 'set', 'methods', 'point', 'new', 'tree', 'number', 'used', 'two', 'creates', 'returns', 'right', 'value', '6', '8', 'st', 'b', 'class', 'left']) 
 Overlap: 19 
+Accuracy: 0.136690647482 
 
 Question:
 5. Ocaml.  Define the function ip (inner product) which is the sum of
@@ -72,6 +74,7 @@ Question:
 
 Overlapped: set(['function', 'product', 'sub', '3', 'recursion', 'sum', 'v', 'list', 'two', 'n', '1', '0', 'tail', '5', 'inner', '6', 'fun', 'given']) 
 Overlap: 18 
+Accuracy: 0.183673469388 
 
 Question:
 3. Scheme.  Define the function eval for arbitrarily nested arithmetic
@@ -88,6 +91,7 @@ Question:
 
 Overlapped: set(['even', 'function', 'map', 'car', 'f', 'list', 'number', 'nested', '1', '3', '2', '5', '4', '6', 'apply']) 
 Overlap: 15 
+Accuracy: 0.157894736842 
 
 Question:
 4. Smalltalk.  Define a block called sum which when sent the value:
@@ -99,6 +103,7 @@ Question:
 
 Overlapped: set(['called', 'elements', '15', '3', 'sum', 'argument', 'value', 'st', '1', 'returns', '2', '5', '4', 'array', 'message']) 
 Overlap: 15 
+Accuracy: 0.394736842105 
 
 Question:
 6. Ocaml.  Define the function zip which takes two lists as arguments
@@ -112,6 +117,7 @@ Question:
 
 Overlapped: set(['function', '3', 'int', 'list', 'two', '1', 'returns', '2', '5', 'arguments', '6', 'fun', 'data', '4']) 
 Overlap: 14 
+Accuracy: 0.144329896907 
 
 Question:
  7. For a list of length $n$, how much function call stack space is
@@ -123,6 +129,7 @@ Question:
 
 Overlapped: set(['function', 'right', 'space', 'list', 'used', 'n', '1', 'fold', 'length', 'much', '7', 'stack', 'left']) 
 Overlap: 13 
+Accuracy: 0.135416666667 
 
 Question:
  5. What is the running time of let rec f n = if n <= 1 then n else f
@@ -134,6 +141,7 @@ Question:
 
 Overlapped: set(['let', 'log', 'f', 'else', '1', '2', '5', 'sup', 'rec', 'n', 'sub']) 
 Overlap: 11 
+Accuracy: 0.150684931507 
 
 Question:
 2. Name two kinds of ad hoc polymorphism, and give a brief example of
@@ -145,6 +153,7 @@ Question:
 
 Overlapped: set(['polymorphism', 'use', 'b', 'ad', 'two', '2', 'hoc']) 
 Overlap: 7 
+Accuracy: 0.269230769231 
 
 Question:
 11. The PL/1 language allows a non-local goto directly from a function
@@ -158,6 +167,7 @@ Question:
 
 Overlapped: set(['function', '11', 'language', 'throw', 'past', 'statement', 'stack']) 
 Overlap: 7 
+Accuracy: 0.142857142857 
 
 Question:
 1. Name two kinds of universal polymorphism, and give a brief example
@@ -169,6 +179,7 @@ Question:
 
 Overlapped: set(['polymorphism', 'use', 'b', 'universal', 'two', '1']) 
 Overlap: 6 
+Accuracy: 0.24 
 
 Question:
  3. What is ((lambda (x) x) (+ 2 3))?
@@ -179,6 +190,7 @@ Question:
 
 Overlapped: set(['10', '3', '2', '5', 'x', 'lambda']) 
 Overlap: 6 
+Accuracy: 0.157894736842 
 
 Question:
  8. In Smalltalk what is the meaning of:
@@ -190,6 +202,7 @@ Question:
 
 Overlapped: set(['set', 'bar', '3', '4', '8', 'foo']) 
 Overlap: 6 
+Accuracy: 0.0625 
 
 Question:
 10. Which function can be implemented using a constant amount of stack
@@ -201,6 +214,7 @@ Question:
 
 Overlapped: set(['function', 'map', '10', 'space', 'using', 'stack']) 
 Overlap: 6 
+Accuracy: 0.222222222222 
 
 Question:
  1. Backus-Naur Form, used to define syntax, was first used in the
@@ -212,6 +226,7 @@ Question:
 
 Overlapped: set(['1', 'first', 'define', 'used', 'syntax']) 
 Overlap: 5 
+Accuracy: 0.172413793103 
 
 Question:
  9. What is 7 in Smalltalk?
@@ -222,6 +237,7 @@ Question:
 
 Overlapped: set(['9', 'value', '3', '4', '7']) 
 Overlap: 5 
+Accuracy: 0.128205128205 
 
 Question:
  4. In a garbage collected language like Java, with no free function
@@ -234,6 +250,7 @@ Question:
 
 Overlapped: set(['function', '4', 'language', 'like']) 
 Overlap: 4 
+Accuracy: 0.0869565217391 
 
 Question:
  6. The Java idea of an interface is implemented in Smalltalk as:
@@ -244,6 +261,7 @@ Question:
 
 Overlapped: set(['6', 'multiple', 'inheritance']) 
 Overlap: 3 
+Accuracy: 0.1 
 
 Question:
  2. What is the Smalltalk expression for $ sqrt 2 $ ?
@@ -254,8 +272,10 @@ Question:
 
 Overlapped: set(['2']) 
 Overlap: 1 
+Accuracy: 0.0285714285714 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

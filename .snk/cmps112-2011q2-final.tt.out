@@ -15,6 +15,7 @@ Question:
 
 Overlapped: set(['function', 'depth', 'c', 'elements', 'maximum', 'max', 'list', '3', 'one', '1', '0', '88', '2', '5', '4', '7', '6', 'apply', 'b', 'define']) 
 Overlap: 20 
+Accuracy: 0.27027027027 
 
 Question:
  9. Ocaml:  The Collatz conjecture states that for any positive
@@ -36,6 +37,7 @@ Question:
 
 Overlapped: set(['even', '10', '3', 'int', 'solution', 'maximum', 'value', 'number', '1', '0', 'returns', '2', '7', '6', '9', 'function', 'n', 'odd']) 
 Overlap: 18 
+Accuracy: 0.162162162162 
 
 Question:
  7. Prolog:  Given the following graph, Define several facts called
@@ -59,6 +61,7 @@ Question:
 
 Overlapped: set(['c', 'used', 'e', 'adjacent', 'called', 'graph', 'two', 'edge', 'chop', 'following', 'b', 'circle', '7', 'facts', 'line', 'nodes', 'define']) 
 Overlap: 17 
+Accuracy: 0.166666666667 
 
 Question:
 14. Ocaml:  Define the function zipwith whose arguments are a function
@@ -80,6 +83,7 @@ Question:
 
 Overlapped: set(['function', '11', 'elements', 'int', 'list', 'two', 'element', '1', '3', '2', '5', '4', '7', '6', 'fun', 'types', 'arguments']) 
 Overlap: 17 
+Accuracy: 0.101796407186 
 
 Question:
 11. Scheme:  Define the function iota, which returns a list of all
@@ -97,6 +101,7 @@ Question:
 
 Overlapped: set(['function', '11', 'given', 'less', 'list', 'argument', '3', '1', '0', 'returns', '2', '5', '4', '7', '6', '8']) 
 Overlap: 16 
+Accuracy: 0.253968253968 
 
 Question:
  5. Haskell:  Consider the following two Ocaml functions.  Define the
@@ -114,6 +119,7 @@ Question:
 
 Overlapped: set(['map', 'functions', 'int', 'following', 'list', 'two', '1', 'fun', '3', '5', '4', '7', '8', '9', 'bool']) 
 Overlap: 15 
+Accuracy: 0.102739726027 
 
 Question:
  1. Ocaml:  Define a function evenlen in Ocaml which returns true if
@@ -130,6 +136,7 @@ Question:
 
 Overlapped: set(['even', 'function', 'use', 'false', 'list', '3', '1', 'returns', '2', 'bool', '4', 'length', 'true', 'functions']) 
 Overlap: 14 
+Accuracy: 0.197183098592 
 
 Question:
  4. Some early languages, like PL/I, allowed non-local gotos, i.e.,
@@ -142,6 +149,7 @@ Question:
 
 Overlapped: set(['control', 'function', 'use', 'like', 'structured', 'languages', 'continue', '4', 'way', 'break', 'throw']) 
 Overlap: 11 
+Accuracy: 0.25 
 
 Question:
  9. In C++, templates such as stack<int> are an example of what kind
@@ -153,6 +161,7 @@ Question:
 
 Overlapped: set(['templates', 'polymorphism', 'conversion', 'inclusion', 'int', 'universal', 'kind', 'overloading', '9', 'parametric', 'stack']) 
 Overlap: 11 
+Accuracy: 0.323529411765 
 
 Question:
  2. Prolog:  Define some facts or rules such that the predicate
@@ -169,6 +178,7 @@ Question:
 
 Overlapped: set(['predicate', 'rules', 'oddlen', 'list', '1', 'length', '2', 'computation', 'facts', 'odd']) 
 Overlap: 10 
+Accuracy: 0.185185185185 
 
 Question:
  6. A closure is:
@@ -184,6 +194,7 @@ Question:
 
 Overlapped: set(['function', 'closure', 'used', 'variables', 'contains', 'points', 'heap', '6', 'called', 'structure']) 
 Overlap: 10 
+Accuracy: 0.178571428571 
 
 Question:
  7. A thunk is:
@@ -199,6 +210,7 @@ Question:
 
 Overlapped: set(['function', 'used', 'heap', 'variables', 'contains', 'thunk', 'points', '7', 'called', 'structure']) 
 Overlap: 10 
+Accuracy: 0.178571428571 
 
 Question:
  4. Smalltalk:  Define a class List in which supports the class
@@ -219,6 +231,7 @@ Question:
 
 Overlapped: set(['cons', 'nil', 'car', 'st', '3', '4', 'cdr', 'new', 'class']) 
 Overlap: 9 
+Accuracy: 0.107142857143 
 
 Question:
 12. Prolog:  Define after/3, which returns in its third argument all
@@ -237,6 +250,7 @@ Question:
 
 Overlapped: set(['elements', '3', 'returns', 'argument', '0', 'second', '12', '6', 'first']) 
 Overlap: 9 
+Accuracy: 0.109756097561 
 
 Question:
 10. A static link is a pointer to the:
@@ -249,6 +263,7 @@ Question:
 
 Overlapped: set(['function', '10', 'variables', 'nested', 'current', 'static', 'calling', 'pointer', 'stack']) 
 Overlap: 9 
+Accuracy: 0.18 
 
 Question:
  2. If a balanced binary search treeis implemented in a purely
@@ -261,6 +276,7 @@ Question:
 
 Overlapped: set(['log', 'language', 'functional', 'one', '1', '2', 'new', 'n', 'sub']) 
 Overlap: 9 
+Accuracy: 0.145161290323 
 
 Question:
  4. Which expression will cause Scheme to print:
@@ -272,6 +288,7 @@ Question:
 
 Overlapped: set(['cadr', 'cdar', '1', '3', '2', '4', 'cause', 'caar', 'cddr']) 
 Overlap: 9 
+Accuracy: 0.152542372881 
 
 Question:
 10. Smalltalk:  Write some smalltalk code to create a SortedCollection
@@ -282,6 +299,7 @@ Question:
 
 Overlapped: set(['10', 'use', 'called', 'one', 'variable', 'line', 'order', 'smalltalk']) 
 Overlap: 8 
+Accuracy: 0.163265306122 
 
 Question:
  1. In Ocaml, what is the depth of recursive non-tail calls for the
@@ -293,6 +311,7 @@ Question:
 
 Overlapped: set(['depth', 'functions', 'list', 'argument', 'n', '1', 'length', 'following']) 
 Overlap: 8 
+Accuracy: 0.0808080808081 
 
 Question:
  2. In Ocaml, the expression 3+4 means:
@@ -305,6 +324,7 @@ Question:
 
 Overlapped: set(['function', 'sum', 'number', '3', '2', '4', 'stack']) 
 Overlap: 7 
+Accuracy: 0.102941176471 
 
 Question:
  5. In Prolog, if guess is a function that searches a database to
@@ -319,6 +339,7 @@ Question:
 
 Overlapped: set(['function', 'elements', 'return', 'one', 'see', '5', 'define']) 
 Overlap: 7 
+Accuracy: 0.0636363636364 
 
 Question:
  8. Perl:  Write a program in Perl that uses <> to read all of the
@@ -334,6 +355,7 @@ Question:
 
 Overlapped: set(['space', 'number', '2', '9', '8', 'match']) 
 Overlap: 6 
+Accuracy: 0.089552238806 
 
 Question:
 13. Enter the names of these programming languages in the appropriate
@@ -351,6 +373,7 @@ Question:
 
 Overlapped: set(['13', 'weak', 'programming', 'languages', 'strong', 'types']) 
 Overlap: 6 
+Accuracy: 0.0310880829016 
 
 Question:
  1. In Smalltalk, the expression 3+4 means:
@@ -362,6 +385,7 @@ Question:
 
 Overlapped: set(['function', 'number', '1', '3', '4', 'message']) 
 Overlap: 6 
+Accuracy: 0.107142857143 
 
 Question:
  6. Ocaml does *not* have:
@@ -372,6 +396,7 @@ Question:
 
 Overlapped: set(['polymorphism', 'parametric', 'overloading', '6', 'type', 'order']) 
 Overlap: 6 
+Accuracy: 0.230769230769 
 
 Question:
  8. What kind of function is
@@ -383,6 +408,7 @@ Question:
 
 Overlapped: set(['function', 'kind', 'f', 'let', 'x', '8']) 
 Overlap: 6 
+Accuracy: 0.222222222222 
 
 Question:
 10. In Ocaml, what is the type of List.map?
@@ -393,6 +419,7 @@ Question:
 
 Overlapped: set(['type', 'list', 'bool', '10']) 
 Overlap: 4 
+Accuracy: 0.05 
 
 Question:
  3. What are the four general things that a function may do when
@@ -400,6 +427,7 @@ Question:
 
 Overlapped: set(['function', '3', 'called']) 
 Overlap: 3 
+Accuracy: 0.230769230769 
 
 Question:
  8. A Perl pattern that matches one or more white space characters is:
@@ -410,6 +438,7 @@ Question:
 
 Overlapped: set(['8', 'space', 'one']) 
 Overlap: 3 
+Accuracy: 0.111111111111 
 
 Question:
 11. The first computer bug was so named in 1947 at:
@@ -420,6 +449,7 @@ Question:
 
 Overlapped: set(['11', 'computer', 'first']) 
 Overlap: 3 
+Accuracy: 0.12 
 
 Question:
  3. If %h is a hash in Perl, and $k is its key, the value is obtained
@@ -431,6 +461,7 @@ Question:
 
 Overlapped: set(['h', '3', 'value']) 
 Overlap: 3 
+Accuracy: 0.0576923076923 
 
 Question:
  7. In Perl, the name of the script being run is:
@@ -441,6 +472,7 @@ Question:
 
 Overlapped: set(['0', 'name', '7']) 
 Overlap: 3 
+Accuracy: 0.0857142857143 
 
 Question:
  9. In Ocaml, the type of (+) is:
@@ -451,6 +483,7 @@ Question:
 
 Overlapped: set(['int', '9', 'type']) 
 Overlap: 3 
+Accuracy: 0.0652173913043 
 
 Question:
  3. If M = memory leak, D = dangling references, and U = unsafe type
@@ -462,6 +495,7 @@ Question:
 
 Overlapped: set(['3', 'type']) 
 Overlap: 2 
+Accuracy: 0.046511627907 
 
 Question:
  5. Unification is an important algorithm in determining the flow of
@@ -473,8 +507,10 @@ Question:
 
 Overlapped: set(['control', '5']) 
 Overlap: 2 
+Accuracy: 0.08 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

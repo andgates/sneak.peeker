@@ -14,6 +14,7 @@ Question:
 
 Overlapped: set(['int', 'val', 'two', '1', '3', '2', '5', '4', '7', '6', '9', '8', 'returns', 'function', 'elements', 'max', '12', 'new', '10', 'b', 'list', 'length', 'fun', 'failwith']) 
 Overlap: 24 
+Accuracy: 0.109589041096 
 
 Question:
 9. Scheme.  The Collatz conjectures states that for any positive
@@ -37,6 +38,7 @@ Question:
 
 Overlapped: set(['argument', 'odd', 'even', 'functions', 'outer', '1', '3', '2', '5', 'inner', '9', '8', '4', 'function', 'return', 'use', '20', '10', '13', 'reverse', '17', 'list', 'n', 'order']) 
 Overlap: 24 
+Accuracy: 0.158940397351 
 
 Question:
 5. Scheme.  Draw a picture of the following Scheme expression.  For
@@ -47,6 +49,7 @@ Question:
 
 Overlapped: set(['draw', 'picture', 'phi', 'cons', 'e', 'arrow', 'point', 'c', 'two', 'cell', 'small', 'b', '5', 'letter', 'following', 'null', 'pointer']) 
 Overlap: 17 
+Accuracy: 0.303571428571 
 
 Question:
 11. Scheme.  Define the functions map and filter.  Do not use higher-
@@ -62,6 +65,7 @@ Question:
 
 Overlapped: set(['11', 'map', 'functions', 'b', '10', 'use', 'n', '1', '3', '2', '5', '4', '7', '6', '9', 'order', 'lambda']) 
 Overlap: 17 
+Accuracy: 0.202380952381 
 
 Question:
  2. How much stack space does the following function use?
@@ -76,6 +80,7 @@ Question:
 
 Overlapped: set(['function', 'use', 'log', 'space', 'f', 'n', '1', '0', '2', 'much', 'let', 'sup', 'following', 'rec', 'stack', 'match']) 
 Overlap: 16 
+Accuracy: 0.192771084337 
 
 Question:
 1. Ocaml.  Define a tail-recursive function evenlen which returns true
@@ -91,6 +96,7 @@ Question:
 
 Overlapped: set(['even', 'function', 'use', 'elements', 'false', 'true', 'list', 'argument', 'number', '1', 'returns', '2', 'bool', 'length', 'odd']) 
 Overlap: 15 
+Accuracy: 0.230769230769 
 
 Question:
 4. Ocaml.  Define the function reverse to reverse an arbitrary list.
@@ -103,6 +109,7 @@ Question:
 
 Overlapped: set(['function', 'reverse', 'val', 'int', 'recursion', 'list', '3', 'n', '1', 'tail', '2', '4', 'using', 'stack']) 
 Overlap: 14 
+Accuracy: 0.177215189873 
 
 Question:
 2. Scheme.  Define a tail-recursive function oddlen which returns #t
@@ -117,6 +124,7 @@ Question:
 
 Overlapped: set(['function', 'use', 'elements', 'f', 'oddlen', 'list', 'number', '1', 'returns', '2', 'odd']) 
 Overlap: 11 
+Accuracy: 0.2 
 
 Question:
 3. Scheme.  Define the tail-recursive function foldl so that it may be
@@ -127,6 +135,7 @@ Question:
 
 Overlapped: set(['function', 'used', 'sum', 'list', '1', '0', '3', '2', '6', 'following', 'define']) 
 Overlap: 11 
+Accuracy: 0.268292682927 
 
 Question:
 6. Ocaml.  Define length and sum for a list using a \beta-reduced
@@ -144,6 +153,7 @@ Question:
 
 Overlapped: set(['val', 'space', 'int', 'sum', 'list', 'argument', 'length', 'let', '6', 'fun', 'using']) 
 Overlap: 11 
+Accuracy: 0.130952380952 
 
 Question:
 10. C or C++.  Code a function to reverse a list.  Do not allocate or
@@ -162,6 +172,7 @@ Question:
 
 Overlapped: set(['function', '10', 'use', 'reverse', 'int', 'pointer', 'list', 'value', 'recursion', 'cause', 'first']) 
 Overlap: 11 
+Accuracy: 0.146666666667 
 
 Question:
  9. Given:
@@ -175,6 +186,7 @@ Question:
 
 Overlapped: set(['int', 'list', '1', '3', '2', '5', '4', '6', '9', 'type']) 
 Overlap: 10 
+Accuracy: 0.135135135135 
 
 Question:
 8. Ocaml.  In a strongly typed language:
@@ -192,6 +204,7 @@ Question:
 
 Overlapped: set(['b', 'language', 'might', 'one', 'following', '8', 'type']) 
 Overlap: 7 
+Accuracy: 0.152173913043 
 
 Question:
  3. In smalltalk code is executed by:
@@ -202,6 +215,7 @@ Question:
 
 Overlapped: set(['functions', 'use', 'calling', '3', 'static', 'using', 'smalltalk']) 
 Overlap: 7 
+Accuracy: 0.179487179487 
 
 Question:
  6. In Smalltalk, the expression 3+4.  means:
@@ -213,6 +227,7 @@ Question:
 
 Overlapped: set(['function', 'number', '3', '4', '6', 'message']) 
 Overlap: 6 
+Accuracy: 0.105263157895 
 
 Question:
  1. What is the Scheme value of:
@@ -224,6 +239,7 @@ Question:
 
 Overlapped: set(['value', '1', '3', '2', '5', '4']) 
 Overlap: 6 
+Accuracy: 0.15 
 
 Question:
  7. What feature of imperative languages is typically missing from
@@ -235,6 +251,7 @@ Question:
 
 Overlapped: set(['functions', 'missing', 'recursion', 'functional', 'languages', '7']) 
 Overlap: 6 
+Accuracy: 0.222222222222 
 
 Question:
  4. Which function can be written in a tail recursive purely
@@ -246,6 +263,7 @@ Question:
 
 Overlapped: set(['function', 'map', 'tail', 'functional', '4']) 
 Overlap: 5 
+Accuracy: 0.185185185185 
 
 Question:
 11. Backus-Naur format describes what about a language?
@@ -256,6 +274,7 @@ Question:
 
 Overlapped: set(['11', 'environment', 'syntax', 'language', 'format']) 
 Overlap: 5 
+Accuracy: 0.217391304348 
 
 Question:
  8. What is the signature of the Ocaml function List.hd (equivalent to
@@ -267,6 +286,7 @@ Question:
 
 Overlapped: set(['function', 'car', 'list', '8']) 
 Overlap: 4 
+Accuracy: 0.0909090909091 
 
 Question:
 10. In both Java and C++, what keyword is used to restrict access to a
@@ -278,6 +298,7 @@ Question:
 
 Overlapped: set(['10', 'used', 'class', 'inheritance']) 
 Overlap: 4 
+Accuracy: 0.125 
 
 Question:
  4. In the expression (lambda (x) (+ x y))
@@ -288,6 +309,7 @@ Question:
 
 Overlapped: set(['x', '4', 'lambda']) 
 Overlap: 3 
+Accuracy: 0.0714285714286 
 
 Question:
  5. The make language can be referred to as:
@@ -298,6 +320,7 @@ Question:
 
 Overlapped: set(['5', 'functional', 'language']) 
 Overlap: 3 
+Accuracy: 0.0909090909091 
 
 Question:
  3. What is the Ocaml type signature of:
@@ -309,6 +332,7 @@ Question:
 
 Overlapped: set(['int', '3', 'type']) 
 Overlap: 3 
+Accuracy: 0.0535714285714 
 
 Question:
  2. Static type inference is a major feature of:
@@ -319,6 +343,7 @@ Question:
 
 Overlapped: set(['2', 'type']) 
 Overlap: 2 
+Accuracy: 0.0833333333333 
 
 Question:
  5. Lisp (McCarthy) and Scheme (Steele and Sussman), in general form,
@@ -331,6 +356,7 @@ Question:
 
 Overlapped: set(['5', 'first']) 
 Overlap: 2 
+Accuracy: 0.0512820512821 
 
 Question:
  6. Which line is a comment in Scheme?
@@ -341,8 +367,10 @@ Question:
 
 Overlapped: set(['line', '6']) 
 Overlap: 2 
+Accuracy: 0.0625 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

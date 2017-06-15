@@ -17,6 +17,7 @@ Question:
 
 Overlapped: set(['polymorphism', 'conversion', 'bar', 'ad', 'inheritance', 'int', 'double', 'universal', 'f', 'one', '1', 'overloading', 'void', 'x', '6', 'following', 'table', 'foo', 'stack', 'hoc']) 
 Overlap: 20 
+Accuracy: 0.0934579439252 
 
 Question:
  6. Inheritance in C++.  Your answers should be as minimal as possible,
@@ -41,6 +42,7 @@ delim $$
 
 Overlapped: set(['function', 'provided', 'functions', 'b', 'string', 'int', 'delim', 'void', 'question', 'answers', 'field', 'base', '6', 'variable', 'main', 'class', 'define']) 
 Overlap: 17 
+Accuracy: 0.163461538462 
 
 Question:
  3. Write a function in Perl which takes a filename as an argument and
@@ -55,6 +57,7 @@ Question:
 
 Overlapped: set(['function', '88', 'bar', 'sub', 'list', 'argument', '0', '3', '7', '9', 'line', 'foo', 'match']) 
 Overlap: 13 
+Accuracy: 0.141304347826 
 
 Question:
  5. In perl, lexical scope is introduced by the my declaration, while
@@ -78,6 +81,7 @@ Question:
 
 Overlapped: set(['right', 'sub', 'g', 'dynamic', 'perl', '0', '5', 'declaration', 'foo']) 
 Overlap: 9 
+Accuracy: 0.0273556231003 
 
 Question:
  2. Write a Perl program which reads in a sequence of lines using <>.
@@ -91,6 +95,7 @@ Question:
 
 Overlapped: set(['use', 'value', 'order', '2', 'using', 'message', 'line']) 
 Overlap: 7 
+Accuracy: 0.101449275362 
 
 Question:
  2. C++ is primarily thought of as an example of what kind of language?
@@ -101,6 +106,7 @@ Question:
 
 Overlapped: set(['kind', 'language', 'object', 'functional', 'oriented', '2']) 
 Overlap: 6 
+Accuracy: 0.230769230769 
 
 Question:
  6. The following two declarations are examples of:
@@ -116,6 +122,7 @@ Question:
 
 Overlapped: set(['string', 'two', 'overloading', 'vector', '6', 'following']) 
 Overlap: 6 
+Accuracy: 0.1 
 
 Question:
 10. In C++, if we have a call of the form a.f(x,y), inside the function
@@ -127,6 +134,7 @@ Question:
 
 Overlapped: set(['function', '10', 'f', 'object', 'field', 'x']) 
 Overlap: 6 
+Accuracy: 0.136363636364 
 
 Question:
  1. Which expression is not valid, given the following two declarations?
@@ -138,6 +146,7 @@ Question:
 
 Overlapped: set(['int', '1', 'given', 'two', 'following']) 
 Overlap: 5 
+Accuracy: 0.138888888889 
 
 Question:
  7. In C++, a protected field of a class foo is visible only to
@@ -151,6 +160,7 @@ Question:
 
 Overlapped: set(['field', 'functions', 'foo', 'class', '7']) 
 Overlap: 5 
+Accuracy: 0.0943396226415 
 
 Question:
  9. Which of these is a C++ keyword that might cause a pointer to become
@@ -162,6 +172,7 @@ Question:
 
 Overlapped: set(['9', 'might', 'cause', 'pointer', 'new']) 
 Overlap: 5 
+Accuracy: 0.185185185185 
 
 Question:
  3. The address of a static variable in C++ is determined at what time?
@@ -172,6 +183,7 @@ Question:
 
 Overlapped: set(['function', 'variable', '3', 'static']) 
 Overlap: 4 
+Accuracy: 0.142857142857 
 
 Question:
  5. What is the name of the C++ variable used to print error messages?
@@ -182,6 +194,7 @@ Question:
 
 Overlapped: set(['variable', 'used', '5', 'name']) 
 Overlap: 4 
+Accuracy: 0.148148148148 
 
 Question:
  8. Of the following languages, which is oldest?
@@ -192,6 +205,7 @@ Question:
 
 Overlapped: set(['60', 'languages', 'following', '8']) 
 Overlap: 4 
+Accuracy: 0.16 
 
 Question:
  4. What time is the address returned by new determinaed?
@@ -202,6 +216,7 @@ Question:
 
 Overlapped: set(['function', 'new', '4']) 
 Overlap: 3 
+Accuracy: 0.111111111111 
 
 Question:
  4. Write the prototypes for the four default members of class box that
@@ -212,8 +227,10 @@ Question:
 
 Overlapped: set(['4', 'class']) 
 Overlap: 2 
+Accuracy: 0.0952380952381 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

@@ -11,6 +11,7 @@ Question:
 
 Overlapped: set(['referenced', 'point', 'variables', 'dispatch', 'table', 'special', 'functions', 'outer', 'inheritance', 'sum', 'virtual', 'environment', 'field', 'inner', '9', 'shared', 'type', 'dynamically', 'function', 'product', 'used', 'multiple', 'structure', 'implementing', 'base', 'heap', 'declaration', 'distinguish', 'hold', 'class', 'types', 'closure']) 
 Overlap: 32 
+Accuracy: 0.484848484848 
 
 Question:
 3. Scheme.  Using apply, map, max, and cons, define the function depth
@@ -29,6 +30,7 @@ Question:
 
 Overlapped: set(['cons', 'argument', 'one', '88', 'apply', 'null', '1', '0', '3', '2', '5', '4', '7', '6', 'define', 'function', 'map', 'elements', 'max', 'else', 'c', 'b', 'list', 'maximum', 'depth']) 
 Overlap: 25 
+Accuracy: 0.271739130435 
 
 Question:
 1. Define gcd which uses Euclid's algorithm to find the greatest
@@ -74,6 +76,7 @@ Question:
 
 Overlapped: set(['int', 'number', 'two', 'given', 'recursion', 'tail', '1', '0', '3', '2', 'define', 'function', 'return', 'format', 'else', 'let', 'class', 'c', 'b', 'e', 'g', 'x', 'order', 'lambda']) 
 Overlap: 24 
+Accuracy: 0.046511627907 
 
 Question:
 4. Ocaml.  Define drop, which returns its argument list without the
@@ -94,6 +97,7 @@ Question:
 
 Overlapped: set(['10', 'elements', '3', 'int', 'tail', 'list', 'argument', 'n', '1', 'fun', 'returns', '2', '5', '4', '7', '6', 'without', 'length', 'null', 'first']) 
 Overlap: 20 
+Accuracy: 0.119047619048 
 
 Question:
 8. Prolog.  Write facts in Prolog to describe the graph at left.  Use
@@ -121,6 +125,7 @@ Question:
 
 Overlapped: set(['following', 'c', 'b', 'e', 'graph', 'tail', 'argument', 'chop', '1i', 'second', 'points', 'two', 'arrow', 'facts', '8', 'circle', 'first', 'left']) 
 Overlap: 18 
+Accuracy: 0.125 
 
 Question:
 9. Scheme.  Draw a picture of the following Scheme expression.  For
@@ -131,6 +136,7 @@ Question:
 
 Overlapped: set(['picture', 'draw', 'cons', 'e', 'arrow', 'g', 'f', 'car', 'object', 'c', 'cell', 'following', 'b', 'cdr', 'h', '9']) 
 Overlap: 16 
+Accuracy: 0.333333333333 
 
 Question:
 5. Smalltalk.  Extend class Array with an instance method find:  whose
@@ -146,6 +152,7 @@ Question:
 
 Overlapped: set(['return', 'nil', 'argument', 'value', 'st', '2', '5', '7', '6', '9', '8', 'array', 'class', 'first']) 
 Overlap: 14 
+Accuracy: 0.205882352941 
 
 Question:
 6. Perl.  Write a program which prints out the file size, modification
@@ -163,6 +170,7 @@ Question:
 
 Overlapped: set(['function', '12', 'e', 'format', '0', 'length', 'b', '5', '7', '6', '9', 'array', 'message', 'size']) 
 Overlap: 14 
+Accuracy: 0.141414141414 
 
 Question:
  8. What function is called immediately after d() if d() is true?
@@ -180,6 +188,7 @@ Question:
 
 Overlapped: set(['function', 'c', 'b', 'e', 'g', 'f', 'h', 'break', 'continue', 'immediately', '8', 'true', 'called']) 
 Overlap: 13 
+Accuracy: 0.173333333333 
 
 Question:
 7. Write the name of a programming language associated with each of
@@ -200,6 +209,7 @@ Question:
 
 Overlapped: set(['name', 'language', 'point', 'programming', 'answers', 'following', '2', '7', 'answer', 'total', 'correct', 'points']) 
 Overlap: 12 
+Accuracy: 0.0481927710843 
 
 Question:
  9. The following interaction indicates what kind of polymorphism?
@@ -212,6 +222,7 @@ Question:
 
 Overlapped: set(['fun', 'conversion', 'inclusion', 'int', 'following', 'list', 'kind', 'overloading', 'indicates', 'polymorphism', '9', 'parametric']) 
 Overlap: 12 
+Accuracy: 0.3 
 
 Question:
  8. If we have a function not (bool -> bool) and a function even (int
@@ -223,6 +234,7 @@ Question:
 
 Overlapped: set(['even', 'map', 'let', 'int', 'might', 'defined', 'bool', 'x', '8', 'function', 'odd']) 
 Overlap: 11 
+Accuracy: 0.196428571429 
 
 Question:
 12. What is the type of tail in the following?
@@ -234,6 +246,7 @@ Question:
 
 Overlapped: set(['12', 'val', 'list', 'following', 'tail', 'let', 'cdr', 'fun', 'x', 'type', 'match']) 
 Overlap: 11 
+Accuracy: 0.141025641026 
 
 Question:
  6. An object-oriented language like C++ does dynamic dispatching of
@@ -245,6 +258,7 @@ Question:
 
 Overlapped: set(['function', 'closure', 'like', 'using', 'declaration', 'dynamic', 'virtual', 'language', '6', 'table']) 
 Overlap: 10 
+Accuracy: 0.294117647059 
 
 Question:
 11. What is the type of car in the following?
@@ -256,6 +270,7 @@ Question:
 
 Overlapped: set(['11', 'val', 'car', 'list', 'following', 'let', 'fun', 'x', 'type', 'match']) 
 Overlap: 10 
+Accuracy: 0.128205128205 
 
 Question:
 10. Perl.  Write a program that reads files mentioned on the command
@@ -278,6 +293,7 @@ Question:
 
 Overlapped: set(['10', 'given', 'use', 'number', '1', '3', '2', 'line']) 
 Overlap: 8 
+Accuracy: 0.0526315789474 
 
 Question:
 11. Ocaml.  Write a function eval which takes an expr as an argument
@@ -298,6 +314,7 @@ Question:
 
 Overlapped: set(['function', '11', 'argument', 'two', 'returns', 'let', 'fun', 'type']) 
 Overlap: 8 
+Accuracy: 0.0733944954128 
 
 Question:
  4. What is the Ocaml type signature for the definition:   let f x =
@@ -309,6 +326,7 @@ Question:
 
 Overlapped: set(['val', 'f', 'int', 'let', '4', 'fun', 'x', 'type']) 
 Overlap: 8 
+Accuracy: 0.101265822785 
 
 Question:
  3. What is 6?
@@ -319,6 +337,7 @@ Question:
 
 Overlapped: set(['map', 'cons', 'list', '1', '3', '2', '6', 'apply']) 
 Overlap: 8 
+Accuracy: 0.140350877193 
 
 Question:
 11. What kind of function is
@@ -330,6 +349,7 @@ Question:
 
 Overlapped: set(['function', '11', 'kind', 'f', 'let', 'x', 'z']) 
 Overlap: 7 
+Accuracy: 0.21875 
 
 Question:
  2. If guess finds something in a sequence of facts, and verify checks
@@ -342,6 +362,7 @@ Question:
 
 Overlapped: set(['good', 'defined', 'one', 'see', '2', 'facts']) 
 Overlap: 6 
+Accuracy: 0.0582524271845 
 
 Question:
  1. If a is a valid list, what is equal to a itself?
@@ -352,6 +373,7 @@ Question:
 
 Overlapped: set(['1', 'car', 'cons', 'list', 'cdr']) 
 Overlap: 5 
+Accuracy: 0.0892857142857 
 
 Question:
  3. In Perl, how can $p be made to be a reference to an array
@@ -363,6 +385,7 @@ Question:
 
 Overlapped: set(['1', 'array', '2', '3', '4']) 
 Overlap: 5 
+Accuracy: 0.0649350649351 
 
 Question:
  1. The basic algorithm used in type inference is:
@@ -373,6 +396,7 @@ Question:
 
 Overlapped: set(['1', 'overloading', 'used', 'type', 'basic']) 
 Overlap: 5 
+Accuracy: 0.192307692308 
 
 Question:
  5. Passing a parameter by ___ means that it is passed in unevaluated
@@ -384,6 +408,7 @@ Question:
 
 Overlapped: set(['5', 'name', 'value']) 
 Overlap: 3 
+Accuracy: 0.111111111111 
 
 Question:
 10. In Perl, what command will put the names of files in the current
@@ -395,6 +420,7 @@ Question:
 
 Overlapped: set(['current', 'variable', '10']) 
 Overlap: 3 
+Accuracy: 0.0555555555556 
 
 Question:
  4. Which will unexpectedly start a comment?
@@ -405,6 +431,7 @@ Question:
 
 Overlapped: set(['let', '4', 'f']) 
 Overlap: 3 
+Accuracy: 0.0588235294118 
 
 Question:
  5. What Perl statement will open a pipe to a subprocess and allow
@@ -416,6 +443,7 @@ Question:
 
 Overlapped: set(['5', 'name', 'statement']) 
 Overlap: 3 
+Accuracy: 0.05 
 
 Question:
  7. In Ocaml, what is 7?
@@ -426,6 +454,7 @@ Question:
 
 Overlapped: set(['3', '4', '7']) 
 Overlap: 3 
+Accuracy: 0.0588235294118 
 
 Question:
  2. What is the Perl equivalent to strerror(errno)?
@@ -436,6 +465,7 @@ Question:
 
 Overlapped: set(['0', '2']) 
 Overlap: 2 
+Accuracy: 0.0526315789474 
 
 Question:
  6. Which language uses lazy evaluation by default?
@@ -446,6 +476,7 @@ Question:
 
 Overlapped: set(['language', '6']) 
 Overlap: 2 
+Accuracy: 0.08 
 
 Question:
 10. If $key is a key, what is the value associated with it in a hash?
@@ -453,6 +484,7 @@ Question:
 
 Overlapped: set(['10', 'value']) 
 Overlap: 2 
+Accuracy: 0.0571428571429 
 
 Question:
  7. The Perl pattern equivalent to [a-zA-Z0-9_] is:
@@ -463,8 +495,10 @@ Question:
 
 Overlapped: set(['7']) 
 Overlap: 1 
+Accuracy: 0.0384615384615 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

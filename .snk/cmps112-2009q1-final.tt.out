@@ -9,6 +9,7 @@ Question:
 
 Overlapped: set(['function', 'predicate', 'int', 'list', 'argument', '1', '3', '2', 'bool', '4', '6', '9', '5', 'order', '8']) 
 Overlap: 15 
+Accuracy: 0.159574468085 
 
 Question:
 11. Ocaml:  Write a function iota which has an integer argument $n$ and
@@ -24,6 +25,7 @@ Question:
 
 Overlapped: set(['function', '11', 'helper', 'int', 'list', 'returns', 'argument', '1', '3', '2', '5', '4', 'fun', 'n', 'solution']) 
 Overlap: 15 
+Accuracy: 0.164835164835 
 
 Question:
  9. Ocaml:  Define the function map, which a unary function to a list
@@ -36,6 +38,7 @@ Question:
 
 Overlapped: set(['function', 'map', 'use', 'int', 'recursion', 'list', '3', '1', 'returns', '2', '5', '4', '6', '9']) 
 Overlap: 14 
+Accuracy: 0.177215189873 
 
 Question:
 15. Scheme:  Write the function elim, which takes a symbol and a list
@@ -51,6 +54,7 @@ Question:
 
 Overlapped: set(['function', 'elements', '15', '3', 'list', 'argument', 'one', '1', 'returns', '2', '5', '4', '9', 'first']) 
 Overlap: 14 
+Accuracy: 0.172839506173 
 
 Question:
  4. Prolog:  Draw a picture of the undirected graph represented by the
@@ -64,6 +68,7 @@ Question:
 
 Overlapped: set(['function', 'picture', 'given', 'b', 'graph', 'c', 'two', 'edge', '4', 'adjacent', 'facts', 'nodes', 'undirected']) 
 Overlap: 13 
+Accuracy: 0.240740740741 
 
 Question:
  8. Ocaml:  Define the function zip whose arguments are a curried pair
@@ -78,6 +83,7 @@ Question:
 
 Overlapped: set(['function', 'bar', 'string', 'int', 'length', 'list', 'argument', '1', '3', '2', 'arguments', '8', 'foo']) 
 Overlap: 13 
+Accuracy: 0.104 
 
 Question:
  3. The function List.fold_left uses up how much stack space on a list
@@ -89,6 +95,7 @@ Question:
 
 Overlapped: set(['function', 'sub', 'space', 'list', 'length', 'n', '1', '3', 'much', 'sup', '2', 'stack', 'log']) 
 Overlap: 13 
+Accuracy: 0.232142857143 
 
 Question:
  7. Ocaml:  Define the function sum in terms of List.fold_left in a
@@ -101,6 +108,7 @@ Question:
 
 Overlapped: set(['function', '1', '15', 'int', 'sum', 'list', 'write', '3', '2', '5', '4', '7']) 
 Overlap: 12 
+Accuracy: 0.222222222222 
 
 Question:
  5. Prolog:  Write drop/3 such that it returns all elements of the
@@ -116,6 +124,7 @@ Question:
 
 Overlapped: set(['elements', '3', 'returns', 'argument', '1', 'second', '5', '9', 'one', 'match', 'first']) 
 Overlap: 11 
+Accuracy: 0.127906976744 
 
 Question:
 10. Ocaml:  Write the function reverse which reverses list.  Do not use
@@ -128,6 +137,7 @@ Question:
 
 Overlapped: set(['function', '10', 'use', 'reverse', 'helper', 'int', 'list', 'functions', '1', '3', '2']) 
 Overlap: 11 
+Accuracy: 0.177419354839 
 
 Question:
  2. What is 6?
@@ -138,6 +148,7 @@ Question:
 
 Overlapped: set(['map', 'cdar', '1', '3', '2', '5', '4', '7', '6', 'x', 'lambda']) 
 Overlap: 11 
+Accuracy: 0.180327868852 
 
 Question:
  5. What is the stack efficiency of this function?
@@ -151,6 +162,7 @@ Question:
 
 Overlapped: set(['function', 'let', 'f', 'else', '1', '2', '5', 'sup', 'rec', 'n', 'stack']) 
 Overlap: 11 
+Accuracy: 0.150684931507 
 
 Question:
  7. What is the stack efficiency of this function?
@@ -164,6 +176,7 @@ Question:
 
 Overlapped: set(['function', 'f', 'else', '1', '2', 'let', '7', 'sup', 'rec', 'n', 'stack']) 
 Overlap: 11 
+Accuracy: 0.150684931507 
 
 Question:
  8. Which of the following data structures violates the spirit of
@@ -175,6 +188,7 @@ Question:
 
 Overlapped: set(['programming', 'tree', 'list', 'functional', 'data', 'following', '8', 'array', 'structures', 'stack']) 
 Overlap: 10 
+Accuracy: 0.37037037037 
 
 Question:
  3. Perl:  Write a function that will accept a function and an array and
@@ -183,6 +197,7 @@ Question:
 
 Overlapped: set(['function', 'elements', 'return', 'returns', 'element', '3', 'array', 'true', 'order']) 
 Overlap: 9 
+Accuracy: 0.375 
 
 Question:
 12. Give an example of one function nested inside another, where the
@@ -192,6 +207,7 @@ Question:
 
 Overlapped: set(['function', '12', 'outer', 'nested', 'inner', 'way', 'variable', 'one', 'pointer']) 
 Overlap: 9 
+Accuracy: 0.333333333333 
 
 Question:
  9. Of the ones listed here, the attribute most associated with
@@ -203,6 +219,7 @@ Question:
 
 Overlapped: set(['checking', 'programming', 'dynamic', 'functional', 'dispatch', 'ones', 'static', '9', 'type']) 
 Overlap: 9 
+Accuracy: 0.290322580645 
 
 Question:
  6. If guess is a predicate that searches a database to return one of
@@ -217,6 +234,7 @@ Question:
 
 Overlapped: set(['predicate', 'good', 'return', 'returns', 'one', 'see', 'elements', '6', 'define']) 
 Overlap: 9 
+Accuracy: 0.0818181818182 
 
 Question:
  2. C++:  Write code to print out the elements of a vector, one item per
@@ -226,6 +244,7 @@ Question:
 
 Overlapped: set(['vector', 'elements', 'defined', 'one', '2', 'line', 'foo', 'type']) 
 Overlap: 8 
+Accuracy: 0.222222222222 
 
 Question:
  1. Haskell is a purely functional language which maintains state using
@@ -237,6 +256,7 @@ Question:
 
 Overlapped: set(['closure', 'language', 'monad', 'functional', '1', 'thunk', 'state', 'using']) 
 Overlap: 8 
+Accuracy: 0.307692307692 
 
 Question:
  4. An object-oriented language such as C++ does dynamic dispatching of
@@ -248,6 +268,7 @@ Question:
 
 Overlapped: set(['function', 'closure', 'language', 'dynamic', 'virtual', '4', 'declaration', 'table']) 
 Overlap: 8 
+Accuracy: 0.242424242424 
 
 Question:
  1. Give an example of how a function call in normal order might return
@@ -256,6 +277,7 @@ Question:
 
 Overlapped: set(['function', 'return', '1', 'go', 'might', 'order']) 
 Overlap: 6 
+Accuracy: 0.24 
 
 Question:
  2. Partial parameterization of a currried function keeps arguments in
@@ -267,6 +289,7 @@ Question:
 
 Overlapped: set(['function', 'closure', 'monad', 'thunk', '2', 'arguments']) 
 Overlap: 6 
+Accuracy: 0.24 
 
 Question:
  3. In C++, a static variable is bound to a virtual address:
@@ -277,6 +300,7 @@ Question:
 
 Overlapped: set(['virtual', '3', 'static', 'variable', 'main', 'called']) 
 Overlap: 6 
+Accuracy: 0.133333333333 
 
 Question:
  4. In Java, a static variable is allocated:
@@ -287,6 +311,7 @@ Question:
 
 Overlapped: set(['object', 'static', '4', 'variable', 'new', 'class']) 
 Overlap: 6 
+Accuracy: 0.166666666667 
 
 Question:
  6. What is the type of f?
@@ -298,6 +323,7 @@ Question:
 
 Overlapped: set(['f', 'int', 'let', '6', 'x', 'type']) 
 Overlap: 6 
+Accuracy: 0.12 
 
 Question:
  7. When arguments to functions are evaluated before the function is
@@ -309,6 +335,7 @@ Question:
 
 Overlapped: set(['function', 'functions', 'called', 'arguments', '7', 'order']) 
 Overlap: 6 
+Accuracy: 0.206896551724 
 
 Question:
  1. What is the type of swap?
@@ -320,6 +347,7 @@ Question:
 
 Overlapped: set(['f', 'list', '1', 'let', 'x', 'type']) 
 Overlap: 6 
+Accuracy: 0.0582524271845 
 
 Question:
 10. Which of these is not part of the local stack frame in ANSI C?
@@ -330,6 +358,7 @@ Question:
 
 Overlapped: set(['control', '10', 'return', 'dynamic', 'static', 'stack']) 
 Overlap: 6 
+Accuracy: 0.162162162162 
 
 Question:
  5. From what segment does a call to new in C++ allocate memory?
@@ -340,6 +369,7 @@ Question:
 
 Overlapped: set(['new', '5', 'stack', 'heap', 'data']) 
 Overlap: 5 
+Accuracy: 0.192307692308 
 
 Question:
 10. If a is a list, which expression produces the same list?
@@ -350,6 +380,7 @@ Question:
 
 Overlapped: set(['10', 'cons', 'list', 'cdr', 'car']) 
 Overlap: 5 
+Accuracy: 0.0909090909091 
 
 Question:
 14. Prolog:  Define the function product, which produces the product of
@@ -361,6 +392,7 @@ Question:
 
 Overlapped: set(['1', 'function', 'product', 'list']) 
 Overlap: 4 
+Accuracy: 0.0888888888889 
 
 Question:
 11. The Java class that permits a process to have multiple things done
@@ -372,6 +404,7 @@ Question:
 
 Overlapped: set(['11', 'multiple', 'class', 'permits']) 
 Overlap: 4 
+Accuracy: 0.142857142857 
 
 Question:
  8. A garbage collector which is most friendly to the page tables by
@@ -383,6 +416,7 @@ Question:
 
 Overlapped: set(['8', 'page', 'heap']) 
 Overlap: 3 
+Accuracy: 0.0789473684211 
 
 Question:
  9. Passing a parameter by __ means that it is passed in unevaluated and
@@ -394,14 +428,17 @@ Question:
 
 Overlapped: set(['9', 'name', 'value']) 
 Overlap: 3 
+Accuracy: 0.111111111111 
 
 Question:
 13. Give an example of how memory leak might occur in Java.  [2pt]
 
 Overlapped: set(['13', 'might']) 
 Overlap: 2 
+Accuracy: 0.153846153846 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

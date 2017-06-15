@@ -27,6 +27,7 @@ Question:
 
 Overlapped: set(['int', 'argument', 'fold', 'second', 'element', 'use', 'val', 'recursion', 'sum', '3', '1', '0', 'tail', '2', '5', '4', 'define', 'function', 'used', 'let', 'stack', 'b', '15', 'list', 'value', 'n', 'length', 'fun', 'first', 'lambda']) 
 Overlap: 30 
+Accuracy: 0.121457489879 
 
 Question:
 2. Define the function filter whose first argument is a predicate and
@@ -50,6 +51,7 @@ Question:
 
 Overlapped: set(['int', 'argument', 'second', 'even', 'use', 'returns', '1', '0', '3', '2', 'bool', '4', '7', '6', '9', '5', 'function', 'predicate', 'elements', '8', 'b', 'list', 'fun', 'x', 'first', 'lambda']) 
 Overlap: 26 
+Accuracy: 0.128712871287 
 
 Question:
 6. Define the function reverse which produces a list in reverse order
@@ -76,6 +78,7 @@ Question:
 
 Overlapped: set(['function', 'use', 'b', 'reverse', 'int', 'points', 'list', 'argument', 'two', '1', 'left', '3', '2', '5', '4', '6', 'fun', 'stack', 'order', 'worth', 'define']) 
 Overlap: 21 
+Accuracy: 0.117318435754 
 
 Question:
 3. Define the function length, which returns the length of a list.
@@ -94,6 +97,7 @@ Question:
 
 Overlapped: set(['function', 'use', 'b', 'int', 'list', '3', '1', 'returns', '2', '5', '4', 'fun', 'length', 'stack']) 
 Overlap: 14 
+Accuracy: 0.152173913043 
 
 Question:
 7. C or C++.  Code the function in C or C++ to reverse a list.  Do not
@@ -109,6 +113,7 @@ Question:
 
 Overlapped: set(['function', 'use', 'reverse', 'space', 'int', 'list', 'value', '1', '7', 'nodes', 'cause', 'stack']) 
 Overlap: 12 
+Accuracy: 0.16 
 
 Question:
 4. Code sub' according to the specifications of the project.  Assume
@@ -119,6 +124,7 @@ Question:
 
 Overlapped: set(['sub', 'val', 'int', 'list', 'argument', 'number', '4', 'taken', 'first']) 
 Overlap: 9 
+Accuracy: 0.183673469388 
 
 Question:
  4. What is?
@@ -130,6 +136,7 @@ Question:
 
 Overlapped: set(['cons', 'car', '1', '3', '2', '5', '4', 'cdr', '6']) 
 Overlap: 9 
+Accuracy: 0.176470588235 
 
 Question:
  1. What kind of polymorphism is exhibited by generic classes in Java
@@ -141,6 +148,7 @@ Question:
 
 Overlapped: set(['polymorphism', 'conversion', 'inheritance', 'kind', '1', 'overloading', 'parametric', 'exhibited']) 
 Overlap: 8 
+Accuracy: 0.275862068966 
 
 Question:
  5. In Ocaml, what is the type of [1;2;3;4]?
@@ -151,6 +159,7 @@ Question:
 
 Overlapped: set(['int', 'list', '1', '3', '2', '5', '4', 'type']) 
 Overlap: 8 
+Accuracy: 0.19512195122 
 
 Question:
  9. What is 2?
@@ -161,6 +170,7 @@ Question:
 
 Overlapped: set(['cadr', 'cdar', '1', '3', '2', '9', 'caar', 'cddr']) 
 Overlap: 8 
+Accuracy: 0.150943396226 
 
 Question:
 1. What are the very general possibilities that a function might
@@ -176,6 +186,7 @@ Question:
 
 Overlapped: set(['function', 'c', 'b', '1', 'might', 'called']) 
 Overlap: 6 
+Accuracy: 0.260869565217 
 
 Question:
  2. What is ((lambda (f x) (f x)) + 3)?
@@ -186,6 +197,7 @@ Question:
 
 Overlapped: set(['f', '3', '2', '6', 'x', 'lambda']) 
 Overlap: 6 
+Accuracy: 0.139534883721 
 
 Question:
  6. The type system in Scheme are:
@@ -196,6 +208,7 @@ Question:
 
 Overlapped: set(['weak', 'dynamic', 'static', '6', 'strong', 'type']) 
 Overlap: 6 
+Accuracy: 0.222222222222 
 
 Question:
  7. The type system in Ocaml are:
@@ -206,6 +219,7 @@ Question:
 
 Overlapped: set(['dynamic', 'weak', 'static', '7', 'strong', 'type']) 
 Overlap: 6 
+Accuracy: 0.222222222222 
 
 Question:
 11. Which feature of imperative languages* is missing from Scheme?
@@ -216,6 +230,7 @@ Question:
 
 Overlapped: set(['11', 'functions', 'variables', 'missing']) 
 Overlap: 4 
+Accuracy: 0.16 
 
 Question:
  3. What is type of (+) in Ocaml?
@@ -226,6 +241,7 @@ Question:
 
 Overlapped: set(['int', '3', 'type']) 
 Overlap: 3 
+Accuracy: 0.0666666666667 
 
 Question:
 10. Lisp and Scheme, in general form, are based on a form of
@@ -237,6 +253,7 @@ Question:
 
 Overlapped: set(['10', 'first']) 
 Overlap: 2 
+Accuracy: 0.0625 
 
 Question:
  8. In C, C++, and Java, which operator is lazy?
@@ -247,8 +264,10 @@ Question:
 
 Overlapped: set(['8']) 
 Overlap: 1 
+Accuracy: 0.0357142857143 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import division
 
 import sys
 import argparse
@@ -209,21 +210,26 @@ def add(args):
 
       results = []
 
+      accuracy = 0
+
       # Find the overlap
       for q in question:
         overlapcount = 0
         q_string = " "
-        #print "Question:"
+        # Throw the questions in a string
         for line in q:
           q_string += line + " "
-          #print line
+        # Tokenize the question
         q_list = nltk.word_tokenize(q_string)
         overlap = set(q_list).intersection(set(peek_list))
         overlapcount += len(overlap)
+        q_list_sans_stop = [w for w in q_list if w not in stopwords]
+        if overlapcount != 0:
+          accuracy = overlapcount / len(q_list_sans_stop)
         #print "Overlapped: %s" % overlap
         #print "Overlap: %s \n\n" % overlapcount
-        results.append((overlapcount, overlap, q))
-        all_results.append((overlapcount, overlap, q, test_name))
+        results.append((overlapcount, overlap, q, accuracy))
+        all_results.append((overlapcount, overlap, q, test_name, accuracy))
 
       # Sort the results
       sresults = sorted(results, key=operator.itemgetter(0), reverse=True)
@@ -240,7 +246,9 @@ def add(args):
             test_outfile_object.write("\n")
 
         test_outfile_object.write("Overlapped: %s \n" % r[1])
-        test_outfile_object.write("Overlap: %s \n\n" % r[0])
+        test_outfile_object.write("Overlap: %s \n" % r[0])
+        test_outfile_object.write("Accuracy: %s \n\n" % r[3])
+        pass
 
 
       test_outfile_object.close()
@@ -250,7 +258,7 @@ def add(args):
     test_outfile = args.directory + "/" + "all_results" + ".out"
     test_outfile_object = open(test_outfile, "w")
 
-    all_sresults = sorted(all_results, key=operator.itemgetter(0), reverse=True)
+    all_sresults = sorted(all_results, key=operator.itemgetter(4), reverse=True)
 
     # Write all results to file
     for r in all_sresults:
@@ -262,7 +270,8 @@ def add(args):
           test_outfile_object.write("\n")
 
       test_outfile_object.write("Overlapped: %s \n" % r[1])
-      test_outfile_object.write("Overlap: %s \n\n" % r[0])
+      test_outfile_object.write("Overlap: %s \n" % r[0])
+      test_outfile_object.write("Accuracy: %s \n\n" % r[4])
 
 
     test_outfile_object.close()

@@ -10,6 +10,7 @@ Question:
 
 Overlapped: set(['24', 'function', '13', 'elements', 'using', '3', 'list', 'two', '1', 'returns', '2', '5', 'arguments', '7', '6', '9', '8', '4']) 
 Overlap: 18 
+Accuracy: 0.209302325581 
 
 Question:
 11. Ocaml.  Define the function max which returns Some maximum element
@@ -28,6 +29,7 @@ Question:
 
 Overlapped: set(['function', '11', 'maximum', 'int', 'max', 'list', 'returns', 'argument', '1', 'fun', '3', 'bool', '4', '9', '5', 'element', 'type']) 
 Overlap: 17 
+Accuracy: 0.122302158273 
 
 Question:
 5. Ocaml.  Define the function filter which takes a predicate and a
@@ -40,6 +42,7 @@ Question:
 
 Overlapped: set(['function', 'predicate', 'elements', 'int', 'list', '1', '0', 'returns', '2', '5', '8', 'fun', 'bool', 'true', 'order']) 
 Overlap: 15 
+Accuracy: 0.182926829268 
 
 Question:
 2. Ocaml.  Fill in the blanks:  [2pt]
@@ -56,6 +59,7 @@ Question:
 
 Overlapped: set(['blanks', '15', 'val', 'int', 'sum', 'list', 'length', '1', '3', '2', '5', '4', 'fun', 'let']) 
 Overlap: 14 
+Accuracy: 0.12389380531 
 
 Question:
 4. Define the function zipwith that takes a function and two lists and
@@ -68,6 +72,7 @@ Question:
 
 Overlapped: set(['function', 'elements', 'int', 'list', 'two', '1', 'fun', '3', '2', '5', '4', '7', '6', '9']) 
 Overlap: 14 
+Accuracy: 0.148936170213 
 
 Question:
 12. Scheme.  Write a tail-recursive function called reverse that re-
@@ -77,6 +82,7 @@ Question:
 
 Overlapped: set(['function', 'use', '12', 'reverse', 'list', '1', '3', '2', '5', '4', 'called']) 
 Overlap: 11 
+Accuracy: 0.275 
 
 Question:
 14. Ocaml.  Define mul' as per the project specifications.  [3pt]
@@ -89,6 +95,7 @@ Question:
 
 Overlapped: set(['int', 'list', '1', '0', '3', '2', '5', '4', '7', '6', '9']) 
 Overlap: 11 
+Accuracy: 0.0948275862069 
 
 Question:
  4. What kind of polymorphism is vector<string> an example of?
@@ -99,6 +106,7 @@ Question:
 
 Overlapped: set(['polymorphism', 'conversion', 'string', 'inclusion', 'kind', 'overloading', 'vector', '4', 'parametric']) 
 Overlap: 9 
+Accuracy: 0.333333333333 
 
 Question:
  8. Which was a language designed in the 1950s for use mainly in
@@ -110,6 +118,7 @@ Question:
 
 Overlapped: set(['use', 'language', 'business', 'processing', '1957', 'designed', '8', 'data']) 
 Overlap: 8 
+Accuracy: 0.242424242424 
 
 Question:
 10. Java generics and C++ templates are an example of __ polymorphism.
@@ -120,6 +129,7 @@ Question:
 
 Overlapped: set(['templates', 'polymorphism', 'conversion', 'inclusion', 'overloading', 'generics', 'parametric', '10']) 
 Overlap: 8 
+Accuracy: 0.307692307692 
 
 Question:
 6. Ocaml.  Rewrite the second filter statement above using a fun (i.
@@ -127,6 +137,7 @@ Question:
 
 Overlapped: set(['0', 'second', 'statement', '6', 'fun', 'using', 'lambda']) 
 Overlap: 7 
+Accuracy: 0.25 
 
 Question:
  5. Two kinds of universal polymorphism are:
@@ -137,6 +148,7 @@ Question:
 
 Overlapped: set(['polymorphism', 'conversion', 'inclusion', 'universal', 'overloading', '5', 'parametric']) 
 Overlap: 7 
+Accuracy: 0.225806451613 
 
 Question:
  6. Which of the following functions can be written tail-recursively
@@ -148,6 +160,7 @@ Question:
 
 Overlapped: set(['map', 'functions', 'list', 'without', '6', 'following']) 
 Overlap: 6 
+Accuracy: 0.214285714286 
 
 Question:
  7. Edsger Dijkstra published a paper entitled ``__ statement
@@ -159,6 +172,7 @@ Question:
 
 Overlapped: set(['7', 'considered', 'harmful', 'continue', 'statement', 'throw']) 
 Overlap: 6 
+Accuracy: 0.2 
 
 Question:
 9. Scheme.  Define the function sum.  You may use the function foldl
@@ -166,6 +180,7 @@ Question:
 
 Overlapped: set(['function', 'write', 'use', '9', 'sum']) 
 Overlap: 5 
+Accuracy: 0.238095238095 
 
 Question:
  9. The address of a static variable in C and C++ is determined when?
@@ -176,6 +191,7 @@ Question:
 
 Overlapped: set(['function', '9', 'static', 'called', 'variable']) 
 Overlap: 5 
+Accuracy: 0.166666666667 
 
 Question:
 1. What are the four very general things a function might do when
@@ -191,6 +207,7 @@ Question:
 
 Overlapped: set(['1', 'function', 'might', 'called']) 
 Overlap: 4 
+Accuracy: 0.0322580645161 
 
 Question:
 7. Smalltalk.  List the kinds of messages that can be sent to a
@@ -204,6 +221,7 @@ Question:
 
 Overlapped: set(['c', 'object', 'b', '7']) 
 Overlap: 4 
+Accuracy: 0.117647058824 
 
 Question:
 8. Fill in the following table.  Some possible answers:  John Backus.
@@ -219,6 +237,7 @@ Question:
 
 Overlapped: set(['following', 'table', 'answers', '8']) 
 Overlap: 4 
+Accuracy: 0.031007751938 
 
 Question:
 3. Ocaml.  Define the function fold_left.
@@ -229,6 +248,7 @@ Question:
 
 Overlapped: set(['function', '3', 'b']) 
 Overlap: 3 
+Accuracy: 0.130434782609 
 
 Question:
  1. Replacing $ (\lambdax~ . ~ + ~ x ~ 1) ~  2 $ by $ ( + ~ 2 ~ 1 ) $
@@ -240,6 +260,7 @@ Question:
 
 Overlapped: set(['1', 'x', '2']) 
 Overlap: 3 
+Accuracy: 0.0697674418605 
 
 Question:
 10. Java.  Give an example of how memory leak might happen in Java.
@@ -247,6 +268,7 @@ Question:
 
 Overlapped: set(['10', 'might']) 
 Overlap: 2 
+Accuracy: 0.133333333333 
 
 Question:
  3. A garbage collector automatically recycles what kind of objects?
@@ -257,6 +279,7 @@ Question:
 
 Overlapped: set(['kind', '3']) 
 Overlap: 2 
+Accuracy: 0.0769230769231 
 
 Question:
 11. Which C operator uses normal order evaluation?
@@ -267,6 +290,7 @@ Question:
 
 Overlapped: set(['11', 'order']) 
 Overlap: 2 
+Accuracy: 0.0740740740741 
 
 Question:
  2. The \lambda-calculus was invented by:
@@ -277,8 +301,10 @@ Question:
 
 Overlapped: set(['2']) 
 Overlap: 1 
+Accuracy: 0.0384615384615 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

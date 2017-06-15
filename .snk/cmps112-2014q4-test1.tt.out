@@ -28,6 +28,7 @@ Question:
 
 Overlapped: set(['among', 'deduct', 'point', 'developed', '60', 'design', 'computation', '67', 'fill', 'write', 'described', 'less', 'languages', '0', 'score', 'way', 'answer', 'used', 'scientific', 'missing', 'processing', 'wrong', 'designed', 'included', 'designers', 'data', 'name', 'language', 'structured', 'programming', 'influenced', '1', 'following', 'contribution', 'noted']) 
 Overlap: 35 
+Accuracy: 0.0525525525526 
 
 Question:
 4. Using a loop, not recursion, write a function whose single argument
@@ -42,6 +43,7 @@ Question:
 
 Overlapped: set(['function', '1', 'b', 'sub', 'extend', 'recursion', 'number', 'argument', 'write', '0', 'returns', '4', 'fac', 'class']) 
 Overlap: 14 
+Accuracy: 0.25 
 
 Question:
 11. What does the static link in a stack frame point at?
@@ -54,6 +56,7 @@ Question:
 
 Overlapped: set(['function', 'closure', 'point', 'variables', 'nested', 'static', 'called', 'heap', '11', 'stack']) 
 Overlap: 10 
+Accuracy: 0.204081632653 
 
 Question:
 3. Define a Smalltalk class Complex.  [4pt]
@@ -65,6 +68,7 @@ Question:
 
 Overlapped: set(['c', 'b', 'methods', 'sum', '3', 'two', '0', 'returns', 'class']) 
 Overlap: 9 
+Accuracy: 0.140625 
 
 Question:
  9. If we define the block sum := [:i :j| i + j] in Smalltalk, how
@@ -76,6 +80,7 @@ Question:
 
 Overlapped: set(['sum', 'number', 'value', '3', '4', '7', '9', 'might', 'define']) 
 Overlap: 9 
+Accuracy: 0.169811320755 
 
 Question:
  7. In Perl, to apply a block to every element of an array, what
@@ -87,6 +92,7 @@ Question:
 
 Overlapped: set(['function', 'map', 'used', 'element', '7', 'apply', 'array']) 
 Overlap: 7 
+Accuracy: 0.233333333333 
 
 Question:
 7. Using Perl, write a program that reads lines from files using <>,
@@ -99,6 +105,7 @@ Question:
 
 Overlapped: set(['number', 'write', '7', 'using', 'line', 'order']) 
 Overlap: 6 
+Accuracy: 0.111111111111 
 
 Question:
 6. Name two kinds if ad hoc polymorphism and give an extremely brief
@@ -106,6 +113,7 @@ Question:
 
 Overlapped: set(['polymorphism', '6', 'ad', 'two', 'hoc']) 
 Overlap: 5 
+Accuracy: 0.277777777778 
 
 Question:
  6. In C and C++, when is an external variable bound to a particular
@@ -117,6 +125,7 @@ Question:
 
 Overlapped: set(['function', 'variable', 'main', 'called', '6']) 
 Overlap: 5 
+Accuracy: 0.121951219512 
 
 Question:
 2. Write a program in perl which reads in lines using <>.  Each line
@@ -125,6 +134,7 @@ Question:
 
 Overlapped: set(['using', 'line', '2', 'perl']) 
 Overlap: 4 
+Accuracy: 0.137931034483 
 
 Question:
 5. Name two kinds if universal polymorphism and give an extremely
@@ -132,6 +142,7 @@ Question:
 
 Overlapped: set(['polymorphism', 'universal', '5', 'two']) 
 Overlap: 4 
+Accuracy: 0.235294117647 
 
 Question:
  2. The Perl variable equivalent to strerror(errno) is:
@@ -142,6 +153,7 @@ Question:
 
 Overlapped: set(['variable', '0', '2']) 
 Overlap: 3 
+Accuracy: 0.0967741935484 
 
 Question:
  4. In Smalltalk, what produces 13?
@@ -152,6 +164,7 @@ Question:
 
 Overlapped: set(['13', '4', 'value']) 
 Overlap: 3 
+Accuracy: 0.0857142857143 
 
 Question:
  5. Assuming pure Java code with no native methods written in C, if M
@@ -164,6 +177,7 @@ Question:
 
 Overlapped: set(['5', 'methods', 'pure']) 
 Overlap: 3 
+Accuracy: 0.0625 
 
 Question:
 10. What is not false in Perl?
@@ -174,6 +188,7 @@ Question:
 
 Overlapped: set(['10', 'false', '0']) 
 Overlap: 3 
+Accuracy: 0.130434782609 
 
 Question:
  1. Which of the following C operators uses lazy evaluation?
@@ -184,6 +199,7 @@ Question:
 
 Overlapped: set(['1', 'following']) 
 Overlap: 2 
+Accuracy: 0.0689655172414 
 
 Question:
  8. If $p is a reference to a Perl hash and $k is a key whose
@@ -195,6 +211,7 @@ Question:
 
 Overlapped: set(['8', 'value']) 
 Overlap: 2 
+Accuracy: 0.0350877192982 
 
 Question:
  3. In Smalltalk, a-b*c+d is equivalent to:
@@ -205,8 +222,10 @@ Question:
 
 Overlapped: set(['3']) 
 Overlap: 1 
+Accuracy: 0.0208333333333 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 

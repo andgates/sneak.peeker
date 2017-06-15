@@ -24,6 +24,7 @@ Question:
 
 Overlapped: set(['function', 'c', 'b', 'return', '4', 'int', 'list', 'returns', 'first', 'number', 'second', '2', '5', 'two', '7', '6', '12', '3', 'order', 'arguments']) 
 Overlap: 20 
+Accuracy: 0.138888888889 
 
 Question:
 3. Ocaml.  The Collatz conjecture states that for any positive integer
@@ -44,6 +45,7 @@ Question:
 
 Overlapped: set(['even', '10', 'outer', 'reverse', 'int', 'list', 'return', 'argument', '1', '3', '2', '5', 'inner', '8', 'function', 'n', 'odd', 'order', '4']) 
 Overlap: 19 
+Accuracy: 0.143939393939 
 
 Question:
  5. In Java or C++, which statement can cause control to pass from the
@@ -56,6 +58,7 @@ Question:
 
 Overlapped: set(['control', 'even', 'return', 'statement', 'perhaps', 'caller', 'back', 'calling', 'current', 'continue', '5', 'way', 'pass', 'break', 'function', 'main', 'cause', 'throw']) 
 Overlap: 18 
+Accuracy: 0.428571428571 
 
 Question:
 13. Write a function that takes two lists as arguments and which
@@ -77,6 +80,7 @@ Question:
 
 Overlapped: set(['function', 'c', 'elements', 'e', '3', 'int', 'list', 'two', 'element', '1', 'returns', '2', '5', 'arguments', 'b', '13', '4']) 
 Overlap: 17 
+Accuracy: 0.0845771144279 
 
 Question:
 11. Prolog.  Given facts like the ones presented at the left, define
@@ -96,6 +100,7 @@ Question:
 
 Overlapped: set(['11', 'like', 'parent', 'presented', 'rules', 'mother', 'father', 'argument', 'first', 'second', 'ones', 'parents', 'child', 'facts', 'left', 'define']) 
 Overlap: 16 
+Accuracy: 0.172043010753 
 
 Question:
 5. Ocaml, or any functional language.  Rules about type checking.
@@ -128,6 +133,7 @@ Question:
 
 Overlapped: set(['c', 'b', 'language', 'checking', 'functional', 'one', '3', '2', '5', '6', 'following', 'x', 'type', 'order', 'lambda']) 
 Overlap: 15 
+Accuracy: 0.0511945392491 
 
 Question:
 7. Ocaml.  Given the function at the left, fill in the table at the
@@ -153,6 +159,7 @@ Question:
 
 Overlapped: set(['function', 'right', 'left', 'fac', 'else', '1', '0', 'let', '7', 'rec', 'table', 'n', 'failwith', 'types', 'fill']) 
 Overlap: 15 
+Accuracy: 0.0496688741722 
 
 Question:
 8. Prolog.  Given the graph shown here, write edge facts to describe
@@ -173,6 +180,7 @@ Question:
 
 Overlapped: set(['chop', 'c', 'b', 'graph', 'two', 'edge', 'write', '0', 'circle', 'adjacent', 'facts', '8', 'line', 'nodes']) 
 Overlap: 14 
+Accuracy: 0.157303370787 
 
 Question:
 2. Ocaml.  Define the functions reverse and sum using fold_left.
@@ -194,6 +202,7 @@ Question:
 
 Overlapped: set(['functions', 'blanks', 'reverse', 'val', 'int', 'sum', 'list', 'length', '2', 'let', 'using']) 
 Overlap: 11 
+Accuracy: 0.118279569892 
 
 Question:
 9. Scheme.  Define the functions map and filter.  [2pt]
@@ -204,6 +213,7 @@ Question:
 
 Overlapped: set(['map', 'functions', 'n', '1', '3', '5', '4', '7', '6', '9', 'lambda']) 
 Overlap: 11 
+Accuracy: 0.166666666667 
 
 Question:
  4. What is the required amount of stack space for fold left and fold
@@ -215,6 +225,7 @@ Question:
 
 Overlapped: set(['right', 'space', 'list', 'n', '1', 'fold', 'length', '4', 'stack', 'left']) 
 Overlap: 10 
+Accuracy: 0.103092783505 
 
 Question:
  6. A static (access) link is:
@@ -228,6 +239,7 @@ Question:
 
 Overlapped: set(['function', 'called', 'caller', 'nested', 'current', 'static', 'heap', '6', 'pointer', 'stack']) 
 Overlap: 10 
+Accuracy: 0.208333333333 
 
 Question:
 4. Scheme.  Write a function take in Scheme which will make a copy of
@@ -239,6 +251,7 @@ Question:
 
 Overlapped: set(['function', 'elements', 'list', 'n', '0', 'returns', '4', 'first', 'define']) 
 Overlap: 9 
+Accuracy: 0.18 
 
 Question:
  5. If guess is a predicate that searches a database to return one of
@@ -253,6 +266,7 @@ Question:
 
 Overlapped: set(['predicate', 'good', 'return', 'returns', 'one', 'see', 'elements', '5', 'define']) 
 Overlap: 9 
+Accuracy: 0.0818181818182 
 
 Question:
 11. A C++ compiler does object-oriented dynamic dispatch via:
@@ -269,6 +283,7 @@ Question:
 
 Overlapped: set(['function', 'closure', '12', 'dynamic', 'virtual', 'dispatch', '11', 'table', 'type']) 
 Overlap: 9 
+Accuracy: 0.145161290323 
 
 Question:
 1. Ocaml.  Define the function reverse which reverses a list.  Use an
@@ -278,6 +293,7 @@ Question:
 
 Overlapped: set(['function', 'use', 'reverse', 'val', 'list', '1', 'tail', 'inner']) 
 Overlap: 8 
+Accuracy: 0.242424242424 
 
 Question:
  3. What is the expected running time of fold left and fold right on a
@@ -289,6 +305,7 @@ Question:
 
 Overlapped: set(['right', 'list', 'length', 'n', '1', 'fold', '3', 'left']) 
 Overlap: 8 
+Accuracy: 0.0833333333333 
 
 Question:
  8. What is the type of the Ocaml function
@@ -300,6 +317,7 @@ Question:
 
 Overlapped: set(['function', 'g', 'int', '3', 'let', '8', 'type']) 
 Overlap: 7 
+Accuracy: 0.175 
 
 Question:
  8. Given the Smalltalk statement a:=[:x|x+1].
@@ -311,6 +329,7 @@ Question:
 
 Overlapped: set(['return', 'number', 'value', '3', '4', 'statement', '8']) 
 Overlap: 7 
+Accuracy: 0.162790697674 
 
 Question:
  1. What is not to be avoided in a pure functional language?
@@ -321,6 +340,7 @@ Question:
 
 Overlapped: set(['language', 'variables', 'functional', '1', 'pure', 'lambda']) 
 Overlap: 6 
+Accuracy: 0.25 
 
 Question:
  7. In Smalltalk, the expression 3+4 means:
@@ -332,6 +352,7 @@ Question:
 
 Overlapped: set(['function', 'object', '3', '4', '7', 'message']) 
 Overlap: 6 
+Accuracy: 0.103448275862 
 
 Question:
 10. Perl.  Write a script in Perl which will iterate over all of the
@@ -344,6 +365,7 @@ Question:
 
 Overlapped: set(['10', 'given', 'line', 'statement', 'one']) 
 Overlap: 5 
+Accuracy: 0.113636363636 
 
 Question:
  9. Unification is a part of the static type checking algorithm used
@@ -355,6 +377,7 @@ Question:
 
 Overlapped: set(['9', 'type', 'used', 'static', 'checking']) 
 Overlap: 5 
+Accuracy: 0.161290322581 
 
 Question:
  2. Which languages do not have parametric polymorphism?
@@ -365,6 +388,7 @@ Question:
 
 Overlapped: set(['languages', 'polymorphism', '2', 'parametric']) 
 Overlap: 4 
+Accuracy: 0.173913043478 
 
 Question:
  6. What is the type of List.map?
@@ -375,6 +399,7 @@ Question:
 
 Overlapped: set(['bool', 'type', 'list', '6']) 
 Overlap: 4 
+Accuracy: 0.047619047619 
 
 Question:
 10. When a garbage collector forms the closure of the root set, it
@@ -386,6 +411,7 @@ Question:
 
 Overlapped: set(['closure', '10', 'set', 'heap']) 
 Overlap: 4 
+Accuracy: 0.129032258065 
 
 Question:
  3. What kind of garbage collection fails on cyclic data structures?
@@ -396,6 +422,7 @@ Question:
 
 Overlapped: set(['structures', '3', 'data', 'kind']) 
 Overlap: 4 
+Accuracy: 0.133333333333 
 
 Question:
  7. Which is a fully curried lazy functional language with
@@ -407,6 +434,7 @@ Question:
 
 Overlapped: set(['language', 'overloading', 'functional', '7']) 
 Overlap: 4 
+Accuracy: 0.153846153846 
 
 Question:
 10. What is not false in Perl?
@@ -417,6 +445,7 @@ Question:
 
 Overlapped: set(['10', 'false', '0']) 
 Overlap: 3 
+Accuracy: 0.130434782609 
 
 Question:
  1. Which language is not completely strongly typed?
@@ -427,6 +456,7 @@ Question:
 
 Overlapped: set(['1', 'language']) 
 Overlap: 2 
+Accuracy: 0.0833333333333 
 
 Question:
  4. In Ocaml, what is the type of (/.)?
@@ -437,6 +467,7 @@ Question:
 
 Overlapped: set(['type', '4']) 
 Overlap: 2 
+Accuracy: 0.0434782608696 
 
 Question:
  9. In Perl, what will print the current date and time?
@@ -447,6 +478,7 @@ Question:
 
 Overlapped: set(['current', '9']) 
 Overlap: 2 
+Accuracy: 0.0512820512821 
 
 Question:
  2. What is a comment in Ocaml?
@@ -457,8 +489,10 @@ Question:
 
 Overlapped: set(['2']) 
 Overlap: 1 
+Accuracy: 0.0322580645161 
 
 Question:
 Overlapped: set([]) 
 Overlap: 0 
+Accuracy: 0 
 
